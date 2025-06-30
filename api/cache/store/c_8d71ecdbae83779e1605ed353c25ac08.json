@@ -1,0 +1,1254 @@
+{
+    "name": "PHPExcel_Shared_String",
+    "line": 28,
+    "short_desc": "PHPExcel_Shared_String",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Shared"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/adm\/Excel\/Classes\/PHPExcel\/Shared\/String.php",
+    "relative_file": null,
+    "hash": "c61365ef9396200627aa3f8780a98aff9ae46bd6",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getIsMbstringEnabled": {
+            "name": "getIsMbstringEnabled",
+            "line": 269,
+            "short_desc": "Get whether mbstring extension is available",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getIsIconvEnabled": {
+            "name": "getIsIconvEnabled",
+            "line": 286,
+            "short_desc": "Get whether iconv extension is available",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "buildCharacterSets": {
+            "name": "buildCharacterSets",
+            "line": 322,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "ControlCharacterOOXML2PHP": {
+            "name": "ControlCharacterOOXML2PHP",
+            "line": 346,
+            "short_desc": "Convert from OpenXML escaped control character to PHP control character",
+            "long_desc": "Excel 2007 team:\n----------------\nThat's correct, control characters are stored directly in the shared-strings table.\nWe do encode characters that cannot be represented in XML using the following escape sequence:\n_xHHHH_ where H represents a hexadecimal character in the character's value...\nSo you could end up with something like _x0008_ in a string (either in a cell value (<v>)\nelement or in the shared string <t> element.",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 346,
+                    "short_desc": "Value to unescape",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ControlCharacterPHP2OOXML": {
+            "name": "ControlCharacterPHP2OOXML",
+            "line": 365,
+            "short_desc": "Convert from PHP control character to OpenXML escaped control character",
+            "long_desc": "Excel 2007 team:\n----------------\nThat's correct, control characters are stored directly in the shared-strings table.\nWe do encode characters that cannot be represented in XML using the following escape sequence:\n_xHHHH_ where H represents a hexadecimal character in the character's value...\nSo you could end up with something like _x0008_ in a string (either in a cell value (<v>)\nelement or in the shared string <t> element.",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 365,
+                    "short_desc": "Value to escape",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SanitizeUTF8": {
+            "name": "SanitizeUTF8",
+            "line": 376,
+            "short_desc": "Try to sanitize UTF8, stripping invalid byte sequences. Not perfect. Does not surrogate characters.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 376,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IsUTF8": {
+            "name": "IsUTF8",
+            "line": 398,
+            "short_desc": "Check if a string contains UTF8 data",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 398,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "FormatNumber": {
+            "name": "FormatNumber",
+            "line": 410,
+            "short_desc": "Formats a numeric value as a string for output in various output writers forcing\npoint as decimal separator in case locale is other than English.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 410,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "UTF8toBIFF8UnicodeShort": {
+            "name": "UTF8toBIFF8UnicodeShort",
+            "line": 429,
+            "short_desc": "Converts a UTF-8 string into BIFF8 Unicode string data (8-bit string length)\nWrites the string using uncompressed notation, no rich text, no Asian phonetics\nIf mbstring extension is not available, ASCII is assumed, and compressed notation is used\nalthough this will give wrong results for non-ASCII strings\nsee OpenOffice.org's Documentation of the Microsoft Excel File Format, sect. 2.5.3",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 429,
+                    "short_desc": "UTF-8 encoded string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "arrcRuns": {
+                    "name": "arrcRuns",
+                    "line": 429,
+                    "short_desc": "Details of rich text runs in $value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "UTF8toBIFF8UnicodeLong": {
+            "name": "UTF8toBIFF8UnicodeLong",
+            "line": 463,
+            "short_desc": "Converts a UTF-8 string into BIFF8 Unicode string data (16-bit string length)\nWrites the string using uncompressed notation, no rich text, no Asian phonetics\nIf mbstring extension is not available, ASCII is assumed, and compressed notation is used\nalthough this will give wrong results for non-ASCII strings\nsee OpenOffice.org's Documentation of the Microsoft Excel File Format, sect. 2.5.3",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 463,
+                    "short_desc": "UTF-8 encoded string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ConvertEncoding": {
+            "name": "ConvertEncoding",
+            "line": 487,
+            "short_desc": "Convert string from one encoding to another. First try mbstring, then iconv, finally strlen",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 487,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "to": {
+                    "name": "to",
+                    "line": 487,
+                    "short_desc": "Encoding to convert to, e.g. 'UTF-8'",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "from": {
+                    "name": "from",
+                    "line": 487,
+                    "short_desc": "Encoding to convert from, e.g. 'UTF-16LE'",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "utf16_decode": {
+            "name": "utf16_decode",
+            "line": 521,
+            "short_desc": "Decode UTF-16 encoded strings.",
+            "long_desc": "Can handle both BOM'ed data and un-BOM'ed data.\nAssumes Big-Endian byte order if no BOM is available.\nThis function was taken from http:\/\/php.net\/manual\/en\/function.utf8-decode.php\nand $bom_be parameter added.",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "UTF-8 \/ ISO encoded data.",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "version": [
+                    [
+                        "0.2",
+                        "\/",
+                        "2010-05-13"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Rasmus",
+                        "Andersson",
+                        "{@link",
+                        "http:\/\/rasmusandersson.se\/}"
+                    ],
+                    [
+                        "vadik56"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"bom_be\" parameter of the method \"utf16_decode\" is missing a @param tag"
+            ],
+            "parameters": {
+                "str": {
+                    "name": "str",
+                    "line": 521,
+                    "short_desc": "UTF-16 encoded data to decode.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "bom_be": {
+                    "name": "bom_be",
+                    "line": 521,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "CountCharacters": {
+            "name": "CountCharacters",
+            "line": 556,
+            "short_desc": "Get character count. First try mbstring, then iconv, finally strlen",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Character count",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 556,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "enc": {
+                    "name": "enc",
+                    "line": 556,
+                    "short_desc": "Encoding",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'UTF-8'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "Substring": {
+            "name": "Substring",
+            "line": 578,
+            "short_desc": "Get a substring of a UTF-8 encoded string. First try mbstring, then iconv, finally strlen",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 578,
+                    "short_desc": "UTF-8 encoded string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pStart": {
+                    "name": "pStart",
+                    "line": 578,
+                    "short_desc": "Start offset",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pLength": {
+                    "name": "pLength",
+                    "line": 578,
+                    "short_desc": "Maximum number of characters in substring",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "StrToUpper": {
+            "name": "StrToUpper",
+            "line": 598,
+            "short_desc": "Convert a UTF-8 encoded string to upper case",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 598,
+                    "short_desc": "UTF-8 encoded string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "StrToLower": {
+            "name": "StrToLower",
+            "line": 612,
+            "short_desc": "Convert a UTF-8 encoded string to lower case",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 612,
+                    "short_desc": "UTF-8 encoded string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "StrToTitle": {
+            "name": "StrToTitle",
+            "line": 627,
+            "short_desc": "Convert a UTF-8 encoded string to title\/proper case\n   (uppercase every first character in each word, lower case all other characters)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 627,
+                    "short_desc": "UTF-8 encoded string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "mb_is_upper": {
+            "name": "mb_is_upper",
+            "line": 635,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "char": {
+                    "name": "char",
+                    "line": 635,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "mb_str_split": {
+            "name": "mb_str_split",
+            "line": 640,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "string": {
+                    "name": "string",
+                    "line": 640,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "StrCaseReverse": {
+            "name": "StrCaseReverse",
+            "line": 654,
+            "short_desc": "Reverse the case of a string, so that all uppercase characters become lowercase\n   and all lowercase characters become uppercase",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 654,
+                    "short_desc": "UTF-8 encoded string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "convertToNumberIfFraction": {
+            "name": "convertToNumberIfFraction",
+            "line": 677,
+            "short_desc": "Identify whether a string contains a fractional numeric value,\n   and convert it to a numeric if it is",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "operand": {
+                    "name": "operand",
+                    "line": 677,
+                    "short_desc": "string value to test",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": true,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getDecimalSeparator": {
+            "name": "getDecimalSeparator",
+            "line": 694,
+            "short_desc": "Get the decimal separator. If it has not yet been set explicitly, try to obtain number\nformatting information from locale.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDecimalSeparator": {
+            "name": "setDecimalSeparator",
+            "line": 715,
+            "short_desc": "Set the decimal separator. Only used by PHPExcel_Style_NumberFormat::toFormattedString()\nto format output by PHPExcel_Writer_HTML and PHPExcel_Writer_PDF",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 715,
+                    "short_desc": "Character for decimal separator",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'.'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getThousandsSeparator": {
+            "name": "getThousandsSeparator",
+            "line": 726,
+            "short_desc": "Get the thousands separator. If it has not yet been set explicitly, try to obtain number\nformatting information from locale.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setThousandsSeparator": {
+            "name": "setThousandsSeparator",
+            "line": 747,
+            "short_desc": "Set the thousands separator. Only used by PHPExcel_Style_NumberFormat::toFormattedString()\nto format output by PHPExcel_Writer_HTML and PHPExcel_Writer_PDF",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 747,
+                    "short_desc": "Character for thousands separator",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "','",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getCurrencyCode": {
+            "name": "getCurrencyCode",
+            "line": 758,
+            "short_desc": "Get the currency code. If it has not yet been set explicitly, try to obtain the\n       symbol information from locale.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCurrencyCode": {
+            "name": "setCurrencyCode",
+            "line": 779,
+            "short_desc": "Set the currency code. Only used by PHPExcel_Style_NumberFormat::toFormattedString()\n       to format output by PHPExcel_Writer_HTML and PHPExcel_Writer_PDF",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 779,
+                    "short_desc": "Character for currency code",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'$'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SYLKtoUTF8": {
+            "name": "SYLKtoUTF8",
+            "line": 790,
+            "short_desc": "Convert SYLK encoded string to UTF-8",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "UTF-8 encoded string",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 790,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "testStringAsNumeric": {
+            "name": "testStringAsNumeric",
+            "line": 811,
+            "short_desc": "Retrieve any leading numeric part of a string, or return the full string if no leading numeric\n   (handles basic integer or float, but not exponent or non decimal)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "string or only the leading numeric part of the string",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 811,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "STRING_REGEXP_FRACTION": {
+            "name": "STRING_REGEXP_FRACTION",
+            "line": 33,
+            "short_desc": "Regular Expressions",
+            "long_desc": "",
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

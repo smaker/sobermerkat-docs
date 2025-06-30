@@ -1,0 +1,927 @@
+{
+    "name": "PHPExcel_Reader_Excel5_Style_FillPattern",
+    "line": 3,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Reader\/Excel5\/Style\/FillPattern.php",
+    "relative_file": null,
+    "hash": "65bba22d752665d2485b2594f30ea026fef2690e",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "map": {
+            "name": "map",
+            "line": 5,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 10,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 25,
+                    "kind": 1
+                },
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6,
+                                "rawValue": "0x00",
+                                "kind": 16
+                            },
+                            "value": 0
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 6,
+                                    "endLine": 6
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 6,
+                                    "endLine": 6
+                                },
+                                "name": "FILL_NONE"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 7,
+                                "endLine": 7,
+                                "rawValue": "0x01",
+                                "kind": 16
+                            },
+                            "value": 1
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 7,
+                                "endLine": 7
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 7,
+                                    "endLine": 7
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 7,
+                                    "endLine": 7
+                                },
+                                "name": "FILL_SOLID"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 8,
+                            "endLine": 8
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 8,
+                                "endLine": 8,
+                                "rawValue": "0x02",
+                                "kind": 16
+                            },
+                            "value": 2
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 8,
+                                "endLine": 8
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 8,
+                                    "endLine": 8
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 8,
+                                    "endLine": 8
+                                },
+                                "name": "FILL_PATTERN_MEDIUMGRAY"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 9,
+                            "endLine": 9
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 9,
+                                "endLine": 9,
+                                "rawValue": "0x03",
+                                "kind": 16
+                            },
+                            "value": 3
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 9,
+                                "endLine": 9
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 9,
+                                    "endLine": 9
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 9,
+                                    "endLine": 9
+                                },
+                                "name": "FILL_PATTERN_DARKGRAY"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 10,
+                                "endLine": 10,
+                                "rawValue": "0x04",
+                                "kind": 16
+                            },
+                            "value": 4
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 10,
+                                "endLine": 10
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 10,
+                                    "endLine": 10
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 10,
+                                    "endLine": 10
+                                },
+                                "name": "FILL_PATTERN_LIGHTGRAY"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 11,
+                            "endLine": 11
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 11,
+                                "endLine": 11,
+                                "rawValue": "0x05",
+                                "kind": 16
+                            },
+                            "value": 5
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 11,
+                                "endLine": 11
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 11,
+                                    "endLine": 11
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 11,
+                                    "endLine": 11
+                                },
+                                "name": "FILL_PATTERN_DARKHORIZONTAL"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 12,
+                            "endLine": 12
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 12,
+                                "endLine": 12,
+                                "rawValue": "0x06",
+                                "kind": 16
+                            },
+                            "value": 6
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 12,
+                                "endLine": 12
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 12,
+                                    "endLine": 12
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 12,
+                                    "endLine": 12
+                                },
+                                "name": "FILL_PATTERN_DARKVERTICAL"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 13,
+                            "endLine": 13
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 13,
+                                "endLine": 13,
+                                "rawValue": "0x07",
+                                "kind": 16
+                            },
+                            "value": 7
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 13,
+                                "endLine": 13
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 13,
+                                    "endLine": 13
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 13,
+                                    "endLine": 13
+                                },
+                                "name": "FILL_PATTERN_DARKDOWN"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 14,
+                            "endLine": 14
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 14,
+                                "endLine": 14,
+                                "rawValue": "0x08",
+                                "kind": 16
+                            },
+                            "value": 8
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 14,
+                                "endLine": 14
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 14,
+                                    "endLine": 14
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 14,
+                                    "endLine": 14
+                                },
+                                "name": "FILL_PATTERN_DARKUP"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 15,
+                            "endLine": 15
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 15,
+                                "endLine": 15,
+                                "rawValue": "0x09",
+                                "kind": 16
+                            },
+                            "value": 9
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 15,
+                                "endLine": 15
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 15,
+                                    "endLine": 15
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 15,
+                                    "endLine": 15
+                                },
+                                "name": "FILL_PATTERN_DARKGRID"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 16,
+                            "endLine": 16
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 16,
+                                "endLine": 16,
+                                "rawValue": "0x0A",
+                                "kind": 16
+                            },
+                            "value": 10
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 16,
+                                "endLine": 16
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 16,
+                                    "endLine": 16
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 16,
+                                    "endLine": 16
+                                },
+                                "name": "FILL_PATTERN_DARKTRELLIS"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 17,
+                            "endLine": 17
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 17,
+                                "endLine": 17,
+                                "rawValue": "0x0B",
+                                "kind": 16
+                            },
+                            "value": 11
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 17,
+                                "endLine": 17
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 17,
+                                    "endLine": 17
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 17,
+                                    "endLine": 17
+                                },
+                                "name": "FILL_PATTERN_LIGHTHORIZONTAL"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 18,
+                            "endLine": 18
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 18,
+                                "endLine": 18,
+                                "rawValue": "0x0C",
+                                "kind": 16
+                            },
+                            "value": 12
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 18,
+                                "endLine": 18
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 18,
+                                    "endLine": 18
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 18,
+                                    "endLine": 18
+                                },
+                                "name": "FILL_PATTERN_LIGHTVERTICAL"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 19,
+                            "endLine": 19
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 19,
+                                "endLine": 19,
+                                "rawValue": "0x0D",
+                                "kind": 16
+                            },
+                            "value": 13
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 19,
+                                "endLine": 19
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 19,
+                                    "endLine": 19
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 19,
+                                    "endLine": 19
+                                },
+                                "name": "FILL_PATTERN_LIGHTDOWN"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 20,
+                            "endLine": 20
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 20,
+                                "endLine": 20,
+                                "rawValue": "0x0E",
+                                "kind": 16
+                            },
+                            "value": 14
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 20,
+                                "endLine": 20
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 20,
+                                    "endLine": 20
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 20,
+                                    "endLine": 20
+                                },
+                                "name": "FILL_PATTERN_LIGHTUP"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 21,
+                            "endLine": 21
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 21,
+                                "endLine": 21,
+                                "rawValue": "0x0F",
+                                "kind": 16
+                            },
+                            "value": 15
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 21,
+                                "endLine": 21
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 21,
+                                    "endLine": 21
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 21,
+                                    "endLine": 21
+                                },
+                                "name": "FILL_PATTERN_LIGHTGRID"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 22,
+                            "endLine": 22
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 22,
+                                "endLine": 22,
+                                "rawValue": "0x10",
+                                "kind": 16
+                            },
+                            "value": 16
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 22,
+                                "endLine": 22
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 22,
+                                    "endLine": 22
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 22,
+                                    "endLine": 22
+                                },
+                                "name": "FILL_PATTERN_LIGHTTRELLIS"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 23,
+                            "endLine": 23
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 23,
+                                "endLine": 23,
+                                "rawValue": "0x11",
+                                "kind": 16
+                            },
+                            "value": 17
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 23,
+                                "endLine": 23
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 23,
+                                    "endLine": 23
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 23,
+                                    "endLine": 23
+                                },
+                                "name": "FILL_PATTERN_GRAY125"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 24,
+                            "endLine": 24
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 24,
+                                "endLine": 24,
+                                "rawValue": "0x12",
+                                "kind": 16
+                            },
+                            "value": 18
+                        },
+                        "value": {
+                            "nodeType": "Expr_ClassConstFetch",
+                            "attributes": {
+                                "startLine": 24,
+                                "endLine": 24
+                            },
+                            "class": {
+                                "nodeType": "Name_FullyQualified",
+                                "attributes": {
+                                    "startLine": 24,
+                                    "endLine": 24
+                                },
+                                "parts": [
+                                    "PHPExcel_Style_Fill"
+                                ]
+                            },
+                            "name": {
+                                "nodeType": "Identifier",
+                                "attributes": {
+                                    "startLine": 24,
+                                    "endLine": 24
+                                },
+                                "name": "FILL_PATTERN_GRAY0625"
+                            }
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "lookup": {
+            "name": "lookup",
+            "line": 34,
+            "short_desc": "Get fill pattern from index\nOpenOffice documentation: 2.5.12",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "index": {
+                    "name": "index",
+                    "line": 34,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

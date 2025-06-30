@@ -1,0 +1,1173 @@
+{
+    "name": "PHPExcel_Worksheet_Protection",
+    "line": 36,
+    "short_desc": "PHPExcel_Worksheet_Protection",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Worksheet"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Worksheet\/Protection.php",
+    "relative_file": null,
+    "hash": "9379ac74b7e0d7dcb2d5f2bd59f1c618a9d079ff",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 160,
+            "short_desc": "Create a new PHPExcel_Worksheet_Protection",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isProtectionEnabled": {
+            "name": "isProtectionEnabled",
+            "line": 169,
+            "short_desc": "Is some sort of protection enabled?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getSheet": {
+            "name": "getSheet",
+            "line": 194,
+            "short_desc": "Get Sheet",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSheet": {
+            "name": "setSheet",
+            "line": 205,
+            "short_desc": "Set Sheet",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 205,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getObjects": {
+            "name": "getObjects",
+            "line": 216,
+            "short_desc": "Get Objects",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setObjects": {
+            "name": "setObjects",
+            "line": 227,
+            "short_desc": "Set Objects",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 227,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getScenarios": {
+            "name": "getScenarios",
+            "line": 238,
+            "short_desc": "Get Scenarios",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setScenarios": {
+            "name": "setScenarios",
+            "line": 249,
+            "short_desc": "Set Scenarios",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 249,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFormatCells": {
+            "name": "getFormatCells",
+            "line": 260,
+            "short_desc": "Get FormatCells",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFormatCells": {
+            "name": "setFormatCells",
+            "line": 271,
+            "short_desc": "Set FormatCells",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 271,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFormatColumns": {
+            "name": "getFormatColumns",
+            "line": 282,
+            "short_desc": "Get FormatColumns",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFormatColumns": {
+            "name": "setFormatColumns",
+            "line": 293,
+            "short_desc": "Set FormatColumns",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 293,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFormatRows": {
+            "name": "getFormatRows",
+            "line": 304,
+            "short_desc": "Get FormatRows",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFormatRows": {
+            "name": "setFormatRows",
+            "line": 315,
+            "short_desc": "Set FormatRows",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 315,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getInsertColumns": {
+            "name": "getInsertColumns",
+            "line": 326,
+            "short_desc": "Get InsertColumns",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setInsertColumns": {
+            "name": "setInsertColumns",
+            "line": 337,
+            "short_desc": "Set InsertColumns",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 337,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getInsertRows": {
+            "name": "getInsertRows",
+            "line": 348,
+            "short_desc": "Get InsertRows",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setInsertRows": {
+            "name": "setInsertRows",
+            "line": 359,
+            "short_desc": "Set InsertRows",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 359,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getInsertHyperlinks": {
+            "name": "getInsertHyperlinks",
+            "line": 370,
+            "short_desc": "Get InsertHyperlinks",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setInsertHyperlinks": {
+            "name": "setInsertHyperlinks",
+            "line": 381,
+            "short_desc": "Set InsertHyperlinks",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 381,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getDeleteColumns": {
+            "name": "getDeleteColumns",
+            "line": 392,
+            "short_desc": "Get DeleteColumns",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDeleteColumns": {
+            "name": "setDeleteColumns",
+            "line": 403,
+            "short_desc": "Set DeleteColumns",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 403,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getDeleteRows": {
+            "name": "getDeleteRows",
+            "line": 414,
+            "short_desc": "Get DeleteRows",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDeleteRows": {
+            "name": "setDeleteRows",
+            "line": 425,
+            "short_desc": "Set DeleteRows",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 425,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getSelectLockedCells": {
+            "name": "getSelectLockedCells",
+            "line": 436,
+            "short_desc": "Get SelectLockedCells",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSelectLockedCells": {
+            "name": "setSelectLockedCells",
+            "line": 447,
+            "short_desc": "Set SelectLockedCells",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 447,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getSort": {
+            "name": "getSort",
+            "line": 458,
+            "short_desc": "Get Sort",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSort": {
+            "name": "setSort",
+            "line": 469,
+            "short_desc": "Set Sort",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 469,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getAutoFilter": {
+            "name": "getAutoFilter",
+            "line": 480,
+            "short_desc": "Get AutoFilter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAutoFilter": {
+            "name": "setAutoFilter",
+            "line": 491,
+            "short_desc": "Set AutoFilter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 491,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPivotTables": {
+            "name": "getPivotTables",
+            "line": 502,
+            "short_desc": "Get PivotTables",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPivotTables": {
+            "name": "setPivotTables",
+            "line": 513,
+            "short_desc": "Set PivotTables",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 513,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getSelectUnlockedCells": {
+            "name": "getSelectUnlockedCells",
+            "line": 524,
+            "short_desc": "Get SelectUnlockedCells",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSelectUnlockedCells": {
+            "name": "setSelectUnlockedCells",
+            "line": 535,
+            "short_desc": "Set SelectUnlockedCells",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 535,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPassword": {
+            "name": "getPassword",
+            "line": 546,
+            "short_desc": "Get Password (hashed)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPassword": {
+            "name": "setPassword",
+            "line": 558,
+            "short_desc": "Set Password",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_Protection",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 558,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pAlreadyHashed": {
+                    "name": "pAlreadyHashed",
+                    "line": 558,
+                    "short_desc": "If the password has already been hashed, set this to true",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "__clone": {
+            "name": "__clone",
+            "line": 570,
+            "short_desc": "Implement PHP __clone to create a deep clone, not just a shallow copy.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

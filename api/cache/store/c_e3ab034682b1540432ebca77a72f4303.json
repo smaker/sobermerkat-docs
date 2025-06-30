@@ -1,0 +1,1568 @@
+{
+    "name": "PHPExcel_Chart",
+    "line": 28,
+    "short_desc": "PHPExcel_Chart",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Chart"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Chart.php",
+    "relative_file": null,
+    "hash": "1c684d0f46de6cb91f4fce282ec746bc96dfb84d",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 172,
+            "short_desc": "Create a new PHPExcel_Chart",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "title": {
+                    "name": "title",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_Title",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "legend": {
+                    "name": "legend",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_Legend",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "plotArea": {
+                    "name": "plotArea",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_PlotArea",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "plotVisibleOnly": {
+                    "name": "plotVisibleOnly",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "displayBlanksAs": {
+                    "name": "displayBlanksAs",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'0'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xAxisLabel": {
+                    "name": "xAxisLabel",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_Title",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "yAxisLabel": {
+                    "name": "yAxisLabel",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_Title",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xAxis": {
+                    "name": "xAxis",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_Axis",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "yAxis": {
+                    "name": "yAxis",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_Axis",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "majorGridlines": {
+                    "name": "majorGridlines",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_GridLines",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "minorGridlines": {
+                    "name": "minorGridlines",
+                    "line": 172,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_GridLines",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getName": {
+            "name": "getName",
+            "line": 193,
+            "short_desc": "Get Name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getWorksheet": {
+            "name": "getWorksheet",
+            "line": 203,
+            "short_desc": "Get Worksheet",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setWorksheet": {
+            "name": "setWorksheet",
+            "line": 215,
+            "short_desc": "Set Worksheet",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Chart_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 215,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTitle": {
+            "name": "getTitle",
+            "line": 227,
+            "short_desc": "Get Title",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Title",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTitle": {
+            "name": "setTitle",
+            "line": 238,
+            "short_desc": "Set Title",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "title": {
+                    "name": "title",
+                    "line": 238,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_Title",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getLegend": {
+            "name": "getLegend",
+            "line": 250,
+            "short_desc": "Get Legend",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Legend",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setLegend": {
+            "name": "setLegend",
+            "line": 261,
+            "short_desc": "Set Legend",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "legend": {
+                    "name": "legend",
+                    "line": 261,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_Legend",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getXAxisLabel": {
+            "name": "getXAxisLabel",
+            "line": 273,
+            "short_desc": "Get X-Axis Label",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Title",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setXAxisLabel": {
+            "name": "setXAxisLabel",
+            "line": 284,
+            "short_desc": "Set X-Axis Label",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "label": {
+                    "name": "label",
+                    "line": 284,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_Title",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getYAxisLabel": {
+            "name": "getYAxisLabel",
+            "line": 296,
+            "short_desc": "Get Y-Axis Label",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Title",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setYAxisLabel": {
+            "name": "setYAxisLabel",
+            "line": 307,
+            "short_desc": "Set Y-Axis Label",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "label": {
+                    "name": "label",
+                    "line": 307,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Chart_Title",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPlotArea": {
+            "name": "getPlotArea",
+            "line": 319,
+            "short_desc": "Get Plot Area",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_PlotArea",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getPlotVisibleOnly": {
+            "name": "getPlotVisibleOnly",
+            "line": 329,
+            "short_desc": "Get Plot Visible Only",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPlotVisibleOnly": {
+            "name": "setPlotVisibleOnly",
+            "line": 340,
+            "short_desc": "Set Plot Visible Only",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "plotVisibleOnly": {
+                    "name": "plotVisibleOnly",
+                    "line": 340,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getDisplayBlanksAs": {
+            "name": "getDisplayBlanksAs",
+            "line": 352,
+            "short_desc": "Get Display Blanks as",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDisplayBlanksAs": {
+            "name": "setDisplayBlanksAs",
+            "line": 363,
+            "short_desc": "Set Display Blanks as",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "displayBlanksAs": {
+                    "name": "displayBlanksAs",
+                    "line": 363,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'0'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getChartAxisY": {
+            "name": "getChartAxisY",
+            "line": 374,
+            "short_desc": "Get yAxis",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Axis",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getChartAxisX": {
+            "name": "getChartAxisX",
+            "line": 388,
+            "short_desc": "Get xAxis",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Axis",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getMajorGridlines": {
+            "name": "getMajorGridlines",
+            "line": 402,
+            "short_desc": "Get Major Gridlines",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_GridLines",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getMinorGridlines": {
+            "name": "getMinorGridlines",
+            "line": 416,
+            "short_desc": "Get Minor Gridlines",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_GridLines",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTopLeftPosition": {
+            "name": "setTopLeftPosition",
+            "line": 434,
+            "short_desc": "Set the Top Left position for the chart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cell": {
+                    "name": "cell",
+                    "line": 434,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xOffset": {
+                    "name": "xOffset",
+                    "line": 434,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "yOffset": {
+                    "name": "yOffset",
+                    "line": 434,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTopLeftPosition": {
+            "name": "getTopLeftPosition",
+            "line": 452,
+            "short_desc": "Get the top left position of the chart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "an associative array containing the cell address, X-Offset and Y-Offset from the top left of that cell",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getTopLeftCell": {
+            "name": "getTopLeftCell",
+            "line": 466,
+            "short_desc": "Get the cell address where the top left of the chart is fixed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTopLeftCell": {
+            "name": "setTopLeftCell",
+            "line": 477,
+            "short_desc": "Set the Top Left cell position for the chart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cell": {
+                    "name": "cell",
+                    "line": 477,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setTopLeftOffset": {
+            "name": "setTopLeftOffset",
+            "line": 491,
+            "short_desc": "Set the offset position within the Top Left cell for the chart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "xOffset": {
+                    "name": "xOffset",
+                    "line": 491,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "yOffset": {
+                    "name": "yOffset",
+                    "line": 491,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTopLeftOffset": {
+            "name": "getTopLeftOffset",
+            "line": 508,
+            "short_desc": "Get the offset position within the Top Left cell for the chart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTopLeftXOffset": {
+            "name": "setTopLeftXOffset",
+            "line": 516,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "xOffset": {
+                    "name": "xOffset",
+                    "line": 516,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTopLeftXOffset": {
+            "name": "getTopLeftXOffset",
+            "line": 523,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTopLeftYOffset": {
+            "name": "setTopLeftYOffset",
+            "line": 528,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "yOffset": {
+                    "name": "yOffset",
+                    "line": 528,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTopLeftYOffset": {
+            "name": "getTopLeftYOffset",
+            "line": 535,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBottomRightPosition": {
+            "name": "setBottomRightPosition",
+            "line": 548,
+            "short_desc": "Set the Bottom Right position of the chart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cell": {
+                    "name": "cell",
+                    "line": 548,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xOffset": {
+                    "name": "xOffset",
+                    "line": 548,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "yOffset": {
+                    "name": "yOffset",
+                    "line": 548,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getBottomRightPosition": {
+            "name": "getBottomRightPosition",
+            "line": 566,
+            "short_desc": "Get the bottom right position of the chart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "an associative array containing the cell address, X-Offset and Y-Offset from the top left of that cell",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBottomRightCell": {
+            "name": "setBottomRightCell",
+            "line": 575,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cell": {
+                    "name": "cell",
+                    "line": 575,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getBottomRightCell": {
+            "name": "getBottomRightCell",
+            "line": 587,
+            "short_desc": "Get the cell address where the bottom right of the chart is fixed",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBottomRightOffset": {
+            "name": "setBottomRightOffset",
+            "line": 599,
+            "short_desc": "Set the offset position within the Bottom Right cell for the chart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "xOffset": {
+                    "name": "xOffset",
+                    "line": 599,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "yOffset": {
+                    "name": "yOffset",
+                    "line": 599,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getBottomRightOffset": {
+            "name": "getBottomRightOffset",
+            "line": 616,
+            "short_desc": "Get the offset position within the Bottom Right cell for the chart",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBottomRightXOffset": {
+            "name": "setBottomRightXOffset",
+            "line": 624,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "xOffset": {
+                    "name": "xOffset",
+                    "line": 624,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getBottomRightXOffset": {
+            "name": "getBottomRightXOffset",
+            "line": 631,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBottomRightYOffset": {
+            "name": "setBottomRightYOffset",
+            "line": 636,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "yOffset": {
+                    "name": "yOffset",
+                    "line": 636,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getBottomRightYOffset": {
+            "name": "getBottomRightYOffset",
+            "line": 643,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "refresh": {
+            "name": "refresh",
+            "line": 649,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "render": {
+            "name": "render",
+            "line": 656,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "outputDestination": {
+                    "name": "outputDestination",
+                    "line": 656,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

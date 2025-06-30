@@ -1,0 +1,1572 @@
+{
+    "name": "PHPExcel_Cell",
+    "line": 28,
+    "short_desc": "PHPExcel_Cell",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel\n@package",
+                "",
+                "",
+                "",
+                "PHPExcel_Cell\n@copyright",
+                "",
+                "",
+                "",
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)\n@license",
+                "",
+                "",
+                "",
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL\n@version",
+                "",
+                "",
+                "",
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/adm\/Excel\/Classes\/PHPExcel\/Cell.php",
+    "relative_file": null,
+    "hash": "20b393fb90c759e04919ea5082d704fab3b89561",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "notifyCacheController": {
+            "name": "notifyCacheController",
+            "line": 96,
+            "short_desc": "Send notification to the cache controller",
+            "long_desc": " @return void",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "detach": {
+            "name": "detach",
+            "line": 103,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "attach": {
+            "name": "attach",
+            "line": 108,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "parent": {
+                    "name": "parent",
+                    "line": 108,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_CachedObjectStorage_CacheBase",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "__construct": {
+            "name": "__construct",
+            "line": 122,
+            "short_desc": "Create a new Cell",
+            "long_desc": " @param    mixed                $pValue",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"pValue\" parameter of the method \"__construct\" is missing a @param tag"
+            ],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 122,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pDataType": {
+                    "name": "pDataType",
+                    "line": 122,
+                    "short_desc": "@param    PHPExcel_Worksheet    $pSheet\n@throws    PHPExcel_Exception",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pSheet": {
+                    "name": "pSheet",
+                    "line": 122,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getColumn": {
+            "name": "getColumn",
+            "line": 146,
+            "short_desc": "Get cell coordinate column",
+            "long_desc": " @return    string",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getRow": {
+            "name": "getRow",
+            "line": 156,
+            "short_desc": "Get cell coordinate row",
+            "long_desc": " @return    int",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCoordinate": {
+            "name": "getCoordinate",
+            "line": 166,
+            "short_desc": "Get cell coordinate",
+            "long_desc": " @return    string",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getValue": {
+            "name": "getValue",
+            "line": 176,
+            "short_desc": "Get cell value",
+            "long_desc": " @return    mixed",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getFormattedValue": {
+            "name": "getFormattedValue",
+            "line": 186,
+            "short_desc": "Get cell value with formatting",
+            "long_desc": " @return    string",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setValue": {
+            "name": "setValue",
+            "line": 204,
+            "short_desc": "Set cell value",
+            "long_desc": "Sets the value for a cell, automatically determining the datatype using the value binder",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 204,
+                    "short_desc": "Value\n@return    PHPExcel_Cell\n@throws    PHPExcel_Exception",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setValueExplicit": {
+            "name": "setValueExplicit",
+            "line": 220,
+            "short_desc": "Set the value for a cell, with the explicit data type passed to the method (bypassing any use of the value binder)",
+            "long_desc": " @param    mixed    $pValue            Value",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"pValue\" parameter of the method \"setValueExplicit\" is missing a @param tag"
+            ],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 220,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pDataType": {
+                    "name": "pDataType",
+                    "line": 220,
+                    "short_desc": "Explicit data type\n@return    PHPExcel_Cell\n@throws    PHPExcel_Exception",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_Cell_DataType::TYPE_STRING",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getCalculatedValue": {
+            "name": "getCalculatedValue",
+            "line": 268,
+            "short_desc": "Get calculated cell value",
+            "long_desc": " @deprecated        Since version 1.7.8 for planned changes to cell for array formula handling",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "resetLog": {
+                    "name": "resetLog",
+                    "line": 268,
+                    "short_desc": "Whether the calculation engine logger should be reset or not\n@return    mixed\n@throws    PHPExcel_Exception",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setCalculatedValue": {
+            "name": "setCalculatedValue",
+            "line": 316,
+            "short_desc": "Set old calculated value (cached)",
+            "long_desc": " @param    mixed $pValue    Value",
+            "hint": [
+                [
+                    "\\PHPExcel_Cell",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 316,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getOldCalculatedValue": {
+            "name": "getOldCalculatedValue",
+            "line": 335,
+            "short_desc": "Get old calculated value (cached)\n   This returns the value last calculated by MS Excel or whichever spreadsheet program was used to\n       create the original spreadsheet file.",
+            "long_desc": "Note that this value is not guaranteed to refelect the actual calculated value because it is\npossible that auto-calculation was disabled in the original spreadsheet, and underlying data\nvalues used by the formula have changed since it was last calculated.",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getDataType": {
+            "name": "getDataType",
+            "line": 345,
+            "short_desc": "Get cell data type",
+            "long_desc": " @return string",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDataType": {
+            "name": "setDataType",
+            "line": 356,
+            "short_desc": "Set cell data type",
+            "long_desc": " @param    string $pDataType",
+            "hint": [
+                [
+                    "\\PHPExcel_Cell",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pDataType": {
+                    "name": "pDataType",
+                    "line": 356,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_Cell_DataType::TYPE_STRING",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "isFormula": {
+            "name": "isFormula",
+            "line": 371,
+            "short_desc": "Identify if the cell contains a formula",
+            "long_desc": " @return boolean",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "hasDataValidation": {
+            "name": "hasDataValidation",
+            "line": 382,
+            "short_desc": "Does this cell contain Data validation rules?",
+            "long_desc": " @return    boolean",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "getDataValidation": {
+            "name": "getDataValidation",
+            "line": 397,
+            "short_desc": "Get Data validation rules",
+            "long_desc": " @return    PHPExcel_Cell_DataValidation",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "setDataValidation": {
+            "name": "setDataValidation",
+            "line": 413,
+            "short_desc": "Set Data validation rules",
+            "long_desc": " @param    PHPExcel_Cell_DataValidation    $pDataValidation",
+            "hint": [
+                [
+                    "\\PHPExcel_Cell",
+                    false
+                ]
+            ],
+            "hint_desc": "@throws    PHPExcel_Exception",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pDataValidation": {
+                    "name": "pDataValidation",
+                    "line": 413,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Cell_DataValidation",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "hasHyperlink": {
+            "name": "hasHyperlink",
+            "line": 430,
+            "short_desc": "Does this cell contain a Hyperlink?",
+            "long_desc": " @return boolean",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "getHyperlink": {
+            "name": "getHyperlink",
+            "line": 445,
+            "short_desc": "Get Hyperlink",
+            "long_desc": " @return    PHPExcel_Cell_Hyperlink",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "setHyperlink": {
+            "name": "setHyperlink",
+            "line": 461,
+            "short_desc": "Set Hyperlink",
+            "long_desc": " @param    PHPExcel_Cell_Hyperlink    $pHyperlink",
+            "hint": [
+                [
+                    "\\PHPExcel_Cell",
+                    false
+                ]
+            ],
+            "hint_desc": "@throws    PHPExcel_Exception",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pHyperlink": {
+                    "name": "pHyperlink",
+                    "line": 461,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Cell_Hyperlink",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getParent": {
+            "name": "getParent",
+            "line": 477,
+            "short_desc": "Get parent worksheet",
+            "long_desc": " @return PHPExcel_CachedObjectStorage_CacheBase",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getWorksheet": {
+            "name": "getWorksheet",
+            "line": 487,
+            "short_desc": "Get parent worksheet",
+            "long_desc": " @return PHPExcel_Worksheet",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isInMergeRange": {
+            "name": "isInMergeRange",
+            "line": 497,
+            "short_desc": "Is this cell in a merge range",
+            "long_desc": " @return boolean",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isMergeRangeValueCell": {
+            "name": "isMergeRangeValueCell",
+            "line": 507,
+            "short_desc": "Is this cell the master (top left cell) in a merge range (that holds the actual data value)",
+            "long_desc": " @return boolean",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getMergeRange": {
+            "name": "getMergeRange",
+            "line": 524,
+            "short_desc": "If this cell is in a merge range, then return the range",
+            "long_desc": " @return string",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStyle": {
+            "name": "getStyle",
+            "line": 539,
+            "short_desc": "Get cell style",
+            "long_desc": " @return    PHPExcel_Style",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "rebindParent": {
+            "name": "rebindParent",
+            "line": 550,
+            "short_desc": "Re-bind parent",
+            "long_desc": " @param    PHPExcel_Worksheet $parent",
+            "hint": [
+                [
+                    "\\PHPExcel_Cell",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "parent": {
+                    "name": "parent",
+                    "line": 550,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "isInRange": {
+            "name": "isInRange",
+            "line": 563,
+            "short_desc": "Is cell in a specific range?",
+            "long_desc": " @param    string    $pRange        Cell range (e.g. A1:A1)",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pRange": {
+                    "name": "pRange",
+                    "line": 563,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'A1:A1'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "coordinateFromString": {
+            "name": "coordinateFromString",
+            "line": 584,
+            "short_desc": "Coordinate from string",
+            "long_desc": " @param    string    $pCoordinateString",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "Array containing column and row (indexes 0 and 1)\n@throws    PHPExcel_Exception",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pCoordinateString": {
+                    "name": "pCoordinateString",
+                    "line": 584,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'A1'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "absoluteReference": {
+            "name": "absoluteReference",
+            "line": 605,
+            "short_desc": "Make string row, column or cell coordinate absolute",
+            "long_desc": " @param    string    $pCoordinateString        e.g. 'A' or '1' or 'A1'\nNote that this value can be a row or column reference as well as a cell reference",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Absolute coordinate        e.g. '$A' or '$1' or '$A$1'\n@throws    PHPExcel_Exception",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pCoordinateString": {
+                    "name": "pCoordinateString",
+                    "line": 605,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'A1'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "absoluteCoordinate": {
+            "name": "absoluteCoordinate",
+            "line": 637,
+            "short_desc": "Make string coordinate absolute",
+            "long_desc": " @param    string    $pCoordinateString        e.g. 'A1'",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Absolute coordinate        e.g. '$A$1'\n@throws    PHPExcel_Exception",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pCoordinateString": {
+                    "name": "pCoordinateString",
+                    "line": 637,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'A1'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "splitRange": {
+            "name": "splitRange",
+            "line": 668,
+            "short_desc": "Split range into coordinate strings",
+            "long_desc": " @param    string    $pRange        e.g. 'B4:D9' or 'B4:D9,H2:O11' or 'B4'",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "Array containg one or more arrays containing one or two coordinate strings\ne.g. array('B4','D9') or array(array('B4','D9'),array('H2','O11'))\n        or array('B4')",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pRange": {
+                    "name": "pRange",
+                    "line": 668,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'A1:A1'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "buildRange": {
+            "name": "buildRange",
+            "line": 690,
+            "short_desc": "Build range from coordinate strings",
+            "long_desc": " @param    array    $pRange    Array containg one or more arrays containing one or two coordinate strings",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "String representation of $pRange\n@throws    PHPExcel_Exception",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pRange": {
+                    "name": "pRange",
+                    "line": 690,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "rangeBoundaries": {
+            "name": "rangeBoundaries",
+            "line": 715,
+            "short_desc": "Calculate range boundaries",
+            "long_desc": " @param    string    $pRange        Cell range (e.g. A1:A1)",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "Range coordinates array(Start Cell, End Cell)\nwhere Start Cell and End Cell are arrays (Column Number, Row Number)",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pRange": {
+                    "name": "pRange",
+                    "line": 715,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'A1:A1'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "rangeDimension": {
+            "name": "rangeDimension",
+            "line": 749,
+            "short_desc": "Calculate range dimension",
+            "long_desc": " @param    string    $pRange        Cell range (e.g. A1:A1)",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "Range dimension (width, height)",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pRange": {
+                    "name": "pRange",
+                    "line": 749,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'A1:A1'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getRangeBoundaries": {
+            "name": "getRangeBoundaries",
+            "line": 764,
+            "short_desc": "Calculate range boundaries",
+            "long_desc": " @param    string    $pRange        Cell range (e.g. A1:A1)",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "Range coordinates array(Start Cell, End Cell)\nwhere Start Cell and End Cell are arrays (Column ID, Row Number)",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pRange": {
+                    "name": "pRange",
+                    "line": 764,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'A1:A1'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "columnIndexFromString": {
+            "name": "columnIndexFromString",
+            "line": 790,
+            "short_desc": "Column index from string",
+            "long_desc": " @param    string $pString",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Column index (base 1 !!!)",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pString": {
+                    "name": "pString",
+                    "line": 790,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'A'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "stringFromColumnIndex": {
+            "name": "stringFromColumnIndex",
+            "line": 833,
+            "short_desc": "String from columnindex",
+            "long_desc": " @param    int $pColumnIndex Column index (base 0 !!!)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pColumnIndex": {
+                    "name": "pColumnIndex",
+                    "line": 833,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "extractAllCellReferencesInRange": {
+            "name": "extractAllCellReferencesInRange",
+            "line": 862,
+            "short_desc": "Extract all cell references in range",
+            "long_desc": " @param    string    $pRange        Range (e.g. A1 or A1:C10 or A1:E10 A20:E25)",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "Array containing single cell references",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pRange": {
+                    "name": "pRange",
+                    "line": 862,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'A1'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "compareCells": {
+            "name": "compareCells",
+            "line": 926,
+            "short_desc": "Compare 2 cells",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Result of comparison (always -1 or 1, never zero!)",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "a": {
+                    "name": "a",
+                    "line": 926,
+                    "short_desc": "Cell a",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Cell",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "b": {
+                    "name": "b",
+                    "line": 926,
+                    "short_desc": "Cell b",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Cell",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getValueBinder": {
+            "name": "getValueBinder",
+            "line": 944,
+            "short_desc": "Get value binder to use",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Cell_IValueBinder",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setValueBinder": {
+            "name": "setValueBinder",
+            "line": 959,
+            "short_desc": "Set value binder to use",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "binder": {
+                    "name": "binder",
+                    "line": 959,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Cell_IValueBinder",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "__clone": {
+            "name": "__clone",
+            "line": 971,
+            "short_desc": "Implement PHP __clone to create a deep clone, not just a shallow copy.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getXfIndex": {
+            "name": "getXfIndex",
+            "line": 988,
+            "short_desc": "Get index to cellXf",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setXfIndex": {
+            "name": "setXfIndex",
+            "line": 999,
+            "short_desc": "Set index to cellXf",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Cell",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 999,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setFormulaAttributes": {
+            "name": "setFormulaAttributes",
+            "line": 1009,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "deprecated": [
+                    [
+                        "Since",
+                        "version",
+                        "1.7.8",
+                        "for",
+                        "planned",
+                        "changes",
+                        "to",
+                        "cell",
+                        "for",
+                        "array",
+                        "formula",
+                        "handling"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pAttributes": {
+                    "name": "pAttributes",
+                    "line": 1009,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFormulaAttributes": {
+            "name": "getFormulaAttributes",
+            "line": 1018,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "deprecated": [
+                    [
+                        "Since",
+                        "version",
+                        "1.7.8",
+                        "for",
+                        "planned",
+                        "changes",
+                        "to",
+                        "cell",
+                        "for",
+                        "array",
+                        "formula",
+                        "handling"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "__toString": {
+            "name": "__toString",
+            "line": 1028,
+            "short_desc": "Convert to string",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "DEFAULT_RANGE": {
+            "name": "DEFAULT_RANGE",
+            "line": 35,
+            "short_desc": "Default range variable constant",
+            "long_desc": " @var  string",
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

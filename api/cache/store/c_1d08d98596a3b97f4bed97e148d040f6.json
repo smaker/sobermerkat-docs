@@ -1,0 +1,254 @@
+{
+    "name": "PHPExcel_Worksheet_CellIterator",
+    "line": 28,
+    "short_desc": "PHPExcel_Worksheet_CellIterator",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Worksheet"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Worksheet\/CellIterator.php",
+    "relative_file": null,
+    "hash": "c81e806bab20289ba2aed9d997d5f9bac33e1964",
+    "parent": null,
+    "modifiers": 16,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "subject": {
+            "name": "subject",
+            "line": 35,
+            "short_desc": "PHPExcel_Worksheet to iterate",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "position": {
+            "name": "position",
+            "line": 42,
+            "short_desc": "Current iterator position",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 42,
+                    "endLine": 42
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 42,
+                        "endLine": 42
+                    },
+                    "parts": [
+                        "null"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "onlyExistingCells": {
+            "name": "onlyExistingCells",
+            "line": 49,
+            "short_desc": "Iterate only existing cells",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 49,
+                    "endLine": 49
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 49,
+                        "endLine": 49
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "__destruct": {
+            "name": "__destruct",
+            "line": 54,
+            "short_desc": "Destructor",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getIterateOnlyExistingCells": {
+            "name": "getIterateOnlyExistingCells",
+            "line": 64,
+            "short_desc": "Get loop only existing cells",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "adjustForExistingOnlyRange": {
+            "name": "adjustForExistingOnlyRange",
+            "line": 74,
+            "short_desc": "Validate start\/end values for \"IterateOnlyExistingCells\" mode, and adjust if necessary",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 18,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "setIterateOnlyExistingCells": {
+            "name": "setIterateOnlyExistingCells",
+            "line": 82,
+            "short_desc": "Set the iterator to loop only existing cells",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 82,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,939 @@
+{
+    "name": "PHPExcel_Chart_Layout",
+    "line": 36,
+    "short_desc": "PHPExcel_Chart_Layout",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Chart"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Chart\/Layout.php",
+    "relative_file": null,
+    "hash": "0b36defe71529c5b8e1e932979196ef55dc9c1e8",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 146,
+            "short_desc": "Create a new PHPExcel_Chart_Layout",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "layout": {
+                    "name": "layout",
+                    "line": 146,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getLayoutTarget": {
+            "name": "getLayoutTarget",
+            "line": 176,
+            "short_desc": "Get Layout Target",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setLayoutTarget": {
+            "name": "setLayoutTarget",
+            "line": 187,
+            "short_desc": "Set Layout Target",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"value\" parameter of the method \"setLayoutTarget\" is missing a @param tag"
+            ],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 187,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getXMode": {
+            "name": "getXMode",
+            "line": 198,
+            "short_desc": "Get X-Mode",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setXMode": {
+            "name": "setXMode",
+            "line": 209,
+            "short_desc": "Set X-Mode",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"value\" parameter of the method \"setXMode\" is missing a @param tag",
+                "The method \"setXMode\" has \"1\" invalid @param tags.",
+                "Invalid @param tag on \"setXMode\": \"X-Mode $value\""
+            ],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 209,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getYMode": {
+            "name": "getYMode",
+            "line": 220,
+            "short_desc": "Get Y-Mode",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setYMode": {
+            "name": "setYMode",
+            "line": 231,
+            "short_desc": "Set Y-Mode",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"value\" parameter of the method \"setYMode\" is missing a @param tag",
+                "The method \"setYMode\" has \"1\" invalid @param tags.",
+                "Invalid @param tag on \"setYMode\": \"Y-Mode $value\""
+            ],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 231,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getXPosition": {
+            "name": "getXPosition",
+            "line": 242,
+            "short_desc": "Get X-Position",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\number",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setXPosition": {
+            "name": "setXPosition",
+            "line": 253,
+            "short_desc": "Set X-Position",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"value\" parameter of the method \"setXPosition\" is missing a @param tag",
+                "The method \"setXPosition\" has \"1\" invalid @param tags.",
+                "Invalid @param tag on \"setXPosition\": \"X-Position $value\""
+            ],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 253,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getYPosition": {
+            "name": "getYPosition",
+            "line": 264,
+            "short_desc": "Get Y-Position",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\number",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setYPosition": {
+            "name": "setYPosition",
+            "line": 275,
+            "short_desc": "Set Y-Position",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"value\" parameter of the method \"setYPosition\" is missing a @param tag",
+                "The method \"setYPosition\" has \"1\" invalid @param tags.",
+                "Invalid @param tag on \"setYPosition\": \"Y-Position $value\""
+            ],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 275,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getWidth": {
+            "name": "getWidth",
+            "line": 286,
+            "short_desc": "Get Width",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\number",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setWidth": {
+            "name": "setWidth",
+            "line": 297,
+            "short_desc": "Set Width",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 297,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Width",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getHeight": {
+            "name": "getHeight",
+            "line": 308,
+            "short_desc": "Get Height",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\number",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setHeight": {
+            "name": "setHeight",
+            "line": 319,
+            "short_desc": "Set Height",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 319,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Height",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getShowLegendKey": {
+            "name": "getShowLegendKey",
+            "line": 331,
+            "short_desc": "Get show legend key",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setShowLegendKey": {
+            "name": "setShowLegendKey",
+            "line": 343,
+            "short_desc": "Set show legend key\nSpecifies that legend keys should be shown in data labels.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 343,
+                    "short_desc": "Show legend key",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getShowVal": {
+            "name": "getShowVal",
+            "line": 354,
+            "short_desc": "Get show value",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setShowVal": {
+            "name": "setShowVal",
+            "line": 366,
+            "short_desc": "Set show val\nSpecifies that the value should be shown in data labels.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 366,
+                    "short_desc": "Show val",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getShowCatName": {
+            "name": "getShowCatName",
+            "line": 377,
+            "short_desc": "Get show category name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setShowCatName": {
+            "name": "setShowCatName",
+            "line": 389,
+            "short_desc": "Set show cat name\nSpecifies that the category name should be shown in data labels.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 389,
+                    "short_desc": "Show cat name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getShowSerName": {
+            "name": "getShowSerName",
+            "line": 400,
+            "short_desc": "Get show data series name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setShowSerName": {
+            "name": "setShowSerName",
+            "line": 412,
+            "short_desc": "Set show ser name\nSpecifies that the series name should be shown in data labels.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 412,
+                    "short_desc": "Show series name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getShowPercent": {
+            "name": "getShowPercent",
+            "line": 423,
+            "short_desc": "Get show percentage",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setShowPercent": {
+            "name": "setShowPercent",
+            "line": 435,
+            "short_desc": "Set show percentage\nSpecifies that the percentage should be shown in data labels.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 435,
+                    "short_desc": "Show percentage",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getShowBubbleSize": {
+            "name": "getShowBubbleSize",
+            "line": 446,
+            "short_desc": "Get show bubble size",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setShowBubbleSize": {
+            "name": "setShowBubbleSize",
+            "line": 458,
+            "short_desc": "Set show bubble size\nSpecifies that the bubble size should be shown in data labels.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 458,
+                    "short_desc": "Show bubble size",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getShowLeaderLines": {
+            "name": "getShowLeaderLines",
+            "line": 469,
+            "short_desc": "Get show leader lines",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setShowLeaderLines": {
+            "name": "setShowLeaderLines",
+            "line": 481,
+            "short_desc": "Set show leader lines\nSpecifies that leader lines should be shown in data labels.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_Layout",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 481,
+                    "short_desc": "Show leader lines",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

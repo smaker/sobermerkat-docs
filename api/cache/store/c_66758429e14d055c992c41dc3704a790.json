@@ -1,0 +1,107 @@
+{
+    "name": "PHPExcel_Cell_IValueBinder",
+    "line": 37,
+    "short_desc": "PHPExcel_Cell_IValueBinder",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Cell"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Cell\/IValueBinder.php",
+    "relative_file": null,
+    "hash": "b045e649341e26fa1a03d16e9a6a00b1aa30a6b2",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": true,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "bindValue": {
+            "name": "bindValue",
+            "line": 46,
+            "short_desc": "Bind value to a cell",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cell": {
+                    "name": "cell",
+                    "line": 46,
+                    "short_desc": "Cell to bind value to",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Cell",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 46,
+                    "short_desc": "Value to bind in cell",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

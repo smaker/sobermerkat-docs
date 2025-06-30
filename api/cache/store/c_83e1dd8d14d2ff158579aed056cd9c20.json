@@ -1,0 +1,451 @@
+{
+    "name": "PHPExcel_Worksheet_PageMargins",
+    "line": 36,
+    "short_desc": "PHPExcel_Worksheet_PageMargins",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Worksheet"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Worksheet\/PageMargins.php",
+    "relative_file": null,
+    "hash": "ff7016198d8a3a3943ab7e1efa15237172459af1",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 83,
+            "short_desc": "Create a new PHPExcel_Worksheet_PageMargins",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getLeft": {
+            "name": "getLeft",
+            "line": 92,
+            "short_desc": "Get Left",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setLeft": {
+            "name": "setLeft",
+            "line": 103,
+            "short_desc": "Set Left",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_PageMargins",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 103,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getRight": {
+            "name": "getRight",
+            "line": 114,
+            "short_desc": "Get Right",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRight": {
+            "name": "setRight",
+            "line": 125,
+            "short_desc": "Set Right",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_PageMargins",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 125,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTop": {
+            "name": "getTop",
+            "line": 136,
+            "short_desc": "Get Top",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTop": {
+            "name": "setTop",
+            "line": 147,
+            "short_desc": "Set Top",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_PageMargins",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 147,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getBottom": {
+            "name": "getBottom",
+            "line": 158,
+            "short_desc": "Get Bottom",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBottom": {
+            "name": "setBottom",
+            "line": 169,
+            "short_desc": "Set Bottom",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_PageMargins",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 169,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getHeader": {
+            "name": "getHeader",
+            "line": 180,
+            "short_desc": "Get Header",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setHeader": {
+            "name": "setHeader",
+            "line": 191,
+            "short_desc": "Set Header",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_PageMargins",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 191,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFooter": {
+            "name": "getFooter",
+            "line": 202,
+            "short_desc": "Get Footer",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFooter": {
+            "name": "setFooter",
+            "line": 213,
+            "short_desc": "Set Footer",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_PageMargins",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 213,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "__clone": {
+            "name": "__clone",
+            "line": 222,
+            "short_desc": "Implement PHP __clone to create a deep clone, not just a shallow copy.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

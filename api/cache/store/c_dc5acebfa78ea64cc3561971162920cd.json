@@ -1,0 +1,2041 @@
+{
+    "name": "PHPExcel_Calculation_MathTrig",
+    "line": 37,
+    "short_desc": "PHPExcel_Calculation_MathTrig",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Calculation"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Calculation\/MathTrig.php",
+    "relative_file": null,
+    "hash": "06e669ba50ae97ad5f920439ba06bb8e35593f07",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "ATAN2": {
+            "name": "ATAN2",
+            "line": 93,
+            "short_desc": "ATAN2",
+            "long_desc": "This function calculates the arc tangent of the two variables x and y. It is similar to\n       calculating the arc tangent of y \u00f7 x, except that the signs of both arguments are used\n       to determine the quadrant of the result.\nThe arctangent is the angle from the x-axis to a line containing the origin (0, 0) and a\n       point with coordinates (xCoordinate, yCoordinate). The angle is given in radians between\n       -pi and pi, excluding -pi.\n\nNote that the Excel ATAN2() function accepts its arguments in the reverse order to the standard\n       PHP atan2() function, so we need to reverse them here before calling the PHP atan() function.\n\nExcel Function:\n       ATAN2(xCoordinate,yCoordinate)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "The inverse tangent of the specified x- and y-coordinates.",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "xCoordinate": {
+                    "name": "xCoordinate",
+                    "line": 93,
+                    "short_desc": "The x-coordinate of the point.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "yCoordinate": {
+                    "name": "yCoordinate",
+                    "line": 93,
+                    "short_desc": "The y-coordinate of the point.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "CEILING": {
+            "name": "CEILING",
+            "line": 133,
+            "short_desc": "CEILING",
+            "long_desc": "Returns number rounded up, away from zero, to the nearest multiple of significance.\n       For example, if you want to avoid using pennies in your prices and your product is\n       priced at $4.42, use the formula =CEILING(4.42,0.05) to round prices up to the\n       nearest nickel.\n\nExcel Function:\n       CEILING(number[,significance])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "Rounded Number",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 133,
+                    "short_desc": "The number you want to round.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "significance": {
+                    "name": "significance",
+                    "line": 133,
+                    "short_desc": "The multiple to which you want to round.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COMBIN": {
+            "name": "COMBIN",
+            "line": 171,
+            "short_desc": "COMBIN",
+            "long_desc": "Returns the number of combinations for a given number of items. Use COMBIN to\n       determine the total possible number of groups for a given number of items.\n\nExcel Function:\n       COMBIN(numObjs,numInSet)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Number of combinations",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "numObjs": {
+                    "name": "numObjs",
+                    "line": 171,
+                    "short_desc": "Number of different objects",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "numInSet": {
+                    "name": "numInSet",
+                    "line": 171,
+                    "short_desc": "Number of objects in each combination",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "EVEN": {
+            "name": "EVEN",
+            "line": 205,
+            "short_desc": "EVEN",
+            "long_desc": "Returns number rounded up to the nearest even integer.\nYou can use this function for processing items that come in twos. For example,\n       a packing crate accepts rows of one or two items. The crate is full when\n       the number of items, rounded up to the nearest two, matches the crate's\n       capacity.\n\nExcel Function:\n       EVEN(number)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Rounded Number",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 205,
+                    "short_desc": "Number to round",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "FACT": {
+            "name": "FACT",
+            "line": 237,
+            "short_desc": "FACT",
+            "long_desc": "Returns the factorial of a number.\nThe factorial of a number is equal to 1*2*3*...* number.\n\nExcel Function:\n       FACT(factVal)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Factorial",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "factVal": {
+                    "name": "factVal",
+                    "line": 237,
+                    "short_desc": "Factorial Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "FACTDOUBLE": {
+            "name": "FACTDOUBLE",
+            "line": 275,
+            "short_desc": "FACTDOUBLE",
+            "long_desc": "Returns the double factorial of a number.\n\nExcel Function:\n       FACTDOUBLE(factVal)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Double Factorial",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "factVal": {
+                    "name": "factVal",
+                    "line": 275,
+                    "short_desc": "Factorial Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "FLOOR": {
+            "name": "FLOOR",
+            "line": 309,
+            "short_desc": "FLOOR",
+            "long_desc": "Rounds number down, toward zero, to the nearest multiple of significance.\n\nExcel Function:\n       FLOOR(number[,significance])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "Rounded Number",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 309,
+                    "short_desc": "Number to round",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "significance": {
+                    "name": "significance",
+                    "line": 309,
+                    "short_desc": "Significance",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "GCD": {
+            "name": "GCD",
+            "line": 350,
+            "short_desc": "GCD",
+            "long_desc": "Returns the greatest common divisor of a series of numbers.\nThe greatest common divisor is the largest integer that divides both\n       number1 and number2 without a remainder.\n\nExcel Function:\n       GCD(number1[,number2[, ...]])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Greatest Common Divisor",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"GCD\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "INT": {
+            "name": "INT",
+            "line": 425,
+            "short_desc": "INT",
+            "long_desc": "Casts a floating point value to an integer\n\nExcel Function:\n       INT(number)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Integer value",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 425,
+                    "short_desc": "Number to cast to an integer",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "LCM": {
+            "name": "LCM",
+            "line": 457,
+            "short_desc": "LCM",
+            "long_desc": "Returns the lowest common multiplier of a series of numbers\nThe least common multiple is the smallest positive integer that is a multiple\nof all integer arguments number1, number2, and so on. Use LCM to add fractions\nwith different denominators.\n\nExcel Function:\n       LCM(number1[,number2[, ...]])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Lowest Common Multiplier",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"LCM\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "LOG_BASE": {
+            "name": "LOG_BASE",
+            "line": 508,
+            "short_desc": "LOG_BASE",
+            "long_desc": "Returns the logarithm of a number to a specified base. The default base is 10.\n\nExcel Function:\n       LOG(number[,base])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 508,
+                    "short_desc": "The positive real number for which you want the logarithm",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "base": {
+                    "name": "base",
+                    "line": 508,
+                    "short_desc": "The base of the logarithm. If base is omitted, it is assumed to be 10.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "10",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "MDETERM": {
+            "name": "MDETERM",
+            "line": 536,
+            "short_desc": "MDETERM",
+            "long_desc": "Returns the matrix determinant of an array.\n\nExcel Function:\n       MDETERM(array)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "matrixValues": {
+                    "name": "matrixValues",
+                    "line": 536,
+                    "short_desc": "A matrix of values",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "MINVERSE": {
+            "name": "MINVERSE",
+            "line": 587,
+            "short_desc": "MINVERSE",
+            "long_desc": "Returns the inverse matrix for the matrix stored in an array.\n\nExcel Function:\n       MINVERSE(array)",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "matrixValues": {
+                    "name": "matrixValues",
+                    "line": 587,
+                    "short_desc": "A matrix of values",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "MMULT": {
+            "name": "MMULT",
+            "line": 632,
+            "short_desc": "MMULT",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "matrixData1": {
+                    "name": "matrixData1",
+                    "line": 632,
+                    "short_desc": "A matrix of values",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "matrixData2": {
+                    "name": "matrixData2",
+                    "line": 632,
+                    "short_desc": "A matrix of values",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "MOD": {
+            "name": "MOD",
+            "line": 695,
+            "short_desc": "MOD",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Remainder",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "a": {
+                    "name": "a",
+                    "line": 695,
+                    "short_desc": "Dividend",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "b": {
+                    "name": "b",
+                    "line": 695,
+                    "short_desc": "Divisor",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "MROUND": {
+            "name": "MROUND",
+            "line": 721,
+            "short_desc": "MROUND",
+            "long_desc": "Rounds a number to the nearest multiple of a specified value",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "Rounded Number",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 721,
+                    "short_desc": "Number to round",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "multiple": {
+                    "name": "multiple",
+                    "line": 721,
+                    "short_desc": "Multiple to which you want to round $number",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "MULTINOMIAL": {
+            "name": "MULTINOMIAL",
+            "line": 748,
+            "short_desc": "MULTINOMIAL",
+            "long_desc": "Returns the ratio of the factorial of a sum of values to the product of factorials.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"MULTINOMIAL\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "ODD": {
+            "name": "ODD",
+            "line": 783,
+            "short_desc": "ODD",
+            "long_desc": "Returns number rounded up to the nearest odd integer.",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Rounded Number",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 783,
+                    "short_desc": "Number to round",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "POWER": {
+            "name": "POWER",
+            "line": 817,
+            "short_desc": "POWER",
+            "long_desc": "Computes x raised to the power y.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 817,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "y": {
+                    "name": "y",
+                    "line": 817,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "2",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "PRODUCT": {
+            "name": "PRODUCT",
+            "line": 848,
+            "short_desc": "PRODUCT",
+            "long_desc": "PRODUCT returns the product of all the values and cells referenced in the argument list.\n\nExcel Function:\n       PRODUCT(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"PRODUCT\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "QUOTIENT": {
+            "name": "QUOTIENT",
+            "line": 887,
+            "short_desc": "QUOTIENT",
+            "long_desc": "QUOTIENT function returns the integer portion of a division. Numerator is the divided number\n       and denominator is the divisor.\n\nExcel Function:\n       QUOTIENT(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"QUOTIENT\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "RAND": {
+            "name": "RAND",
+            "line": 920,
+            "short_desc": "RAND",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Random number",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "min": {
+                    "name": "min",
+                    "line": 920,
+                    "short_desc": "Minimal value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "max": {
+                    "name": "max",
+                    "line": 920,
+                    "short_desc": "Maximal value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ROMAN": {
+            "name": "ROMAN",
+            "line": 933,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "aValue": {
+                    "name": "aValue",
+                    "line": 933,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "style": {
+                    "name": "style",
+                    "line": 933,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ROUNDUP": {
+            "name": "ROUNDUP",
+            "line": 975,
+            "short_desc": "ROUNDUP",
+            "long_desc": "Rounds a number up to a specified number of decimal places",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "Rounded Number",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 975,
+                    "short_desc": "Number to round",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "digits": {
+                    "name": "digits",
+                    "line": 975,
+                    "short_desc": "Number of digits to which you want to round $number",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ROUNDDOWN": {
+            "name": "ROUNDDOWN",
+            "line": 1001,
+            "short_desc": "ROUNDDOWN",
+            "long_desc": "Rounds a number down to a specified number of decimal places",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "Rounded Number",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 1001,
+                    "short_desc": "Number to round",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "digits": {
+                    "name": "digits",
+                    "line": 1001,
+                    "short_desc": "Number of digits to which you want to round $number",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SERIESSUM": {
+            "name": "SERIESSUM",
+            "line": 1029,
+            "short_desc": "SERIESSUM",
+            "long_desc": "Returns the sum of a power series",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"SERIESSUM\" has \"4\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "SIGN": {
+            "name": "SIGN",
+            "line": 1066,
+            "short_desc": "SIGN",
+            "long_desc": "Determines the sign of a number. Returns 1 if the number is positive, zero (0)\nif the number is 0, and -1 if the number is negative.",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "sign value",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 1066,
+                    "short_desc": "Number to round",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SQRTPI": {
+            "name": "SQRTPI",
+            "line": 1091,
+            "short_desc": "SQRTPI",
+            "long_desc": "Returns the square root of (number * pi).",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "Square Root of Number * Pi",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 1091,
+                    "short_desc": "Number",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SUBTOTAL": {
+            "name": "SUBTOTAL",
+            "line": 1115,
+            "short_desc": "SUBTOTAL",
+            "long_desc": "Returns a subtotal in a list or database.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"SUBTOTAL\" has \"2\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "SUM": {
+            "name": "SUM",
+            "line": 1165,
+            "short_desc": "SUM",
+            "long_desc": "SUM computes the sum of all the values and cells referenced in the argument list.\n\nExcel Function:\n       SUM(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"SUM\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "SUMIF": {
+            "name": "SUMIF",
+            "line": 1195,
+            "short_desc": "SUMIF",
+            "long_desc": "Counts the number of cells that contain numbers within the list of arguments\n\nExcel Function:\n       SUMIF(value1[,value2[, ...]],condition)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"aArgs\" parameter of the method \"SUMIF\" is missing a @param tag",
+                "The \"sumArgs\" parameter of the method \"SUMIF\" is missing a @param tag"
+            ],
+            "parameters": {
+                "aArgs": {
+                    "name": "aArgs",
+                    "line": 1195,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "condition": {
+                    "name": "condition",
+                    "line": 1195,
+                    "short_desc": "The criteria that defines which cells will be summed.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "sumArgs": {
+                    "name": "sumArgs",
+                    "line": 1195,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SUMIFS": {
+            "name": "SUMIFS",
+            "line": 1237,
+            "short_desc": "SUMIFS",
+            "long_desc": "Counts the number of cells that contain numbers within the list of arguments\n\nExcel Function:\n\tSUMIFS(value1[,value2[, ...]],condition)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"SUMIFS\" has \"2\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "SUMPRODUCT": {
+            "name": "SUMPRODUCT",
+            "line": 1294,
+            "short_desc": "SUMPRODUCT",
+            "long_desc": "Excel Function:\nSUMPRODUCT(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"SUMPRODUCT\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "SUMSQ": {
+            "name": "SUMSQ",
+            "line": 1339,
+            "short_desc": "SUMSQ",
+            "long_desc": "SUMSQ returns the sum of the squares of the arguments\n\nExcel Function:\n       SUMSQ(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"SUMSQ\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "SUMX2MY2": {
+            "name": "SUMX2MY2",
+            "line": 1362,
+            "short_desc": "SUMX2MY2",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "matrixData1": {
+                    "name": "matrixData1",
+                    "line": 1362,
+                    "short_desc": "Matrix #1",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "matrixData2": {
+                    "name": "matrixData2",
+                    "line": 1362,
+                    "short_desc": "Matrix #2",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SUMX2PY2": {
+            "name": "SUMX2PY2",
+            "line": 1387,
+            "short_desc": "SUMX2PY2",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "matrixData1": {
+                    "name": "matrixData1",
+                    "line": 1387,
+                    "short_desc": "Matrix #1",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "matrixData2": {
+                    "name": "matrixData2",
+                    "line": 1387,
+                    "short_desc": "Matrix #2",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SUMXMY2": {
+            "name": "SUMXMY2",
+            "line": 1412,
+            "short_desc": "SUMXMY2",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "matrixData1": {
+                    "name": "matrixData1",
+                    "line": 1412,
+                    "short_desc": "Matrix #1",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "matrixData2": {
+                    "name": "matrixData2",
+                    "line": 1412,
+                    "short_desc": "Matrix #2",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "TRUNC": {
+            "name": "TRUNC",
+            "line": 1439,
+            "short_desc": "TRUNC",
+            "long_desc": "Truncates value to the number of fractional digits by number_digits.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "Truncated value",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 1439,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "digits": {
+                    "name": "digits",
+                    "line": 1439,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

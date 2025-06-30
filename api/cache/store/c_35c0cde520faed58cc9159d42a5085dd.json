@@ -1,0 +1,2148 @@
+{
+    "name": "PHPExcel",
+    "line": 34,
+    "short_desc": "PHPExcel",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel.php",
+    "relative_file": null,
+    "hash": "3745a941b1a420805fbc20a7c1695d3321e7c25e",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "hasMacros": {
+            "name": "hasMacros",
+            "line": 146,
+            "short_desc": "The workbook has macros ?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "true if workbook has macros, false if not",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setHasMacros": {
+            "name": "setHasMacros",
+            "line": 156,
+            "short_desc": "Define if a workbook has macros",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "hasMacros": {
+                    "name": "hasMacros",
+                    "line": 156,
+                    "short_desc": "true|false",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setMacrosCode": {
+            "name": "setMacrosCode",
+            "line": 166,
+            "short_desc": "Set the macros code",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "MacrosCode": {
+                    "name": "MacrosCode",
+                    "line": 166,
+                    "short_desc": "string|null",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getMacrosCode": {
+            "name": "getMacrosCode",
+            "line": 177,
+            "short_desc": "Return the macros code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setMacrosCertificate": {
+            "name": "setMacrosCertificate",
+            "line": 187,
+            "short_desc": "Set the macros certificate",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "Certificate": {
+                    "name": "Certificate",
+                    "line": 187,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "null",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "hasMacrosCertificate": {
+            "name": "hasMacrosCertificate",
+            "line": 197,
+            "short_desc": "Is the project signed ?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "true|false",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getMacrosCertificate": {
+            "name": "getMacrosCertificate",
+            "line": 207,
+            "short_desc": "Return the macros certificate",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "discardMacros": {
+            "name": "discardMacros",
+            "line": 216,
+            "short_desc": "Remove all macros, certificate from spreadsheet",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRibbonXMLData": {
+            "name": "setRibbonXMLData",
+            "line": 227,
+            "short_desc": "set ribbon XML data",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "Target": {
+                    "name": "Target",
+                    "line": 227,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "XMLData": {
+                    "name": "XMLData",
+                    "line": 227,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getRibbonXMLData": {
+            "name": "getRibbonXMLData",
+            "line": 241,
+            "short_desc": "retrieve ribbon XML Data",
+            "long_desc": "return string|null|array",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "What": {
+                    "name": "What",
+                    "line": 241,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'all'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setRibbonBinObjects": {
+            "name": "setRibbonBinObjects",
+            "line": 264,
+            "short_desc": "store binaries ribbon objects (pictures)",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "BinObjectsNames": {
+                    "name": "BinObjectsNames",
+                    "line": 264,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "BinObjectsData": {
+                    "name": "BinObjectsData",
+                    "line": 264,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getRibbonBinObjects": {
+            "name": "getRibbonBinObjects",
+            "line": 285,
+            "short_desc": "retrieve Binaries Ribbon Objects",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "What": {
+                    "name": "What",
+                    "line": 285,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'all'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "hasRibbon": {
+            "name": "hasRibbon",
+            "line": 317,
+            "short_desc": "This workbook have a custom UI ?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "true|false",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "hasRibbonBinObjects": {
+            "name": "hasRibbonBinObjects",
+            "line": 327,
+            "short_desc": "This workbook have additionnal object for the ribbon ?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "true|false",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "sheetCodeNameExists": {
+            "name": "sheetCodeNameExists",
+            "line": 338,
+            "short_desc": "Check if a sheet with a specified code name already exists",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pSheetCodeName": {
+                    "name": "pSheetCodeName",
+                    "line": 338,
+                    "short_desc": "Name of the worksheet to check",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getSheetByCodeName": {
+            "name": "getSheetByCodeName",
+            "line": 349,
+            "short_desc": "Get sheet by code name. Warning : sheet don't have always a code name !",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pName": {
+                    "name": "pName",
+                    "line": 349,
+                    "short_desc": "Sheet name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "__construct": {
+            "name": "__construct",
+            "line": 364,
+            "short_desc": "Create a new PHPExcel with one Worksheet",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "__destruct": {
+            "name": "__destruct",
+            "line": 396,
+            "short_desc": "Code to execute when this worksheet is unset()",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "disconnectWorksheets": {
+            "name": "disconnectWorksheets",
+            "line": 407,
+            "short_desc": "Disconnect all worksheets from this PHPExcel workbook object,\n   typically so that the PHPExcel object can be unset",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCalculationEngine": {
+            "name": "getCalculationEngine",
+            "line": 423,
+            "short_desc": "Return the calculation engine for this worksheet",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Calculation",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getProperties": {
+            "name": "getProperties",
+            "line": 433,
+            "short_desc": "Get properties",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_DocumentProperties",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setProperties": {
+            "name": "setProperties",
+            "line": 443,
+            "short_desc": "Set properties",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 443,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_DocumentProperties",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getSecurity": {
+            "name": "getSecurity",
+            "line": 453,
+            "short_desc": "Get security",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_DocumentSecurity",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSecurity": {
+            "name": "setSecurity",
+            "line": 463,
+            "short_desc": "Set security",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 463,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_DocumentSecurity",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getActiveSheet": {
+            "name": "getActiveSheet",
+            "line": 475,
+            "short_desc": "Get active sheet",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "createSheet": {
+            "name": "createSheet",
+            "line": 487,
+            "short_desc": "Create sheet and add it to this workbook",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "iSheetIndex": {
+                    "name": "iSheetIndex",
+                    "line": 487,
+                    "short_desc": "Index where sheet should go (0,1,..., or null for last)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ],
+                        [
+                            "null",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "sheetNameExists": {
+            "name": "sheetNameExists",
+            "line": 500,
+            "short_desc": "Check if a sheet with a specified name already exists",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pSheetName": {
+                    "name": "pSheetName",
+                    "line": 500,
+                    "short_desc": "Name of the worksheet to check",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "addSheet": {
+            "name": "addSheet",
+            "line": 513,
+            "short_desc": "Add sheet",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pSheet": {
+                    "name": "pSheet",
+                    "line": 513,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "iSheetIndex": {
+                    "name": "iSheetIndex",
+                    "line": 513,
+                    "short_desc": "Index where sheet should go (0,1,..., or null for last)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ],
+                        [
+                            "null",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "removeSheetByIndex": {
+            "name": "removeSheetByIndex",
+            "line": 554,
+            "short_desc": "Remove sheet by index",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pIndex": {
+                    "name": "pIndex",
+                    "line": 554,
+                    "short_desc": "Active sheet index",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getSheet": {
+            "name": "getSheet",
+            "line": 580,
+            "short_desc": "Get sheet by index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pIndex": {
+                    "name": "pIndex",
+                    "line": 580,
+                    "short_desc": "Sheet index",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getAllSheets": {
+            "name": "getAllSheets",
+            "line": 597,
+            "short_desc": "Get all sheets",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getSheetByName": {
+            "name": "getSheetByName",
+            "line": 608,
+            "short_desc": "Get sheet by name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pName": {
+                    "name": "pName",
+                    "line": 608,
+                    "short_desc": "Sheet name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getIndex": {
+            "name": "getIndex",
+            "line": 627,
+            "short_desc": "Get index for sheet",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Sheet index",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pSheet": {
+                    "name": "pSheet",
+                    "line": 627,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setIndexByName": {
+            "name": "setIndexByName",
+            "line": 646,
+            "short_desc": "Set index for sheet by sheet name.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "New sheet index",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "sheetName": {
+                    "name": "sheetName",
+                    "line": 646,
+                    "short_desc": "Sheet name to modify index for",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "newIndex": {
+                    "name": "newIndex",
+                    "line": 646,
+                    "short_desc": "New index for the sheet",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getSheetCount": {
+            "name": "getSheetCount",
+            "line": 668,
+            "short_desc": "Get sheet count",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getActiveSheetIndex": {
+            "name": "getActiveSheetIndex",
+            "line": 678,
+            "short_desc": "Get active sheet index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Active sheet index",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setActiveSheetIndex": {
+            "name": "setActiveSheetIndex",
+            "line": 690,
+            "short_desc": "Set active sheet index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pIndex": {
+                    "name": "pIndex",
+                    "line": 690,
+                    "short_desc": "Active sheet index",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setActiveSheetIndexByName": {
+            "name": "setActiveSheetIndexByName",
+            "line": 711,
+            "short_desc": "Set active sheet index by name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 711,
+                    "short_desc": "Sheet title",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getSheetNames": {
+            "name": "getSheetNames",
+            "line": 726,
+            "short_desc": "Get sheet names",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addExternalSheet": {
+            "name": "addExternalSheet",
+            "line": 745,
+            "short_desc": "Add external sheet",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pSheet": {
+                    "name": "pSheet",
+                    "line": 745,
+                    "short_desc": "External sheet to add",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "iSheetIndex": {
+                    "name": "iSheetIndex",
+                    "line": 745,
+                    "short_desc": "Index where sheet should go (0,1,..., or null for last)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ],
+                        [
+                            "null",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getNamedRanges": {
+            "name": "getNamedRanges",
+            "line": 776,
+            "short_desc": "Get named ranges",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_NamedRange",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addNamedRange": {
+            "name": "addNamedRange",
+            "line": 787,
+            "short_desc": "Add named range",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "namedRange": {
+                    "name": "namedRange",
+                    "line": 787,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_NamedRange",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getNamedRange": {
+            "name": "getNamedRange",
+            "line": 806,
+            "short_desc": "Get named range",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_NamedRange",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "namedRange": {
+                    "name": "namedRange",
+                    "line": 806,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pSheet": {
+                    "name": "pSheet",
+                    "line": 806,
+                    "short_desc": "Scope. Use null for global scope",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "removeNamedRange": {
+            "name": "removeNamedRange",
+            "line": 832,
+            "short_desc": "Remove named range",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "namedRange": {
+                    "name": "namedRange",
+                    "line": 832,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pSheet": {
+                    "name": "pSheet",
+                    "line": 832,
+                    "short_desc": "Scope: use null for global scope.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getWorksheetIterator": {
+            "name": "getWorksheetIterator",
+            "line": 851,
+            "short_desc": "Get worksheet iterator",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_WorksheetIterator",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "copy": {
+            "name": "copy",
+            "line": 861,
+            "short_desc": "Copy workbook (!= clone!)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "__clone": {
+            "name": "__clone",
+            "line": 877,
+            "short_desc": "Implement PHP __clone to create a deep clone, not just a shallow copy.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCellXfCollection": {
+            "name": "getCellXfCollection",
+            "line": 891,
+            "short_desc": "Get the workbook collection of cellXfs",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCellXfByIndex": {
+            "name": "getCellXfByIndex",
+            "line": 902,
+            "short_desc": "Get cellXf by index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pIndex": {
+                    "name": "pIndex",
+                    "line": 902,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getCellXfByHashCode": {
+            "name": "getCellXfByHashCode",
+            "line": 913,
+            "short_desc": "Get cellXf by hash code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style",
+                    false
+                ],
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "False if no match found",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 913,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "cellXfExists": {
+            "name": "cellXfExists",
+            "line": 929,
+            "short_desc": "Check if style exists in style collection",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pCellStyle": {
+                    "name": "pCellStyle",
+                    "line": 929,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Style",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getDefaultStyle": {
+            "name": "getDefaultStyle",
+            "line": 940,
+            "short_desc": "Get default style",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "addCellXf": {
+            "name": "addCellXf",
+            "line": 953,
+            "short_desc": "Add a cellXf to the workbook",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "style": {
+                    "name": "style",
+                    "line": 953,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Style",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "removeCellXfByIndex": {
+            "name": "removeCellXfByIndex",
+            "line": 965,
+            "short_desc": "Remove cellXf by index. It is ensured that all cells get their xf index updated.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pIndex": {
+                    "name": "pIndex",
+                    "line": 965,
+                    "short_desc": "Index to cellXf",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getCellXfSupervisor": {
+            "name": "getCellXfSupervisor",
+            "line": 995,
+            "short_desc": "Get the cellXf supervisor",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCellStyleXfCollection": {
+            "name": "getCellStyleXfCollection",
+            "line": 1005,
+            "short_desc": "Get the workbook collection of cellStyleXfs",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCellStyleXfByIndex": {
+            "name": "getCellStyleXfByIndex",
+            "line": 1016,
+            "short_desc": "Get cellStyleXf by index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pIndex": {
+                    "name": "pIndex",
+                    "line": 1016,
+                    "short_desc": "Index to cellXf",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getCellStyleXfByHashCode": {
+            "name": "getCellStyleXfByHashCode",
+            "line": 1027,
+            "short_desc": "Get cellStyleXf by hash code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style",
+                    false
+                ],
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "False if no match found",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 1027,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "addCellStyleXf": {
+            "name": "addCellStyleXf",
+            "line": 1042,
+            "short_desc": "Add a cellStyleXf to the workbook",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pStyle": {
+                    "name": "pStyle",
+                    "line": 1042,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Style",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "removeCellStyleXfByIndex": {
+            "name": "removeCellStyleXfByIndex",
+            "line": 1054,
+            "short_desc": "Remove cellStyleXf by index",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pIndex": {
+                    "name": "pIndex",
+                    "line": 1054,
+                    "short_desc": "Index to cellXf",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "garbageCollect": {
+            "name": "garbageCollect",
+            "line": 1067,
+            "short_desc": "Eliminate all unneeded cellXf and afterwards update the xfIndex for all cells\nand columns in the workbook",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getID": {
+            "name": "getID",
+            "line": 1149,
+            "short_desc": "Return the unique ID value assigned to this spreadsheet workbook",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

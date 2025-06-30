@@ -1,0 +1,290 @@
+{
+    "name": "PHPExcel_Shared_Escher_DggContainer_BstoreContainer_BSE",
+    "line": 28,
+    "short_desc": "PHPExcel_Shared_Escher_DggContainer_BstoreContainer_BSE",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Shared_Escher"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Shared\/Escher\/DggContainer\/BstoreContainer\/BSE.php",
+    "relative_file": null,
+    "hash": "b27e0b545168a426c0002e43ff86a792cfcf88b6",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setParent": {
+            "name": "setParent",
+            "line": 67,
+            "short_desc": "Set parent BLIP Store Entry Container",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "parent": {
+                    "name": "parent",
+                    "line": 67,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Shared_Escher_DggContainer_BstoreContainer",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getBlip": {
+            "name": "getBlip",
+            "line": 77,
+            "short_desc": "Get the BLIP",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Shared_Escher_DggContainer_BstoreContainer_BSE_Blip",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBlip": {
+            "name": "setBlip",
+            "line": 87,
+            "short_desc": "Set the BLIP",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "blip": {
+                    "name": "blip",
+                    "line": 87,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Shared_Escher_DggContainer_BstoreContainer_BSE_Blip",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getBlipType": {
+            "name": "getBlipType",
+            "line": 98,
+            "short_desc": "Get the BLIP type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBlipType": {
+            "name": "setBlipType",
+            "line": 108,
+            "short_desc": "Set the BLIP type",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"blipType\" parameter of the method \"setBlipType\" is missing a @param tag"
+            ],
+            "parameters": {
+                "blipType": {
+                    "name": "blipType",
+                    "line": 108,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "BLIPTYPE_ERROR": {
+            "name": "BLIPTYPE_ERROR",
+            "line": 30,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BLIPTYPE_UNKNOWN": {
+            "name": "BLIPTYPE_UNKNOWN",
+            "line": 31,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BLIPTYPE_EMF": {
+            "name": "BLIPTYPE_EMF",
+            "line": 32,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BLIPTYPE_WMF": {
+            "name": "BLIPTYPE_WMF",
+            "line": 33,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BLIPTYPE_PICT": {
+            "name": "BLIPTYPE_PICT",
+            "line": 34,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BLIPTYPE_JPEG": {
+            "name": "BLIPTYPE_JPEG",
+            "line": 35,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BLIPTYPE_PNG": {
+            "name": "BLIPTYPE_PNG",
+            "line": 36,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BLIPTYPE_DIB": {
+            "name": "BLIPTYPE_DIB",
+            "line": 37,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BLIPTYPE_TIFF": {
+            "name": "BLIPTYPE_TIFF",
+            "line": 38,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BLIPTYPE_CMYKJPEG": {
+            "name": "BLIPTYPE_CMYKJPEG",
+            "line": 39,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

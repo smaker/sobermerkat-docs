@@ -1,0 +1,333 @@
+{
+    "name": "PHPExcel_Calculation_FormulaParser",
+    "line": 53,
+    "short_desc": "PHPExcel_Calculation_FormulaParser",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Calculation"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/adm\/Excel\/Classes\/PHPExcel\/Calculation\/FormulaParser.php",
+    "relative_file": null,
+    "hash": "999675edd11cbf961df8bb3f2874d25f39a3e316",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 93,
+            "short_desc": "Create a new PHPExcel_Calculation_FormulaParser",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Calculation_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFormula": {
+                    "name": "pFormula",
+                    "line": 93,
+                    "short_desc": "Formula to parse",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFormula": {
+            "name": "getFormula",
+            "line": 111,
+            "short_desc": "Get Formula",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getToken": {
+            "name": "getToken",
+            "line": 123,
+            "short_desc": "Get Token",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Calculation_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pId": {
+                    "name": "pId",
+                    "line": 123,
+                    "short_desc": "Token id",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTokenCount": {
+            "name": "getTokenCount",
+            "line": 137,
+            "short_desc": "Get Token count",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getTokens": {
+            "name": "getTokens",
+            "line": 147,
+            "short_desc": "Get Tokens",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Calculation_FormulaToken",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "QUOTE_DOUBLE": {
+            "name": "QUOTE_DOUBLE",
+            "line": 56,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "QUOTE_SINGLE": {
+            "name": "QUOTE_SINGLE",
+            "line": 57,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BRACKET_CLOSE": {
+            "name": "BRACKET_CLOSE",
+            "line": 58,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BRACKET_OPEN": {
+            "name": "BRACKET_OPEN",
+            "line": 59,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BRACE_OPEN": {
+            "name": "BRACE_OPEN",
+            "line": 60,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BRACE_CLOSE": {
+            "name": "BRACE_CLOSE",
+            "line": 61,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "PAREN_OPEN": {
+            "name": "PAREN_OPEN",
+            "line": 62,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "PAREN_CLOSE": {
+            "name": "PAREN_CLOSE",
+            "line": 63,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SEMICOLON": {
+            "name": "SEMICOLON",
+            "line": 64,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "WHITESPACE": {
+            "name": "WHITESPACE",
+            "line": 65,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "COMMA": {
+            "name": "COMMA",
+            "line": 66,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "ERROR_START": {
+            "name": "ERROR_START",
+            "line": 67,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATORS_SN": {
+            "name": "OPERATORS_SN",
+            "line": 69,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATORS_INFIX": {
+            "name": "OPERATORS_INFIX",
+            "line": 70,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATORS_POSTFIX": {
+            "name": "OPERATORS_POSTFIX",
+            "line": 71,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

@@ -1,0 +1,554 @@
+{
+    "name": "PHPExcel_Shared_OLE_PPS_Root",
+    "line": 30,
+    "short_desc": "Class for creating Root PPS's for OLE containers",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "author": [
+            [
+                "Xavier",
+                "Noguer",
+                "<xnoguer@php.net>"
+            ]
+        ],
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Shared_OLE"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Shared\/OLE\/PPS\/Root.php",
+    "relative_file": null,
+    "hash": "2cb594b56569980dbd90e1001022d3a275592137",
+    "parent": "PHPExcel_Shared_OLE_PPS",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "tempDirectory": {
+            "name": "tempDirectory",
+            "line": 37,
+            "short_desc": "Directory for temporary files",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 37,
+                    "endLine": 37
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 37,
+                        "endLine": 37
+                    },
+                    "parts": [
+                        "null"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 43,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"raChild\" parameter of the method \"__construct\" is missing a @param tag"
+            ],
+            "parameters": {
+                "time_1st": {
+                    "name": "time_1st",
+                    "line": 43,
+                    "short_desc": "A timestamp",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "time_2nd": {
+                    "name": "time_2nd",
+                    "line": 43,
+                    "short_desc": "A timestamp",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "raChild": {
+                    "name": "raChild",
+                    "line": 43,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "save": {
+            "name": "save",
+            "line": 61,
+            "short_desc": "Method for saving the whole OLE container (including files).",
+            "long_desc": "In fact, if called with an empty argument (or '-'), it saves to a\ntemporary file and then outputs it's contents to stdout.\nIf a resource pointer to a stream created by fopen() is passed\nit will be used, but you have to close such stream by yourself.",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "true on success",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "filename": {
+                    "name": "filename",
+                    "line": 61,
+                    "short_desc": "The name of the file or stream where to save the OLE container.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "resource",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "_calcSize": {
+            "name": "_calcSize",
+            "line": 122,
+            "short_desc": "Calculate some numbers",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "The array of numbers",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "raList": {
+                    "name": "raList",
+                    "line": 122,
+                    "short_desc": "Reference to an array of PPS's",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": true,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "_saveHeader": {
+            "name": "_saveHeader",
+            "line": 175,
+            "short_desc": "Save OLE header",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "iSBDcnt": {
+                    "name": "iSBDcnt",
+                    "line": 175,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "iBBcnt": {
+                    "name": "iBBcnt",
+                    "line": 175,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "iPPScnt": {
+                    "name": "iPPScnt",
+                    "line": 175,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "_saveBigData": {
+            "name": "_saveBigData",
+            "line": 255,
+            "short_desc": "Saving big data (PPS's with data bigger than PHPExcel_Shared_OLE::OLE_DATA_SIZE_SMALL)",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "iStBlk": {
+                    "name": "iStBlk",
+                    "line": 255,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "raList": {
+                    "name": "raList",
+                    "line": 255,
+                    "short_desc": "Reference to array of PPS's",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": true,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "_makeSmallData": {
+            "name": "_makeSmallData",
+            "line": 302,
+            "short_desc": "get small data (PPS's with data smaller than PHPExcel_Shared_OLE::OLE_DATA_SIZE_SMALL)",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "raList": {
+                    "name": "raList",
+                    "line": 302,
+                    "short_desc": "Reference to array of PPS's",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": true,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "_savePps": {
+            "name": "_savePps",
+            "line": 359,
+            "short_desc": "Saves all the PPS's WKs",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "raList": {
+                    "name": "raList",
+                    "line": 359,
+                    "short_desc": "Reference to an array with all PPS's",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": true,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "_saveBbd": {
+            "name": "_saveBbd",
+            "line": 382,
+            "short_desc": "Saving Big Block Depot",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "iSbdSize": {
+                    "name": "iSbdSize",
+                    "line": 382,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "iBsize": {
+                    "name": "iBsize",
+                    "line": 382,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "iPpsCnt": {
+                    "name": "iPpsCnt",
+                    "line": 382,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

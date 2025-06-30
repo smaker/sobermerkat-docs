@@ -1,0 +1,1441 @@
+{
+    "name": "item_list",
+    "line": 39,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/shop.lib.php",
+    "relative_file": null,
+    "hash": "c28379fee1fd586b475705e7dc45b6aadf28599e",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "type": {
+            "name": "type",
+            "line": 43,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "list_skin": {
+            "name": "list_skin",
+            "line": 45,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "list_mod": {
+            "name": "list_mod",
+            "line": 46,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "list_row": {
+            "name": "list_row",
+            "line": 47,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "img_width": {
+            "name": "img_width",
+            "line": 48,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "img_height": {
+            "name": "img_height",
+            "line": 49,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "href": {
+            "name": "href",
+            "line": 52,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 52,
+                    "endLine": 52,
+                    "kind": 2,
+                    "rawValue": "\"\""
+                },
+                "value": ""
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "fields": {
+            "name": "fields",
+            "line": 55,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 55,
+                    "endLine": 55,
+                    "kind": 2,
+                    "rawValue": "\"*\""
+                },
+                "value": "*"
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "ca_id": {
+            "name": "ca_id",
+            "line": 58,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 58,
+                    "endLine": 58,
+                    "kind": 2,
+                    "rawValue": "\"\""
+                },
+                "value": ""
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "ca_id2": {
+            "name": "ca_id2",
+            "line": 59,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 59,
+                    "endLine": 59,
+                    "kind": 2,
+                    "rawValue": "\"\""
+                },
+                "value": ""
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "ca_id3": {
+            "name": "ca_id3",
+            "line": 60,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 60,
+                    "endLine": 60,
+                    "kind": 2,
+                    "rawValue": "\"\""
+                },
+                "value": ""
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "order_by": {
+            "name": "order_by",
+            "line": 63,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 63,
+                    "endLine": 63,
+                    "kind": 2,
+                    "rawValue": "\"it_order, it_id desc\""
+                },
+                "value": "it_order, it_id desc"
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "event": {
+            "name": "event",
+            "line": 66,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 66,
+                    "endLine": 66,
+                    "kind": 2,
+                    "rawValue": "\"\""
+                },
+                "value": ""
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "css": {
+            "name": "css",
+            "line": 69,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 69,
+                    "endLine": 69,
+                    "kind": 2,
+                    "rawValue": "\"\""
+                },
+                "value": ""
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "use": {
+            "name": "use",
+            "line": 72,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 72,
+                    "endLine": 72,
+                    "rawValue": "1",
+                    "kind": 10
+                },
+                "value": 1
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "is_mobile": {
+            "name": "is_mobile",
+            "line": 75,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 75,
+                    "endLine": 75
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 75,
+                        "endLine": 75
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "view_it_id": {
+            "name": "view_it_id",
+            "line": 78,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 78,
+                    "endLine": 78
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 78,
+                        "endLine": 78
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "view_it_img": {
+            "name": "view_it_img",
+            "line": 79,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 79,
+                    "endLine": 79
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 79,
+                        "endLine": 79
+                    },
+                    "parts": [
+                        "true"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "view_it_name": {
+            "name": "view_it_name",
+            "line": 80,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 80,
+                    "endLine": 80
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 80,
+                        "endLine": 80
+                    },
+                    "parts": [
+                        "true"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "view_it_basic": {
+            "name": "view_it_basic",
+            "line": 81,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 81,
+                    "endLine": 81
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 81,
+                        "endLine": 81
+                    },
+                    "parts": [
+                        "true"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "view_it_price": {
+            "name": "view_it_price",
+            "line": 82,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 82,
+                    "endLine": 82
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 82,
+                        "endLine": 82
+                    },
+                    "parts": [
+                        "true"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "view_it_cust_price": {
+            "name": "view_it_cust_price",
+            "line": 83,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 83,
+                    "endLine": 83
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 83,
+                        "endLine": 83
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "view_it_icon": {
+            "name": "view_it_icon",
+            "line": 84,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 84,
+                    "endLine": 84
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 84,
+                        "endLine": 84
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "view_sns": {
+            "name": "view_sns",
+            "line": 85,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 85,
+                    "endLine": 85
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 85,
+                        "endLine": 85
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "view_star": {
+            "name": "view_star",
+            "line": 86,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 86,
+                    "endLine": 86
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 86,
+                        "endLine": 86
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "count": {
+            "name": "count",
+            "line": 89,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 89,
+                    "endLine": 89,
+                    "rawValue": "0",
+                    "kind": 10
+                },
+                "value": 0
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "is_page": {
+            "name": "is_page",
+            "line": 92,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 92,
+                    "endLine": 92
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 92,
+                        "endLine": 92
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "total_count": {
+            "name": "total_count",
+            "line": 95,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 95,
+                    "endLine": 95,
+                    "rawValue": "0",
+                    "kind": 10
+                },
+                "value": 0
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "from_record": {
+            "name": "from_record",
+            "line": 98,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 98,
+                    "endLine": 98,
+                    "rawValue": "0",
+                    "kind": 10
+                },
+                "value": 0
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "query": {
+            "name": "query",
+            "line": 101,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 101,
+                    "endLine": 101,
+                    "kind": 2,
+                    "rawValue": "\"\""
+                },
+                "value": ""
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 110,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "list_skin": {
+                    "name": "list_skin",
+                    "line": 110,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "list_mod": {
+                    "name": "list_mod",
+                    "line": 110,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "list_row": {
+                    "name": "list_row",
+                    "line": 110,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "img_width": {
+                    "name": "img_width",
+                    "line": 110,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "img_height": {
+                    "name": "img_height",
+                    "line": 110,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_type": {
+            "name": "set_type",
+            "line": 120,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 120,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_category": {
+            "name": "set_category",
+            "line": 134,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ca_id": {
+                    "name": "ca_id",
+                    "line": 134,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "level": {
+                    "name": "level",
+                    "line": 134,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_event": {
+            "name": "set_event",
+            "line": 145,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ev_id": {
+                    "name": "ev_id",
+                    "line": 145,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_list_skin": {
+            "name": "set_list_skin",
+            "line": 152,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "list_skin": {
+                    "name": "list_skin",
+                    "line": 152,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_list_mod": {
+            "name": "set_list_mod",
+            "line": 163,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "list_mod": {
+                    "name": "list_mod",
+                    "line": 163,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_list_row": {
+            "name": "set_list_row",
+            "line": 174,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "list_row": {
+                    "name": "list_row",
+                    "line": 174,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_img_size": {
+            "name": "set_img_size",
+            "line": 187,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "img_width": {
+                    "name": "img_width",
+                    "line": 187,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "img_height": {
+                    "name": "img_height",
+                    "line": 187,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_fields": {
+            "name": "set_fields",
+            "line": 199,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "str": {
+                    "name": "str",
+                    "line": 199,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_order_by": {
+            "name": "set_order_by",
+            "line": 204,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "str": {
+                    "name": "str",
+                    "line": 204,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_use": {
+            "name": "set_use",
+            "line": 209,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "use": {
+                    "name": "use",
+                    "line": 209,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_mobile": {
+            "name": "set_mobile",
+            "line": 214,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "mobile": {
+                    "name": "mobile",
+                    "line": 214,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_view": {
+            "name": "set_view",
+            "line": 222,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "field": {
+                    "name": "field",
+                    "line": 222,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "view": {
+                    "name": "view",
+                    "line": 222,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_href": {
+            "name": "set_href",
+            "line": 228,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "href": {
+                    "name": "href",
+                    "line": 228,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_css": {
+            "name": "set_css",
+            "line": 234,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "css": {
+                    "name": "css",
+                    "line": 234,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_is_page": {
+            "name": "set_is_page",
+            "line": 239,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "is_page": {
+                    "name": "is_page",
+                    "line": 239,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_from_record": {
+            "name": "set_from_record",
+            "line": 244,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "from_record": {
+                    "name": "from_record",
+                    "line": 244,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_query": {
+            "name": "set_query",
+            "line": 249,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "query": {
+                    "name": "query",
+                    "line": 249,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "run": {
+            "name": "run",
+            "line": 254,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

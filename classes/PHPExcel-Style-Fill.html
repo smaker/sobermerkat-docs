@@ -1,0 +1,2672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>쏘버마켓 API 문서</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">쏘버마켓 API 문서</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -packages">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Services.html" class="">Services</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Services-JSON.html" class="">JSON</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Spreadsheet.html" class="">Spreadsheet</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Spreadsheet-Excel.html" class="">Excel</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/PHPExcel.html" class="">PHPExcel</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/PHPExcel-CachedObjectStorage.html" class="">CachedObjectStorage</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Calculation.html" class="">Calculation</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Cell.html" class="">Cell</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Chart.html" class="">Chart</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Reader.html" class="">Reader</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-RichText.html" class="">RichText</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Settings.html" class="">Settings</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Shared.html" class="">Shared</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Style.html" class="">Style</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Worksheet.html" class="">Worksheet</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Writer.html" class="">Writer</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL.html" class="">JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL-IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod.html" class="">IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix.html" class="">JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix-IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali.html" class="">IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAForanm.html" class="">JAMAForanm</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAForanm-by.html" class="">by</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMA.html" class="">JAMA</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAErrorhandlingauthorMichaelBommaritoversion01292005.html" class="">JAMAErrorhandlingauthorMichaelBommaritoversion01292005</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow.html" class="">JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category -reports">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category -indices">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel.html">PHPExcel</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel-Style.html">Style</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    PHPExcel_Style_Fill
+
+        <span class="phpdocumentor-element__extends">
+        extends <a href="classes/PHPExcel-Style-Supervisor.html"><abbr title="\PHPExcel_Style_Supervisor">PHPExcel_Style_Supervisor</abbr></a>
+    </span>
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel.html">PHPExcel</a></li>
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel-Style.html">Style</a></li>
+                            </ul>
+        </div>
+    
+            <span class="phpdocumentor-element__implements">
+            implements
+                            <a href="classes/PHPExcel-IComparable.html"><abbr title="\PHPExcel_IComparable">PHPExcel_IComparable</abbr></a>                    </span>
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">28</span>
+
+    </aside>
+
+            <p class="phpdocumentor-summary">PHPExcel_Style_Fill</p>
+
+
+    <section class="phpdocumentor-description"><p>Copyright (c) 2006 - 2015 PHPExcel</p>
+<p>This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.</p>
+<p>This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.</p>
+<p>You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA</p>
+</section>
+
+
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Style-Fill.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>PHPExcel</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">copyright</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2006 - 2015 PHPExcel (http://www.codeplex.com/PHPExcel)</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">license</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">version</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>##VERSION##, ##DATE##</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/PHPExcel-Style-Fill.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+    <h4 id="toc-interfaces">
+        Interfaces
+        <a href="classes/PHPExcel-Style-Fill.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <dl class="phpdocumentor-table-of-contents">
+                    <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/PHPExcel-IComparable.html"><abbr title="\PHPExcel_IComparable">PHPExcel_IComparable</abbr></a></dt><dd>PHPExcel_IComparable</dd>    </dl>
+
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/PHPExcel-Style-Fill.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_GRADIENT_LINEAR">FILL_GRADIENT_LINEAR</a>
+    <span>
+        &nbsp;= &#039;linear&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_GRADIENT_PATH">FILL_GRADIENT_PATH</a>
+    <span>
+        &nbsp;= &#039;path&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_NONE">FILL_NONE</a>
+    <span>
+        &nbsp;= &#039;none&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKDOWN">FILL_PATTERN_DARKDOWN</a>
+    <span>
+        &nbsp;= &#039;darkDown&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKGRAY">FILL_PATTERN_DARKGRAY</a>
+    <span>
+        &nbsp;= &#039;darkGray&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKGRID">FILL_PATTERN_DARKGRID</a>
+    <span>
+        &nbsp;= &#039;darkGrid&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKHORIZONTAL">FILL_PATTERN_DARKHORIZONTAL</a>
+    <span>
+        &nbsp;= &#039;darkHorizontal&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKTRELLIS">FILL_PATTERN_DARKTRELLIS</a>
+    <span>
+        &nbsp;= &#039;darkTrellis&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKUP">FILL_PATTERN_DARKUP</a>
+    <span>
+        &nbsp;= &#039;darkUp&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKVERTICAL">FILL_PATTERN_DARKVERTICAL</a>
+    <span>
+        &nbsp;= &#039;darkVertical&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_GRAY0625">FILL_PATTERN_GRAY0625</a>
+    <span>
+        &nbsp;= &#039;gray0625&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_GRAY125">FILL_PATTERN_GRAY125</a>
+    <span>
+        &nbsp;= &#039;gray125&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTDOWN">FILL_PATTERN_LIGHTDOWN</a>
+    <span>
+        &nbsp;= &#039;lightDown&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTGRAY">FILL_PATTERN_LIGHTGRAY</a>
+    <span>
+        &nbsp;= &#039;lightGray&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTGRID">FILL_PATTERN_LIGHTGRID</a>
+    <span>
+        &nbsp;= &#039;lightGrid&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTHORIZONTAL">FILL_PATTERN_LIGHTHORIZONTAL</a>
+    <span>
+        &nbsp;= &#039;lightHorizontal&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTTRELLIS">FILL_PATTERN_LIGHTTRELLIS</a>
+    <span>
+        &nbsp;= &#039;lightTrellis&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTUP">FILL_PATTERN_LIGHTUP</a>
+    <span>
+        &nbsp;= &#039;lightUp&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTVERTICAL">FILL_PATTERN_LIGHTVERTICAL</a>
+    <span>
+        &nbsp;= &#039;lightVertical&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_MEDIUMGRAY">FILL_PATTERN_MEDIUMGRAY</a>
+    <span>
+        &nbsp;= &#039;mediumGray&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#constant_FILL_SOLID">FILL_SOLID</a>
+    <span>
+        &nbsp;= &#039;solid&#039;                            </span>
+</dt>
+
+    </dl>
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PHPExcel-Style-Fill.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#property_endColor">$endColor</a>
+    <span>
+                        &nbsp;: <a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a>            </span>
+</dt>
+<dd>End color</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#property_fillType">$fillType</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>Fill type</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Style-Supervisor.html#property_isSupervisor">$isSupervisor</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+<dd>Supervisor?</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Style-Supervisor.html#property_parent">$parent</a>
+    <span>
+                        &nbsp;: <a href="classes/PHPExcel-Style.html"><abbr title="\PHPExcel_Style">PHPExcel_Style</abbr></a>            </span>
+</dt>
+<dd>Parent. Only used for supervisor</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#property_rotation">$rotation</a>
+    <span>
+                        &nbsp;: float            </span>
+</dt>
+<dd>Rotation</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#property_startColor">$startColor</a>
+    <span>
+                        &nbsp;: <a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a>            </span>
+</dt>
+<dd>Start color</dd>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/PHPExcel-Style-Fill.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Supervisor.html#method___clone">__clone()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Implement PHP __clone to create a deep clone, not just a shallow copy.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method___construct">__construct()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Create a new PHPExcel_Style_Fill</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_applyFromArray">applyFromArray()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a>    </span>
+</dt>
+<dd>Apply styles from array</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Supervisor.html#method_bindParent">bindParent()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Style-Supervisor.html"><abbr title="\PHPExcel_Style_Supervisor">PHPExcel_Style_Supervisor</abbr></a>    </span>
+</dt>
+<dd>Bind parent. Only used for supervisor</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Supervisor.html#method_getActiveCell">getActiveCell()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Get the currently active cell coordinate in currently active sheet.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Supervisor.html#method_getActiveSheet">getActiveSheet()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Worksheet.html"><abbr title="\PHPExcel_Worksheet">PHPExcel_Worksheet</abbr></a>    </span>
+</dt>
+<dd>Get the currently active sheet. Only used for supervisor</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_getEndColor">getEndColor()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a>    </span>
+</dt>
+<dd>Get End Color</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_getFillType">getFillType()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Get Fill Type</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_getHashCode">getHashCode()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Get hash code</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Supervisor.html#method_getIsSupervisor">getIsSupervisor()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Is this a supervisor or a cell style component?</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_getRotation">getRotation()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>Get Rotation</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Supervisor.html#method_getSelectedCells">getSelectedCells()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Get the currently active cell coordinate in currently active sheet.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_getSharedComponent">getSharedComponent()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a>    </span>
+</dt>
+<dd>Get the shared style component for the currently active cell in currently active sheet.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_getStartColor">getStartColor()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a>    </span>
+</dt>
+<dd>Get Start Color</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_getStyleArray">getStyleArray()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Build style array from subcomponents</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_setEndColor">setEndColor()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a>    </span>
+</dt>
+<dd>Set End Color</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_setFillType">setFillType()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a>    </span>
+</dt>
+<dd>Set Fill Type</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_setRotation">setRotation()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a>    </span>
+</dt>
+<dd>Set Rotation</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Style-Fill.html#method_setStartColor">setStartColor()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a>    </span>
+</dt>
+<dd>Set Start Color</dd>
+
+    </dl>
+
+
+
+        
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/PHPExcel-Style-Fill.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_GRADIENT_LINEAR">
+        FILL_GRADIENT_LINEAR
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_GRADIENT_LINEAR" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_GRADIENT_LINEAR</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;linear&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_GRADIENT_PATH">
+        FILL_GRADIENT_PATH
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_GRADIENT_PATH" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">34</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_GRADIENT_PATH</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;path&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_NONE">
+        FILL_NONE
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_NONE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_NONE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;none&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_DARKDOWN">
+        FILL_PATTERN_DARKDOWN
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKDOWN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_DARKDOWN</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;darkDown&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_DARKGRAY">
+        FILL_PATTERN_DARKGRAY
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKGRAY" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_DARKGRAY</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;darkGray&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_DARKGRID">
+        FILL_PATTERN_DARKGRID
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKGRID" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">37</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_DARKGRID</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;darkGrid&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_DARKHORIZONTAL">
+        FILL_PATTERN_DARKHORIZONTAL
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKHORIZONTAL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">38</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_DARKHORIZONTAL</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;darkHorizontal&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_DARKTRELLIS">
+        FILL_PATTERN_DARKTRELLIS
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKTRELLIS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">39</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_DARKTRELLIS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;darkTrellis&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_DARKUP">
+        FILL_PATTERN_DARKUP
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKUP" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">40</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_DARKUP</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;darkUp&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_DARKVERTICAL">
+        FILL_PATTERN_DARKVERTICAL
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKVERTICAL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">41</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_DARKVERTICAL</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;darkVertical&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_GRAY0625">
+        FILL_PATTERN_GRAY0625
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_GRAY0625" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">42</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_GRAY0625</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;gray0625&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_GRAY125">
+        FILL_PATTERN_GRAY125
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_GRAY125" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">43</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_GRAY125</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;gray125&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_LIGHTDOWN">
+        FILL_PATTERN_LIGHTDOWN
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTDOWN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">44</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_LIGHTDOWN</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;lightDown&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_LIGHTGRAY">
+        FILL_PATTERN_LIGHTGRAY
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTGRAY" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">45</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_LIGHTGRAY</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;lightGray&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_LIGHTGRID">
+        FILL_PATTERN_LIGHTGRID
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTGRID" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">46</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_LIGHTGRID</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;lightGrid&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_LIGHTHORIZONTAL">
+        FILL_PATTERN_LIGHTHORIZONTAL
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTHORIZONTAL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_LIGHTHORIZONTAL</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;lightHorizontal&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_LIGHTTRELLIS">
+        FILL_PATTERN_LIGHTTRELLIS
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTTRELLIS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">48</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_LIGHTTRELLIS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;lightTrellis&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_LIGHTUP">
+        FILL_PATTERN_LIGHTUP
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTUP" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">49</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_LIGHTUP</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;lightUp&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_LIGHTVERTICAL">
+        FILL_PATTERN_LIGHTVERTICAL
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTVERTICAL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">50</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_LIGHTVERTICAL</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;lightVertical&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_PATTERN_MEDIUMGRAY">
+        FILL_PATTERN_MEDIUMGRAY
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_MEDIUMGRAY" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">51</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_PATTERN_MEDIUMGRAY</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;mediumGray&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_FILL_SOLID">
+        FILL_SOLID
+        <a href="classes/PHPExcel-Style-Fill.html#constant_FILL_SOLID" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">32</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">FILL_SOLID</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;solid&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+            </section>
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/PHPExcel-Style-Fill.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_endColor">
+        $endColor
+        <a href="classes/PHPExcel-Style-Fill.html#property_endColor" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">79</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">End color</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$endColor</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_fillType">
+        $fillType
+        <a href="classes/PHPExcel-Style-Fill.html#property_fillType" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">58</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Fill type</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$fillType</span>
+     = <span class="phpdocumentor-signature__default-value">\PHPExcel_Style_Fill::FILL_NONE</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_isSupervisor">
+        $isSupervisor
+        <a href="classes/PHPExcel-Style-Supervisor.html#property_isSupervisor" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Supervisor.php"><a href="files/lib-phpexcel-style-supervisor.html"><abbr title="lib/PHPExcel/Style/Supervisor.php">Supervisor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Supervisor?</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$isSupervisor</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_parent">
+        $parent
+        <a href="classes/PHPExcel-Style-Supervisor.html#property_parent" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Supervisor.php"><a href="files/lib-phpexcel-style-supervisor.html"><abbr title="lib/PHPExcel/Style/Supervisor.php">Supervisor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">42</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Parent. Only used for supervisor</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PHPExcel-Style.html"><abbr title="\PHPExcel_Style">PHPExcel_Style</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$parent</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_rotation">
+        $rotation
+        <a href="classes/PHPExcel-Style-Fill.html#property_rotation" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">65</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Rotation</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">float</span>
+    <span class="phpdocumentor-signature__name">$rotation</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_startColor">
+        $startColor
+        <a href="classes/PHPExcel-Style-Fill.html#property_startColor" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">72</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Start color</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$startColor</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/PHPExcel-Style-Fill.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___clone">
+        __clone()
+        <a href="classes/PHPExcel-Style-Supervisor.html#method___clone" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Supervisor.php"><a href="files/lib-phpexcel-style-supervisor.html"><abbr title="lib/PHPExcel/Style/Supervisor.php">Supervisor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">114</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Implement PHP __clone to create a deep clone, not just a shallow copy.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__clone</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PHPExcel-Style-Fill.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">91</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Create a new PHPExcel_Style_Fill</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$isSupervisor</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$isConditional</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$isSupervisor</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Flag indicating if this is a supervisor or not
+Leave this value at default unless you understand exactly what
+its ramifications are</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$isConditional</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Flag indicating if this is a conditional style or not
+Leave this value at default unless you understand exactly what
+its ramifications are</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_applyFromArray">
+        applyFromArray()
+        <a href="classes/PHPExcel-Style-Fill.html#method_applyFromArray" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">154</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Apply styles from array</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">applyFromArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pStyles</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><code class="prettyprint">
+$objPHPExcel->getActiveSheet()->getStyle('B2')->getFill()->applyFromArray(
+       array(
+           'type'       => PHPExcel_Style_Fill::FILL_GRADIENT_LINEAR,
+           'rotation'   => 0,
+           'startcolor' => array(
+               'rgb' => '000000'
+           ),
+           'endcolor'   => array(
+               'argb' => 'FFFFFFFF'
+           )
+       )
+);
+</code>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pStyles</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Array containing style information</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Style-Fill.html#method_applyFromArray#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Exception.html"><abbr title="\PHPExcel_Exception">PHPExcel_Exception</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_bindParent">
+        bindParent()
+        <a href="classes/PHPExcel-Style-Supervisor.html#method_bindParent" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Supervisor.php"><a href="files/lib-phpexcel-style-supervisor.html"><abbr title="lib/PHPExcel/Style/Supervisor.php">Supervisor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">63</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Bind parent. Only used for supervisor</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">bindParent</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PHPExcel.html"><abbr title="\PHPExcel">PHPExcel</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$parent</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$parentPropertyName</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Supervisor.html"><abbr title="\PHPExcel_Style_Supervisor">PHPExcel_Style_Supervisor</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$parent</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PHPExcel.html"><abbr title="\PHPExcel">PHPExcel</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$parentPropertyName</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Supervisor.html"><abbr title="\PHPExcel_Style_Supervisor">PHPExcel_Style_Supervisor</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getActiveCell">
+        getActiveCell()
+        <a href="classes/PHPExcel-Style-Supervisor.html#method_getActiveCell" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Supervisor.php"><a href="files/lib-phpexcel-style-supervisor.html"><abbr title="lib/PHPExcel/Style/Supervisor.php">Supervisor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">106</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get the currently active cell coordinate in currently active sheet.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getActiveCell</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Only used for supervisor</p>
+</section>
+
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>E.g. 'A1'</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getActiveSheet">
+        getActiveSheet()
+        <a href="classes/PHPExcel-Style-Supervisor.html#method_getActiveSheet" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Supervisor.php"><a href="files/lib-phpexcel-style-supervisor.html"><abbr title="lib/PHPExcel/Style/Supervisor.php">Supervisor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">84</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get the currently active sheet. Only used for supervisor</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getActiveSheet</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Worksheet.html"><abbr title="\PHPExcel_Worksheet">PHPExcel_Worksheet</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Worksheet.html"><abbr title="\PHPExcel_Worksheet">PHPExcel_Worksheet</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getEndColor">
+        getEndColor()
+        <a href="classes/PHPExcel-Style-Fill.html#method_getEndColor" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">278</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get End Color</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getEndColor</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getFillType">
+        getFillType()
+        <a href="classes/PHPExcel-Style-Fill.html#method_getFillType" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">187</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get Fill Type</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getFillType</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getHashCode">
+        getHashCode()
+        <a href="classes/PHPExcel-Style-Fill.html#method_getHashCode" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">309</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get hash code</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getHashCode</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Hash code</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getIsSupervisor">
+        getIsSupervisor()
+        <a href="classes/PHPExcel-Style-Supervisor.html#method_getIsSupervisor" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Supervisor.php"><a href="files/lib-phpexcel-style-supervisor.html"><abbr title="lib/PHPExcel/Style/Supervisor.php">Supervisor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">74</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Is this a supervisor or a cell style component?</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getIsSupervisor</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getRotation">
+        getRotation()
+        <a href="classes/PHPExcel-Style-Fill.html#method_getRotation" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">217</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get Rotation</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getRotation</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSelectedCells">
+        getSelectedCells()
+        <a href="classes/PHPExcel-Style-Supervisor.html#method_getSelectedCells" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Supervisor.php"><a href="files/lib-phpexcel-style-supervisor.html"><abbr title="lib/PHPExcel/Style/Supervisor.php">Supervisor.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">95</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get the currently active cell coordinate in currently active sheet.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getSelectedCells</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Only used for supervisor</p>
+</section>
+
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>E.g. 'A1'</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSharedComponent">
+        getSharedComponent()
+        <a href="classes/PHPExcel-Style-Fill.html#method_getSharedComponent" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">116</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get the shared style component for the currently active cell in currently active sheet.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getSharedComponent</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Only used for style supervisor</p>
+</section>
+
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getStartColor">
+        getStartColor()
+        <a href="classes/PHPExcel-Style-Fill.html#method_getStartColor" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">247</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get Start Color</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getStartColor</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getStyleArray">
+        getStyleArray()
+        <a href="classes/PHPExcel-Style-Fill.html#method_getStyleArray" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">127</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Build style array from subcomponents</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getStyleArray</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$array</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$array</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setEndColor">
+        setEndColor()
+        <a href="classes/PHPExcel-Style-Fill.html#method_setEndColor" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">290</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set End Color</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setEndColor</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a></span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Style-Fill.html#method_setEndColor#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Exception.html"><abbr title="\PHPExcel_Exception">PHPExcel_Exception</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setFillType">
+        setFillType()
+        <a href="classes/PHPExcel-Style-Fill.html#method_setFillType" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">201</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set Fill Type</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setFillType</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">PHPExcel_Style_Fill::FILL_NONE</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">PHPExcel_Style_Fill::FILL_NONE</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>PHPExcel_Style_Fill fill type</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setRotation">
+        setRotation()
+        <a href="classes/PHPExcel-Style-Fill.html#method_setRotation" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">231</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set Rotation</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setRotation</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setStartColor">
+        setStartColor()
+        <a href="classes/PHPExcel-Style-Fill.html#method_setStartColor" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Style/Fill.php"><a href="files/lib-phpexcel-style-fill.html"><abbr title="lib/PHPExcel/Style/Fill.php">Fill.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">259</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set Start Color</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setStartColor</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PHPExcel-Style-Color.html"><abbr title="\PHPExcel_Style_Color">PHPExcel_Style_Color</abbr></a></span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Style-Fill.html#method_setStartColor#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Exception.html"><abbr title="\PHPExcel_Exception">PHPExcel_Exception</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Style-Fill.html"><abbr title="\PHPExcel_Style_Fill">PHPExcel_Style_Fill</abbr></a></span>
+            </section>
+
+</article>
+            </section>
+
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/lib/PHPExcel/Style/Fill.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
+
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
+
+                    var xhr = new XMLHttpRequest();
+
+                    xhr.open('GET', src, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+                            Prism.highlightElement(code);
+                            return;
+                        }
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
+                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
+                    }
+                    modal.classList.add("phpdocumentor-modal__open");
+
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
+                    });
+                });
+            });
+        })();
+    </script>
+
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/PHPExcel-Style-Fill.html#toc-constants">Constants</a></li>
+                                                            <li><a href="classes/PHPExcel-Style-Fill.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PHPExcel-Style-Fill.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_GRADIENT_LINEAR">FILL_GRADIENT_LINEAR</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_GRADIENT_PATH">FILL_GRADIENT_PATH</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_NONE">FILL_NONE</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKDOWN">FILL_PATTERN_DARKDOWN</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKGRAY">FILL_PATTERN_DARKGRAY</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKGRID">FILL_PATTERN_DARKGRID</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKHORIZONTAL">FILL_PATTERN_DARKHORIZONTAL</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKTRELLIS">FILL_PATTERN_DARKTRELLIS</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKUP">FILL_PATTERN_DARKUP</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_DARKVERTICAL">FILL_PATTERN_DARKVERTICAL</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_GRAY0625">FILL_PATTERN_GRAY0625</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_GRAY125">FILL_PATTERN_GRAY125</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTDOWN">FILL_PATTERN_LIGHTDOWN</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTGRAY">FILL_PATTERN_LIGHTGRAY</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTGRID">FILL_PATTERN_LIGHTGRID</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTHORIZONTAL">FILL_PATTERN_LIGHTHORIZONTAL</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTTRELLIS">FILL_PATTERN_LIGHTTRELLIS</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTUP">FILL_PATTERN_LIGHTUP</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_LIGHTVERTICAL">FILL_PATTERN_LIGHTVERTICAL</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_PATTERN_MEDIUMGRAY">FILL_PATTERN_MEDIUMGRAY</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#constant_FILL_SOLID">FILL_SOLID</a></li>
+                                            </ul>
+                </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#property_endColor">$endColor</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#property_fillType">$fillType</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Supervisor.html#property_isSupervisor">$isSupervisor</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Supervisor.html#property_parent">$parent</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#property_rotation">$rotation</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Style-Fill.html#property_startColor">$startColor</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PHPExcel-Style-Supervisor.html#method___clone">__clone()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_applyFromArray">applyFromArray()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Supervisor.html#method_bindParent">bindParent()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Supervisor.html#method_getActiveCell">getActiveCell()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Supervisor.html#method_getActiveSheet">getActiveSheet()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_getEndColor">getEndColor()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_getFillType">getFillType()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_getHashCode">getHashCode()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Supervisor.html#method_getIsSupervisor">getIsSupervisor()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_getRotation">getRotation()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Supervisor.html#method_getSelectedCells">getSelectedCells()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_getSharedComponent">getSharedComponent()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_getStartColor">getStartColor()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_getStyleArray">getStyleArray()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_setEndColor">setEndColor()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_setFillType">setFillType()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_setRotation">setRotation()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Style-Fill.html#method_setStartColor">setStartColor()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="classes/PHPExcel-Style-Fill.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,757 @@
+{
+    "name": "PHPExcel_Settings",
+    "line": 37,
+    "short_desc": "PHPExcel_Settings",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Settings"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Settings.php",
+    "relative_file": null,
+    "hash": "2d155fe2c75f93e6e513db0a7e2dfd224094b34e",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "setZipClass": {
+            "name": "setZipClass",
+            "line": 121,
+            "short_desc": "Set the Zip handler Class that PHPExcel should use for Zip file management (PCLZip or ZipArchive)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "zipClass": {
+                    "name": "zipClass",
+                    "line": 121,
+                    "short_desc": "The Zip handler class that PHPExcel should use for Zip file management\ne.g. PHPExcel_Settings::PCLZip or PHPExcel_Settings::ZipArchive",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getZipClass": {
+            "name": "getZipClass",
+            "line": 140,
+            "short_desc": "Return the name of the Zip handler Class that PHPExcel is configured to use (PCLZip or ZipArchive)\n   or Zip file management",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Name of the Zip handler Class that PHPExcel is configured to use\nfor Zip file management\ne.g. PHPExcel_Settings::PCLZip or PHPExcel_Settings::ZipArchive",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCacheStorageMethod": {
+            "name": "getCacheStorageMethod",
+            "line": 151,
+            "short_desc": "Return the name of the method that is currently configured for cell cacheing",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Name of the cacheing method",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getCacheStorageClass": {
+            "name": "getCacheStorageClass",
+            "line": 162,
+            "short_desc": "Return the name of the class that is currently being used for cell cacheing",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Name of the class currently being used for cacheing",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCacheStorageMethod": {
+            "name": "setCacheStorageMethod",
+            "line": 175,
+            "short_desc": "Set the method that should be used for cell cacheing",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "method": {
+                    "name": "method",
+                    "line": 175,
+                    "short_desc": "Name of the cacheing method",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_CachedObjectStorageFactory::cache_in_memory",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "arguments": {
+                    "name": "arguments",
+                    "line": 175,
+                    "short_desc": "Optional configuration arguments for the cacheing method",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setLocale": {
+            "name": "setLocale",
+            "line": 187,
+            "short_desc": "Set the locale code to use for formula translations and any special formatting",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "locale": {
+                    "name": "locale",
+                    "line": 187,
+                    "short_desc": "The locale code to use (e.g. \"fr\" or \"pt_br\" or \"en_uk\")",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'en_us'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setChartRenderer": {
+            "name": "setChartRenderer",
+            "line": 202,
+            "short_desc": "Set details of the external library that PHPExcel should use for rendering charts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "libraryName": {
+                    "name": "libraryName",
+                    "line": 202,
+                    "short_desc": "Internal reference name of the library\ne.g. PHPExcel_Settings::CHART_RENDERER_JPGRAPH",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "libraryBaseDir": {
+                    "name": "libraryBaseDir",
+                    "line": 202,
+                    "short_desc": "Directory path to the library's base folder",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setChartRendererName": {
+            "name": "setChartRendererName",
+            "line": 219,
+            "short_desc": "Identify to PHPExcel the external library to use for rendering charts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "libraryName": {
+                    "name": "libraryName",
+                    "line": 219,
+                    "short_desc": "Internal reference name of the library\ne.g. PHPExcel_Settings::CHART_RENDERER_JPGRAPH",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setChartRendererPath": {
+            "name": "setChartRendererPath",
+            "line": 236,
+            "short_desc": "Tell PHPExcel where to find the external library to use for rendering charts",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "libraryBaseDir": {
+                    "name": "libraryBaseDir",
+                    "line": 236,
+                    "short_desc": "Directory path to the library's base folder",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getChartRendererName": {
+            "name": "getChartRendererName",
+            "line": 254,
+            "short_desc": "Return the Chart Rendering Library that PHPExcel is currently configured to use (e.g. jpgraph)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "Internal reference name of the Chart Rendering Library that PHPExcel is\ncurrently configured to use\ne.g. PHPExcel_Settings::CHART_RENDERER_JPGRAPH",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getChartRendererPath": {
+            "name": "getChartRendererPath",
+            "line": 266,
+            "short_desc": "Return the directory path to the Chart Rendering Library that PHPExcel is currently configured to use",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "Directory Path to the Chart Rendering Library that PHPExcel is\ncurrently configured to use",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPdfRenderer": {
+            "name": "setPdfRenderer",
+            "line": 283,
+            "short_desc": "Set details of the external library that PHPExcel should use for rendering PDF files",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "libraryName": {
+                    "name": "libraryName",
+                    "line": 283,
+                    "short_desc": "Internal reference name of the library\n   e.g. PHPExcel_Settings::PDF_RENDERER_TCPDF,\n   PHPExcel_Settings::PDF_RENDERER_DOMPDF\nor PHPExcel_Settings::PDF_RENDERER_MPDF",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "libraryBaseDir": {
+                    "name": "libraryBaseDir",
+                    "line": 283,
+                    "short_desc": "Directory path to the library's base folder",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setPdfRendererName": {
+            "name": "setPdfRendererName",
+            "line": 302,
+            "short_desc": "Identify to PHPExcel the external library to use for rendering PDF files",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "libraryName": {
+                    "name": "libraryName",
+                    "line": 302,
+                    "short_desc": "Internal reference name of the library\n e.g. PHPExcel_Settings::PDF_RENDERER_TCPDF,\nPHPExcel_Settings::PDF_RENDERER_DOMPDF\n or PHPExcel_Settings::PDF_RENDERER_MPDF",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setPdfRendererPath": {
+            "name": "setPdfRendererPath",
+            "line": 319,
+            "short_desc": "Tell PHPExcel where to find the external library to use for rendering PDF files",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "libraryBaseDir": {
+                    "name": "libraryBaseDir",
+                    "line": 319,
+                    "short_desc": "Directory path to the library's base folder",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPdfRendererName": {
+            "name": "getPdfRendererName",
+            "line": 339,
+            "short_desc": "Return the PDF Rendering Library that PHPExcel is currently configured to use (e.g. dompdf)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "Internal reference name of the PDF Rendering Library that PHPExcel is\n   currently configured to use\ne.g. PHPExcel_Settings::PDF_RENDERER_TCPDF,\nPHPExcel_Settings::PDF_RENDERER_DOMPDF\nor PHPExcel_Settings::PDF_RENDERER_MPDF",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getPdfRendererPath": {
+            "name": "getPdfRendererPath",
+            "line": 350,
+            "short_desc": "Return the directory path to the PDF Rendering Library that PHPExcel is currently configured to use",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ],
+                [
+                    "null",
+                    false
+                ]
+            ],
+            "hint_desc": "Directory Path to the PDF Rendering Library that PHPExcel is\ncurrently configured to use",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setLibXmlLoaderOptions": {
+            "name": "setLibXmlLoaderOptions",
+            "line": 360,
+            "short_desc": "Set options for libxml loader",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "options": {
+                    "name": "options",
+                    "line": 360,
+                    "short_desc": "Options for libxml loader",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getLibXmlLoaderOptions": {
+            "name": "getLibXmlLoaderOptions",
+            "line": 377,
+            "short_desc": "Get defined options for libxml loader.",
+            "long_desc": "Defaults to LIBXML_DTDLOAD | LIBXML_DTDATTR when not set explicitly.",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Default options for libxml loader",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "PCLZIP": {
+            "name": "PCLZIP",
+            "line": 41,
+            "short_desc": "Available Zip library classes",
+            "long_desc": "",
+            "modifiers": 0,
+            "tags": []
+        },
+        "ZIPARCHIVE": {
+            "name": "ZIPARCHIVE",
+            "line": 42,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "CHART_RENDERER_JPGRAPH": {
+            "name": "CHART_RENDERER_JPGRAPH",
+            "line": 45,
+            "short_desc": "Optional Chart Rendering libraries",
+            "long_desc": "",
+            "modifiers": 0,
+            "tags": []
+        },
+        "PDF_RENDERER_TCPDF": {
+            "name": "PDF_RENDERER_TCPDF",
+            "line": 48,
+            "short_desc": "Optional PDF Rendering libraries",
+            "long_desc": "",
+            "modifiers": 0,
+            "tags": []
+        },
+        "PDF_RENDERER_DOMPDF": {
+            "name": "PDF_RENDERER_DOMPDF",
+            "line": 49,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "PDF_RENDERER_MPDF": {
+            "name": "PDF_RENDERER_MPDF",
+            "line": 50,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

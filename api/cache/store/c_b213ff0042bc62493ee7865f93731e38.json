@@ -1,0 +1,597 @@
+{
+    "name": "GML_Hook",
+    "line": 4,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/Hook\/hook.extends.class.php",
+    "relative_file": null,
+    "hash": "11ab52defab13a12bb608fe7e9a33af10625c8d7",
+    "parent": "Hook",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "filters": {
+            "name": "filters",
+            "line": 6,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 6,
+                    "endLine": 6,
+                    "kind": 1
+                },
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6,
+                                "kind": 1,
+                                "rawValue": "'count'"
+                            },
+                            "value": "count"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6,
+                                "rawValue": "0",
+                                "kind": 10
+                            },
+                            "value": 0
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "callback_filters": {
+            "name": "callback_filters",
+            "line": 8,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 8,
+                    "endLine": 8,
+                    "kind": 1
+                },
+                "items": []
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "current_filter": {
+            "name": "current_filter",
+            "line": 10,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 10,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 10,
+                    "endLine": 10
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 10,
+                        "endLine": 10
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "runAction": {
+            "name": "runAction",
+            "line": 12,
+            "short_desc": "Run action hook.",
+            "long_desc": null,
+            "hint": [
+                [
+                    "callable",
+                    false
+                ],
+                [
+                    "false",
+                    false
+                ]
+            ],
+            "hint_desc": "\u2192 returns the calling function",
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "action": {
+                    "name": "action",
+                    "line": 12,
+                    "short_desc": "\u2192 action hook",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "args": {
+                    "name": "args",
+                    "line": 12,
+                    "short_desc": "\u2192 arguments",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFilters": {
+            "name": "getFilters",
+            "line": 35,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tag": {
+                    "name": "tag",
+                    "line": 35,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "remove": {
+                    "name": "remove",
+                    "line": 35,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "get_properties": {
+            "name": "get_properties",
+            "line": 47,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 47,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "is_callback": {
+                    "name": "is_callback",
+                    "line": 47,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "addFilter": {
+            "name": "addFilter",
+            "line": 58,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tag": {
+                    "name": "tag",
+                    "line": 58,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "func": {
+                    "name": "func",
+                    "line": 58,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "priority": {
+                    "name": "priority",
+                    "line": 58,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "8",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "args": {
+                    "name": "args",
+                    "line": 58,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "apply_filters": {
+            "name": "apply_filters",
+            "line": 70,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tag": {
+                    "name": "tag",
+                    "line": 70,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "args": {
+                    "name": "args",
+                    "line": 70,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "remove": {
+                    "name": "remove",
+                    "line": 70,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getArguments": {
+            "name": "getArguments",
+            "line": 106,
+            "short_desc": "Get arguments for action.",
+            "long_desc": null,
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "\u2192 arguments",
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "argsNumber": {
+                    "name": "argsNumber",
+                    "line": 106,
+                    "short_desc": "\u2192 arguments number",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "arguments": {
+                    "name": "arguments",
+                    "line": 106,
+                    "short_desc": "\u2192 arguments",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "remove_filter": {
+            "name": "remove_filter",
+            "line": 125,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tag": {
+                    "name": "tag",
+                    "line": 125,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "func": {
+                    "name": "func",
+                    "line": 125,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "priority": {
+                    "name": "priority",
+                    "line": 125,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "remove_action": {
+            "name": "remove_action",
+            "line": 144,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tag": {
+                    "name": "tag",
+                    "line": 144,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "func": {
+                    "name": "func",
+                    "line": 144,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "priority": {
+                    "name": "priority",
+                    "line": 144,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

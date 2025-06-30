@@ -1,0 +1,117 @@
+{
+    "name": "PHPExcel_Writer_OpenDocument_Content",
+    "line": 37,
+    "short_desc": "PHPExcel_Writer_OpenDocument_Content",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Writer_OpenDocument"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "author": [
+            [
+                "Alexander",
+                "Pervakov",
+                "<frost-nzcr4@jagmort.com>"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Writer\/OpenDocument\/Content.php",
+    "relative_file": null,
+    "hash": "aa1c113764e3a077d56134f9b87b74c3d99133cc",
+    "parent": "PHPExcel_Writer_OpenDocument_WriterPart",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "write": {
+            "name": "write",
+            "line": 49,
+            "short_desc": "Write content.xml to XML format",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "XML Output",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Writer_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pPHPExcel": {
+                    "name": "pPHPExcel",
+                    "line": 49,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "NUMBER_COLS_REPEATED_MAX": {
+            "name": "NUMBER_COLS_REPEATED_MAX",
+            "line": 39,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "NUMBER_ROWS_REPEATED_MAX": {
+            "name": "NUMBER_ROWS_REPEATED_MAX",
+            "line": 40,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "namespace": "",
+    "name": "CheckCommonTypeDest",
+    "line": 292,
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/icode.lms.lib.php",
+    "relative_file": null,
+    "short_desc": "\uc218\uc2e0\ubc88\ud638\uc758 \uac12\uc774 \uc815\ud655\ud55c \uac12\uc778\uc9c0 \ud655\uc778\ud569\ub2c8\ub2e4.",
+    "long_desc": "",
+    "hint": null,
+    "hint_desc": null,
+    "tags": [],
+    "modifiers": 0,
+    "is_by_ref": "",
+    "is_intersection_type": false,
+    "exceptions": [],
+    "errors": [
+        "The \"strDest\" parameter of the method \"CheckCommonTypeDest\" is missing a @param tag",
+        "The \"nCount\" parameter of the method \"CheckCommonTypeDest\" is missing a @param tag",
+        "The hint on \"CheckCommonTypeDest\" at @return is invalid: \"\ucc98\ub9ac\uacb0\uacfc\uc785\ub2c8\ub2e4.\""
+    ],
+    "parameters": {
+        "strDest": {
+            "name": "strDest",
+            "line": 292,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        },
+        "nCount": {
+            "name": "nCount",
+            "line": 292,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        }
+    }
+}

@@ -1,0 +1,484 @@
+{
+    "name": "PHPExcel_Calculation_FormulaToken",
+    "line": 53,
+    "short_desc": "PHPExcel_Calculation_FormulaToken",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Calculation"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Calculation\/FormulaToken.php",
+    "relative_file": null,
+    "hash": "13f25bfe8aa29f0d26cb842ff548fc10e6ebc66a",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 109,
+            "short_desc": "Create a new PHPExcel_Calculation_FormulaToken",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 109,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pTokenType": {
+                    "name": "pTokenType",
+                    "line": 109,
+                    "short_desc": "Token type (represented by TOKEN_TYPE_*)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_Calculation_FormulaToken::TOKEN_TYPE_UNKNOWN",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pTokenSubType": {
+                    "name": "pTokenSubType",
+                    "line": 109,
+                    "short_desc": "Token Subtype (represented by TOKEN_SUBTYPE_*)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_Calculation_FormulaToken::TOKEN_SUBTYPE_NOTHING",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getValue": {
+            "name": "getValue",
+            "line": 122,
+            "short_desc": "Get Value",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setValue": {
+            "name": "setValue",
+            "line": 132,
+            "short_desc": "Set Value",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 132,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTokenType": {
+            "name": "getTokenType",
+            "line": 142,
+            "short_desc": "Get Token Type (represented by TOKEN_TYPE_*)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTokenType": {
+            "name": "setTokenType",
+            "line": 152,
+            "short_desc": "Set Token Type",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 152,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_Calculation_FormulaToken::TOKEN_TYPE_UNKNOWN",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTokenSubType": {
+            "name": "getTokenSubType",
+            "line": 162,
+            "short_desc": "Get Token SubType (represented by TOKEN_SUBTYPE_*)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTokenSubType": {
+            "name": "setTokenSubType",
+            "line": 172,
+            "short_desc": "Set Token SubType",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 172,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_Calculation_FormulaToken::TOKEN_SUBTYPE_NOTHING",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "TOKEN_TYPE_NOOP": {
+            "name": "TOKEN_TYPE_NOOP",
+            "line": 56,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_TYPE_OPERAND": {
+            "name": "TOKEN_TYPE_OPERAND",
+            "line": 57,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_TYPE_FUNCTION": {
+            "name": "TOKEN_TYPE_FUNCTION",
+            "line": 58,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_TYPE_SUBEXPRESSION": {
+            "name": "TOKEN_TYPE_SUBEXPRESSION",
+            "line": 59,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_TYPE_ARGUMENT": {
+            "name": "TOKEN_TYPE_ARGUMENT",
+            "line": 60,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_TYPE_OPERATORPREFIX": {
+            "name": "TOKEN_TYPE_OPERATORPREFIX",
+            "line": 61,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_TYPE_OPERATORINFIX": {
+            "name": "TOKEN_TYPE_OPERATORINFIX",
+            "line": 62,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_TYPE_OPERATORPOSTFIX": {
+            "name": "TOKEN_TYPE_OPERATORPOSTFIX",
+            "line": 63,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_TYPE_WHITESPACE": {
+            "name": "TOKEN_TYPE_WHITESPACE",
+            "line": 64,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_TYPE_UNKNOWN": {
+            "name": "TOKEN_TYPE_UNKNOWN",
+            "line": 65,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_NOTHING": {
+            "name": "TOKEN_SUBTYPE_NOTHING",
+            "line": 68,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_START": {
+            "name": "TOKEN_SUBTYPE_START",
+            "line": 69,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_STOP": {
+            "name": "TOKEN_SUBTYPE_STOP",
+            "line": 70,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_TEXT": {
+            "name": "TOKEN_SUBTYPE_TEXT",
+            "line": 71,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_NUMBER": {
+            "name": "TOKEN_SUBTYPE_NUMBER",
+            "line": 72,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_LOGICAL": {
+            "name": "TOKEN_SUBTYPE_LOGICAL",
+            "line": 73,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_ERROR": {
+            "name": "TOKEN_SUBTYPE_ERROR",
+            "line": 74,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_RANGE": {
+            "name": "TOKEN_SUBTYPE_RANGE",
+            "line": 75,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_MATH": {
+            "name": "TOKEN_SUBTYPE_MATH",
+            "line": 76,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_CONCATENATION": {
+            "name": "TOKEN_SUBTYPE_CONCATENATION",
+            "line": 77,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_INTERSECTION": {
+            "name": "TOKEN_SUBTYPE_INTERSECTION",
+            "line": 78,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TOKEN_SUBTYPE_UNION": {
+            "name": "TOKEN_SUBTYPE_UNION",
+            "line": 79,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

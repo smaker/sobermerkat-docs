@@ -1,0 +1,667 @@
+{
+    "name": "PHPExcel_Style_Conditional",
+    "line": 36,
+    "short_desc": "PHPExcel_Style_Conditional",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Style"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Style\/Conditional.php",
+    "relative_file": null,
+    "hash": "fd51d5b33f15a6077f1c654f719ea829d41d54ef",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": {
+        "PHPExcel_IComparable": "PHPExcel_IComparable"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 96,
+            "short_desc": "Create a new PHPExcel_Style_Conditional",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getConditionType": {
+            "name": "getConditionType",
+            "line": 111,
+            "short_desc": "Get Condition type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setConditionType": {
+            "name": "setConditionType",
+            "line": 122,
+            "short_desc": "Set Condition type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Conditional",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 122,
+                    "short_desc": "PHPExcel_Style_Conditional condition type",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_Style_Conditional::CONDITION_NONE",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getOperatorType": {
+            "name": "getOperatorType",
+            "line": 133,
+            "short_desc": "Get Operator type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOperatorType": {
+            "name": "setOperatorType",
+            "line": 144,
+            "short_desc": "Set Operator type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Conditional",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 144,
+                    "short_desc": "PHPExcel_Style_Conditional operator type",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_Style_Conditional::OPERATOR_NONE",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getText": {
+            "name": "getText",
+            "line": 155,
+            "short_desc": "Get text",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setText": {
+            "name": "setText",
+            "line": 166,
+            "short_desc": "Set text",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Conditional",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 166,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getCondition": {
+            "name": "getCondition",
+            "line": 178,
+            "short_desc": "Get Condition",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "deprecated": [
+                    [
+                        "Deprecated,",
+                        "use",
+                        "getConditions",
+                        "instead"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setCondition": {
+            "name": "setCondition",
+            "line": 194,
+            "short_desc": "Set Condition",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Conditional",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "deprecated": [
+                    [
+                        "Deprecated,",
+                        "use",
+                        "setConditions",
+                        "instead"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 194,
+                    "short_desc": "Condition",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getConditions": {
+            "name": "getConditions",
+            "line": 208,
+            "short_desc": "Get Conditions",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setConditions": {
+            "name": "setConditions",
+            "line": 219,
+            "short_desc": "Set Conditions",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Conditional",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 219,
+                    "short_desc": "Condition",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            true
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "addCondition": {
+            "name": "addCondition",
+            "line": 234,
+            "short_desc": "Add Condition",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Conditional",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 234,
+                    "short_desc": "Condition",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getStyle": {
+            "name": "getStyle",
+            "line": 245,
+            "short_desc": "Get Style",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStyle": {
+            "name": "setStyle",
+            "line": 257,
+            "short_desc": "Set Style",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Conditional",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 257,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Style",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getHashCode": {
+            "name": "getHashCode",
+            "line": 268,
+            "short_desc": "Get hash code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Hash code",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "__clone": {
+            "name": "__clone",
+            "line": 282,
+            "short_desc": "Implement PHP __clone to create a deep clone, not just a shallow copy.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "CONDITION_NONE": {
+            "name": "CONDITION_NONE",
+            "line": 39,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "CONDITION_CELLIS": {
+            "name": "CONDITION_CELLIS",
+            "line": 40,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "CONDITION_CONTAINSTEXT": {
+            "name": "CONDITION_CONTAINSTEXT",
+            "line": 41,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "CONDITION_EXPRESSION": {
+            "name": "CONDITION_EXPRESSION",
+            "line": 42,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_NONE": {
+            "name": "OPERATOR_NONE",
+            "line": 45,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_BEGINSWITH": {
+            "name": "OPERATOR_BEGINSWITH",
+            "line": 46,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_ENDSWITH": {
+            "name": "OPERATOR_ENDSWITH",
+            "line": 47,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_EQUAL": {
+            "name": "OPERATOR_EQUAL",
+            "line": 48,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_GREATERTHAN": {
+            "name": "OPERATOR_GREATERTHAN",
+            "line": 49,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_GREATERTHANOREQUAL": {
+            "name": "OPERATOR_GREATERTHANOREQUAL",
+            "line": 50,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_LESSTHAN": {
+            "name": "OPERATOR_LESSTHAN",
+            "line": 51,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_LESSTHANOREQUAL": {
+            "name": "OPERATOR_LESSTHANOREQUAL",
+            "line": 52,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_NOTEQUAL": {
+            "name": "OPERATOR_NOTEQUAL",
+            "line": 53,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_CONTAINSTEXT": {
+            "name": "OPERATOR_CONTAINSTEXT",
+            "line": 54,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_NOTCONTAINS": {
+            "name": "OPERATOR_NOTCONTAINS",
+            "line": 55,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OPERATOR_BETWEEN": {
+            "name": "OPERATOR_BETWEEN",
+            "line": 56,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

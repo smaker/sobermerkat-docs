@@ -1,0 +1,789 @@
+{
+    "name": "PHPExcel_Style_Fill",
+    "line": 28,
+    "short_desc": "PHPExcel_Style_Fill",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Style"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Style\/Fill.php",
+    "relative_file": null,
+    "hash": "00d8c56b9b5b3fd6bd865565857cd5178b3415c2",
+    "parent": "PHPExcel_Style_Supervisor",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": {
+        "PHPExcel_IComparable": "PHPExcel_IComparable"
+    },
+    "traits": [],
+    "properties": {
+        "fillType": {
+            "name": "fillType",
+            "line": 58,
+            "short_desc": "Fill type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ClassConstFetch",
+                "attributes": {
+                    "startLine": 58,
+                    "endLine": 58
+                },
+                "class": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 58,
+                        "endLine": 58
+                    },
+                    "parts": [
+                        "PHPExcel_Style_Fill"
+                    ]
+                },
+                "name": {
+                    "nodeType": "Identifier",
+                    "attributes": {
+                        "startLine": 58,
+                        "endLine": 58
+                    },
+                    "name": "FILL_NONE"
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "rotation": {
+            "name": "rotation",
+            "line": 65,
+            "short_desc": "Rotation",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 65,
+                    "endLine": 65,
+                    "rawValue": "0",
+                    "kind": 10
+                },
+                "value": 0
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "startColor": {
+            "name": "startColor",
+            "line": 72,
+            "short_desc": "Start color",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Color",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "endColor": {
+            "name": "endColor",
+            "line": 79,
+            "short_desc": "End color",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Color",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 91,
+            "short_desc": "Create a new PHPExcel_Style_Fill",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isSupervisor": {
+                    "name": "isSupervisor",
+                    "line": 91,
+                    "short_desc": "Flag indicating if this is a supervisor or not\nLeave this value at default unless you understand exactly what\n    its ramifications are",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "isConditional": {
+                    "name": "isConditional",
+                    "line": 91,
+                    "short_desc": "Flag indicating if this is a conditional style or not\nLeave this value at default unless you understand exactly what\n    its ramifications are",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getSharedComponent": {
+            "name": "getSharedComponent",
+            "line": 116,
+            "short_desc": "Get the shared style component for the currently active cell in currently active sheet.",
+            "long_desc": "Only used for style supervisor",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Fill",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStyleArray": {
+            "name": "getStyleArray",
+            "line": 127,
+            "short_desc": "Build style array from subcomponents",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "array": {
+                    "name": "array",
+                    "line": 127,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "applyFromArray": {
+            "name": "applyFromArray",
+            "line": 154,
+            "short_desc": "Apply styles from array",
+            "long_desc": "<code>\n$objPHPExcel->getActiveSheet()->getStyle('B2')->getFill()->applyFromArray(\n       array(\n           'type'       => PHPExcel_Style_Fill::FILL_GRADIENT_LINEAR,\n           'rotation'   => 0,\n           'startcolor' => array(\n               'rgb' => '000000'\n           ),\n           'endcolor'   => array(\n               'argb' => 'FFFFFFFF'\n           )\n       )\n);\n<\/code>",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Fill",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pStyles": {
+                    "name": "pStyles",
+                    "line": 154,
+                    "short_desc": "Array containing style information",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFillType": {
+            "name": "getFillType",
+            "line": 187,
+            "short_desc": "Get Fill Type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFillType": {
+            "name": "setFillType",
+            "line": 201,
+            "short_desc": "Set Fill Type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Fill",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 201,
+                    "short_desc": "PHPExcel_Style_Fill fill type",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_Style_Fill::FILL_NONE",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getRotation": {
+            "name": "getRotation",
+            "line": 217,
+            "short_desc": "Get Rotation",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRotation": {
+            "name": "setRotation",
+            "line": 231,
+            "short_desc": "Set Rotation",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Fill",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 231,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getStartColor": {
+            "name": "getStartColor",
+            "line": 247,
+            "short_desc": "Get Start Color",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Color",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setStartColor": {
+            "name": "setStartColor",
+            "line": 259,
+            "short_desc": "Set Start Color",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Fill",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 259,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Style_Color",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getEndColor": {
+            "name": "getEndColor",
+            "line": 278,
+            "short_desc": "Get End Color",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Color",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEndColor": {
+            "name": "setEndColor",
+            "line": 290,
+            "short_desc": "Set End Color",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_Fill",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 290,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Style_Color",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getHashCode": {
+            "name": "getHashCode",
+            "line": 309,
+            "short_desc": "Get hash code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Hash code",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "FILL_NONE": {
+            "name": "FILL_NONE",
+            "line": 31,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_SOLID": {
+            "name": "FILL_SOLID",
+            "line": 32,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_GRADIENT_LINEAR": {
+            "name": "FILL_GRADIENT_LINEAR",
+            "line": 33,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_GRADIENT_PATH": {
+            "name": "FILL_GRADIENT_PATH",
+            "line": 34,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_DARKDOWN": {
+            "name": "FILL_PATTERN_DARKDOWN",
+            "line": 35,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_DARKGRAY": {
+            "name": "FILL_PATTERN_DARKGRAY",
+            "line": 36,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_DARKGRID": {
+            "name": "FILL_PATTERN_DARKGRID",
+            "line": 37,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_DARKHORIZONTAL": {
+            "name": "FILL_PATTERN_DARKHORIZONTAL",
+            "line": 38,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_DARKTRELLIS": {
+            "name": "FILL_PATTERN_DARKTRELLIS",
+            "line": 39,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_DARKUP": {
+            "name": "FILL_PATTERN_DARKUP",
+            "line": 40,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_DARKVERTICAL": {
+            "name": "FILL_PATTERN_DARKVERTICAL",
+            "line": 41,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_GRAY0625": {
+            "name": "FILL_PATTERN_GRAY0625",
+            "line": 42,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_GRAY125": {
+            "name": "FILL_PATTERN_GRAY125",
+            "line": 43,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_LIGHTDOWN": {
+            "name": "FILL_PATTERN_LIGHTDOWN",
+            "line": 44,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_LIGHTGRAY": {
+            "name": "FILL_PATTERN_LIGHTGRAY",
+            "line": 45,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_LIGHTGRID": {
+            "name": "FILL_PATTERN_LIGHTGRID",
+            "line": 46,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_LIGHTHORIZONTAL": {
+            "name": "FILL_PATTERN_LIGHTHORIZONTAL",
+            "line": 47,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_LIGHTTRELLIS": {
+            "name": "FILL_PATTERN_LIGHTTRELLIS",
+            "line": 48,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_LIGHTUP": {
+            "name": "FILL_PATTERN_LIGHTUP",
+            "line": 49,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_LIGHTVERTICAL": {
+            "name": "FILL_PATTERN_LIGHTVERTICAL",
+            "line": 50,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FILL_PATTERN_MEDIUMGRAY": {
+            "name": "FILL_PATTERN_MEDIUMGRAY",
+            "line": 51,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

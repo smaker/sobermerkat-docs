@@ -1,0 +1,749 @@
+{
+    "name": "PHPExcel_Reader_Abstract",
+    "line": 28,
+    "short_desc": "PHPExcel_Reader_Abstract",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Reader"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Reader\/Abstract.php",
+    "relative_file": null,
+    "hash": "f621aa9cf899db87d59d61c5193b5790fbc5c1c2",
+    "parent": null,
+    "modifiers": 16,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": {
+        "PHPExcel_Reader_IReader": "PHPExcel_Reader_IReader"
+    },
+    "traits": [],
+    "properties": {
+        "readDataOnly": {
+            "name": "readDataOnly",
+            "line": 37,
+            "short_desc": "Read data only?\nIdentifies whether the Reader should only read data values for cells, and ignore any formatting information;\n       or whether it should read both data and formatting",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 37,
+                    "endLine": 37
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 37,
+                        "endLine": 37
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "readEmptyCells": {
+            "name": "readEmptyCells",
+            "line": 46,
+            "short_desc": "Read empty cells?\nIdentifies whether the Reader should read data values for cells all cells, or should ignore cells containing\n        null value or empty string",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 46,
+                    "endLine": 46
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 46,
+                        "endLine": 46
+                    },
+                    "parts": [
+                        "true"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "includeCharts": {
+            "name": "includeCharts",
+            "line": 54,
+            "short_desc": "Read charts that are defined in the workbook?\nIdentifies whether the Reader should read the definitions for any charts that exist in the workbook;",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 54,
+                    "endLine": 54
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 54,
+                        "endLine": 54
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "loadSheetsOnly": {
+            "name": "loadSheetsOnly",
+            "line": 62,
+            "short_desc": "Restrict which sheets should be loaded?\nThis property holds an array of worksheet names to be loaded. If null, then all worksheets will be loaded.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "of string",
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "readFilter": {
+            "name": "readFilter",
+            "line": 69,
+            "short_desc": "PHPExcel_Reader_IReadFilter instance",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Reader_IReadFilter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "fileHandle": {
+            "name": "fileHandle",
+            "line": 71,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 71,
+                    "endLine": 71
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 71,
+                        "endLine": 71
+                    },
+                    "parts": [
+                        "null"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "getReadDataOnly": {
+            "name": "getReadDataOnly",
+            "line": 81,
+            "short_desc": "Read data only?\n       If this is true, then the Reader will only read data values for cells, it will not read any formatting information.",
+            "long_desc": "If false (the default) it will read data and formatting.",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setReadDataOnly": {
+            "name": "setReadDataOnly",
+            "line": 95,
+            "short_desc": "Set read data only\n       Set to true, to advise the Reader only to read data values for cells, and to ignore any formatting information.",
+            "long_desc": "Set to false (the default) to advise the Reader to read both data and formatting for cells.",
+            "hint": [
+                [
+                    "\\PHPExcel_Reader_IReader",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 95,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getReadEmptyCells": {
+            "name": "getReadEmptyCells",
+            "line": 108,
+            "short_desc": "Read empty cells?\n       If this is true (the default), then the Reader will read data values for all cells, irrespective of value.",
+            "long_desc": "If false it will not read data for cells containing a null value or an empty string.",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setReadEmptyCells": {
+            "name": "setReadEmptyCells",
+            "line": 122,
+            "short_desc": "Set read empty cells\n       Set to true (the default) to advise the Reader read data values for all cells, irrespective of value.",
+            "long_desc": "Set to false to advise the Reader to ignore cells containing a null value or an empty string.",
+            "hint": [
+                [
+                    "\\PHPExcel_Reader_IReader",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 122,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getIncludeCharts": {
+            "name": "getIncludeCharts",
+            "line": 136,
+            "short_desc": "Read charts in workbook?\n       If this is true, then the Reader will include any charts that exist in the workbook.",
+            "long_desc": "Note that a ReadDataOnly value of false overrides, and charts won't be read regardless of the IncludeCharts value.\nIf false (the default) it will ignore any charts defined in the workbook file.",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIncludeCharts": {
+            "name": "setIncludeCharts",
+            "line": 151,
+            "short_desc": "Set read charts in workbook\n       Set to true, to advise the Reader to include any charts that exist in the workbook.",
+            "long_desc": "Note that a ReadDataOnly value of false overrides, and charts won't be read regardless of the IncludeCharts value.\nSet to false (the default) to discard charts.",
+            "hint": [
+                [
+                    "\\PHPExcel_Reader_IReader",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 151,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getLoadSheetsOnly": {
+            "name": "getLoadSheetsOnly",
+            "line": 164,
+            "short_desc": "Get which sheets to load\nReturns either an array of worksheet names (the list of worksheets that should be loaded), or a null\n       indicating that all worksheets in the workbook should be loaded.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setLoadSheetsOnly": {
+            "name": "setLoadSheetsOnly",
+            "line": 178,
+            "short_desc": "Set which sheets to load",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Reader_IReader",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 178,
+                    "short_desc": "This should be either an array of worksheet names to be loaded, or a string containing a single worksheet name.\nIf NULL, then it tells the Reader to read all worksheets in the workbook",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setLoadAllSheets": {
+            "name": "setLoadAllSheets",
+            "line": 194,
+            "short_desc": "Set all sheets to load\n       Tells the Reader to load all worksheets from the workbook.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Reader_IReader",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getReadFilter": {
+            "name": "getReadFilter",
+            "line": 205,
+            "short_desc": "Read filter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Reader_IReadFilter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setReadFilter": {
+            "name": "setReadFilter",
+            "line": 216,
+            "short_desc": "Set read filter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Reader_IReader",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 216,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Reader_IReadFilter",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "openFile": {
+            "name": "openFile",
+            "line": 229,
+            "short_desc": "Open file for reading",
+            "long_desc": "",
+            "hint": [
+                [
+                    "resource",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 229,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "canRead": {
+            "name": "canRead",
+            "line": 250,
+            "short_desc": "Can the current PHPExcel_Reader_IReader read the file?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 250,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "securityScan": {
+            "name": "securityScan",
+            "line": 270,
+            "short_desc": "Scan theXML for use of <!ENTITY to prevent XXE\/XEE attacks",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "xml": {
+                    "name": "xml",
+                    "line": 270,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "securityScanFile": {
+            "name": "securityScanFile",
+            "line": 285,
+            "short_desc": "Scan theXML for use of <!ENTITY to prevent XXE\/XEE attacks",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "filestream": {
+                    "name": "filestream",
+                    "line": 285,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

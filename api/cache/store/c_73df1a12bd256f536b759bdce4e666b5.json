@@ -1,0 +1,916 @@
+{
+    "name": "PHPExcel_Style_NumberFormat",
+    "line": 28,
+    "short_desc": "PHPExcel_Style_NumberFormat",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Style"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Style\/NumberFormat.php",
+    "relative_file": null,
+    "hash": "f1bbe995f0cece5207b81583b0bffdc65fa387c3",
+    "parent": "PHPExcel_Style_Supervisor",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": {
+        "PHPExcel_IComparable": "PHPExcel_IComparable"
+    },
+    "traits": [],
+    "properties": {
+        "builtInFormats": {
+            "name": "builtInFormats",
+            "line": 75,
+            "short_desc": "Excel built-in number formats",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 10,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "flippedBuiltInFormats": {
+            "name": "flippedBuiltInFormats",
+            "line": 82,
+            "short_desc": "Excel built-in number formats (flipped, for faster lookups)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 10,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "formatCode": {
+            "name": "formatCode",
+            "line": 89,
+            "short_desc": "Format Code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ClassConstFetch",
+                "attributes": {
+                    "startLine": 89,
+                    "endLine": 89
+                },
+                "class": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 89,
+                        "endLine": 89
+                    },
+                    "parts": [
+                        "PHPExcel_Style_NumberFormat"
+                    ]
+                },
+                "name": {
+                    "nodeType": "Identifier",
+                    "attributes": {
+                        "startLine": 89,
+                        "endLine": 89
+                    },
+                    "name": "FORMAT_GENERAL"
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "builtInFormatCode": {
+            "name": "builtInFormatCode",
+            "line": 96,
+            "short_desc": "Built-in format Code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 96,
+                    "endLine": 96,
+                    "rawValue": "0",
+                    "kind": 10
+                },
+                "value": 0
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 108,
+            "short_desc": "Create a new PHPExcel_Style_NumberFormat",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "isSupervisor": {
+                    "name": "isSupervisor",
+                    "line": 108,
+                    "short_desc": "Flag indicating if this is a supervisor or not\nLeave this value at default unless you understand exactly what\n    its ramifications are",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "isConditional": {
+                    "name": "isConditional",
+                    "line": 108,
+                    "short_desc": "Flag indicating if this is a conditional style or not\nLeave this value at default unless you understand exactly what\n    its ramifications are",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getSharedComponent": {
+            "name": "getSharedComponent",
+            "line": 125,
+            "short_desc": "Get the shared style component for the currently active cell in currently active sheet.",
+            "long_desc": "Only used for style supervisor",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_NumberFormat",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStyleArray": {
+            "name": "getStyleArray",
+            "line": 136,
+            "short_desc": "Build style array from subcomponents",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "array": {
+                    "name": "array",
+                    "line": 136,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "applyFromArray": {
+            "name": "applyFromArray",
+            "line": 156,
+            "short_desc": "Apply styles from array",
+            "long_desc": "<code>\n$objPHPExcel->getActiveSheet()->getStyle('B2')->getNumberFormat()->applyFromArray(\n       array(\n           'code' => PHPExcel_Style_NumberFormat::FORMAT_CURRENCY_EUR_SIMPLE\n       )\n);\n<\/code>",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_NumberFormat",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pStyles": {
+                    "name": "pStyles",
+                    "line": 156,
+                    "short_desc": "Array containing style information",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFormatCode": {
+            "name": "getFormatCode",
+            "line": 177,
+            "short_desc": "Get Format Code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFormatCode": {
+            "name": "setFormatCode",
+            "line": 194,
+            "short_desc": "Set Format Code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_NumberFormat",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 194,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_Style_NumberFormat::FORMAT_GENERAL",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getBuiltInFormatCode": {
+            "name": "getBuiltInFormatCode",
+            "line": 214,
+            "short_desc": "Get Built-In Format Code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setBuiltInFormatCode": {
+            "name": "setBuiltInFormatCode",
+            "line": 228,
+            "short_desc": "Set Built-In Format Code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Style_NumberFormat",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 228,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "builtInFormatCode": {
+            "name": "builtInFormatCode",
+            "line": 334,
+            "short_desc": "Get built-in format code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pIndex": {
+                    "name": "pIndex",
+                    "line": 334,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "builtInFormatCodeIndex": {
+            "name": "builtInFormatCodeIndex",
+            "line": 355,
+            "short_desc": "Get built-in format code index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ],
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "formatCode": {
+                    "name": "formatCode",
+                    "line": 355,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getHashCode": {
+            "name": "getHashCode",
+            "line": 373,
+            "short_desc": "Get hash code",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Hash code",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "toFormattedString": {
+            "name": "toFormattedString",
+            "line": 579,
+            "short_desc": "Convert a value in a pre-defined format to a PHP string",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Formatted string",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 579,
+                    "short_desc": "Value to format",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'0'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "format": {
+                    "name": "format",
+                    "line": 579,
+                    "short_desc": "Format code",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "PHPExcel_Style_NumberFormat::FORMAT_GENERAL",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "callBack": {
+                    "name": "callBack",
+                    "line": 579,
+                    "short_desc": "Callback function for additional formatting of string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "FORMAT_GENERAL": {
+            "name": "FORMAT_GENERAL",
+            "line": 31,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_TEXT": {
+            "name": "FORMAT_TEXT",
+            "line": 33,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_NUMBER": {
+            "name": "FORMAT_NUMBER",
+            "line": 35,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_NUMBER_00": {
+            "name": "FORMAT_NUMBER_00",
+            "line": 36,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_NUMBER_COMMA_SEPARATED1": {
+            "name": "FORMAT_NUMBER_COMMA_SEPARATED1",
+            "line": 37,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_NUMBER_COMMA_SEPARATED2": {
+            "name": "FORMAT_NUMBER_COMMA_SEPARATED2",
+            "line": 38,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_PERCENTAGE": {
+            "name": "FORMAT_PERCENTAGE",
+            "line": 40,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_PERCENTAGE_00": {
+            "name": "FORMAT_PERCENTAGE_00",
+            "line": 41,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_YYYYMMDD2": {
+            "name": "FORMAT_DATE_YYYYMMDD2",
+            "line": 43,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_YYYYMMDD": {
+            "name": "FORMAT_DATE_YYYYMMDD",
+            "line": 44,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_DDMMYYYY": {
+            "name": "FORMAT_DATE_DDMMYYYY",
+            "line": 45,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_DMYSLASH": {
+            "name": "FORMAT_DATE_DMYSLASH",
+            "line": 46,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_DMYMINUS": {
+            "name": "FORMAT_DATE_DMYMINUS",
+            "line": 47,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_DMMINUS": {
+            "name": "FORMAT_DATE_DMMINUS",
+            "line": 48,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_MYMINUS": {
+            "name": "FORMAT_DATE_MYMINUS",
+            "line": 49,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_XLSX14": {
+            "name": "FORMAT_DATE_XLSX14",
+            "line": 50,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_XLSX15": {
+            "name": "FORMAT_DATE_XLSX15",
+            "line": 51,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_XLSX16": {
+            "name": "FORMAT_DATE_XLSX16",
+            "line": 52,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_XLSX17": {
+            "name": "FORMAT_DATE_XLSX17",
+            "line": 53,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_XLSX22": {
+            "name": "FORMAT_DATE_XLSX22",
+            "line": 54,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_DATETIME": {
+            "name": "FORMAT_DATE_DATETIME",
+            "line": 55,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_TIME1": {
+            "name": "FORMAT_DATE_TIME1",
+            "line": 56,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_TIME2": {
+            "name": "FORMAT_DATE_TIME2",
+            "line": 57,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_TIME3": {
+            "name": "FORMAT_DATE_TIME3",
+            "line": 58,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_TIME4": {
+            "name": "FORMAT_DATE_TIME4",
+            "line": 59,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_TIME5": {
+            "name": "FORMAT_DATE_TIME5",
+            "line": 60,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_TIME6": {
+            "name": "FORMAT_DATE_TIME6",
+            "line": 61,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_TIME7": {
+            "name": "FORMAT_DATE_TIME7",
+            "line": 62,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_TIME8": {
+            "name": "FORMAT_DATE_TIME8",
+            "line": 63,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_DATE_YYYYMMDDSLASH": {
+            "name": "FORMAT_DATE_YYYYMMDDSLASH",
+            "line": 64,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CURRENCY_USD_SIMPLE": {
+            "name": "FORMAT_CURRENCY_USD_SIMPLE",
+            "line": 66,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CURRENCY_USD": {
+            "name": "FORMAT_CURRENCY_USD",
+            "line": 67,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CURRENCY_EUR_SIMPLE": {
+            "name": "FORMAT_CURRENCY_EUR_SIMPLE",
+            "line": 68,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

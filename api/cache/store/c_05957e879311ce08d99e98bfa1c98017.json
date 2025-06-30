@@ -1,0 +1,533 @@
+{
+    "name": "PHPExcel_Writer_Excel5_Xf",
+    "line": 63,
+    "short_desc": "PHPExcel_Writer_Excel5_Xf",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Writer_Excel5"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Writer\/Excel5\/Xf.php",
+    "relative_file": null,
+    "hash": "c37f3be993e795b7167a09f427f2e936def57d67",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 132,
+            "short_desc": "Constructor",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "style": {
+                    "name": "style",
+                    "line": 132,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Style",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "writeXf": {
+            "name": "writeXf",
+            "line": 161,
+            "short_desc": "Generate an Excel BIFF XF record (style or cell).",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The XF record",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIsStyleXf": {
+            "name": "setIsStyleXf",
+            "line": 262,
+            "short_desc": "Is this a style XF ?",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 262,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setBottomColor": {
+            "name": "setBottomColor",
+            "line": 273,
+            "short_desc": "Sets the cell's bottom border color",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "colorIndex": {
+                    "name": "colorIndex",
+                    "line": 273,
+                    "short_desc": "Color index",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setTopColor": {
+            "name": "setTopColor",
+            "line": 284,
+            "short_desc": "Sets the cell's top border color",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "colorIndex": {
+                    "name": "colorIndex",
+                    "line": 284,
+                    "short_desc": "Color index",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setLeftColor": {
+            "name": "setLeftColor",
+            "line": 295,
+            "short_desc": "Sets the cell's left border color",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "colorIndex": {
+                    "name": "colorIndex",
+                    "line": 295,
+                    "short_desc": "Color index",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setRightColor": {
+            "name": "setRightColor",
+            "line": 306,
+            "short_desc": "Sets the cell's right border color",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "colorIndex": {
+                    "name": "colorIndex",
+                    "line": 306,
+                    "short_desc": "Color index",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setDiagColor": {
+            "name": "setDiagColor",
+            "line": 317,
+            "short_desc": "Sets the cell's diagonal border color",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "colorIndex": {
+                    "name": "colorIndex",
+                    "line": 317,
+                    "short_desc": "Color index",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setFgColor": {
+            "name": "setFgColor",
+            "line": 329,
+            "short_desc": "Sets the cell's foreground color",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "colorIndex": {
+                    "name": "colorIndex",
+                    "line": 329,
+                    "short_desc": "Color index",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setBgColor": {
+            "name": "setBgColor",
+            "line": 340,
+            "short_desc": "Sets the cell's background color",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "colorIndex": {
+                    "name": "colorIndex",
+                    "line": 340,
+                    "short_desc": "Color index",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setNumberFormatIndex": {
+            "name": "setNumberFormatIndex",
+            "line": 352,
+            "short_desc": "Sets the index to the number format record\nIt can be date, time, currency, etc.",
+            "long_desc": "..",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "numberFormatIndex": {
+                    "name": "numberFormatIndex",
+                    "line": 352,
+                    "short_desc": "Index to format record",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setFontIndex": {
+            "name": "setFontIndex",
+            "line": 362,
+            "short_desc": "Set the font index.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 362,
+                    "short_desc": "Font index, note that value 4 does not exist",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

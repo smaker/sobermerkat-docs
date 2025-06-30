@@ -1,0 +1,2639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>쏘버마켓 API 문서</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">쏘버마켓 API 문서</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -packages">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Services.html" class="">Services</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Services-JSON.html" class="">JSON</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Spreadsheet.html" class="">Spreadsheet</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Spreadsheet-Excel.html" class="">Excel</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/PHPExcel.html" class="">PHPExcel</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/PHPExcel-CachedObjectStorage.html" class="">CachedObjectStorage</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Calculation.html" class="">Calculation</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Cell.html" class="">Cell</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Chart.html" class="">Chart</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Reader.html" class="">Reader</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-RichText.html" class="">RichText</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Settings.html" class="">Settings</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Shared.html" class="">Shared</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Style.html" class="">Style</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Worksheet.html" class="">Worksheet</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Writer.html" class="">Writer</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL.html" class="">JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL-IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod.html" class="">IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix.html" class="">JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix-IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali.html" class="">IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAForanm.html" class="">JAMAForanm</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAForanm-by.html" class="">by</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMA.html" class="">JAMA</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAErrorhandlingauthorMichaelBommaritoversion01292005.html" class="">JAMAErrorhandlingauthorMichaelBommaritoversion01292005</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow.html" class="">JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category -reports">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category -indices">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    INIData
+
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">181</span>
+
+    </aside>
+
+        
+
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/INIData.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+
+
+
+
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/INIData.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_Body">$m_Body</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_Cmd">$m_Cmd</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_EncBody">$m_EncBody</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_ErrCode">$m_ErrCode</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_ErrMsg">$m_ErrMsg</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_EscrowType">$m_EscrowType</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_FlgCrypto">$m_FlgCrypto</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_FlgSign">$m_FlgSign</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_MPubSN">$m_MPubSN</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_PG1">$m_PG1</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_PG1IP">$m_PG1IP</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_PG2">$m_PG2</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_PG2IP">$m_PG2IP</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_PIPGPubSN">$m_PIPGPubSN</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_REQUEST">$m_REQUEST</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_REQUEST2">$m_REQUEST2</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_RESULT">$m_RESULT</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_RESULT2">$m_RESULT2</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_sBody">$m_sBody</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_sCmd">$m_sCmd</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_sCrypto">$m_sCrypto</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_sEncrypted">$m_sEncrypted</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_sHead">$m_sHead</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_sMsg">$m_sMsg</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_sPayMethod">$m_sPayMethod</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_sSessionKey">$m_sSessionKey</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_sTail">$m_sTail</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_sTID">$m_sTID</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_TXPGPubSN">$m_TXPGPubSN</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_TXVersion">$m_TXVersion</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_Type">$m_Type</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/INIData.html#property_m_Xml">$m_Xml</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/INIData.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method___construct">__construct()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_AddUserDefinedEntity">AddUserDefinedEntity()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_CheckField">CheckField()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_GenRand">GenRand()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_GetXMLData">GetXMLData()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_GTHR">GTHR()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_MakeBody">MakeBody()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_MakeEncrypt">MakeEncrypt()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_MakeHead">MakeHead()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_MakeRN">MakeRN()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_MakeTID">MakeTID()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_ParseBody">ParseBody()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_ParseDecrypt">ParseDecrypt()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_ParseHead">ParseHead()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/INIData.html#method_ParsePIEncrypted">ParsePIEncrypted()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+    </dl>
+
+
+
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/INIData.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_Body">
+        $m_Body
+        <a href="classes/INIData.html#property_m_Body" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">218</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_Body</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_Cmd">
+        $m_Cmd
+        <a href="classes/INIData.html#property_m_Cmd" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">217</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_Cmd</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_EncBody">
+        $m_EncBody
+        <a href="classes/INIData.html#property_m_EncBody" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">190</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_EncBody</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_ErrCode">
+        $m_ErrCode
+        <a href="classes/INIData.html#property_m_ErrCode" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">188</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_ErrCode</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_ErrMsg">
+        $m_ErrMsg
+        <a href="classes/INIData.html#property_m_ErrMsg" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">189</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_ErrMsg</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_EscrowType">
+        $m_EscrowType
+        <a href="classes/INIData.html#property_m_EscrowType" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">187</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_EscrowType</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_FlgCrypto">
+        $m_FlgCrypto
+        <a href="classes/INIData.html#property_m_FlgCrypto" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">215</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_FlgCrypto</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_FlgSign">
+        $m_FlgSign
+        <a href="classes/INIData.html#property_m_FlgSign" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">216</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_FlgSign</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_MPubSN">
+        $m_MPubSN
+        <a href="classes/INIData.html#property_m_MPubSN" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">202</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_MPubSN</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_PG1">
+        $m_PG1
+        <a href="classes/INIData.html#property_m_PG1" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">191</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_PG1</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_PG1IP">
+        $m_PG1IP
+        <a href="classes/INIData.html#property_m_PG1IP" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">193</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_PG1IP</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_PG2">
+        $m_PG2
+        <a href="classes/INIData.html#property_m_PG2" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">192</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_PG2</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_PG2IP">
+        $m_PG2IP
+        <a href="classes/INIData.html#property_m_PG2IP" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">194</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_PG2IP</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_PIPGPubSN">
+        $m_PIPGPubSN
+        <a href="classes/INIData.html#property_m_PIPGPubSN" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">203</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_PIPGPubSN</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_REQUEST">
+        $m_REQUEST
+        <a href="classes/INIData.html#property_m_REQUEST" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">221</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_REQUEST</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_REQUEST2">
+        $m_REQUEST2
+        <a href="classes/INIData.html#property_m_REQUEST2" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">222</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_REQUEST2</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_RESULT">
+        $m_RESULT
+        <a href="classes/INIData.html#property_m_RESULT" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">223</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_RESULT</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_RESULT2">
+        $m_RESULT2
+        <a href="classes/INIData.html#property_m_RESULT2" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">224</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_RESULT2</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_sBody">
+        $m_sBody
+        <a href="classes/INIData.html#property_m_sBody" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">208</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_sBody</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_sCmd">
+        $m_sCmd
+        <a href="classes/INIData.html#property_m_sCmd" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">198</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_sCmd</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_sCrypto">
+        $m_sCrypto
+        <a href="classes/INIData.html#property_m_sCrypto" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">199</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_sCrypto</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_sEncrypted">
+        $m_sEncrypted
+        <a href="classes/INIData.html#property_m_sEncrypted" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">210</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_sEncrypted</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_sHead">
+        $m_sHead
+        <a href="classes/INIData.html#property_m_sHead" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">207</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_sHead</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_sMsg">
+        $m_sMsg
+        <a href="classes/INIData.html#property_m_sMsg" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">206</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_sMsg</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_sPayMethod">
+        $m_sPayMethod
+        <a href="classes/INIData.html#property_m_sPayMethod" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">201</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_sPayMethod</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_sSessionKey">
+        $m_sSessionKey
+        <a href="classes/INIData.html#property_m_sSessionKey" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">211</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_sSessionKey</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_sTail">
+        $m_sTail
+        <a href="classes/INIData.html#property_m_sTail" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">209</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_sTail</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_sTID">
+        $m_sTID
+        <a href="classes/INIData.html#property_m_sTID" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">200</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_sTID</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_TXPGPubSN">
+        $m_TXPGPubSN
+        <a href="classes/INIData.html#property_m_TXPGPubSN" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">204</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_TXPGPubSN</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_TXVersion">
+        $m_TXVersion
+        <a href="classes/INIData.html#property_m_TXVersion" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">205</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_TXVersion</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_Type">
+        $m_Type
+        <a href="classes/INIData.html#property_m_Type" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">186</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_Type</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_m_Xml">
+        $m_Xml
+        <a href="classes/INIData.html#property_m_Xml" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">220</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$m_Xml</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/INIData.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/INIData.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">226</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$request2</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$request</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$request2</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_AddUserDefinedEntity">
+        AddUserDefinedEntity()
+        <a href="classes/INIData.html#method_AddUserDefinedEntity" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">687</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">AddUserDefinedEntity</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$info_node</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$downnode</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$xml</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$upnode</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$info_node</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$downnode</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$xml</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$upnode</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_CheckField">
+        CheckField()
+        <a href="classes/INIData.html#method_CheckField" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">292</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">CheckField</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_GenRand">
+        GenRand()
+        <a href="classes/INIData.html#method_GenRand" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">480</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">GenRand</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$length</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$nullOk</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$ascii</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$length</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$nullOk</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$ascii</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_GetXMLData">
+        GetXMLData()
+        <a href="classes/INIData.html#method_GetXMLData" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1116</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">GetXMLData</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$node</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$node</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_GTHR">
+        GTHR()
+        <a href="classes/INIData.html#method_GTHR" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1073</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">GTHR</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$err_code</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$err_msg</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$err_code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$err_msg</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_MakeBody">
+        MakeBody()
+        <a href="classes/INIData.html#method_MakeBody" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">706</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">MakeBody</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_MakeEncrypt">
+        MakeEncrypt()
+        <a href="classes/INIData.html#method_MakeEncrypt" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">488</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">MakeEncrypt</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$INICrypto</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$INICrypto</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_MakeHead">
+        MakeHead()
+        <a href="classes/INIData.html#method_MakeHead" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">648</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">MakeHead</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_MakeRN">
+        MakeRN()
+        <a href="classes/INIData.html#method_MakeRN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">458</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">MakeRN</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_MakeTID">
+        MakeTID()
+        <a href="classes/INIData.html#method_MakeTID" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">464</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">MakeTID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_ParseBody">
+        ParseBody()
+        <a href="classes/INIData.html#method_ParseBody" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">939</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">ParseBody</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$body</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$encrypted</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$sessionkey</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$body</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$encrypted</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sessionkey</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_ParseDecrypt">
+        ParseDecrypt()
+        <a href="classes/INIData.html#method_ParseDecrypt" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">970</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">ParseDecrypt</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$decrypted</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$decrypted</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_ParseHead">
+        ParseHead()
+        <a href="classes/INIData.html#method_ParseHead" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">913</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">ParseHead</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$head</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$head</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_ParsePIEncrypted">
+        ParsePIEncrypted()
+        <a href="classes/INIData.html#method_ParsePIEncrypted" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="shop/inicis/libs/INICls.php"><a href="files/shop-inicis-libs-inicls.html"><abbr title="shop/inicis/libs/INICls.php">INICls.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1102</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">ParsePIEncrypted</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+            </section>
+
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/shop/inicis/libs/INICls.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
+
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
+
+                    var xhr = new XMLHttpRequest();
+
+                    xhr.open('GET', src, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+                            Prism.highlightElement(code);
+                            return;
+                        }
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
+                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
+                    }
+                    modal.classList.add("phpdocumentor-modal__open");
+
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
+                    });
+                });
+            });
+        })();
+    </script>
+
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                            <li><a href="classes/INIData.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/INIData.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/INIData.html#property_m_Body">$m_Body</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_Cmd">$m_Cmd</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_EncBody">$m_EncBody</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_ErrCode">$m_ErrCode</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_ErrMsg">$m_ErrMsg</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_EscrowType">$m_EscrowType</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_FlgCrypto">$m_FlgCrypto</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_FlgSign">$m_FlgSign</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_MPubSN">$m_MPubSN</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_PG1">$m_PG1</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_PG1IP">$m_PG1IP</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_PG2">$m_PG2</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_PG2IP">$m_PG2IP</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_PIPGPubSN">$m_PIPGPubSN</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_REQUEST">$m_REQUEST</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_REQUEST2">$m_REQUEST2</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_RESULT">$m_RESULT</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_RESULT2">$m_RESULT2</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_sBody">$m_sBody</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_sCmd">$m_sCmd</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_sCrypto">$m_sCrypto</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_sEncrypted">$m_sEncrypted</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_sHead">$m_sHead</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_sMsg">$m_sMsg</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_sPayMethod">$m_sPayMethod</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_sSessionKey">$m_sSessionKey</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_sTail">$m_sTail</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_sTID">$m_sTID</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_TXPGPubSN">$m_TXPGPubSN</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_TXVersion">$m_TXVersion</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_Type">$m_Type</a></li>
+                                                    <li class=""><a href="classes/INIData.html#property_m_Xml">$m_Xml</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/INIData.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_AddUserDefinedEntity">AddUserDefinedEntity()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_CheckField">CheckField()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_GenRand">GenRand()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_GetXMLData">GetXMLData()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_GTHR">GTHR()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_MakeBody">MakeBody()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_MakeEncrypt">MakeEncrypt()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_MakeHead">MakeHead()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_MakeRN">MakeRN()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_MakeTID">MakeTID()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_ParseBody">ParseBody()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_ParseDecrypt">ParseDecrypt()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_ParseHead">ParseHead()</a></li>
+                                            <li class=""><a href="classes/INIData.html#method_ParsePIEncrypted">ParsePIEncrypted()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="classes/INIData.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>

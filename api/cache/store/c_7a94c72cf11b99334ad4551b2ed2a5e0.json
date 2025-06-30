@@ -1,0 +1,211 @@
+{
+    "name": "Services_JSON",
+    "line": 115,
+    "short_desc": "Converts to and from JSON format.",
+    "long_desc": "Brief example of use:\n\n<code>\n\/\/ create a new instance of Services_JSON\n$json = new Services_JSON();\n\n\/\/ convert a complexe value to JSON notation, and send it to the browser\n$value = array('foo', 'bar', array(1, 2, 'baz'), array(3, array(4)));\n$output = $json->encode($value);\n\nprint($output);\n\/\/ prints: [\"foo\",\"bar\",[1,2,\"baz\"],[3,[4]]]\n\n\/\/ accept incoming POST data, assumed to be in JSON notation\n$input = file_get_contents('php:\/\/input', 1000000);\n$value = $json->decode($input);\n<\/code>",
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/shop\/inicis\/libs\/JSON.php",
+    "relative_file": null,
+    "hash": "53e0088c3a7024c6cab7857e9cf634a07d02628f",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "Services_JSON": {
+            "name": "Services_JSON",
+            "line": 133,
+            "short_desc": "constructs a new JSON instance",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "use": {
+                    "name": "use",
+                    "line": 133,
+                    "short_desc": "object behavior flags; combine with boolean-OR\n\npossible values:\n- SERVICES_JSON_LOOSE_TYPE:  loose typing.\n        \"{...}\" syntax creates associative arrays\n        instead of objects in decode().\n- SERVICES_JSON_SUPPRESS_ERRORS:  error suppression.\n        Values which can't be encoded (e.g. resources)\n        appear as NULL instead of throwing errors.\n        By default, a deeply-nested resource will\n        bubble up with an error, so all return values\n        from encode() should be checked with isError()",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "encode": {
+            "name": "encode",
+            "line": 237,
+            "short_desc": "encodes an arbitrary variable into JSON format",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "JSON string representation of input var or an error if a problem occurs",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "var": {
+                    "name": "var",
+                    "line": 237,
+                    "short_desc": "any number, boolean, string, array, or object to be encoded.\nsee argument 1 to Services_JSON() above for array-parsing behavior.\nif var is a strng, note that encode() always expects it\nto be in ASCII or UTF-8 format!",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "decode": {
+            "name": "decode",
+            "line": 484,
+            "short_desc": "decodes a JSON string into appropriate variable",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "number, boolean, string, array, or object\ncorresponding to given JSON input string.\nSee argument 1 to Services_JSON() above for object-output behavior.\nNote that decode() always returns strings\nin ASCII or UTF-8 format!",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "str": {
+                    "name": "str",
+                    "line": 484,
+                    "short_desc": "JSON-formatted string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "isError": {
+            "name": "isError",
+            "line": 766,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "todo": [
+                    [
+                        "Ultimately,",
+                        "this",
+                        "should",
+                        "just",
+                        "call",
+                        "PEAR::isError()"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "data": {
+                    "name": "data",
+                    "line": 766,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "code": {
+                    "name": "code",
+                    "line": 766,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

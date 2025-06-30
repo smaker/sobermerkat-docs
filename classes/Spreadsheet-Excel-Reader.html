@@ -1,0 +1,2423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>쏘버마켓 API 문서</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">쏘버마켓 API 문서</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -packages">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Services.html" class="">Services</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Services-JSON.html" class="">JSON</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Spreadsheet.html" class="">Spreadsheet</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Spreadsheet-Excel.html" class="">Excel</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/PHPExcel.html" class="">PHPExcel</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/PHPExcel-CachedObjectStorage.html" class="">CachedObjectStorage</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Calculation.html" class="">Calculation</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Cell.html" class="">Cell</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Chart.html" class="">Chart</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Reader.html" class="">Reader</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-RichText.html" class="">RichText</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Settings.html" class="">Settings</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Shared.html" class="">Shared</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Style.html" class="">Style</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Worksheet.html" class="">Worksheet</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Writer.html" class="">Writer</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL.html" class="">JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL-IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod.html" class="">IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix.html" class="">JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix-IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali.html" class="">IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAForanm.html" class="">JAMAForanm</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAForanm-by.html" class="">by</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMA.html" class="">JAMA</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAErrorhandlingauthorMichaelBommaritoversion01292005.html" class="">JAMAErrorhandlingauthorMichaelBommaritoversion01292005</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow.html" class="">JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category -reports">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category -indices">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="packages/Spreadsheet.html">Spreadsheet</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="packages/Spreadsheet-Excel.html">Excel</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="packages/Spreadsheet-Excel-Reader.html">Reader</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    Spreadsheet_Excel_Reader
+
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Spreadsheet.html">Spreadsheet</a></li>
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Spreadsheet-Excel.html">Excel</a></li>
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Spreadsheet-Excel-Reader.html">Reader</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">103</span>
+
+    </aside>
+
+            <p class="phpdocumentor-summary">A class for reading Microsoft Excel Spreadsheets.</p>
+
+
+    <section class="phpdocumentor-description"><p>Originally developed by Vadim Tkachenko under the name PHPExcelReader.
+(http://sourceforge.net/projects/phpexcelreader)
+Based on the Java version by Andy Khan (http://www.andykhan.com).  Now
+maintained by David Sanders.  Reads only Biff 7 and Biff 8 formats.</p>
+</section>
+
+
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Spreadsheet</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">author</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Vadim Tkachenko <a href="mailto:vt@phpapache.com">vt@phpapache.com</a></p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">copyright</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>1997-2005 The PHP Group</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">license</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>http://www.php.net/license/3_0.txt  PHP License 3.0</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">version</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Release: @package_version@</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">link</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                                        <a class="phpdocumentor-tag-link" href="http://pear.php.net/package/PackageName"> http://pear.php.net/package/PackageName </a>
+                    
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">see</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>OLE, Spreadsheet_Excel_Writer</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/Spreadsheet-Excel-Reader.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+
+
+
+
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/Spreadsheet-Excel-Reader.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property__coloffset">$_coloffset</a>
+    <span>
+                        &nbsp;: int            </span>
+</dt>
+<dd>todo</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property__columnsFormat">$_columnsFormat</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>todo
+List of formats to use for each column</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property__defaultEncoding">$_defaultEncoding</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>Default encoding</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property__defaultFormat">$_defaultFormat</a>
+    <span>
+                        &nbsp;: int            </span>
+</dt>
+<dd>Default number format</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property__ole">$_ole</a>
+    <span>
+                        &nbsp;: <abbr title="\OLE">OLE</abbr>            </span>
+</dt>
+<dd>OLE object for reading the file</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property__rowoffset">$_rowoffset</a>
+    <span>
+                        &nbsp;: int            </span>
+</dt>
+<dd>todo</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property_boundsheets">$boundsheets</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>Array of worksheets found</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property_data">$data</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>The data returned by OLE</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property_dateFormats">$dateFormats</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>List of default date formats used by Excel</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property_formatRecords">$formatRecords</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>Array of format records found</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property_numberFormats">$numberFormats</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>Default number formats used by Excel</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property_sheets">$sheets</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>Array of worksheets</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#property_sst">$sst</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>todo</dd>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/Spreadsheet-Excel-Reader.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method__encodeUTF16">_encodeUTF16()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method__GetIEEE754">_GetIEEE754()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method__GetInt4d">_GetInt4d()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method__parse">_parse()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Parse a workbook</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method__parsesheet">_parsesheet()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Parse a worksheet</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method_addcell">addcell()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method_createDate">createDate()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Convert the raw Excel date into a human readable format</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method_createNumber">createNumber()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method_isDate">isDate()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Check whether the current record read is a date</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method_read">read()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Read the spreadsheet file using OLE, then parse</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method_setColumnFormat">setColumnFormat()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Force a column to use a certain format</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method_setDefaultFormat">setDefaultFormat()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Set the default number format</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method_setOutputEncoding">setOutputEncoding()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Set the encoding method</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method_setRowColOffset">setRowColOffset()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>todo</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method_setUTFEncoder">setUTFEncoder()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>$encoder = &#039;iconv&#039; or &#039;mb&#039;
+ set iconv if you would like use &#039;iconv&#039; for encode UTF-16LE to your encoding
+ set mb if you would like use &#039;mb_convert_encoding&#039; for encode UTF-16LE to your encoding</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/Spreadsheet-Excel-Reader.html#method_Spreadsheet_Excel_Reader">Spreadsheet_Excel_Reader()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Constructor</dd>
+
+    </dl>
+
+
+
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/Spreadsheet-Excel-Reader.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property__coloffset">
+        $_coloffset
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__coloffset" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">201</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">todo</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$_coloffset</span>
+     = <span class="phpdocumentor-signature__default-value">1</span></code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__coloffset#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>private</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property__columnsFormat">
+        $_columnsFormat
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__columnsFormat" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">185</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">todo
+List of formats to use for each column</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$_columnsFormat</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__columnsFormat#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>private</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property__defaultEncoding">
+        $_defaultEncoding
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__defaultEncoding" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">168</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Default encoding</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$_defaultEncoding</span>
+    </code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__defaultEncoding#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>private</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property__defaultFormat">
+        $_defaultFormat
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__defaultFormat" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">176</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Default number format</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$_defaultFormat</span>
+     = <span class="phpdocumentor-signature__default-value">\SPREADSHEET_EXCEL_READER_DEF_NUM_FORMAT</span></code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__defaultFormat#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>private</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property__ole">
+        $_ole
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__ole" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">160</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">OLE object for reading the file</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type"><abbr title="\OLE">OLE</abbr></span>
+    <span class="phpdocumentor-signature__name">$_ole</span>
+    </code>
+
+    
+        <section class="phpdocumentor-description"><p>object</p>
+</section>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__ole#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>private</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property__rowoffset">
+        $_rowoffset
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__rowoffset" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">193</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">todo</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$_rowoffset</span>
+     = <span class="phpdocumentor-signature__default-value">1</span></code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property__rowoffset#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>private</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_boundsheets">
+        $boundsheets
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_boundsheets" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">111</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Array of worksheets found</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$boundsheets</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_boundsheets#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_data">
+        $data
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_data" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">152</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">The data returned by OLE</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$data</span>
+    </code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_data#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_dateFormats">
+        $dateFormats
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_dateFormats" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">209</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">List of default date formats used by Excel</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$dateFormats</span>
+     = <span class="phpdocumentor-signature__default-value">array(0xe =&gt; &quot;d/m/Y&quot;, 0xf =&gt; &quot;d-M-Y&quot;, 0x10 =&gt; &quot;d-M&quot;, 0x11 =&gt; &quot;M-Y&quot;, 0x12 =&gt; &quot;h:i a&quot;, 0x13 =&gt; &quot;h:i:s a&quot;, 0x14 =&gt; &quot;H:i&quot;, 0x15 =&gt; &quot;H:i:s&quot;, 0x16 =&gt; &quot;d/m/Y H:i&quot;, 0x2d =&gt; &quot;i:s&quot;, 0x2e =&gt; &quot;H:i:s&quot;, 0x2f =&gt; &quot;i:s.S&quot;)</span></code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_dateFormats#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_formatRecords">
+        $formatRecords
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_formatRecords" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">119</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Array of format records found</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$formatRecords</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_formatRecords#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_numberFormats">
+        $numberFormats
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_numberFormats" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">229</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Default number formats used by Excel</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$numberFormats</span>
+     = <span class="phpdocumentor-signature__default-value">array(
+    0x1 =&gt; &quot;%1.0f&quot;,
+    // &quot;0&quot;
+    0x2 =&gt; &quot;%1.2f&quot;,
+    // &quot;0.00&quot;,
+    0x3 =&gt; &quot;%1.0f&quot;,
+    //&quot;#,##0&quot;,
+    0x4 =&gt; &quot;%1.2f&quot;,
+    //&quot;#,##0.00&quot;,
+    0x5 =&gt; &quot;%1.0f&quot;,
+    /*&quot;$#,##0;($#,##0)&quot;,*/
+    0x6 =&gt; &#039;$%1.0f&#039;,
+    /*&quot;$#,##0;($#,##0)&quot;,*/
+    0x7 =&gt; &#039;$%1.2f&#039;,
+    //&quot;$#,##0.00;($#,##0.00)&quot;,
+    0x8 =&gt; &#039;$%1.2f&#039;,
+    //&quot;$#,##0.00;($#,##0.00)&quot;,
+    0x9 =&gt; &#039;%1.0f%%&#039;,
+    // &quot;0%&quot;
+    0xa =&gt; &#039;%1.2f%%&#039;,
+    // &quot;0.00%&quot;
+    0xb =&gt; &#039;%1.2f&#039;,
+    // 0.00E00&quot;,
+    0x25 =&gt; &#039;%1.0f&#039;,
+    // &quot;#,##0;(#,##0)&quot;,
+    0x26 =&gt; &#039;%1.0f&#039;,
+    //&quot;#,##0;(#,##0)&quot;,
+    0x27 =&gt; &#039;%1.2f&#039;,
+    //&quot;#,##0.00;(#,##0.00)&quot;,
+    0x28 =&gt; &#039;%1.2f&#039;,
+    //&quot;#,##0.00;(#,##0.00)&quot;,
+    0x29 =&gt; &#039;%1.0f&#039;,
+    //&quot;#,##0;(#,##0)&quot;,
+    0x2a =&gt; &#039;$%1.0f&#039;,
+    //&quot;$#,##0;($#,##0)&quot;,
+    0x2b =&gt; &#039;%1.2f&#039;,
+    //&quot;#,##0.00;(#,##0.00)&quot;,
+    0x2c =&gt; &#039;$%1.2f&#039;,
+    //&quot;$#,##0.00;($#,##0.00)&quot;,
+    0x30 =&gt; &#039;%1.0f&#039;,
+)</span></code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_numberFormats#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_sheets">
+        $sheets
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_sheets" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">144</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Array of worksheets</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$sheets</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+        <section class="phpdocumentor-description"><p>The data is stored in 'cells' and the meta-data is stored in an array
+called 'cellsInfo'</p>
+<p>Example:</p>
+<p>$sheets  --&gt;  'cells'  --&gt;  row --&gt; column --&gt; Interpreted value
+--&gt;  'cellsInfo' --&gt; row --&gt; column --&gt; 'type' - Can be 'date', 'number', or 'unknown'
+--&gt; 'raw' - The raw data that Excel stores for that data cell</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_sheets#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_sst">
+        $sst
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_sst" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">127</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">todo</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$sst</span>
+     = <span class="phpdocumentor-signature__default-value">array()</span></code>
+
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#property_sst#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/Spreadsheet-Excel-Reader.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__encodeUTF16">
+        _encodeUTF16()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method__encodeUTF16" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1050</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">_encodeUTF16</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$string</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$string</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__GetIEEE754">
+        _GetIEEE754()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method__GetIEEE754" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1016</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">_GetIEEE754</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$rknum</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$rknum</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__GetInt4d">
+        _GetInt4d()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method__GetInt4d" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1064</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">_GetInt4d</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pos</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$data</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pos</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__parse">
+        _parse()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method__parse" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">437</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Parse a workbook</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">_parse</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#method__parse#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>private</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method__parsesheet">
+        _parsesheet()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method__parsesheet" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">710</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Parse a worksheet</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">_parsesheet</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$spos</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$spos</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#method__parsesheet#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>private</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">todo</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>fix return codes</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_addcell">
+        addcell()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_addcell" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1002</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">addcell</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$row</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$col</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$string</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$raw</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$row</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$col</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$string</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$raw</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_createDate">
+        createDate()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_createDate" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">966</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Convert the raw Excel date into a human readable format</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">createDate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$numValue</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Dates in Excel are stored as number of seconds from an epoch.  On
+Windows, the epoch is 30/12/1899 and on Mac it's 01/01/1904</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$numValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_createDate#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>private</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>First element is the converted date, the second element is number a unix timestamp</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_createNumber">
+        createNumber()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_createNumber" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">984</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">createNumber</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$spos</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$spos</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_isDate">
+        isDate()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_isDate" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">928</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Check whether the current record read is a date</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">isDate</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$spos</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$spos</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>True if date, false otherwise</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_read">
+        read()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_read" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">358</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Read the spreadsheet file using OLE, then parse</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">read</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sFileName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sFileName</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_read#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">todo</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>return a valid value</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setColumnFormat">
+        setColumnFormat()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_setColumnFormat" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">342</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Force a column to use a certain format</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setColumnFormat</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$column</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sFormat</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$column</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sFormat</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_setColumnFormat#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setDefaultFormat">
+        setDefaultFormat()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_setDefaultFormat" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">327</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set the default number format</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setDefaultFormat</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sFormat</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sFormat</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_setDefaultFormat#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setOutputEncoding">
+        setOutputEncoding()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_setOutputEncoding" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">274</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set the encoding method</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setOutputEncoding</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$encoding</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$encoding</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_setOutputEncoding#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setRowColOffset">
+        setRowColOffset()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_setRowColOffset" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">312</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">todo</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setRowColOffset</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$iOffset</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$iOffset</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_setRowColOffset#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setUTFEncoder">
+        setUTFEncoder()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_setUTFEncoder" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">290</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">$encoder = &#039;iconv&#039; or &#039;mb&#039;
+ set iconv if you would like use &#039;iconv&#039; for encode UTF-16LE to your encoding
+ set mb if you would like use &#039;mb_convert_encoding&#039; for encode UTF-16LE to your encoding</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setUTFEncoder</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$encoder</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;iconv&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$encoder</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;iconv&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_setUTFEncoder#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_Spreadsheet_Excel_Reader">
+        Spreadsheet_Excel_Reader()
+        <a href="classes/Spreadsheet-Excel-Reader.html#method_Spreadsheet_Excel_Reader" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/Excel/reader.php"><a href="files/lib-excel-reader.html"><abbr title="lib/Excel/reader.php">reader.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">259</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Constructor</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">Spreadsheet_Excel_Reader</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Some basic initialisation</p>
+</section>
+
+    
+    
+
+    
+
+    
+</article>
+            </section>
+
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/lib/Excel/reader.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
+
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
+
+                    var xhr = new XMLHttpRequest();
+
+                    xhr.open('GET', src, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+                            Prism.highlightElement(code);
+                            return;
+                        }
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
+                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
+                    }
+                    modal.classList.add("phpdocumentor-modal__open");
+
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
+                    });
+                });
+            });
+        })();
+    </script>
+
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                            <li><a href="classes/Spreadsheet-Excel-Reader.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/Spreadsheet-Excel-Reader.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property__coloffset">$_coloffset</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property__columnsFormat">$_columnsFormat</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property__defaultEncoding">$_defaultEncoding</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property__defaultFormat">$_defaultFormat</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property__ole">$_ole</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property__rowoffset">$_rowoffset</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property_boundsheets">$boundsheets</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property_data">$data</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property_dateFormats">$dateFormats</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property_formatRecords">$formatRecords</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property_numberFormats">$numberFormats</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property_sheets">$sheets</a></li>
+                                                    <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#property_sst">$sst</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method__encodeUTF16">_encodeUTF16()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method__GetIEEE754">_GetIEEE754()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method__GetInt4d">_GetInt4d()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method__parse">_parse()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method__parsesheet">_parsesheet()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method_addcell">addcell()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method_createDate">createDate()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method_createNumber">createNumber()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method_isDate">isDate()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method_read">read()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method_setColumnFormat">setColumnFormat()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method_setDefaultFormat">setDefaultFormat()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method_setOutputEncoding">setOutputEncoding()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method_setRowColOffset">setRowColOffset()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method_setUTFEncoder">setUTFEncoder()</a></li>
+                                            <li class=""><a href="classes/Spreadsheet-Excel-Reader.html#method_Spreadsheet_Excel_Reader">Spreadsheet_Excel_Reader()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="classes/Spreadsheet-Excel-Reader.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>

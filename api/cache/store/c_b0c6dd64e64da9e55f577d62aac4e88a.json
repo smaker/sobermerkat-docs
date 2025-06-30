@@ -1,0 +1,243 @@
+{
+    "name": "PHPExcel_CachedObjectStorage_MemorySerialized",
+    "line": 28,
+    "short_desc": "PHPExcel_CachedObjectStorage_MemorySerialized",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_CachedObjectStorage"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/CachedObjectStorage\/MemorySerialized.php",
+    "relative_file": null,
+    "hash": "7e3c65e81c3d41a06c9e07fe5ff6f27b6c0fc624",
+    "parent": "PHPExcel_CachedObjectStorage_CacheBase",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": {
+        "PHPExcel_CachedObjectStorage_ICache": "PHPExcel_CachedObjectStorage_ICache"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "storeData": {
+            "name": "storeData",
+            "line": 37,
+            "short_desc": "Store cell data in cache for the current cell object if it's \"dirty\",\n    and the 'nullify' the current cell object",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "addCacheData": {
+            "name": "addCacheData",
+            "line": 56,
+            "short_desc": "Add or Update a cell in cache identified by coordinate address",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Cell",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pCoord": {
+                    "name": "pCoord",
+                    "line": 56,
+                    "short_desc": "Coordinate address of the cell to update",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "cell": {
+                    "name": "cell",
+                    "line": 56,
+                    "short_desc": "Cell to update",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Cell",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getCacheData": {
+            "name": "getCacheData",
+            "line": 76,
+            "short_desc": "Get cell at a specific coordinate",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Cell",
+                    false
+                ]
+            ],
+            "hint_desc": "Cell that was found, or null if not found",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pCoord": {
+                    "name": "pCoord",
+                    "line": 76,
+                    "short_desc": "Coordinate address of the cell to retrieve",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getCellList": {
+            "name": "getCellList",
+            "line": 104,
+            "short_desc": "Get a list of all cell addresses currently held in cache",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "unsetWorksheetCells": {
+            "name": "unsetWorksheetCells",
+            "line": 118,
+            "short_desc": "Clear the cell collection and disconnect from our parent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "void",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

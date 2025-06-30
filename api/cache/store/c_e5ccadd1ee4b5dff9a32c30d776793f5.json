@@ -1,0 +1,535 @@
+{
+    "name": "PHPExcel_IOFactory",
+    "line": 37,
+    "short_desc": "PHPExcel_IOFactory",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/IOFactory.php",
+    "relative_file": null,
+    "hash": "148f080a988e7791e6635ef86cbc3b9b21df228f",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getSearchLocations": {
+            "name": "getSearchLocations",
+            "line": 83,
+            "short_desc": "Get search locations",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ],
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSearchLocations": {
+            "name": "setSearchLocations",
+            "line": 96,
+            "short_desc": "Set search locations",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ],
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 96,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "addSearchLocation": {
+            "name": "addSearchLocation",
+            "line": 114,
+            "short_desc": "Add search location",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ],
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "type": {
+                    "name": "type",
+                    "line": 114,
+                    "short_desc": "Example: IWriter",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "location": {
+                    "name": "location",
+                    "line": 114,
+                    "short_desc": "Example: PHPExcel\/Writer\/{0}.php",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "classname": {
+                    "name": "classname",
+                    "line": 114,
+                    "short_desc": "Example: PHPExcel_Writer_{0}",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "createWriter": {
+            "name": "createWriter",
+            "line": 129,
+            "short_desc": "Create PHPExcel_Writer_IWriter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Writer_IWriter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ],
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "phpExcel": {
+                    "name": "phpExcel",
+                    "line": 129,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "writerType": {
+                    "name": "writerType",
+                    "line": 129,
+                    "short_desc": "Example: Excel2007",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "createReader": {
+            "name": "createReader",
+            "line": 159,
+            "short_desc": "Create PHPExcel_Reader_IReader",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Reader_IReader",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ],
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "readerType": {
+                    "name": "readerType",
+                    "line": 159,
+                    "short_desc": "Example: Excel2007",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "load": {
+            "name": "load",
+            "line": 189,
+            "short_desc": "Loads PHPExcel from file using automatic PHPExcel_Reader_IReader resolution",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ],
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 189,
+                    "short_desc": "The name of the spreadsheet file",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "identify": {
+            "name": "identify",
+            "line": 204,
+            "short_desc": "Identify file type using automatic PHPExcel_Reader_IReader resolution",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ],
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 204,
+                    "short_desc": "The name of the spreadsheet file to identify",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "createReaderForFile": {
+            "name": "createReaderForFile",
+            "line": 222,
+            "short_desc": "Create PHPExcel_Reader_IReader for file using automatic PHPExcel_Reader_IReader resolution",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Reader_IReader",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "static": [
+                    [
+                        ""
+                    ]
+                ],
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 222,
+                    "short_desc": "The name of the spreadsheet file",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,971 @@
+{
+    "name": "PHPExcel_Chart_Properties",
+    "line": 9,
+    "short_desc": "Created by PhpStorm.",
+    "long_desc": "User: nhw2h8s\nDate: 7\/2\/14\nTime: 5:45 PM",
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Chart\/Properties.php",
+    "relative_file": null,
+    "hash": "e03e30592e3f23a7f1ad51f34ac86690a4eb115c",
+    "parent": null,
+    "modifiers": 16,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "getExcelPointsWidth": {
+            "name": "getExcelPointsWidth",
+            "line": 116,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "width": {
+                    "name": "width",
+                    "line": 116,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getExcelPointsAngle": {
+            "name": "getExcelPointsAngle",
+            "line": 121,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "angle": {
+                    "name": "angle",
+                    "line": 121,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTrueAlpha": {
+            "name": "getTrueAlpha",
+            "line": 126,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "alpha": {
+                    "name": "alpha",
+                    "line": 126,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setColorProperties": {
+            "name": "setColorProperties",
+            "line": 131,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "color": {
+                    "name": "color",
+                    "line": 131,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "alpha": {
+                    "name": "alpha",
+                    "line": 131,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 131,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getLineStyleArrowSize": {
+            "name": "getLineStyleArrowSize",
+            "line": 140,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "array_selector": {
+                    "name": "array_selector",
+                    "line": 140,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "array_kay_selector": {
+                    "name": "array_kay_selector",
+                    "line": 140,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getShadowPresetsMap": {
+            "name": "getShadowPresetsMap",
+            "line": 157,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "shadow_presets_option": {
+                    "name": "shadow_presets_option",
+                    "line": 157,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getArrayElementsValue": {
+            "name": "getArrayElementsValue",
+            "line": 350,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "properties": {
+                    "name": "properties",
+                    "line": 350,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "elements": {
+                    "name": "elements",
+                    "line": 350,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "EXCEL_COLOR_TYPE_STANDARD": {
+            "name": "EXCEL_COLOR_TYPE_STANDARD",
+            "line": 12,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "EXCEL_COLOR_TYPE_SCHEME": {
+            "name": "EXCEL_COLOR_TYPE_SCHEME",
+            "line": 13,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "EXCEL_COLOR_TYPE_ARGB": {
+            "name": "EXCEL_COLOR_TYPE_ARGB",
+            "line": 14,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AXIS_LABELS_LOW": {
+            "name": "AXIS_LABELS_LOW",
+            "line": 17,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AXIS_LABELS_HIGH": {
+            "name": "AXIS_LABELS_HIGH",
+            "line": 18,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AXIS_LABELS_NEXT_TO": {
+            "name": "AXIS_LABELS_NEXT_TO",
+            "line": 19,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AXIS_LABELS_NONE": {
+            "name": "AXIS_LABELS_NONE",
+            "line": 20,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TICK_MARK_NONE": {
+            "name": "TICK_MARK_NONE",
+            "line": 23,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TICK_MARK_INSIDE": {
+            "name": "TICK_MARK_INSIDE",
+            "line": 24,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TICK_MARK_OUTSIDE": {
+            "name": "TICK_MARK_OUTSIDE",
+            "line": 25,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TICK_MARK_CROSS": {
+            "name": "TICK_MARK_CROSS",
+            "line": 26,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "HORIZONTAL_CROSSES_AUTOZERO": {
+            "name": "HORIZONTAL_CROSSES_AUTOZERO",
+            "line": 29,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "HORIZONTAL_CROSSES_MAXIMUM": {
+            "name": "HORIZONTAL_CROSSES_MAXIMUM",
+            "line": 30,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CODE_GENERAL": {
+            "name": "FORMAT_CODE_GENERAL",
+            "line": 33,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CODE_NUMBER": {
+            "name": "FORMAT_CODE_NUMBER",
+            "line": 34,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CODE_CURRENCY": {
+            "name": "FORMAT_CODE_CURRENCY",
+            "line": 35,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CODE_ACCOUNTING": {
+            "name": "FORMAT_CODE_ACCOUNTING",
+            "line": 36,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CODE_DATE": {
+            "name": "FORMAT_CODE_DATE",
+            "line": 37,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CODE_TIME": {
+            "name": "FORMAT_CODE_TIME",
+            "line": 38,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CODE_PERCENTAGE": {
+            "name": "FORMAT_CODE_PERCENTAGE",
+            "line": 39,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CODE_FRACTION": {
+            "name": "FORMAT_CODE_FRACTION",
+            "line": 40,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CODE_SCIENTIFIC": {
+            "name": "FORMAT_CODE_SCIENTIFIC",
+            "line": 41,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CODE_TEXT": {
+            "name": "FORMAT_CODE_TEXT",
+            "line": 42,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "FORMAT_CODE_SPECIAL": {
+            "name": "FORMAT_CODE_SPECIAL",
+            "line": 43,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "ORIENTATION_NORMAL": {
+            "name": "ORIENTATION_NORMAL",
+            "line": 46,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "ORIENTATION_REVERSED": {
+            "name": "ORIENTATION_REVERSED",
+            "line": 47,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_COMPOUND_SIMPLE": {
+            "name": "LINE_STYLE_COMPOUND_SIMPLE",
+            "line": 50,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_COMPOUND_DOUBLE": {
+            "name": "LINE_STYLE_COMPOUND_DOUBLE",
+            "line": 51,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_COMPOUND_THICKTHIN": {
+            "name": "LINE_STYLE_COMPOUND_THICKTHIN",
+            "line": 52,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_COMPOUND_THINTHICK": {
+            "name": "LINE_STYLE_COMPOUND_THINTHICK",
+            "line": 53,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_COMPOUND_TRIPLE": {
+            "name": "LINE_STYLE_COMPOUND_TRIPLE",
+            "line": 54,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_DASH_SOLID": {
+            "name": "LINE_STYLE_DASH_SOLID",
+            "line": 56,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_DASH_ROUND_DOT": {
+            "name": "LINE_STYLE_DASH_ROUND_DOT",
+            "line": 57,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_DASH_SQUERE_DOT": {
+            "name": "LINE_STYLE_DASH_SQUERE_DOT",
+            "line": 58,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYPE_DASH_DASH": {
+            "name": "LINE_STYPE_DASH_DASH",
+            "line": 59,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_DASH_DASH_DOT": {
+            "name": "LINE_STYLE_DASH_DASH_DOT",
+            "line": 60,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_DASH_LONG_DASH": {
+            "name": "LINE_STYLE_DASH_LONG_DASH",
+            "line": 61,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_DASH_LONG_DASH_DOT": {
+            "name": "LINE_STYLE_DASH_LONG_DASH_DOT",
+            "line": 62,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_DASH_LONG_DASH_DOT_DOT": {
+            "name": "LINE_STYLE_DASH_LONG_DASH_DOT_DOT",
+            "line": 63,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_CAP_SQUARE": {
+            "name": "LINE_STYLE_CAP_SQUARE",
+            "line": 65,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_CAP_ROUND": {
+            "name": "LINE_STYLE_CAP_ROUND",
+            "line": 66,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_CAP_FLAT": {
+            "name": "LINE_STYLE_CAP_FLAT",
+            "line": 67,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_JOIN_ROUND": {
+            "name": "LINE_STYLE_JOIN_ROUND",
+            "line": 69,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_JOIN_MITER": {
+            "name": "LINE_STYLE_JOIN_MITER",
+            "line": 70,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_JOIN_BEVEL": {
+            "name": "LINE_STYLE_JOIN_BEVEL",
+            "line": 71,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_TYPE_NOARROW": {
+            "name": "LINE_STYLE_ARROW_TYPE_NOARROW",
+            "line": 73,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_TYPE_ARROW": {
+            "name": "LINE_STYLE_ARROW_TYPE_ARROW",
+            "line": 74,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_TYPE_OPEN": {
+            "name": "LINE_STYLE_ARROW_TYPE_OPEN",
+            "line": 75,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_TYPE_STEALTH": {
+            "name": "LINE_STYLE_ARROW_TYPE_STEALTH",
+            "line": 76,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_TYPE_DIAMOND": {
+            "name": "LINE_STYLE_ARROW_TYPE_DIAMOND",
+            "line": 77,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_TYPE_OVAL": {
+            "name": "LINE_STYLE_ARROW_TYPE_OVAL",
+            "line": 78,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_SIZE_1": {
+            "name": "LINE_STYLE_ARROW_SIZE_1",
+            "line": 80,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_SIZE_2": {
+            "name": "LINE_STYLE_ARROW_SIZE_2",
+            "line": 81,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_SIZE_3": {
+            "name": "LINE_STYLE_ARROW_SIZE_3",
+            "line": 82,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_SIZE_4": {
+            "name": "LINE_STYLE_ARROW_SIZE_4",
+            "line": 83,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_SIZE_5": {
+            "name": "LINE_STYLE_ARROW_SIZE_5",
+            "line": 84,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_SIZE_6": {
+            "name": "LINE_STYLE_ARROW_SIZE_6",
+            "line": 85,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_SIZE_7": {
+            "name": "LINE_STYLE_ARROW_SIZE_7",
+            "line": 86,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_SIZE_8": {
+            "name": "LINE_STYLE_ARROW_SIZE_8",
+            "line": 87,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "LINE_STYLE_ARROW_SIZE_9": {
+            "name": "LINE_STYLE_ARROW_SIZE_9",
+            "line": 88,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_NOSHADOW": {
+            "name": "SHADOW_PRESETS_NOSHADOW",
+            "line": 91,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_OUTER_BOTTTOM_RIGHT": {
+            "name": "SHADOW_PRESETS_OUTER_BOTTTOM_RIGHT",
+            "line": 92,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_OUTER_BOTTOM": {
+            "name": "SHADOW_PRESETS_OUTER_BOTTOM",
+            "line": 93,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_OUTER_BOTTOM_LEFT": {
+            "name": "SHADOW_PRESETS_OUTER_BOTTOM_LEFT",
+            "line": 94,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_OUTER_RIGHT": {
+            "name": "SHADOW_PRESETS_OUTER_RIGHT",
+            "line": 95,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_OUTER_CENTER": {
+            "name": "SHADOW_PRESETS_OUTER_CENTER",
+            "line": 96,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_OUTER_LEFT": {
+            "name": "SHADOW_PRESETS_OUTER_LEFT",
+            "line": 97,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_OUTER_TOP_RIGHT": {
+            "name": "SHADOW_PRESETS_OUTER_TOP_RIGHT",
+            "line": 98,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_OUTER_TOP": {
+            "name": "SHADOW_PRESETS_OUTER_TOP",
+            "line": 99,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_OUTER_TOP_LEFT": {
+            "name": "SHADOW_PRESETS_OUTER_TOP_LEFT",
+            "line": 100,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_INNER_BOTTTOM_RIGHT": {
+            "name": "SHADOW_PRESETS_INNER_BOTTTOM_RIGHT",
+            "line": 101,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_INNER_BOTTOM": {
+            "name": "SHADOW_PRESETS_INNER_BOTTOM",
+            "line": 102,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_INNER_BOTTOM_LEFT": {
+            "name": "SHADOW_PRESETS_INNER_BOTTOM_LEFT",
+            "line": 103,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_INNER_RIGHT": {
+            "name": "SHADOW_PRESETS_INNER_RIGHT",
+            "line": 104,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_INNER_CENTER": {
+            "name": "SHADOW_PRESETS_INNER_CENTER",
+            "line": 105,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_INNER_LEFT": {
+            "name": "SHADOW_PRESETS_INNER_LEFT",
+            "line": 106,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_INNER_TOP_RIGHT": {
+            "name": "SHADOW_PRESETS_INNER_TOP_RIGHT",
+            "line": 107,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_INNER_TOP": {
+            "name": "SHADOW_PRESETS_INNER_TOP",
+            "line": 108,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_INNER_TOP_LEFT": {
+            "name": "SHADOW_PRESETS_INNER_TOP_LEFT",
+            "line": 109,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_PERSPECTIVE_BELOW": {
+            "name": "SHADOW_PRESETS_PERSPECTIVE_BELOW",
+            "line": 110,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_PERSPECTIVE_UPPER_RIGHT": {
+            "name": "SHADOW_PRESETS_PERSPECTIVE_UPPER_RIGHT",
+            "line": 111,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_PERSPECTIVE_UPPER_LEFT": {
+            "name": "SHADOW_PRESETS_PERSPECTIVE_UPPER_LEFT",
+            "line": 112,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_PERSPECTIVE_LOWER_RIGHT": {
+            "name": "SHADOW_PRESETS_PERSPECTIVE_LOWER_RIGHT",
+            "line": 113,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SHADOW_PRESETS_PERSPECTIVE_LOWER_LEFT": {
+            "name": "SHADOW_PRESETS_PERSPECTIVE_LOWER_LEFT",
+            "line": 114,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

@@ -1,0 +1,3072 @@
+{
+    "name": "PHPExcel_Calculation_Engineering",
+    "line": 40,
+    "short_desc": "PHPExcel_Calculation_Engineering",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Calculation"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/adm\/Excel\/Classes\/PHPExcel\/Calculation\/Engineering.php",
+    "relative_file": null,
+    "hash": "ff7526104dd1105faf99565f9b4615840cacf05d",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "parseComplex": {
+            "name": "parseComplex",
+            "line": 755,
+            "short_desc": "parseComplex",
+            "long_desc": "Parses a complex number into its real and imaginary parts, and an I or J suffix",
+            "hint": [
+                [
+                    "string",
+                    true
+                ]
+            ],
+            "hint_desc": "Indexed on \"real\", \"imaginary\" and \"suffix\"",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 755,
+                    "short_desc": "The complex number",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "BESSELI": {
+            "name": "BESSELI",
+            "line": 867,
+            "short_desc": "BESSELI",
+            "long_desc": "Returns the modified Bessel function In(x), which is equivalent to the Bessel function evaluated\n    for purely imaginary arguments\n\nExcel Function:\n    BESSELI(x,ord)",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public\n@category",
+                        "Engineering",
+                        "Functions\n@param",
+                        "",
+                        "",
+                        "",
+                        "float",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "$x",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "The",
+                        "value",
+                        "at",
+                        "which",
+                        "to",
+                        "evaluate",
+                        "the",
+                        "function.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "x",
+                        "is",
+                        "nonnumeric,",
+                        "BESSELI",
+                        "returns",
+                        "the",
+                        "#VALUE!",
+                        "error",
+                        "value.\n@param",
+                        "",
+                        "",
+                        "",
+                        "integer",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "$ord",
+                        "",
+                        "",
+                        "",
+                        "The",
+                        "order",
+                        "of",
+                        "the",
+                        "Bessel",
+                        "function.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "ord",
+                        "is",
+                        "not",
+                        "an",
+                        "integer,",
+                        "it",
+                        "is",
+                        "truncated.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "$ord",
+                        "is",
+                        "nonnumeric,",
+                        "BESSELI",
+                        "returns",
+                        "the",
+                        "#VALUE!",
+                        "error",
+                        "value.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "$ord",
+                        "<",
+                        "0,",
+                        "BESSELI",
+                        "returns",
+                        "the",
+                        "#NUM!",
+                        "error",
+                        "value.\n@return",
+                        "",
+                        "",
+                        "",
+                        "float"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 867,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "ord": {
+                    "name": "ord",
+                    "line": 867,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "BESSELJ": {
+            "name": "BESSELJ",
+            "line": 920,
+            "short_desc": "BESSELJ",
+            "long_desc": "Returns the Bessel function\n\nExcel Function:\n    BESSELJ(x,ord)",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public\n@category",
+                        "Engineering",
+                        "Functions\n@param",
+                        "",
+                        "",
+                        "",
+                        "float",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "$x",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "The",
+                        "value",
+                        "at",
+                        "which",
+                        "to",
+                        "evaluate",
+                        "the",
+                        "function.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "x",
+                        "is",
+                        "nonnumeric,",
+                        "BESSELJ",
+                        "returns",
+                        "the",
+                        "#VALUE!",
+                        "error",
+                        "value.\n@param",
+                        "",
+                        "",
+                        "",
+                        "integer",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "$ord",
+                        "",
+                        "",
+                        "",
+                        "The",
+                        "order",
+                        "of",
+                        "the",
+                        "Bessel",
+                        "function.",
+                        "If",
+                        "n",
+                        "is",
+                        "not",
+                        "an",
+                        "integer,",
+                        "it",
+                        "is",
+                        "truncated.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "$ord",
+                        "is",
+                        "nonnumeric,",
+                        "BESSELJ",
+                        "returns",
+                        "the",
+                        "#VALUE!",
+                        "error",
+                        "value.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "$ord",
+                        "<",
+                        "0,",
+                        "BESSELJ",
+                        "returns",
+                        "the",
+                        "#NUM!",
+                        "error",
+                        "value.\n@return",
+                        "",
+                        "",
+                        "",
+                        "float"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 920,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "ord": {
+                    "name": "ord",
+                    "line": 920,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "BESSELK": {
+            "name": "BESSELK",
+            "line": 1012,
+            "short_desc": "BESSELK",
+            "long_desc": "Returns the modified Bessel function Kn(x), which is equivalent to the Bessel functions evaluated\n    for purely imaginary arguments.\n\nExcel Function:\n    BESSELK(x,ord)",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public\n@category",
+                        "Engineering",
+                        "Functions\n@param",
+                        "",
+                        "",
+                        "",
+                        "float",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "$x",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "The",
+                        "value",
+                        "at",
+                        "which",
+                        "to",
+                        "evaluate",
+                        "the",
+                        "function.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "x",
+                        "is",
+                        "nonnumeric,",
+                        "BESSELK",
+                        "returns",
+                        "the",
+                        "#VALUE!",
+                        "error",
+                        "value.\n@param",
+                        "",
+                        "",
+                        "",
+                        "integer",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "$ord",
+                        "",
+                        "",
+                        "",
+                        "The",
+                        "order",
+                        "of",
+                        "the",
+                        "Bessel",
+                        "function.",
+                        "If",
+                        "n",
+                        "is",
+                        "not",
+                        "an",
+                        "integer,",
+                        "it",
+                        "is",
+                        "truncated.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "$ord",
+                        "is",
+                        "nonnumeric,",
+                        "BESSELK",
+                        "returns",
+                        "the",
+                        "#VALUE!",
+                        "error",
+                        "value.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "$ord",
+                        "<",
+                        "0,",
+                        "BESSELK",
+                        "returns",
+                        "the",
+                        "#NUM!",
+                        "error",
+                        "value.\n@return",
+                        "",
+                        "",
+                        "",
+                        "float"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1012,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "ord": {
+                    "name": "ord",
+                    "line": 1012,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "BESSELY": {
+            "name": "BESSELY",
+            "line": 1096,
+            "short_desc": "BESSELY",
+            "long_desc": "Returns the Bessel function, which is also called the Weber function or the Neumann function.\n\nExcel Function:\n    BESSELY(x,ord)",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public\n@category",
+                        "Engineering",
+                        "Functions\n@param",
+                        "",
+                        "",
+                        "",
+                        "float",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "$x",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "The",
+                        "value",
+                        "at",
+                        "which",
+                        "to",
+                        "evaluate",
+                        "the",
+                        "function.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "x",
+                        "is",
+                        "nonnumeric,",
+                        "BESSELK",
+                        "returns",
+                        "the",
+                        "#VALUE!",
+                        "error",
+                        "value.\n@param",
+                        "",
+                        "",
+                        "",
+                        "integer",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "$ord",
+                        "",
+                        "",
+                        "",
+                        "The",
+                        "order",
+                        "of",
+                        "the",
+                        "Bessel",
+                        "function.",
+                        "If",
+                        "n",
+                        "is",
+                        "not",
+                        "an",
+                        "integer,",
+                        "it",
+                        "is",
+                        "truncated.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "$ord",
+                        "is",
+                        "nonnumeric,",
+                        "BESSELK",
+                        "returns",
+                        "the",
+                        "#VALUE!",
+                        "error",
+                        "value.\n",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "If",
+                        "$ord",
+                        "<",
+                        "0,",
+                        "BESSELK",
+                        "returns",
+                        "the",
+                        "#NUM!",
+                        "error",
+                        "value.\n\n@return",
+                        "",
+                        "",
+                        "",
+                        "float"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1096,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "ord": {
+                    "name": "ord",
+                    "line": 1096,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "BINTODEC": {
+            "name": "BINTODEC",
+            "line": 1145,
+            "short_desc": "BINTODEC",
+            "long_desc": "Return a binary value as decimal.\n\nExcel Function:\n       BIN2DEC(x)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1145,
+                    "short_desc": "The binary number (as a string) that you want to convert. The number\ncannot contain more than 10 characters (10 bits). The most significant\nbit of number is the sign bit. The remaining 9 bits are magnitude bits.\nNegative numbers are represented using two's-complement notation.\nIf number is not a valid binary number, or if number contains more than\n10 characters (10 bits), BIN2DEC returns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "BINTOHEX": {
+            "name": "BINTOHEX",
+            "line": 1198,
+            "short_desc": "BINTOHEX",
+            "long_desc": "Return a binary value as hex.\n\nExcel Function:\n       BIN2HEX(x[,places])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1198,
+                    "short_desc": "The binary number (as a string) that you want to convert. The number\ncannot contain more than 10 characters (10 bits). The most significant\nbit of number is the sign bit. The remaining 9 bits are magnitude bits.\nNegative numbers are represented using two's-complement notation.\nIf number is not a valid binary number, or if number contains more than\n10 characters (10 bits), BIN2HEX returns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "places": {
+                    "name": "places",
+                    "line": 1198,
+                    "short_desc": "The number of characters to use. If places is omitted, BIN2HEX uses the\nminimum number of characters necessary. Places is useful for padding the\nreturn value with leading 0s (zeros).\nIf places is not an integer, it is truncated.\nIf places is nonnumeric, BIN2HEX returns the #VALUE! error value.\nIf places is negative, BIN2HEX returns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "BINTOOCT": {
+            "name": "BINTOOCT",
+            "line": 1253,
+            "short_desc": "BINTOOCT",
+            "long_desc": "Return a binary value as octal.\n\nExcel Function:\n       BIN2OCT(x[,places])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1253,
+                    "short_desc": "The binary number (as a string) that you want to convert. The number\ncannot contain more than 10 characters (10 bits). The most significant\nbit of number is the sign bit. The remaining 9 bits are magnitude bits.\nNegative numbers are represented using two's-complement notation.\nIf number is not a valid binary number, or if number contains more than\n10 characters (10 bits), BIN2OCT returns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "places": {
+                    "name": "places",
+                    "line": 1253,
+                    "short_desc": "The number of characters to use. If places is omitted, BIN2OCT uses the\nminimum number of characters necessary. Places is useful for padding the\nreturn value with leading 0s (zeros).\nIf places is not an integer, it is truncated.\nIf places is nonnumeric, BIN2OCT returns the #VALUE! error value.\nIf places is negative, BIN2OCT returns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DECTOBIN": {
+            "name": "DECTOBIN",
+            "line": 1312,
+            "short_desc": "DECTOBIN",
+            "long_desc": "Return a decimal value as binary.\n\nExcel Function:\n       DEC2BIN(x[,places])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1312,
+                    "short_desc": "The decimal integer you want to convert. If number is negative,\nvalid place values are ignored and DEC2BIN returns a 10-character\n(10-bit) binary number in which the most significant bit is the sign\nbit. The remaining 9 bits are magnitude bits. Negative numbers are\nrepresented using two's-complement notation.\nIf number < -512 or if number > 511, DEC2BIN returns the #NUM! error\nvalue.\nIf number is nonnumeric, DEC2BIN returns the #VALUE! error value.\nIf DEC2BIN requires more than places characters, it returns the #NUM!\nerror value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "places": {
+                    "name": "places",
+                    "line": 1312,
+                    "short_desc": "The number of characters to use. If places is omitted, DEC2BIN uses\nthe minimum number of characters necessary. Places is useful for\npadding the return value with leading 0s (zeros).\nIf places is not an integer, it is truncated.\nIf places is nonnumeric, DEC2BIN returns the #VALUE! error value.\nIf places is zero or negative, DEC2BIN returns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DECTOHEX": {
+            "name": "DECTOHEX",
+            "line": 1369,
+            "short_desc": "DECTOHEX",
+            "long_desc": "Return a decimal value as hex.\n\nExcel Function:\n       DEC2HEX(x[,places])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1369,
+                    "short_desc": "The decimal integer you want to convert. If number is negative,\nplaces is ignored and DEC2HEX returns a 10-character (40-bit)\nhexadecimal number in which the most significant bit is the sign\nbit. The remaining 39 bits are magnitude bits. Negative numbers\nare represented using two's-complement notation.\nIf number < -549,755,813,888 or if number > 549,755,813,887,\nDEC2HEX returns the #NUM! error value.\nIf number is nonnumeric, DEC2HEX returns the #VALUE! error value.\nIf DEC2HEX requires more than places characters, it returns the\n#NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "places": {
+                    "name": "places",
+                    "line": 1369,
+                    "short_desc": "The number of characters to use. If places is omitted, DEC2HEX uses\nthe minimum number of characters necessary. Places is useful for\npadding the return value with leading 0s (zeros).\nIf places is not an integer, it is truncated.\nIf places is nonnumeric, DEC2HEX returns the #VALUE! error value.\nIf places is zero or negative, DEC2HEX returns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DECTOOCT": {
+            "name": "DECTOOCT",
+            "line": 1424,
+            "short_desc": "DECTOOCT",
+            "long_desc": "Return an decimal value as octal.\n\nExcel Function:\n       DEC2OCT(x[,places])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1424,
+                    "short_desc": "The decimal integer you want to convert. If number is negative,\nplaces is ignored and DEC2OCT returns a 10-character (30-bit)\noctal number in which the most significant bit is the sign bit.\nThe remaining 29 bits are magnitude bits. Negative numbers are\nrepresented using two's-complement notation.\nIf number < -536,870,912 or if number > 536,870,911, DEC2OCT\nreturns the #NUM! error value.\nIf number is nonnumeric, DEC2OCT returns the #VALUE! error value.\nIf DEC2OCT requires more than places characters, it returns the\n#NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "places": {
+                    "name": "places",
+                    "line": 1424,
+                    "short_desc": "The number of characters to use. If places is omitted, DEC2OCT uses\nthe minimum number of characters necessary. Places is useful for\npadding the return value with leading 0s (zeros).\nIf places is not an integer, it is truncated.\nIf places is nonnumeric, DEC2OCT returns the #VALUE! error value.\nIf places is zero or negative, DEC2OCT returns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "HEXTOBIN": {
+            "name": "HEXTOBIN",
+            "line": 1482,
+            "short_desc": "HEXTOBIN",
+            "long_desc": "Return a hex value as binary.\n\nExcel Function:\n       HEX2BIN(x[,places])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1482,
+                    "short_desc": "the hexadecimal number you want to convert. Number cannot\ncontain more than 10 characters. The most significant bit of\nnumber is the sign bit (40th bit from the right). The remaining\n9 bits are magnitude bits. Negative numbers are represented\nusing two's-complement notation.\nIf number is negative, HEX2BIN ignores places and returns a\n10-character binary number.\nIf number is negative, it cannot be less than FFFFFFFE00, and\nif number is positive, it cannot be greater than 1FF.\nIf number is not a valid hexadecimal number, HEX2BIN returns\nthe #NUM! error value.\nIf HEX2BIN requires more than places characters, it returns\nthe #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "places": {
+                    "name": "places",
+                    "line": 1482,
+                    "short_desc": "The number of characters to use. If places is omitted,\nHEX2BIN uses the minimum number of characters necessary. Places\nis useful for padding the return value with leading 0s (zeros).\nIf places is not an integer, it is truncated.\nIf places is nonnumeric, HEX2BIN returns the #VALUE! error value.\nIf places is negative, HEX2BIN returns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "HEXTODEC": {
+            "name": "HEXTODEC",
+            "line": 1519,
+            "short_desc": "HEXTODEC",
+            "long_desc": "Return a hex value as decimal.\n\nExcel Function:\n       HEX2DEC(x)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1519,
+                    "short_desc": "The hexadecimal number you want to convert. This number cannot\ncontain more than 10 characters (40 bits). The most significant\nbit of number is the sign bit. The remaining 39 bits are magnitude\nbits. Negative numbers are represented using two's-complement\nnotation.\nIf number is not a valid hexadecimal number, HEX2DEC returns the\n#NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "HEXTOOCT": {
+            "name": "HEXTOOCT",
+            "line": 1566,
+            "short_desc": "HEXTOOCT",
+            "long_desc": "Return a hex value as octal.\n\nExcel Function:\n       HEX2OCT(x[,places])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1566,
+                    "short_desc": "The hexadecimal number you want to convert. Number cannot\ncontain more than 10 characters. The most significant bit of\nnumber is the sign bit. The remaining 39 bits are magnitude\nbits. Negative numbers are represented using two's-complement\nnotation.\nIf number is negative, HEX2OCT ignores places and returns a\n10-character octal number.\nIf number is negative, it cannot be less than FFE0000000, and\nif number is positive, it cannot be greater than 1FFFFFFF.\nIf number is not a valid hexadecimal number, HEX2OCT returns\nthe #NUM! error value.\nIf HEX2OCT requires more than places characters, it returns\nthe #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "places": {
+                    "name": "places",
+                    "line": 1566,
+                    "short_desc": "The number of characters to use. If places is omitted, HEX2OCT\nuses the minimum number of characters necessary. Places is\nuseful for padding the return value with leading 0s (zeros).\nIf places is not an integer, it is truncated.\nIf places is nonnumeric, HEX2OCT returns the #VALUE! error\nvalue.\nIf places is negative, HEX2OCT returns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "OCTTOBIN": {
+            "name": "OCTTOBIN",
+            "line": 1618,
+            "short_desc": "OCTTOBIN",
+            "long_desc": "Return an octal value as binary.\n\nExcel Function:\n       OCT2BIN(x[,places])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1618,
+                    "short_desc": "The octal number you want to convert. Number may not\ncontain more than 10 characters. The most significant\nbit of number is the sign bit. The remaining 29 bits\nare magnitude bits. Negative numbers are represented\nusing two's-complement notation.\nIf number is negative, OCT2BIN ignores places and returns\na 10-character binary number.\nIf number is negative, it cannot be less than 7777777000,\nand if number is positive, it cannot be greater than 777.\nIf number is not a valid octal number, OCT2BIN returns\nthe #NUM! error value.\nIf OCT2BIN requires more than places characters, it\nreturns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "places": {
+                    "name": "places",
+                    "line": 1618,
+                    "short_desc": "The number of characters to use. If places is omitted,\nOCT2BIN uses the minimum number of characters necessary.\nPlaces is useful for padding the return value with\nleading 0s (zeros).\nIf places is not an integer, it is truncated.\nIf places is nonnumeric, OCT2BIN returns the #VALUE!\nerror value.\nIf places is negative, OCT2BIN returns the #NUM! error\nvalue.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "OCTTODEC": {
+            "name": "OCTTODEC",
+            "line": 1655,
+            "short_desc": "OCTTODEC",
+            "long_desc": "Return an octal value as decimal.\n\nExcel Function:\n       OCT2DEC(x)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1655,
+                    "short_desc": "The octal number you want to convert. Number may not contain\nmore than 10 octal characters (30 bits). The most significant\nbit of number is the sign bit. The remaining 29 bits are\nmagnitude bits. Negative numbers are represented using\ntwo's-complement notation.\nIf number is not a valid octal number, OCT2DEC returns the\n#NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "OCTTOHEX": {
+            "name": "OCTTOHEX",
+            "line": 1699,
+            "short_desc": "OCTTOHEX",
+            "long_desc": "Return an octal value as hex.\n\nExcel Function:\n       OCT2HEX(x[,places])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 1699,
+                    "short_desc": "The octal number you want to convert. Number may not contain\nmore than 10 octal characters (30 bits). The most significant\nbit of number is the sign bit. The remaining 29 bits are\nmagnitude bits. Negative numbers are represented using\ntwo's-complement notation.\nIf number is negative, OCT2HEX ignores places and returns a\n10-character hexadecimal number.\nIf number is not a valid octal number, OCT2HEX returns the\n#NUM! error value.\nIf OCT2HEX requires more than places characters, it returns\nthe #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "places": {
+                    "name": "places",
+                    "line": 1699,
+                    "short_desc": "The number of characters to use. If places is omitted, OCT2HEX\nuses the minimum number of characters necessary. Places is useful\nfor padding the return value with leading 0s (zeros).\nIf places is not an integer, it is truncated.\nIf places is nonnumeric, OCT2HEX returns the #VALUE! error value.\nIf places is negative, OCT2HEX returns the #NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COMPLEX": {
+            "name": "COMPLEX",
+            "line": 1733,
+            "short_desc": "COMPLEX",
+            "long_desc": "Converts real and imaginary coefficients into a complex number of the form x + yi or x + yj.\n\nExcel Function:\n       COMPLEX(realNumber,imaginary[,places])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "realNumber": {
+                    "name": "realNumber",
+                    "line": 1733,
+                    "short_desc": "The real coefficient of the complex number.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0.0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "imaginary": {
+                    "name": "imaginary",
+                    "line": 1733,
+                    "short_desc": "The imaginary coefficient of the complex number.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0.0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "suffix": {
+                    "name": "suffix",
+                    "line": 1733,
+                    "short_desc": "The suffix for the imaginary component of the complex number.\nIf omitted, the suffix is assumed to be \"i\".",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'i'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMAGINARY": {
+            "name": "IMAGINARY",
+            "line": 1787,
+            "short_desc": "IMAGINARY",
+            "long_desc": "Returns the imaginary coefficient of a complex number in x + yi or x + yj text format.\n\nExcel Function:\n       IMAGINARY(complexNumber)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 1787,
+                    "short_desc": "The complex number for which you want the imaginary\ncoefficient.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMREAL": {
+            "name": "IMREAL",
+            "line": 1809,
+            "short_desc": "IMREAL",
+            "long_desc": "Returns the real coefficient of a complex number in x + yi or x + yj text format.\n\nExcel Function:\n       IMREAL(complexNumber)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Engineering",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 1809,
+                    "short_desc": "The complex number for which you want the real coefficient.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMABS": {
+            "name": "IMABS",
+            "line": 1829,
+            "short_desc": "IMABS",
+            "long_desc": "Returns the absolute value (modulus) of a complex number in x + yi or x + yj text format.\n\nExcel Function:\n       IMABS(complexNumber)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 1829,
+                    "short_desc": "The complex number for which you want the absolute value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMARGUMENT": {
+            "name": "IMARGUMENT",
+            "line": 1854,
+            "short_desc": "IMARGUMENT",
+            "long_desc": "Returns the argument theta of a complex number, i.e. the angle in radians from the real\naxis to the representation of the number in polar coordinates.\n\nExcel Function:\n       IMARGUMENT(complexNumber)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 1854,
+                    "short_desc": "The complex number for which you want the argument theta.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMCONJUGATE": {
+            "name": "IMCONJUGATE",
+            "line": 1889,
+            "short_desc": "IMCONJUGATE",
+            "long_desc": "Returns the complex conjugate of a complex number in x + yi or x + yj text format.\n\nExcel Function:\n       IMCONJUGATE(complexNumber)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 1889,
+                    "short_desc": "The complex number for which you want the conjugate.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMCOS": {
+            "name": "IMCOS",
+            "line": 1920,
+            "short_desc": "IMCOS",
+            "long_desc": "Returns the cosine of a complex number in x + yi or x + yj text format.\n\nExcel Function:\n       IMCOS(complexNumber)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ],
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 1920,
+                    "short_desc": "The complex number for which you want the cosine.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMSIN": {
+            "name": "IMSIN",
+            "line": 1951,
+            "short_desc": "IMSIN",
+            "long_desc": "Returns the sine of a complex number in x + yi or x + yj text format.\n\nExcel Function:\n       IMSIN(complexNumber)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ],
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 1951,
+                    "short_desc": "The complex number for which you want the sine.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMSQRT": {
+            "name": "IMSQRT",
+            "line": 1980,
+            "short_desc": "IMSQRT",
+            "long_desc": "Returns the square root of a complex number in x + yi or x + yj text format.\n\nExcel Function:\n       IMSQRT(complexNumber)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 1980,
+                    "short_desc": "The complex number for which you want the square root.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMLN": {
+            "name": "IMLN",
+            "line": 2010,
+            "short_desc": "IMLN",
+            "long_desc": "Returns the natural logarithm of a complex number in x + yi or x + yj text format.\n\nExcel Function:\n       IMLN(complexNumber)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 2010,
+                    "short_desc": "The complex number for which you want the natural logarithm.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMLOG10": {
+            "name": "IMLOG10",
+            "line": 2042,
+            "short_desc": "IMLOG10",
+            "long_desc": "Returns the common logarithm (base 10) of a complex number in x + yi or x + yj text format.\n\nExcel Function:\n       IMLOG10(complexNumber)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 2042,
+                    "short_desc": "The complex number for which you want the common logarithm.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMLOG2": {
+            "name": "IMLOG2",
+            "line": 2069,
+            "short_desc": "IMLOG2",
+            "long_desc": "Returns the base-2 logarithm of a complex number in x + yi or x + yj text format.\n\nExcel Function:\n       IMLOG2(complexNumber)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 2069,
+                    "short_desc": "The complex number for which you want the base-2 logarithm.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMEXP": {
+            "name": "IMEXP",
+            "line": 2096,
+            "short_desc": "IMEXP",
+            "long_desc": "Returns the exponential of a complex number in x + yi or x + yj text format.\n\nExcel Function:\n       IMEXP(complexNumber)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 2096,
+                    "short_desc": "The complex number for which you want the exponential.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMPOWER": {
+            "name": "IMPOWER",
+            "line": 2130,
+            "short_desc": "IMPOWER",
+            "long_desc": "Returns a complex number in x + yi or x + yj text format raised to a power.\n\nExcel Function:\n       IMPOWER(complexNumber,realNumber)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber": {
+                    "name": "complexNumber",
+                    "line": 2130,
+                    "short_desc": "The complex number you want to raise to a power.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "realNumber": {
+                    "name": "realNumber",
+                    "line": 2130,
+                    "short_desc": "The power to which you want to raise the complex number.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMDIV": {
+            "name": "IMDIV",
+            "line": 2166,
+            "short_desc": "IMDIV",
+            "long_desc": "Returns the quotient of two complex numbers in x + yi or x + yj text format.\n\nExcel Function:\n       IMDIV(complexDividend,complexDivisor)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexDividend": {
+                    "name": "complexDividend",
+                    "line": 2166,
+                    "short_desc": "The complex numerator or dividend.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "complexDivisor": {
+                    "name": "complexDivisor",
+                    "line": 2166,
+                    "short_desc": "The complex denominator or divisor.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMSUB": {
+            "name": "IMSUB",
+            "line": 2211,
+            "short_desc": "IMSUB",
+            "long_desc": "Returns the difference of two complex numbers in x + yi or x + yj text format.\n\nExcel Function:\n       IMSUB(complexNumber1,complexNumber2)",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "complexNumber1": {
+                    "name": "complexNumber1",
+                    "line": 2211,
+                    "short_desc": "The complex number from which to subtract complexNumber2.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "complexNumber2": {
+                    "name": "complexNumber2",
+                    "line": 2211,
+                    "short_desc": "The complex number to subtract from complexNumber1.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IMSUM": {
+            "name": "IMSUM",
+            "line": 2244,
+            "short_desc": "IMSUM",
+            "long_desc": "Returns the sum of two or more complex numbers in x + yi or x + yj text format.\n\nExcel Function:\n       IMSUM(complexNumber[,complexNumber[,...]])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"IMSUM\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "IMPRODUCT": {
+            "name": "IMPRODUCT",
+            "line": 2283,
+            "short_desc": "IMPRODUCT",
+            "long_desc": "Returns the product of two or more complex numbers in x + yi or x + yj text format.\n\nExcel Function:\n       IMPRODUCT(complexNumber[,complexNumber[,...]])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"IMPRODUCT\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "DELTA": {
+            "name": "DELTA",
+            "line": 2326,
+            "short_desc": "DELTA",
+            "long_desc": "Tests whether two values are equal. Returns 1 if number1 = number2; returns 0 otherwise.\nUse this function to filter a set of values. For example, by summing several DELTA\nfunctions you calculate the count of equal pairs. This function is also known as the\nKronecker Delta function.\n\nExcel Function:\n    DELTA(a[,b])",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"b\" parameter of the method \"DELTA\" is missing a @param tag"
+            ],
+            "parameters": {
+                "a": {
+                    "name": "a",
+                    "line": 2326,
+                    "short_desc": "The first number.\n@param    float        $b    The second number. If omitted, b is assumed to be zero.\n@return    int",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "b": {
+                    "name": "b",
+                    "line": 2326,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "GESTEP": {
+            "name": "GESTEP",
+            "line": 2350,
+            "short_desc": "GESTEP",
+            "long_desc": "Excel Function:\n    GESTEP(number[,step])\n\nReturns 1 if number >= step; returns 0 (zero) otherwise\nUse this function to filter a set of values. For example, by summing several GESTEP\nfunctions you calculate the count of values that exceed a threshold.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"step\" parameter of the method \"GESTEP\" is missing a @param tag"
+            ],
+            "parameters": {
+                "number": {
+                    "name": "number",
+                    "line": 2350,
+                    "short_desc": "The value to test against step.\n@param    float        $step        The threshold value.\n                                If you omit a value for step, GESTEP uses zero.\n@return    int",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "step": {
+                    "name": "step",
+                    "line": 2350,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "erfVal": {
+            "name": "erfVal",
+            "line": 2364,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 2364,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ERF": {
+            "name": "ERF",
+            "line": 2405,
+            "short_desc": "ERF",
+            "long_desc": "Returns the error function integrated between the lower and upper bound arguments.\n\nNote: In Excel 2007 or earlier, if you input a negative value for the upper or lower bound arguments,\n        the function would return a #NUM! error. However, in Excel 2010, the function algorithm was\n        improved, so that it can now calculate the function for both positive and negative ranges.\n        PHPExcel follows Excel 2010 behaviour, and accepts nagative arguments.\n\nExcel Function:\n    ERF(lower[,upper])",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"upper\" parameter of the method \"ERF\" is missing a @param tag"
+            ],
+            "parameters": {
+                "lower": {
+                    "name": "lower",
+                    "line": 2405,
+                    "short_desc": "lower bound for integrating ERF\n@param    float        $upper    upper bound for integrating ERF.\n                            If omitted, ERF integrates between zero and lower_limit\n@return    float",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "upper": {
+                    "name": "upper",
+                    "line": 2405,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ERFC": {
+            "name": "ERFC",
+            "line": 2471,
+            "short_desc": "ERFC",
+            "long_desc": "Returns the complementary ERF function integrated between x and infinity\n\nNote: In Excel 2007 or earlier, if you input a negative value for the lower bound argument,\n    the function would return a #NUM! error. However, in Excel 2010, the function algorithm was\n    improved, so that it can now calculate the function for both positive and negative x values.\n        PHPExcel follows Excel 2010 behaviour, and accepts nagative arguments.\n\nExcel Function:\n    ERFC(x)",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "x": {
+                    "name": "x",
+                    "line": 2471,
+                    "short_desc": "The lower bound for integrating ERFC\n@return    float",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getConversionGroups": {
+            "name": "getConversionGroups",
+            "line": 2488,
+            "short_desc": "getConversionGroups\n   Returns a list of the different conversion groups for UOM conversions",
+            "long_desc": " @return    array",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getConversionGroupUnits": {
+            "name": "getConversionGroupUnits",
+            "line": 2505,
+            "short_desc": "getConversionGroupUnits\n   Returns an array of units of measure, for a specified conversion group, or for all groups",
+            "long_desc": " @param    string    $group    The group whose units of measure you want to retrieve",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "group": {
+                    "name": "group",
+                    "line": 2505,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getConversionGroupUnitDetails": {
+            "name": "getConversionGroupUnitDetails",
+            "line": 2523,
+            "short_desc": "getConversionGroupUnitDetails",
+            "long_desc": " @param    string    $group    The group whose units of measure you want to retrieve",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "group": {
+                    "name": "group",
+                    "line": 2523,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getConversionMultipliers": {
+            "name": "getConversionMultipliers",
+            "line": 2544,
+            "short_desc": "getConversionMultipliers\n   Returns an array of the Multiplier prefixes that can be used with Units of Measure in CONVERTUOM()",
+            "long_desc": " @return    array of mixed",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "CONVERTUOM": {
+            "name": "CONVERTUOM",
+            "line": 2566,
+            "short_desc": "CONVERTUOM",
+            "long_desc": "Converts a number from one measurement system to another.\nFor example, CONVERT can translate a table of distances in miles to a table of distances\nin kilometers.\n\nExcel Function:\n    CONVERT(value,fromUOM,toUOM)",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"fromUOM\" parameter of the method \"CONVERTUOM\" is missing a @param tag",
+                "The \"toUOM\" parameter of the method \"CONVERTUOM\" is missing a @param tag"
+            ],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 2566,
+                    "short_desc": "The value in fromUOM to convert.\n@param    string        $fromUOM    The units for value.\n@param    string        $toUOM        The units for the result.\n\n@return    float",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "fromUOM": {
+                    "name": "fromUOM",
+                    "line": 2566,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "toUOM": {
+                    "name": "toUOM",
+                    "line": 2566,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,1031 @@
+{
+    "name": "PHPExcel_Reader_Excel5",
+    "line": 68,
+    "short_desc": "PHPExcel_Reader_Excel5",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Reader_Excel5"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/adm\/Excel\/Classes\/PHPExcel\/Reader\/Excel5.php",
+    "relative_file": null,
+    "hash": "5f7dd1e63a54302c194122d320ac25e34c918cc3",
+    "parent": "PHPExcel_Reader_Abstract",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": {
+        "PHPExcel_Reader_IReader": "PHPExcel_Reader_IReader"
+    },
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 417,
+            "short_desc": "Create a new PHPExcel_Reader_Excel5 instance",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "canRead": {
+            "name": "canRead",
+            "line": 429,
+            "short_desc": "Can the current PHPExcel_Reader_IReader read the file?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 429,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "listWorksheetNames": {
+            "name": "listWorksheetNames",
+            "line": 454,
+            "short_desc": "Reads names of the worksheets from a file, without parsing the whole file to a PHPExcel object",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 454,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "listWorksheetInfo": {
+            "name": "listWorksheetInfo",
+            "line": 511,
+            "short_desc": "Return worksheet info (Name, Last Column Letter, Last Column Index, Total Rows, Total Columns)",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 511,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "load": {
+            "name": "load",
+            "line": 619,
+            "short_desc": "Loads PHPExcel from file",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 619,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getInt2d": {
+            "name": "getInt2d",
+            "line": 7560,
+            "short_desc": "Read 16-bit unsigned integer",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "data": {
+                    "name": "data",
+                    "line": 7560,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pos": {
+                    "name": "pos",
+                    "line": 7560,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getInt4d": {
+            "name": "getInt4d",
+            "line": 7572,
+            "short_desc": "Read 32-bit signed integer",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "data": {
+                    "name": "data",
+                    "line": 7572,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pos": {
+                    "name": "pos",
+                    "line": 7572,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "XLS_BIFF8": {
+            "name": "XLS_BIFF8",
+            "line": 71,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_BIFF7": {
+            "name": "XLS_BIFF7",
+            "line": 72,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_WorkbookGlobals": {
+            "name": "XLS_WorkbookGlobals",
+            "line": 73,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_Worksheet": {
+            "name": "XLS_Worksheet",
+            "line": 74,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_FORMULA": {
+            "name": "XLS_TYPE_FORMULA",
+            "line": 77,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_EOF": {
+            "name": "XLS_TYPE_EOF",
+            "line": 78,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_PROTECT": {
+            "name": "XLS_TYPE_PROTECT",
+            "line": 79,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_OBJECTPROTECT": {
+            "name": "XLS_TYPE_OBJECTPROTECT",
+            "line": 80,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_SCENPROTECT": {
+            "name": "XLS_TYPE_SCENPROTECT",
+            "line": 81,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_PASSWORD": {
+            "name": "XLS_TYPE_PASSWORD",
+            "line": 82,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_HEADER": {
+            "name": "XLS_TYPE_HEADER",
+            "line": 83,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_FOOTER": {
+            "name": "XLS_TYPE_FOOTER",
+            "line": 84,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_EXTERNSHEET": {
+            "name": "XLS_TYPE_EXTERNSHEET",
+            "line": 85,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_DEFINEDNAME": {
+            "name": "XLS_TYPE_DEFINEDNAME",
+            "line": 86,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_VERTICALPAGEBREAKS": {
+            "name": "XLS_TYPE_VERTICALPAGEBREAKS",
+            "line": 87,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_HORIZONTALPAGEBREAKS": {
+            "name": "XLS_TYPE_HORIZONTALPAGEBREAKS",
+            "line": 88,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_NOTE": {
+            "name": "XLS_TYPE_NOTE",
+            "line": 89,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_SELECTION": {
+            "name": "XLS_TYPE_SELECTION",
+            "line": 90,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_DATEMODE": {
+            "name": "XLS_TYPE_DATEMODE",
+            "line": 91,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_EXTERNNAME": {
+            "name": "XLS_TYPE_EXTERNNAME",
+            "line": 92,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_LEFTMARGIN": {
+            "name": "XLS_TYPE_LEFTMARGIN",
+            "line": 93,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_RIGHTMARGIN": {
+            "name": "XLS_TYPE_RIGHTMARGIN",
+            "line": 94,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_TOPMARGIN": {
+            "name": "XLS_TYPE_TOPMARGIN",
+            "line": 95,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_BOTTOMMARGIN": {
+            "name": "XLS_TYPE_BOTTOMMARGIN",
+            "line": 96,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_PRINTGRIDLINES": {
+            "name": "XLS_TYPE_PRINTGRIDLINES",
+            "line": 97,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_FILEPASS": {
+            "name": "XLS_TYPE_FILEPASS",
+            "line": 98,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_FONT": {
+            "name": "XLS_TYPE_FONT",
+            "line": 99,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_CONTINUE": {
+            "name": "XLS_TYPE_CONTINUE",
+            "line": 100,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_PANE": {
+            "name": "XLS_TYPE_PANE",
+            "line": 101,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_CODEPAGE": {
+            "name": "XLS_TYPE_CODEPAGE",
+            "line": 102,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_DEFCOLWIDTH": {
+            "name": "XLS_TYPE_DEFCOLWIDTH",
+            "line": 103,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_OBJ": {
+            "name": "XLS_TYPE_OBJ",
+            "line": 104,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_COLINFO": {
+            "name": "XLS_TYPE_COLINFO",
+            "line": 105,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_IMDATA": {
+            "name": "XLS_TYPE_IMDATA",
+            "line": 106,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_SHEETPR": {
+            "name": "XLS_TYPE_SHEETPR",
+            "line": 107,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_HCENTER": {
+            "name": "XLS_TYPE_HCENTER",
+            "line": 108,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_VCENTER": {
+            "name": "XLS_TYPE_VCENTER",
+            "line": 109,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_SHEET": {
+            "name": "XLS_TYPE_SHEET",
+            "line": 110,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_PALETTE": {
+            "name": "XLS_TYPE_PALETTE",
+            "line": 111,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_SCL": {
+            "name": "XLS_TYPE_SCL",
+            "line": 112,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_PAGESETUP": {
+            "name": "XLS_TYPE_PAGESETUP",
+            "line": 113,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_MULRK": {
+            "name": "XLS_TYPE_MULRK",
+            "line": 114,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_MULBLANK": {
+            "name": "XLS_TYPE_MULBLANK",
+            "line": 115,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_DBCELL": {
+            "name": "XLS_TYPE_DBCELL",
+            "line": 116,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_XF": {
+            "name": "XLS_TYPE_XF",
+            "line": 117,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_MERGEDCELLS": {
+            "name": "XLS_TYPE_MERGEDCELLS",
+            "line": 118,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_MSODRAWINGGROUP": {
+            "name": "XLS_TYPE_MSODRAWINGGROUP",
+            "line": 119,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_MSODRAWING": {
+            "name": "XLS_TYPE_MSODRAWING",
+            "line": 120,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_SST": {
+            "name": "XLS_TYPE_SST",
+            "line": 121,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_LABELSST": {
+            "name": "XLS_TYPE_LABELSST",
+            "line": 122,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_EXTSST": {
+            "name": "XLS_TYPE_EXTSST",
+            "line": 123,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_EXTERNALBOOK": {
+            "name": "XLS_TYPE_EXTERNALBOOK",
+            "line": 124,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_DATAVALIDATIONS": {
+            "name": "XLS_TYPE_DATAVALIDATIONS",
+            "line": 125,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_TXO": {
+            "name": "XLS_TYPE_TXO",
+            "line": 126,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_HYPERLINK": {
+            "name": "XLS_TYPE_HYPERLINK",
+            "line": 127,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_DATAVALIDATION": {
+            "name": "XLS_TYPE_DATAVALIDATION",
+            "line": 128,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_DIMENSION": {
+            "name": "XLS_TYPE_DIMENSION",
+            "line": 129,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_BLANK": {
+            "name": "XLS_TYPE_BLANK",
+            "line": 130,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_NUMBER": {
+            "name": "XLS_TYPE_NUMBER",
+            "line": 131,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_LABEL": {
+            "name": "XLS_TYPE_LABEL",
+            "line": 132,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_BOOLERR": {
+            "name": "XLS_TYPE_BOOLERR",
+            "line": 133,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_STRING": {
+            "name": "XLS_TYPE_STRING",
+            "line": 134,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_ROW": {
+            "name": "XLS_TYPE_ROW",
+            "line": 135,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_INDEX": {
+            "name": "XLS_TYPE_INDEX",
+            "line": 136,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_ARRAY": {
+            "name": "XLS_TYPE_ARRAY",
+            "line": 137,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_DEFAULTROWHEIGHT": {
+            "name": "XLS_TYPE_DEFAULTROWHEIGHT",
+            "line": 138,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_WINDOW2": {
+            "name": "XLS_TYPE_WINDOW2",
+            "line": 139,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_RK": {
+            "name": "XLS_TYPE_RK",
+            "line": 140,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_STYLE": {
+            "name": "XLS_TYPE_STYLE",
+            "line": 141,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_FORMAT": {
+            "name": "XLS_TYPE_FORMAT",
+            "line": 142,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_SHAREDFMLA": {
+            "name": "XLS_TYPE_SHAREDFMLA",
+            "line": 143,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_BOF": {
+            "name": "XLS_TYPE_BOF",
+            "line": 144,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_SHEETPROTECTION": {
+            "name": "XLS_TYPE_SHEETPROTECTION",
+            "line": 145,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_RANGEPROTECTION": {
+            "name": "XLS_TYPE_RANGEPROTECTION",
+            "line": 146,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_SHEETLAYOUT": {
+            "name": "XLS_TYPE_SHEETLAYOUT",
+            "line": 147,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_XFEXT": {
+            "name": "XLS_TYPE_XFEXT",
+            "line": 148,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_PAGELAYOUTVIEW": {
+            "name": "XLS_TYPE_PAGELAYOUTVIEW",
+            "line": 149,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "XLS_TYPE_UNKNOWN": {
+            "name": "XLS_TYPE_UNKNOWN",
+            "line": 150,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "MS_BIFF_CRYPTO_NONE": {
+            "name": "MS_BIFF_CRYPTO_NONE",
+            "line": 153,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "MS_BIFF_CRYPTO_XOR": {
+            "name": "MS_BIFF_CRYPTO_XOR",
+            "line": 154,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "MS_BIFF_CRYPTO_RC4": {
+            "name": "MS_BIFF_CRYPTO_RC4",
+            "line": 155,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "REKEY_BLOCK": {
+            "name": "REKEY_BLOCK",
+            "line": 158,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

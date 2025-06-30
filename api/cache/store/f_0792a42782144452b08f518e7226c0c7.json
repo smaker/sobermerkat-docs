@@ -1,0 +1,61 @@
+{
+    "namespace": "",
+    "name": "change_status",
+    "line": 45,
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/adm\/shop_admin\/admin.shop.lib.php",
+    "relative_file": null,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "hint_desc": null,
+    "tags": [],
+    "modifiers": 0,
+    "is_by_ref": "",
+    "is_intersection_type": false,
+    "exceptions": [],
+    "errors": [],
+    "parameters": {
+        "od_id": {
+            "name": "od_id",
+            "line": 45,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        },
+        "current_status": {
+            "name": "current_status",
+            "line": 45,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        },
+        "change_status": {
+            "name": "change_status",
+            "line": 45,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        }
+    }
+}

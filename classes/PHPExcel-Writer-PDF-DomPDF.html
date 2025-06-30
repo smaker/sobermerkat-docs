@@ -1,0 +1,3267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>쏘버마켓 API 문서</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">쏘버마켓 API 문서</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -packages">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Services.html" class="">Services</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Services-JSON.html" class="">JSON</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Spreadsheet.html" class="">Spreadsheet</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Spreadsheet-Excel.html" class="">Excel</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/PHPExcel.html" class="">PHPExcel</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/PHPExcel-CachedObjectStorage.html" class="">CachedObjectStorage</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Calculation.html" class="">Calculation</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Cell.html" class="">Cell</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Chart.html" class="">Chart</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Reader.html" class="">Reader</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-RichText.html" class="">RichText</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Settings.html" class="">Settings</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Shared.html" class="">Shared</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Style.html" class="">Style</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Worksheet.html" class="">Worksheet</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Writer.html" class="">Writer</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL.html" class="">JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL-IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod.html" class="">IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix.html" class="">JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix-IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali.html" class="">IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAForanm.html" class="">JAMAForanm</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAForanm-by.html" class="">by</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMA.html" class="">JAMA</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAErrorhandlingauthorMichaelBommaritoversion01292005.html" class="">JAMAErrorhandlingauthorMichaelBommaritoversion01292005</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow.html" class="">JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category -reports">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category -indices">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    PHPExcel_Writer_PDF_DomPDF
+
+        <span class="phpdocumentor-element__extends">
+        extends <a href="classes/PHPExcel-Writer-PDF-Core.html"><abbr title="\PHPExcel_Writer_PDF_Core">PHPExcel_Writer_PDF_Core</abbr></a>
+    </span>
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
+    
+            <span class="phpdocumentor-element__implements">
+            implements
+                            <a href="classes/PHPExcel-Writer-IWriter.html"><abbr title="\PHPExcel_Writer_IWriter">PHPExcel_Writer_IWriter</abbr></a>                    </span>
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/DomPDF.php"><a href="files/lib-phpexcel-writer-pdf-dompdf.html"><abbr title="lib/PHPExcel/Writer/PDF/DomPDF.php">DomPDF.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+            <p class="phpdocumentor-summary">PHPExcel_Writer_PDF_DomPDF</p>
+
+
+    <section class="phpdocumentor-description"><p>Copyright (c) 2006 - 2015 PHPExcel</p>
+<p>This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.</p>
+<p>This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.</p>
+<p>You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA</p>
+</section>
+
+
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Writer-PDF-DomPDF.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>PHPExcel
+@package     PHPExcel_Writer_PDF
+@copyright   Copyright (c) 2006 - 2015 PHPExcel (http://www.codeplex.com/PHPExcel)
+@license     http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL
+@version     ##VERSION##, ##DATE##</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/PHPExcel-Writer-PDF-DomPDF.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+    <h4 id="toc-interfaces">
+        Interfaces
+        <a href="classes/PHPExcel-Writer-PDF-DomPDF.html#toc-interfaces" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <dl class="phpdocumentor-table-of-contents">
+                    <dt class="phpdocumentor-table-of-contents__entry -interface"><a href="classes/PHPExcel-Writer-IWriter.html"><abbr title="\PHPExcel_Writer_IWriter">PHPExcel_Writer_IWriter</abbr></a></dt><dd>PHPExcel_Writer_IWriter</dd>    </dl>
+
+
+
+
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PHPExcel-Writer-PDF-DomPDF.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Writer-Abstract.html#property__diskCachingDirectory">$_diskCachingDirectory</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>Disk caching directory</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Writer-Abstract.html#property__useDiskCaching">$_useDiskCaching</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+<dd>Use disk caching where possible?</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#property_font">$font</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>Font</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Writer-Abstract.html#property_includeCharts">$includeCharts</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+<dd>Write charts that are defined in the workbook?
+Identifies whether the Writer should write definitions for any charts that exist in the PHPExcel object;</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#property_isPdf">$isPdf</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+<dd>Is the current writer creating PDF?</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#property_orientation">$orientation</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>Orientation (Over-ride)</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#property_paperSize">$paperSize</a>
+    <span>
+                        &nbsp;: int            </span>
+</dt>
+<dd>Paper size (Over-ride)</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#property_paperSizes">$paperSizes</a>
+    <span>
+                        &nbsp;: array&lt;string|int, mixed&gt;            </span>
+</dt>
+<dd>Paper Sizes xRef List</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#property_phpExcel">$phpExcel</a>
+    <span>
+                        &nbsp;: <a href="classes/PHPExcel.html"><abbr title="\PHPExcel">PHPExcel</abbr></a>            </span>
+</dt>
+<dd>PHPExcel object</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Writer-Abstract.html#property_preCalculateFormulas">$preCalculateFormulas</a>
+    <span>
+                        &nbsp;: bool            </span>
+</dt>
+<dd>Pre-calculate formulas
+Forces PHPExcel to recalculate all formulae in a workbook when saving, so that the pre-calculated values are
+   immediately available to MS Excel or other office spreadsheet viewer when opening the file</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#property_tempDir">$tempDir</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>Temporary storage directory</dd>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/PHPExcel-Writer-PDF-DomPDF.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-PDF-DomPDF.html#method___construct">__construct()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Create a new PHPExcel_Writer_PDF</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_buildCSS">buildCSS()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>Build CSS styles</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_formatColor">formatColor()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Add color to formatted string as inline style</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_generateHTMLFooter">generateHTMLFooter()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Generate HTML footer</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_generateHTMLHeader">generateHTMLHeader()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Generate HTML header</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_generateNavigation">generateNavigation()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Generate sheet tabs</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_generateSheetData">generateSheetData()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Generate sheet data</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_generateStyles">generateStyles()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Generate CSS styles</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-Abstract.html#method_getDiskCachingDirectory">getDiskCachingDirectory()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Get disk caching directory</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_getEmbedImages">getEmbedImages()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Get embed images</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#method_getFont">getFont()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Get Font</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_getGenerateSheetNavigationBlock">getGenerateSheetNavigationBlock()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Get sheet index</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_getImagesRoot">getImagesRoot()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Get images root</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-Abstract.html#method_getIncludeCharts">getIncludeCharts()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Write charts in workbook?
+       If this is true, then the Writer will write definitions for any charts that exist in the PHPExcel object.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#method_getOrientation">getOrientation()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Get Orientation</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#method_getPaperSize">getPaperSize()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Get Paper Size</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-Abstract.html#method_getPreCalculateFormulas">getPreCalculateFormulas()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Get Pre-Calculate Formulas flag
+    If this is true (the default), then the writer will recalculate all formulae in a workbook when saving,
+       so that the pre-calculated values are immediately available to MS Excel or other office spreadsheet
+       viewer when opening the file
+    If false, then formulae are not calculated on save. This is faster for saving in PHPExcel, but slower
+       when opening the resulting file in MS Excel, because Excel has to recalculate the formulae itself</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_getSheetIndex">getSheetIndex()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>Get sheet index</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#method_getTempDir">getTempDir()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Get temporary storage directory</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-Abstract.html#method_getUseDiskCaching">getUseDiskCaching()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Get use disk caching where possible?</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_getUseInlineCss">getUseInlineCss()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Get use inline CSS?</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-PDF-DomPDF.html#method_save">save()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Save PHPExcel to file</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_setEmbedImages">setEmbedImages()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a>    </span>
+</dt>
+<dd>Set embed images</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#method_setFont">setFont()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Set font. Examples:
+     &#039;arialunicid0-chinese-simplified&#039;
+     &#039;arialunicid0-chinese-traditional&#039;
+     &#039;arialunicid0-korean&#039;
+     &#039;arialunicid0-japanese&#039;</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_setGenerateSheetNavigationBlock">setGenerateSheetNavigationBlock()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a>    </span>
+</dt>
+<dd>Set sheet index</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_setImagesRoot">setImagesRoot()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a>    </span>
+</dt>
+<dd>Set images root</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-Abstract.html#method_setIncludeCharts">setIncludeCharts()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Writer-IWriter.html"><abbr title="\PHPExcel_Writer_IWriter">PHPExcel_Writer_IWriter</abbr></a>    </span>
+</dt>
+<dd>Set write charts in workbook
+       Set to true, to advise the Writer to include any charts that exist in the PHPExcel object.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#method_setOrientation">setOrientation()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Writer-PDF.html"><abbr title="\PHPExcel_Writer_PDF">PHPExcel_Writer_PDF</abbr></a>    </span>
+</dt>
+<dd>Set Orientation</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#method_setPaperSize">setPaperSize()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Writer-PDF.html"><abbr title="\PHPExcel_Writer_PDF">PHPExcel_Writer_PDF</abbr></a>    </span>
+</dt>
+<dd>Set Paper Size</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-Abstract.html#method_setPreCalculateFormulas">setPreCalculateFormulas()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Writer-IWriter.html"><abbr title="\PHPExcel_Writer_IWriter">PHPExcel_Writer_IWriter</abbr></a>    </span>
+</dt>
+<dd>Set Pre-Calculate Formulas
+       Set to true (the default) to advise the Writer to calculate all formulae on save
+       Set to false to prevent precalculation of formulae on save.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_setSheetIndex">setSheetIndex()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a>    </span>
+</dt>
+<dd>Set sheet index</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#method_setTempDir">setTempDir()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Set temporary storage directory</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-Abstract.html#method_setUseDiskCaching">setUseDiskCaching()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Writer-Excel2007.html"><abbr title="\PHPExcel_Writer_Excel2007">PHPExcel_Writer_Excel2007</abbr></a>    </span>
+</dt>
+<dd>Set use disk caching where possible?</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_setUseInlineCss">setUseInlineCss()</a>
+    <span>
+                                &nbsp;: <a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a>    </span>
+</dt>
+<dd>Set use inline CSS?</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Writer-HTML.html#method_writeAllSheets">writeAllSheets()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Write all sheets (resets sheetIndex to NULL)</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#method_prepareForSave">prepareForSave()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Save PHPExcel to PDF file, pre-save</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/PHPExcel-Writer-PDF-Core.html#method_restoreStateAfterSave">restoreStateAfterSave()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Save PHPExcel to PDF file, post-save</dd>
+
+    </dl>
+
+
+
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/PHPExcel-Writer-PDF-DomPDF.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property__diskCachingDirectory">
+        $_diskCachingDirectory
+        <a href="classes/PHPExcel-Writer-Abstract.html#property__diskCachingDirectory" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/Abstract.php"><a href="files/lib-phpexcel-writer-abstract.html"><abbr title="lib/PHPExcel/Writer/Abstract.php">Abstract.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">59</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Disk caching directory</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$_diskCachingDirectory</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;./&#039;</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property__useDiskCaching">
+        $_useDiskCaching
+        <a href="classes/PHPExcel-Writer-Abstract.html#property__useDiskCaching" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/Abstract.php"><a href="files/lib-phpexcel-writer-abstract.html"><abbr title="lib/PHPExcel/Writer/Abstract.php">Abstract.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">52</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Use disk caching where possible?</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$_useDiskCaching</span>
+     = <span class="phpdocumentor-signature__default-value">\false</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_font">
+        $font
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#property_font" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">42</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Font</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$font</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;freesans&#039;</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_includeCharts">
+        $includeCharts
+        <a href="classes/PHPExcel-Writer-Abstract.html#property_includeCharts" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/Abstract.php"><a href="files/lib-phpexcel-writer-abstract.html"><abbr title="lib/PHPExcel/Writer/Abstract.php">Abstract.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Write charts that are defined in the workbook?
+Identifies whether the Writer should write definitions for any charts that exist in the PHPExcel object;</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$includeCharts</span>
+     = <span class="phpdocumentor-signature__default-value">\false</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_isPdf">
+        $isPdf
+        <a href="classes/PHPExcel-Writer-HTML.html#property_isPdf" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">119</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Is the current writer creating PDF?</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$isPdf</span>
+     = <span class="phpdocumentor-signature__default-value">\false</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_orientation">
+        $orientation
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#property_orientation" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">49</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Orientation (Over-ride)</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$orientation</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_paperSize">
+        $paperSize
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#property_paperSize" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">56</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Paper size (Over-ride)</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$paperSize</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_paperSizes">
+        $paperSizes
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#property_paperSizes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">71</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Paper Sizes xRef List</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">array&lt;string|int, mixed&gt;</span>
+    <span class="phpdocumentor-signature__name">$paperSizes</span>
+     = <span class="phpdocumentor-signature__default-value">array(
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_LETTER =&gt; &#039;LETTER&#039;,
+    //    (8.5 in. by 11 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_LETTER_SMALL =&gt; &#039;LETTER&#039;,
+    //    (8.5 in. by 11 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_TABLOID =&gt; array(792.0, 1224.0),
+    //    (11 in. by 17 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_LEDGER =&gt; array(1224.0, 792.0),
+    //    (17 in. by 11 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_LEGAL =&gt; &#039;LEGAL&#039;,
+    //    (8.5 in. by 14 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_STATEMENT =&gt; array(396.0, 612.0),
+    //    (5.5 in. by 8.5 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_EXECUTIVE =&gt; &#039;EXECUTIVE&#039;,
+    //    (7.25 in. by 10.5 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A3 =&gt; &#039;A3&#039;,
+    //    (297 mm by 420 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A4 =&gt; &#039;A4&#039;,
+    //    (210 mm by 297 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A4_SMALL =&gt; &#039;A4&#039;,
+    //    (210 mm by 297 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A5 =&gt; &#039;A5&#039;,
+    //    (148 mm by 210 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_B4 =&gt; &#039;B4&#039;,
+    //    (250 mm by 353 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_B5 =&gt; &#039;B5&#039;,
+    //    (176 mm by 250 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_FOLIO =&gt; &#039;FOLIO&#039;,
+    //    (8.5 in. by 13 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_QUARTO =&gt; array(609.45, 779.53),
+    //    (215 mm by 275 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_STANDARD_1 =&gt; array(720.0, 1008.0),
+    //    (10 in. by 14 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_STANDARD_2 =&gt; array(792.0, 1224.0),
+    //    (11 in. by 17 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_NOTE =&gt; &#039;LETTER&#039;,
+    //    (8.5 in. by 11 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_NO9_ENVELOPE =&gt; array(279.0, 639.0),
+    //    (3.875 in. by 8.875 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_NO10_ENVELOPE =&gt; array(297.0, 684.0),
+    //    (4.125 in. by 9.5 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_NO11_ENVELOPE =&gt; array(324.0, 747.0),
+    //    (4.5 in. by 10.375 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_NO12_ENVELOPE =&gt; array(342.0, 792.0),
+    //    (4.75 in. by 11 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_NO14_ENVELOPE =&gt; array(360.0, 828.0),
+    //    (5 in. by 11.5 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_C =&gt; array(1224.0, 1584.0),
+    //    (17 in. by 22 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_D =&gt; array(1584.0, 2448.0),
+    //    (22 in. by 34 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_E =&gt; array(2448.0, 3168.0),
+    //    (34 in. by 44 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_DL_ENVELOPE =&gt; array(311.81, 623.62),
+    //    (110 mm by 220 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_C5_ENVELOPE =&gt; &#039;C5&#039;,
+    //    (162 mm by 229 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_C3_ENVELOPE =&gt; &#039;C3&#039;,
+    //    (324 mm by 458 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_C4_ENVELOPE =&gt; &#039;C4&#039;,
+    //    (229 mm by 324 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_C6_ENVELOPE =&gt; &#039;C6&#039;,
+    //    (114 mm by 162 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_C65_ENVELOPE =&gt; array(323.15, 649.13),
+    //    (114 mm by 229 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_B4_ENVELOPE =&gt; &#039;B4&#039;,
+    //    (250 mm by 353 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_B5_ENVELOPE =&gt; &#039;B5&#039;,
+    //    (176 mm by 250 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_B6_ENVELOPE =&gt; array(498.9, 354.33),
+    //    (176 mm by 125 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_ITALY_ENVELOPE =&gt; array(311.81, 651.97),
+    //    (110 mm by 230 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_MONARCH_ENVELOPE =&gt; array(279.0, 540.0),
+    //    (3.875 in. by 7.5 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_6_3_4_ENVELOPE =&gt; array(261.0, 468.0),
+    //    (3.625 in. by 6.5 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_US_STANDARD_FANFOLD =&gt; array(1071.0, 792.0),
+    //    (14.875 in. by 11 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_GERMAN_STANDARD_FANFOLD =&gt; array(612.0, 864.0),
+    //    (8.5 in. by 12 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_GERMAN_LEGAL_FANFOLD =&gt; &#039;FOLIO&#039;,
+    //    (8.5 in. by 13 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_ISO_B4 =&gt; &#039;B4&#039;,
+    //    (250 mm by 353 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_JAPANESE_DOUBLE_POSTCARD =&gt; array(566.9299999999999, 419.53),
+    //    (200 mm by 148 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_STANDARD_PAPER_1 =&gt; array(648.0, 792.0),
+    //    (9 in. by 11 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_STANDARD_PAPER_2 =&gt; array(720.0, 792.0),
+    //    (10 in. by 11 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_STANDARD_PAPER_3 =&gt; array(1080.0, 792.0),
+    //    (15 in. by 11 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_INVITE_ENVELOPE =&gt; array(623.62, 623.62),
+    //    (220 mm by 220 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_LETTER_EXTRA_PAPER =&gt; array(667.8, 864.0),
+    //    (9.275 in. by 12 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_LEGAL_EXTRA_PAPER =&gt; array(667.8, 1080.0),
+    //    (9.275 in. by 15 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_TABLOID_EXTRA_PAPER =&gt; array(841.6799999999999, 1296.0),
+    //    (11.69 in. by 18 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A4_EXTRA_PAPER =&gt; array(668.98, 912.76),
+    //    (236 mm by 322 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_LETTER_TRANSVERSE_PAPER =&gt; array(595.8, 792.0),
+    //    (8.275 in. by 11 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A4_TRANSVERSE_PAPER =&gt; &#039;A4&#039;,
+    //    (210 mm by 297 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_LETTER_EXTRA_TRANSVERSE_PAPER =&gt; array(667.8, 864.0),
+    //    (9.275 in. by 12 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_SUPERA_SUPERA_A4_PAPER =&gt; array(643.46, 1009.13),
+    //    (227 mm by 356 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_SUPERB_SUPERB_A3_PAPER =&gt; array(864.5700000000001, 1380.47),
+    //    (305 mm by 487 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_LETTER_PLUS_PAPER =&gt; array(612.0, 913.6799999999999),
+    //    (8.5 in. by 12.69 in.)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A4_PLUS_PAPER =&gt; array(595.28, 935.4299999999999),
+    //    (210 mm by 330 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A5_TRANSVERSE_PAPER =&gt; &#039;A5&#039;,
+    //    (148 mm by 210 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_JIS_B5_TRANSVERSE_PAPER =&gt; array(515.91, 728.5),
+    //    (182 mm by 257 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A3_EXTRA_PAPER =&gt; array(912.76, 1261.42),
+    //    (322 mm by 445 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A5_EXTRA_PAPER =&gt; array(493.23, 666.14),
+    //    (174 mm by 235 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_ISO_B5_EXTRA_PAPER =&gt; array(569.76, 782.36),
+    //    (201 mm by 276 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A2_PAPER =&gt; &#039;A2&#039;,
+    //    (420 mm by 594 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A3_TRANSVERSE_PAPER =&gt; &#039;A3&#039;,
+    //    (297 mm by 420 mm)
+    \PHPExcel_Worksheet_PageSetup::PAPERSIZE_A3_EXTRA_TRANSVERSE_PAPER =&gt; array(912.76, 1261.42),
+)</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_phpExcel">
+        $phpExcel
+        <a href="classes/PHPExcel-Writer-HTML.html#property_phpExcel" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">PHPExcel object</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type"><a href="classes/PHPExcel.html"><abbr title="\PHPExcel">PHPExcel</abbr></a></span>
+    <span class="phpdocumentor-signature__name">$phpExcel</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_preCalculateFormulas">
+        $preCalculateFormulas
+        <a href="classes/PHPExcel-Writer-Abstract.html#property_preCalculateFormulas" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/Abstract.php"><a href="files/lib-phpexcel-writer-abstract.html"><abbr title="lib/PHPExcel/Writer/Abstract.php">Abstract.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">45</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Pre-calculate formulas
+Forces PHPExcel to recalculate all formulae in a workbook when saving, so that the pre-calculated values are
+   immediately available to MS Excel or other office spreadsheet viewer when opening the file</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">bool</span>
+    <span class="phpdocumentor-signature__name">$preCalculateFormulas</span>
+     = <span class="phpdocumentor-signature__default-value">\true</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_tempDir">
+        $tempDir
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#property_tempDir" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Temporary storage directory</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$tempDir</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/PHPExcel-Writer-PDF-DomPDF.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/PHPExcel-Writer-PDF-DomPDF.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/DomPDF.php"><a href="files/lib-phpexcel-writer-pdf-dompdf.html"><abbr title="lib/PHPExcel/Writer/PDF/DomPDF.php">DomPDF.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">43</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Create a new PHPExcel_Writer_PDF</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PHPExcel.html"><abbr title="\PHPExcel">PHPExcel</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$phpExcel</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@param   PHPExcel    $phpExcel    PHPExcel object</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$phpExcel</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PHPExcel.html"><abbr title="\PHPExcel">PHPExcel</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>PHPExcel object</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_buildCSS">
+        buildCSS()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_buildCSS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">777</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Build CSS styles</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">buildCSS</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$generateSurroundingHTML</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$generateSurroundingHTML</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Generate surrounding HTML style? (html { })</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Writer-HTML.html#method_buildCSS#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Writer-Exception.html"><abbr title="\PHPExcel_Writer_Exception">PHPExcel_Writer_Exception</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_formatColor">
+        formatColor()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_formatColor" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1475</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Add color to formatted string as inline style</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">formatColor</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pFormat</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Plain formatted value without color</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pFormat</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Format code</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_generateHTMLFooter">
+        generateHTMLFooter()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_generateHTMLFooter" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1064</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Generate HTML footer</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">generateHTMLFooter</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_generateHTMLHeader">
+        generateHTMLHeader()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_generateHTMLHeader" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">334</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Generate HTML header</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">generateHTMLHeader</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pIncludeStyles</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pIncludeStyles</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Include styles?</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Writer-HTML.html#method_generateHTMLHeader#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Writer-Exception.html"><abbr title="\PHPExcel_Writer_Exception">PHPExcel_Writer_Exception</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_generateNavigation">
+        generateNavigation()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_generateNavigation" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">512</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Generate sheet tabs</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">generateNavigation</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Writer-HTML.html#method_generateNavigation#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Writer-Exception.html"><abbr title="\PHPExcel_Writer_Exception">PHPExcel_Writer_Exception</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_generateSheetData">
+        generateSheetData()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_generateSheetData" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">393</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Generate sheet data</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">generateSheetData</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Writer-HTML.html#method_generateSheetData#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Writer-Exception.html"><abbr title="\PHPExcel_Writer_Exception">PHPExcel_Writer_Exception</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_generateStyles">
+        generateStyles()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_generateStyles" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">735</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Generate CSS styles</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">generateStyles</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$generateSurroundingHTML</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$generateSurroundingHTML</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Generate surrounding HTML tags? (&lt;style&gt; and &lt;/style&gt;)</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Writer-HTML.html#method_generateStyles#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Writer-Exception.html"><abbr title="\PHPExcel_Writer_Exception">PHPExcel_Writer_Exception</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDiskCachingDirectory">
+        getDiskCachingDirectory()
+        <a href="classes/PHPExcel-Writer-Abstract.html#method_getDiskCachingDirectory" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/Abstract.php"><a href="files/lib-phpexcel-writer-abstract.html"><abbr title="lib/PHPExcel/Writer/Abstract.php">Abstract.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">153</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get disk caching directory</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getDiskCachingDirectory</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getEmbedImages">
+        getEmbedImages()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_getEmbedImages" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1429</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get embed images</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getEmbedImages</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getFont">
+        getFont()
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_getFont" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">223</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get Font</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getFont</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@return string</p>
+</section>
+
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getGenerateSheetNavigationBlock">
+        getGenerateSheetNavigationBlock()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_getGenerateSheetNavigationBlock" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">301</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get sheet index</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getGenerateSheetNavigationBlock</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getImagesRoot">
+        getImagesRoot()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_getImagesRoot" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1407</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get images root</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getImagesRoot</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getIncludeCharts">
+        getIncludeCharts()
+        <a href="classes/PHPExcel-Writer-Abstract.html#method_getIncludeCharts" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/Abstract.php"><a href="files/lib-phpexcel-writer-abstract.html"><abbr title="lib/PHPExcel/Writer/Abstract.php">Abstract.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">68</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Write charts in workbook?
+       If this is true, then the Writer will write definitions for any charts that exist in the PHPExcel object.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getIncludeCharts</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>If false (the default) it will ignore any charts defined in the PHPExcel object.</p>
+</section>
+
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getOrientation">
+        getOrientation()
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_getOrientation" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">270</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get Orientation</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getOrientation</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@return string</p>
+</section>
+
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getPaperSize">
+        getPaperSize()
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_getPaperSize" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">248</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get Paper Size</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getPaperSize</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@return int</p>
+</section>
+
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getPreCalculateFormulas">
+        getPreCalculateFormulas()
+        <a href="classes/PHPExcel-Writer-Abstract.html#method_getPreCalculateFormulas" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/Abstract.php"><a href="files/lib-phpexcel-writer-abstract.html"><abbr title="lib/PHPExcel/Writer/Abstract.php">Abstract.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">97</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get Pre-Calculate Formulas flag
+    If this is true (the default), then the writer will recalculate all formulae in a workbook when saving,
+       so that the pre-calculated values are immediately available to MS Excel or other office spreadsheet
+       viewer when opening the file
+    If false, then formulae are not calculated on save. This is faster for saving in PHPExcel, but slower
+       when opening the resulting file in MS Excel, because Excel has to recalculate the formulae itself</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getPreCalculateFormulas</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getSheetIndex">
+        getSheetIndex()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_getSheetIndex" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">279</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get sheet index</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getSheetIndex</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getTempDir">
+        getTempDir()
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_getTempDir" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">292</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get temporary storage directory</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getTempDir</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@return string</p>
+</section>
+
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getUseDiskCaching">
+        getUseDiskCaching()
+        <a href="classes/PHPExcel-Writer-Abstract.html#method_getUseDiskCaching" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/Abstract.php"><a href="files/lib-phpexcel-writer-abstract.html"><abbr title="lib/PHPExcel/Writer/Abstract.php">Abstract.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">121</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get use disk caching where possible?</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getUseDiskCaching</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getUseInlineCss">
+        getUseInlineCss()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_getUseInlineCss" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1451</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get use inline CSS?</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">getUseInlineCss</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_save">
+        save()
+        <a href="classes/PHPExcel-Writer-PDF-DomPDF.html#method_save" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/DomPDF.php"><a href="files/lib-phpexcel-writer-pdf-dompdf.html"><abbr title="lib/PHPExcel/Writer/PDF/DomPDF.php">DomPDF.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">54</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Save PHPExcel to file</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">save</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pFilename</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@param   string     $pFilename   Name of the file to save as</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pFilename</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Writer-PDF-DomPDF.html#method_save#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Writer-Exception.html"><abbr title="\PHPExcel_Writer_Exception">PHPExcel_Writer_Exception</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setEmbedImages">
+        setEmbedImages()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_setEmbedImages" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1440</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set embed images</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setEmbedImages</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;.&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;.&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setFont">
+        setFont()
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_setFont" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">237</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set font. Examples:
+     &#039;arialunicid0-chinese-simplified&#039;
+     &#039;arialunicid0-chinese-traditional&#039;
+     &#039;arialunicid0-korean&#039;
+     &#039;arialunicid0-japanese&#039;</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setFont</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fontName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@param    string    $fontName</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$fontName</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setGenerateSheetNavigationBlock">
+        setGenerateSheetNavigationBlock()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_setGenerateSheetNavigationBlock" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">312</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set sheet index</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setGenerateSheetNavigationBlock</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Flag indicating whether the sheet navigation block should be generated or not</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setImagesRoot">
+        setImagesRoot()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_setImagesRoot" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1418</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set images root</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setImagesRoot</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;.&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;.&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setIncludeCharts">
+        setIncludeCharts()
+        <a href="classes/PHPExcel-Writer-Abstract.html#method_setIncludeCharts" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/Abstract.php"><a href="files/lib-phpexcel-writer-abstract.html"><abbr title="lib/PHPExcel/Writer/Abstract.php">Abstract.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">81</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set write charts in workbook
+       Set to true, to advise the Writer to include any charts that exist in the PHPExcel object.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setIncludeCharts</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-IWriter.html"><abbr title="\PHPExcel_Writer_IWriter">PHPExcel_Writer_IWriter</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Set to false (the default) to ignore charts.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-IWriter.html"><abbr title="\PHPExcel_Writer_IWriter">PHPExcel_Writer_IWriter</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setOrientation">
+        setOrientation()
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_setOrientation" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">281</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set Orientation</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setOrientation</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">PHPExcel_Worksheet_PageSetup::ORIENTATION_DEFAULT</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-PDF.html"><abbr title="\PHPExcel_Writer_PDF">PHPExcel_Writer_PDF</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@param string $pValue  Page orientation</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">PHPExcel_Worksheet_PageSetup::ORIENTATION_DEFAULT</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-PDF.html"><abbr title="\PHPExcel_Writer_PDF">PHPExcel_Writer_PDF</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setPaperSize">
+        setPaperSize()
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_setPaperSize" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">259</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set Paper Size</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setPaperSize</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">PHPExcel_Worksheet_PageSetup::PAPERSIZE_LETTER</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-PDF.html"><abbr title="\PHPExcel_Writer_PDF">PHPExcel_Writer_PDF</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@param  string  $pValue Paper size</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">PHPExcel_Worksheet_PageSetup::PAPERSIZE_LETTER</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-PDF.html"><abbr title="\PHPExcel_Writer_PDF">PHPExcel_Writer_PDF</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setPreCalculateFormulas">
+        setPreCalculateFormulas()
+        <a href="classes/PHPExcel-Writer-Abstract.html#method_setPreCalculateFormulas" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/Abstract.php"><a href="files/lib-phpexcel-writer-abstract.html"><abbr title="lib/PHPExcel/Writer/Abstract.php">Abstract.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">110</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set Pre-Calculate Formulas
+       Set to true (the default) to advise the Writer to calculate all formulae on save
+       Set to false to prevent precalculation of formulae on save.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setPreCalculateFormulas</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-IWriter.html"><abbr title="\PHPExcel_Writer_IWriter">PHPExcel_Writer_IWriter</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Pre-Calculate Formulas?</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-IWriter.html"><abbr title="\PHPExcel_Writer_IWriter">PHPExcel_Writer_IWriter</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setSheetIndex">
+        setSheetIndex()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_setSheetIndex" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">290</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set sheet index</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setSheetIndex</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Sheet index</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setTempDir">
+        setTempDir()
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_setTempDir" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">304</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set temporary storage directory</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setTempDir</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@param     string        $pValue        Temporary storage directory</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_setTempDir#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Writer-Exception.html"><abbr title="\PHPExcel_Writer_Exception">PHPExcel_Writer_Exception</abbr></a></span>
+                                                            
+                                                 <section class="phpdocumentor-description"><p>when directory does not exist
+@return    PHPExcel_Writer_PDF</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setUseDiskCaching">
+        setUseDiskCaching()
+        <a href="classes/PHPExcel-Writer-Abstract.html#method_setUseDiskCaching" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/Abstract.php"><a href="files/lib-phpexcel-writer-abstract.html"><abbr title="lib/PHPExcel/Writer/Abstract.php">Abstract.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">134</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set use disk caching where possible?</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setUseDiskCaching</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pDirectory</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-Excel2007.html"><abbr title="\PHPExcel_Writer_Excel2007">PHPExcel_Writer_Excel2007</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pDirectory</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Disk caching directory</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Writer-Abstract.html#method_setUseDiskCaching#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Writer-Exception.html"><abbr title="\PHPExcel_Writer_Exception">PHPExcel_Writer_Exception</abbr></a></span>
+                                                            
+                                                 <section class="phpdocumentor-description"><p>when directory does not exist</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-Excel2007.html"><abbr title="\PHPExcel_Writer_Excel2007">PHPExcel_Writer_Excel2007</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setUseInlineCss">
+        setUseInlineCss()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_setUseInlineCss" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1462</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set use inline CSS?</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">setUseInlineCss</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a></span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type"><a href="classes/PHPExcel-Writer-HTML.html"><abbr title="\PHPExcel_Writer_HTML">PHPExcel_Writer_HTML</abbr></a></span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_writeAllSheets">
+        writeAllSheets()
+        <a href="classes/PHPExcel-Writer-HTML.html#method_writeAllSheets" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/HTML.php"><a href="files/lib-phpexcel-writer-html.html"><abbr title="lib/PHPExcel/Writer/HTML.php">HTML.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">321</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Write all sheets (resets sheetIndex to NULL)</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">writeAllSheets</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_prepareForSave">
+        prepareForSave()
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_prepareForSave" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">320</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Save PHPExcel to PDF file, pre-save</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">prepareForSave</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pFilename</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@param     string     $pFilename   Name of the file to save as</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pFilename</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_prepareForSave#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Writer-Exception.html"><abbr title="\PHPExcel_Writer_Exception">PHPExcel_Writer_Exception</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_restoreStateAfterSave">
+        restoreStateAfterSave()
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_restoreStateAfterSave" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Writer/PDF/Core.php"><a href="files/lib-phpexcel-writer-pdf-core.html"><abbr title="lib/PHPExcel/Writer/PDF/Core.php">Core.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">348</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Save PHPExcel to PDF file, post-save</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">restoreStateAfterSave</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fileHandle</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>@param     resource      $fileHandle</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$fileHandle</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Writer-PDF-Core.html#method_restoreStateAfterSave#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">throws</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PHPExcel-Writer-Exception.html"><abbr title="\PHPExcel_Writer_Exception">PHPExcel_Writer_Exception</abbr></a></span>
+                                                            
+                                             
+                                    </dd>
+                                            </dl>
+
+    
+
+    
+</article>
+            </section>
+
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/lib/PHPExcel/Writer/PDF/DomPDF.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
+
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
+
+                    var xhr = new XMLHttpRequest();
+
+                    xhr.open('GET', src, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+                            Prism.highlightElement(code);
+                            return;
+                        }
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
+                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
+                    }
+                    modal.classList.add("phpdocumentor-modal__open");
+
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
+                    });
+                });
+            });
+        })();
+    </script>
+
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                            <li><a href="classes/PHPExcel-Writer-PDF-DomPDF.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PHPExcel-Writer-PDF-DomPDF.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PHPExcel-Writer-Abstract.html#property__diskCachingDirectory">$_diskCachingDirectory</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Writer-Abstract.html#property__useDiskCaching">$_useDiskCaching</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#property_font">$font</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Writer-Abstract.html#property_includeCharts">$includeCharts</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Writer-HTML.html#property_isPdf">$isPdf</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#property_orientation">$orientation</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#property_paperSize">$paperSize</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#property_paperSizes">$paperSizes</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Writer-HTML.html#property_phpExcel">$phpExcel</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Writer-Abstract.html#property_preCalculateFormulas">$preCalculateFormulas</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#property_tempDir">$tempDir</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-DomPDF.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_buildCSS">buildCSS()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_formatColor">formatColor()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_generateHTMLFooter">generateHTMLFooter()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_generateHTMLHeader">generateHTMLHeader()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_generateNavigation">generateNavigation()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_generateSheetData">generateSheetData()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_generateStyles">generateStyles()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-Abstract.html#method_getDiskCachingDirectory">getDiskCachingDirectory()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_getEmbedImages">getEmbedImages()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#method_getFont">getFont()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_getGenerateSheetNavigationBlock">getGenerateSheetNavigationBlock()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_getImagesRoot">getImagesRoot()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-Abstract.html#method_getIncludeCharts">getIncludeCharts()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#method_getOrientation">getOrientation()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#method_getPaperSize">getPaperSize()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-Abstract.html#method_getPreCalculateFormulas">getPreCalculateFormulas()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_getSheetIndex">getSheetIndex()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#method_getTempDir">getTempDir()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-Abstract.html#method_getUseDiskCaching">getUseDiskCaching()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_getUseInlineCss">getUseInlineCss()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-DomPDF.html#method_save">save()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_setEmbedImages">setEmbedImages()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#method_setFont">setFont()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_setGenerateSheetNavigationBlock">setGenerateSheetNavigationBlock()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_setImagesRoot">setImagesRoot()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-Abstract.html#method_setIncludeCharts">setIncludeCharts()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#method_setOrientation">setOrientation()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#method_setPaperSize">setPaperSize()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-Abstract.html#method_setPreCalculateFormulas">setPreCalculateFormulas()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_setSheetIndex">setSheetIndex()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#method_setTempDir">setTempDir()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-Abstract.html#method_setUseDiskCaching">setUseDiskCaching()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_setUseInlineCss">setUseInlineCss()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-HTML.html#method_writeAllSheets">writeAllSheets()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#method_prepareForSave">prepareForSave()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Writer-PDF-Core.html#method_restoreStateAfterSave">restoreStateAfterSave()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="classes/PHPExcel-Writer-PDF-DomPDF.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>

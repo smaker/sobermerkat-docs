@@ -1,0 +1,3372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>쏘버마켓 API 문서</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">쏘버마켓 API 문서</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -packages">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Services.html" class="">Services</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Services-JSON.html" class="">JSON</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Spreadsheet.html" class="">Spreadsheet</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Spreadsheet-Excel.html" class="">Excel</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/PHPExcel.html" class="">PHPExcel</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/PHPExcel-CachedObjectStorage.html" class="">CachedObjectStorage</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Calculation.html" class="">Calculation</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Cell.html" class="">Cell</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Chart.html" class="">Chart</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Reader.html" class="">Reader</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-RichText.html" class="">RichText</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Settings.html" class="">Settings</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Shared.html" class="">Shared</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Style.html" class="">Style</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Worksheet.html" class="">Worksheet</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Writer.html" class="">Writer</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL.html" class="">JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL-IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod.html" class="">IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix.html" class="">JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix-IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali.html" class="">IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAForanm.html" class="">JAMAForanm</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAForanm-by.html" class="">by</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMA.html" class="">JAMA</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAErrorhandlingauthorMichaelBommaritoversion01292005.html" class="">JAMAErrorhandlingauthorMichaelBommaritoversion01292005</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow.html" class="">JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category -reports">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category -indices">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    theme
+
+        <span class="phpdocumentor-element__extends">
+        extends <a href="classes/qfile.html"><abbr title="\qfile">qfile</abbr></a>
+    </span>
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">6</span>
+
+    </aside>
+
+            <p class="phpdocumentor-summary">theme class</p>
+
+
+
+
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/theme.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+
+
+
+
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/theme.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a class="" href="classes/theme.html#property_is_shop">$is_shop</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/theme.html#property_bo_new">$bo_new</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/theme.html#property_eyoom">$eyoom</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/theme.html#property_me_pid">$me_pid</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/theme.html#property_page_type">$page_type</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/theme.html#property_path">$path</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/theme.html#property_theme_path">$theme_path</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a class="" href="classes/theme.html#property_tmp_path">$tmp_path</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/theme.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method___construct">__construct()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Constructor Function</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_compare_host">compare_host()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_compare_host_from_link">compare_host_from_link()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/qfile.html#method_copy_dir">copy_dir()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>디렉토리 전체 복사 - 하위 디렉토리 및 파일까지 모두
+system(), exec() shell_exec() 등이 웹호스팅 환경에 따라 실행이 안되는 경우를 위해</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_default_bizinfo">default_bizinfo()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>테마 기업정보 기본값</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/qfile.html#method_del_all_file">del_all_file()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>특정폴더에 있는 모든 파일 및 폴더 삭제하기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/qfile.html#method_del_file">del_file()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>지정한 파일 삭제하기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/qfile.html#method_del_timeover_file">del_timeover_file()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>특정폴더에 있는 파일 중 일정시간(초)이 지난 파일만 삭제하기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/qfile.html#method_delete_comment_image">delete_comment_image()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>댓글에 첨부한 이미지 삭제</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/qfile.html#method_delete_editor_image">delete_editor_image()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>에디터로 업로드된 이미지 파일 삭제</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_eyoom_menu">eyoom_menu()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Eyoom 메뉴 패키지</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_eyoom_menu_json">eyoom_menu_json()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Eyoom 메뉴 배열을 JSON 형식으로 변환</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_eyoom_submenu">eyoom_submenu()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Eyoom 서브메뉴 패키지</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_get_bizinfo">get_bizinfo()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>회사 기본정보</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/qfile.html#method_get_file_ext">get_file_ext()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>파일 확장자 가져오기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_get_meinfo_link">get_meinfo_link()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>메뉴 링크로 부터 메뉴속성 추출하기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_get_menu_link">get_menu_link()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_get_path">get_path()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>메뉴코드에서 위치정보 가져오기 - 반복문 안에 쿼리문으로 권장하지 않은 방법
+만들긴 했지만 거의 사용하지 않을 예정 - 관리자모드에서 사용</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_get_skin_path">get_skin_path()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>기능별 스킨 경로</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_get_skin_url">get_skin_url()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>스킨 url</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/qfile.html#method_get_sub_dir">get_sub_dir()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>지정한 경로에서 지정한 디렉토리의 하위 디렉토리 정보를 가져옴</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_get_user_theme">get_user_theme()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>사용자 지정 테마 가져오기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_loading_theme">loading_theme()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>실제 출력될 테마가 어떤 것인지 체크하여 자동으로 테마 로딩</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/qfile.html#method_make_directory">make_directory()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>디렉토리 생성</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_menu_create">menu_create()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>자동메뉴 연동/생성</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_save_ebbanner_item">save_ebbanner_item()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>EB배너 아이템 파일 생성</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_save_ebcontents_item">save_ebcontents_item()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>EB컨텐츠 아이템 파일 생성</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_save_ebgoods_item">save_ebgoods_item()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>EB상품추출 아이템 파일 생성</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_save_ebslider_item">save_ebslider_item()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>EB슬라이더 아이템 파일 생성</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/qfile.html#method_save_file">save_file()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>배열을 지정한 파일로 저장 - 폴더에 웹서버의 쓰기 권한이 있어야 함</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_set_user_theme">set_user_theme()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>사용자 지정 테마 설정</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_shop_subpage_info">shop_subpage_info()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_submenu_create">submenu_create()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>서브페이지 좌/우측에 해당 페이지의 서브메뉴 가져오기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/theme.html#method_subpage_info">subpage_info()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/theme.html#method_check_theme">check_theme()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>적용테마 및 미리보기 테마 설정</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a class="" href="classes/theme.html#method_set_theme_path">set_theme_path()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>설정된 테마를 적용하기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_eyoom_menu_assign">eyoom_menu_assign()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Eyoom 메뉴 재정의</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_eyoom_menu_ca_new">eyoom_menu_ca_new()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>게시판 분류사용시, 새글정보</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_eyoom_menu_create">eyoom_menu_create()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Eyoom 메뉴</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_eyoom_menu_new">eyoom_menu_new()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Eyoom New 테이블에서 최근글 정보 가져옴 : 2015-02-25 그림자밟기님이 아이디어를 제공해 주셨습니다.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_eyoom_pagemenu_info">eyoom_pagemenu_info()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>페이지 정보 가져오기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_eyoom_submenu_create">eyoom_submenu_create()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Eyoom 서브메뉴 생성하기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_eyoom_subpage_info">eyoom_subpage_info()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_g5_menu_create">g5_menu_create()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>그누메뉴 자동생성 : 반복문 안에 SQL문이 반복되어 메뉴가 많을 경우 느려지는 원인이 될 수 있음</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_g5_submenu_create">g5_submenu_create()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>g5 서브 메뉴 만들기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_g5_subpage_info">g5_subpage_info()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_get_default_page">get_default_page()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_get_sca_from_link">get_sca_from_link()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>링크로 부터 sca 추출하기</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/theme.html#method_get_splited_code">get_splited_code()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>메뉴코드를 단계별로 잘라 배열에 담기</dd>
+
+    </dl>
+
+
+
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/theme.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_is_shop">
+        $is_shop
+        <a href="classes/theme.html#property_is_shop" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">15</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$is_shop</span>
+     = <span class="phpdocumentor-signature__default-value">\false</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_bo_new">
+        $bo_new
+        <a href="classes/theme.html#property_bo_new" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">13</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$bo_new</span>
+     = <span class="phpdocumentor-signature__default-value">24</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_eyoom">
+        $eyoom
+        <a href="classes/theme.html#property_eyoom" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">14</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$eyoom</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_me_pid">
+        $me_pid
+        <a href="classes/theme.html#property_me_pid" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">12</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$me_pid</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_page_type">
+        $page_type
+        <a href="classes/theme.html#property_page_type" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">11</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$page_type</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_path">
+        $path
+        <a href="classes/theme.html#property_path" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">8</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$path</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_theme_path">
+        $theme_path
+        <a href="classes/theme.html#property_theme_path" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">10</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$theme_path</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                                    "
+>
+    <h4 class="phpdocumentor-element__name" id="property_tmp_path">
+        $tmp_path
+        <a href="classes/theme.html#property_tmp_path" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">9</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">protected</span>
+            <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$tmp_path</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/theme.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method___construct">
+        __construct()
+        <a href="classes/theme.html#method___construct" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">20</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Constructor Function</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$eb</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$eb</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_compare_host">
+        compare_host()
+        <a href="classes/theme.html#method_compare_host" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1013</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">compare_host</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$parsed_url</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$parsed_url</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_compare_host_from_link">
+        compare_host_from_link()
+        <a href="classes/theme.html#method_compare_host_from_link" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">991</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">compare_host_from_link</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$link</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$link</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_copy_dir">
+        copy_dir()
+        <a href="classes/qfile.html#method_copy_dir" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/qfile.class.php"><a href="files/eyoom-class-qfile-class.html"><abbr title="eyoom/class/qfile.class.php">qfile.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">149</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">디렉토리 전체 복사 - 하위 디렉토리 및 파일까지 모두
+system(), exec() shell_exec() 등이 웹호스팅 환경에 따라 실행이 안되는 경우를 위해</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">copy_dir</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$src_dir</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dest_dir</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$except_dir</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$src_dir</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dest_dir</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$except_dir</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_default_bizinfo">
+        default_bizinfo()
+        <a href="classes/theme.html#method_default_bizinfo" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1293</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">테마 기업정보 기본값</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">default_bizinfo</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_del_all_file">
+        del_all_file()
+        <a href="classes/qfile.html#method_del_all_file" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/qfile.class.php"><a href="files/eyoom-class-qfile-class.html"><abbr title="eyoom/class/qfile.class.php">qfile.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">130</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">특정폴더에 있는 모든 파일 및 폴더 삭제하기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">del_all_file</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$path</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$path</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_del_file">
+        del_file()
+        <a href="classes/qfile.html#method_del_file" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/qfile.class.php"><a href="files/eyoom-class-qfile-class.html"><abbr title="eyoom/class/qfile.class.php">qfile.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">100</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">지정한 파일 삭제하기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">del_file</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$filename</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$filename</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_del_timeover_file">
+        del_timeover_file()
+        <a href="classes/qfile.html#method_del_timeover_file" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/qfile.class.php"><a href="files/eyoom-class-qfile-class.html"><abbr title="eyoom/class/qfile.class.php">qfile.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">110</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">특정폴더에 있는 파일 중 일정시간(초)이 지난 파일만 삭제하기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">del_timeover_file</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$path</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$second</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">3600</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$match</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$path</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$second</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">3600</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$match</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_delete_comment_image">
+        delete_comment_image()
+        <a href="classes/qfile.html#method_delete_comment_image" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/qfile.class.php"><a href="files/eyoom-class-qfile-class.html"><abbr title="eyoom/class/qfile.class.php">qfile.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">215</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">댓글에 첨부한 이미지 삭제</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">delete_comment_image</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$content</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bo_table</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$content</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$bo_table</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_delete_editor_image">
+        delete_editor_image()
+        <a href="classes/qfile.html#method_delete_editor_image" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/qfile.class.php"><a href="files/eyoom-class-qfile-class.html"><abbr title="eyoom/class/qfile.class.php">qfile.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">186</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">에디터로 업로드된 이미지 파일 삭제</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">delete_editor_image</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$content</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$content</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_eyoom_menu">
+        eyoom_menu()
+        <a href="classes/theme.html#method_eyoom_menu" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">737</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Eyoom 메뉴 패키지</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">eyoom_menu</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$me_shop</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">2</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$theme</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$me_shop</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">2</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$theme</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_eyoom_menu_json">
+        eyoom_menu_json()
+        <a href="classes/theme.html#method_eyoom_menu_json" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">836</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Eyoom 메뉴 배열을 JSON 형식으로 변환</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">eyoom_menu_json</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$arr</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$arr</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_eyoom_submenu">
+        eyoom_submenu()
+        <a href="classes/theme.html#method_eyoom_submenu" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">812</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Eyoom 서브메뉴 패키지</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">eyoom_submenu</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$data</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$data</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_bizinfo">
+        get_bizinfo()
+        <a href="classes/theme.html#method_get_bizinfo" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1322</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">회사 기본정보</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">get_bizinfo</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_file_ext">
+        get_file_ext()
+        <a href="classes/qfile.html#method_get_file_ext" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/qfile.class.php"><a href="files/eyoom-class-qfile-class.html"><abbr title="eyoom/class/qfile.class.php">qfile.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">52</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">파일 확장자 가져오기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">get_file_ext</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$filename</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$filename</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_meinfo_link">
+        get_meinfo_link()
+        <a href="classes/theme.html#method_get_meinfo_link" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">900</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">메뉴 링크로 부터 메뉴속성 추출하기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">get_meinfo_link</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$url</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$url</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_menu_link">
+        get_menu_link()
+        <a href="classes/theme.html#method_get_menu_link" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">973</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">get_menu_link</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$link</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$link</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_path">
+        get_path()
+        <a href="classes/theme.html#method_get_path" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">883</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">메뉴코드에서 위치정보 가져오기 - 반복문 안에 쿼리문으로 권장하지 않은 방법
+만들긴 했지만 거의 사용하지 않을 예정 - 관리자모드에서 사용</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">get_path</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$me_code</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$me_code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_skin_path">
+        get_skin_path()
+        <a href="classes/theme.html#method_get_skin_path" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">293</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">기능별 스킨 경로</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">get_skin_path</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dir</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$skin</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dir</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$skin</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_skin_url">
+        get_skin_url()
+        <a href="classes/theme.html#method_get_skin_url" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">312</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">스킨 url</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">get_skin_url</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dir</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$skin</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dir</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$skin</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_sub_dir">
+        get_sub_dir()
+        <a href="classes/qfile.html#method_get_sub_dir" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/qfile.class.php"><a href="files/eyoom-class-qfile-class.html"><abbr title="eyoom/class/qfile.class.php">qfile.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">227</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">지정한 경로에서 지정한 디렉토리의 하위 디렉토리 정보를 가져옴</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">get_sub_dir</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dir</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$target</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dir</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$target</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_user_theme">
+        get_user_theme()
+        <a href="classes/theme.html#method_get_user_theme" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">280</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">사용자 지정 테마 가져오기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">get_user_theme</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_loading_theme">
+        loading_theme()
+        <a href="classes/theme.html#method_loading_theme" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">73</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">실제 출력될 테마가 어떤 것인지 체크하여 자동으로 테마 로딩</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">loading_theme</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_make_directory">
+        make_directory()
+        <a href="classes/qfile.html#method_make_directory" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/qfile.class.php"><a href="files/eyoom-class-qfile-class.html"><abbr title="eyoom/class/qfile.class.php">qfile.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">42</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">디렉토리 생성</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">make_directory</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$path</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$path</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_menu_create">
+        menu_create()
+        <a href="classes/theme.html#method_menu_create" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">321</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">자동메뉴 연동/생성</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">menu_create</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$flag</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$flag</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_save_ebbanner_item">
+        save_ebbanner_item()
+        <a href="classes/theme.html#method_save_ebbanner_item" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1453</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">EB배너 아이템 파일 생성</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">save_ebbanner_item</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$code</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$theme</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$theme</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_save_ebcontents_item">
+        save_ebcontents_item()
+        <a href="classes/theme.html#method_save_ebcontents_item" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1375</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">EB컨텐츠 아이템 파일 생성</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">save_ebcontents_item</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$code</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$theme</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$theme</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_save_ebgoods_item">
+        save_ebgoods_item()
+        <a href="classes/theme.html#method_save_ebgoods_item" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1416</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">EB상품추출 아이템 파일 생성</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">save_ebgoods_item</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$code</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$theme</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$theme</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_save_ebslider_item">
+        save_ebslider_item()
+        <a href="classes/theme.html#method_save_ebslider_item" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1341</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">EB슬라이더 아이템 파일 생성</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">save_ebslider_item</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$code</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$theme</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$theme</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_save_file">
+        save_file()
+        <a href="classes/qfile.html#method_save_file" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/qfile.class.php"><a href="files/eyoom-class-qfile-class.html"><abbr title="eyoom/class/qfile.class.php">qfile.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">60</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">배열을 지정한 파일로 저장 - 폴더에 웹서버의 쓰기 권한이 있어야 함</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">save_file</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$outvar</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$filename</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$info</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$int</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$outvar</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$filename</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$info</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$int</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_set_user_theme">
+        set_user_theme()
+        <a href="classes/theme.html#method_set_user_theme" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">201</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">사용자 지정 테마 설정</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">set_user_theme</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$arr</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$arr</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_shop_subpage_info">
+        shop_subpage_info()
+        <a href="classes/theme.html#method_shop_subpage_info" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1267</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">shop_subpage_info</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_submenu_create">
+        submenu_create()
+        <a href="classes/theme.html#method_submenu_create" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">765</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">서브페이지 좌/우측에 해당 페이지의 서브메뉴 가져오기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">submenu_create</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$flag</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$flag</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_subpage_info">
+        subpage_info()
+        <a href="classes/theme.html#method_subpage_info" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1025</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                    <span class="phpdocumentor-signature__name">subpage_info</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$menu_array</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$menu_array</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_check_theme">
+        check_theme()
+        <a href="classes/theme.html#method_check_theme" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">122</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">적용테마 및 미리보기 테마 설정</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">check_theme</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_set_theme_path">
+        set_theme_path()
+        <a href="classes/theme.html#method_set_theme_path" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">152</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">설정된 테마를 적용하기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                    <span class="phpdocumentor-signature__name">set_theme_path</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_eyoom_menu_assign">
+        eyoom_menu_assign()
+        <a href="classes/theme.html#method_eyoom_menu_assign" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">398</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Eyoom 메뉴 재정의</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">eyoom_menu_assign</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$menu_package</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$menu_package</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_eyoom_menu_ca_new">
+        eyoom_menu_ca_new()
+        <a href="classes/theme.html#method_eyoom_menu_ca_new" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">711</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">게시판 분류사용시, 새글정보</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">eyoom_menu_ca_new</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bo_new</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">24</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$bo_new</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">24</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_eyoom_menu_create">
+        eyoom_menu_create()
+        <a href="classes/theme.html#method_eyoom_menu_create" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">383</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Eyoom 메뉴</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">eyoom_menu_create</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_eyoom_menu_new">
+        eyoom_menu_new()
+        <a href="classes/theme.html#method_eyoom_menu_new" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">694</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Eyoom New 테이블에서 최근글 정보 가져옴 : 2015-02-25 그림자밟기님이 아이디어를 제공해 주셨습니다.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">eyoom_menu_new</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bo_new</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">24</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$bo_new</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">24</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_eyoom_pagemenu_info">
+        eyoom_pagemenu_info()
+        <a href="classes/theme.html#method_eyoom_pagemenu_info" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">801</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">페이지 정보 가져오기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">eyoom_pagemenu_info</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_eyoom_submenu_create">
+        eyoom_submenu_create()
+        <a href="classes/theme.html#method_eyoom_submenu_create" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">790</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Eyoom 서브메뉴 생성하기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">eyoom_submenu_create</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_eyoom_subpage_info">
+        eyoom_subpage_info()
+        <a href="classes/theme.html#method_eyoom_subpage_info" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1035</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">eyoom_subpage_info</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$theme</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$theme</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_g5_menu_create">
+        g5_menu_create()
+        <a href="classes/theme.html#method_g5_menu_create" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">333</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">그누메뉴 자동생성 : 반복문 안에 SQL문이 반복되어 메뉴가 많을 경우 느려지는 원인이 될 수 있음</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">g5_menu_create</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_g5_submenu_create">
+        g5_submenu_create()
+        <a href="classes/theme.html#method_g5_submenu_create" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">777</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">g5 서브 메뉴 만들기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">g5_submenu_create</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$me_code</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$me_code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_g5_subpage_info">
+        g5_subpage_info()
+        <a href="classes/theme.html#method_g5_subpage_info" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1115</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">g5_subpage_info</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$menu_array</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$menu_array</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_default_page">
+        get_default_page()
+        <a href="classes/theme.html#method_get_default_page" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1178</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">get_default_page</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_sca_from_link">
+        get_sca_from_link()
+        <a href="classes/theme.html#method_get_sca_from_link" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">728</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">링크로 부터 sca 추출하기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">get_sca_from_link</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$link</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$link</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_get_splited_code">
+        get_splited_code()
+        <a href="classes/theme.html#method_get_splited_code" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="eyoom/class/theme.class.php"><a href="files/eyoom-class-theme-class.html"><abbr title="eyoom/class/theme.class.php">theme.class.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">867</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">메뉴코드를 단계별로 잘라 배열에 담기</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+                    <span class="phpdocumentor-signature__name">get_splited_code</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$split</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$split</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+            </section>
+
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/eyoom/class/theme.class.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
+
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
+
+                    var xhr = new XMLHttpRequest();
+
+                    xhr.open('GET', src, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+                            Prism.highlightElement(code);
+                            return;
+                        }
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
+                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
+                    }
+                    modal.classList.add("phpdocumentor-modal__open");
+
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
+                    });
+                });
+            });
+        })();
+    </script>
+
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                            <li><a href="classes/theme.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/theme.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/theme.html#property_is_shop">$is_shop</a></li>
+                                                    <li class=""><a href="classes/theme.html#property_bo_new">$bo_new</a></li>
+                                                    <li class=""><a href="classes/theme.html#property_eyoom">$eyoom</a></li>
+                                                    <li class=""><a href="classes/theme.html#property_me_pid">$me_pid</a></li>
+                                                    <li class=""><a href="classes/theme.html#property_page_type">$page_type</a></li>
+                                                    <li class=""><a href="classes/theme.html#property_path">$path</a></li>
+                                                    <li class=""><a href="classes/theme.html#property_theme_path">$theme_path</a></li>
+                                                    <li class=""><a href="classes/theme.html#property_tmp_path">$tmp_path</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/theme.html#method___construct">__construct()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_compare_host">compare_host()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_compare_host_from_link">compare_host_from_link()</a></li>
+                                            <li class=""><a href="classes/qfile.html#method_copy_dir">copy_dir()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_default_bizinfo">default_bizinfo()</a></li>
+                                            <li class=""><a href="classes/qfile.html#method_del_all_file">del_all_file()</a></li>
+                                            <li class=""><a href="classes/qfile.html#method_del_file">del_file()</a></li>
+                                            <li class=""><a href="classes/qfile.html#method_del_timeover_file">del_timeover_file()</a></li>
+                                            <li class=""><a href="classes/qfile.html#method_delete_comment_image">delete_comment_image()</a></li>
+                                            <li class=""><a href="classes/qfile.html#method_delete_editor_image">delete_editor_image()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_eyoom_menu">eyoom_menu()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_eyoom_menu_json">eyoom_menu_json()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_eyoom_submenu">eyoom_submenu()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_get_bizinfo">get_bizinfo()</a></li>
+                                            <li class=""><a href="classes/qfile.html#method_get_file_ext">get_file_ext()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_get_meinfo_link">get_meinfo_link()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_get_menu_link">get_menu_link()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_get_path">get_path()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_get_skin_path">get_skin_path()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_get_skin_url">get_skin_url()</a></li>
+                                            <li class=""><a href="classes/qfile.html#method_get_sub_dir">get_sub_dir()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_get_user_theme">get_user_theme()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_loading_theme">loading_theme()</a></li>
+                                            <li class=""><a href="classes/qfile.html#method_make_directory">make_directory()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_menu_create">menu_create()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_save_ebbanner_item">save_ebbanner_item()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_save_ebcontents_item">save_ebcontents_item()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_save_ebgoods_item">save_ebgoods_item()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_save_ebslider_item">save_ebslider_item()</a></li>
+                                            <li class=""><a href="classes/qfile.html#method_save_file">save_file()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_set_user_theme">set_user_theme()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_shop_subpage_info">shop_subpage_info()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_submenu_create">submenu_create()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_subpage_info">subpage_info()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_check_theme">check_theme()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_set_theme_path">set_theme_path()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_eyoom_menu_assign">eyoom_menu_assign()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_eyoom_menu_ca_new">eyoom_menu_ca_new()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_eyoom_menu_create">eyoom_menu_create()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_eyoom_menu_new">eyoom_menu_new()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_eyoom_pagemenu_info">eyoom_pagemenu_info()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_eyoom_submenu_create">eyoom_submenu_create()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_eyoom_subpage_info">eyoom_subpage_info()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_g5_menu_create">g5_menu_create()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_g5_submenu_create">g5_submenu_create()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_g5_subpage_info">g5_subpage_info()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_get_default_page">get_default_page()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_get_sca_from_link">get_sca_from_link()</a></li>
+                                            <li class=""><a href="classes/theme.html#method_get_splited_code">get_splited_code()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="classes/theme.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>

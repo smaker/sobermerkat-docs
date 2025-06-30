@@ -1,0 +1,1248 @@
+{
+    "name": "PHPExcel_Calculation_Database",
+    "line": 37,
+    "short_desc": "PHPExcel_Calculation_Database",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Calculation"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Calculation\/Database.php",
+    "relative_file": null,
+    "hash": "30755fa9c8230dedc7e1220bfe001185b7ab259c",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "DAVERAGE": {
+            "name": "DAVERAGE",
+            "line": 185,
+            "short_desc": "DAVERAGE",
+            "long_desc": "Averages the values in a column of a list or database that match conditions you specify.\n\nExcel Function:\n       DAVERAGE(database,field,criteria)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 185,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 185,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 185,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DCOUNT": {
+            "name": "DCOUNT",
+            "line": 233,
+            "short_desc": "DCOUNT",
+            "long_desc": "Counts the cells that contain numbers in a column of a list or database that match conditions\nthat you specify.\n\nExcel Function:\n       DCOUNT(database,[field],criteria)\n\nExcel Function:\n       DAVERAGE(database,field,criteria)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ],
+                "TODO": [
+                    [
+                        "The",
+                        "field",
+                        "argument",
+                        "is",
+                        "optional.",
+                        "If",
+                        "field",
+                        "is",
+                        "omitted,",
+                        "DCOUNT",
+                        "counts",
+                        "all",
+                        "records",
+                        "in",
+                        "the\ndatabase",
+                        "that",
+                        "match",
+                        "the",
+                        "criteria."
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 233,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 233,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 233,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DCOUNTA": {
+            "name": "DCOUNTA",
+            "line": 277,
+            "short_desc": "DCOUNTA",
+            "long_desc": "Counts the nonblank cells in a column of a list or database that match conditions that you specify.\n\nExcel Function:\n       DCOUNTA(database,[field],criteria)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ],
+                "TODO": [
+                    [
+                        "The",
+                        "field",
+                        "argument",
+                        "is",
+                        "optional.",
+                        "If",
+                        "field",
+                        "is",
+                        "omitted,",
+                        "DCOUNTA",
+                        "counts",
+                        "all",
+                        "records",
+                        "in",
+                        "the\ndatabase",
+                        "that",
+                        "match",
+                        "the",
+                        "criteria."
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 277,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 277,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 277,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DGET": {
+            "name": "DGET",
+            "line": 327,
+            "short_desc": "DGET",
+            "long_desc": "Extracts a single value from a column of a list or database that matches conditions that you\nspecify.\n\nExcel Function:\n       DGET(database,field,criteria)",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 327,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 327,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 327,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DMAX": {
+            "name": "DMAX",
+            "line": 372,
+            "short_desc": "DMAX",
+            "long_desc": "Returns the largest number in a column of a list or database that matches conditions you that\nspecify.\n\nExcel Function:\n       DMAX(database,field,criteria)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 372,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 372,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 372,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DMIN": {
+            "name": "DMIN",
+            "line": 414,
+            "short_desc": "DMIN",
+            "long_desc": "Returns the smallest number in a column of a list or database that matches conditions you that\nspecify.\n\nExcel Function:\n       DMIN(database,field,criteria)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 414,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 414,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 414,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DPRODUCT": {
+            "name": "DPRODUCT",
+            "line": 455,
+            "short_desc": "DPRODUCT",
+            "long_desc": "Multiplies the values in a column of a list or database that match conditions that you specify.\n\nExcel Function:\n       DPRODUCT(database,field,criteria)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 455,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 455,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 455,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DSTDEV": {
+            "name": "DSTDEV",
+            "line": 497,
+            "short_desc": "DSTDEV",
+            "long_desc": "Estimates the standard deviation of a population based on a sample by using the numbers in a\ncolumn of a list or database that match conditions that you specify.\n\nExcel Function:\n       DSTDEV(database,field,criteria)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 497,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 497,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 497,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DSTDEVP": {
+            "name": "DSTDEVP",
+            "line": 539,
+            "short_desc": "DSTDEVP",
+            "long_desc": "Calculates the standard deviation of a population based on the entire population by using the\nnumbers in a column of a list or database that match conditions that you specify.\n\nExcel Function:\n       DSTDEVP(database,field,criteria)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 539,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 539,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 539,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DSUM": {
+            "name": "DSUM",
+            "line": 580,
+            "short_desc": "DSUM",
+            "long_desc": "Adds the numbers in a column of a list or database that match conditions that you specify.\n\nExcel Function:\n       DSUM(database,field,criteria)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 580,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 580,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 580,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DVAR": {
+            "name": "DVAR",
+            "line": 622,
+            "short_desc": "DVAR",
+            "long_desc": "Estimates the variance of a population based on a sample by using the numbers in a column\nof a list or database that match conditions that you specify.\n\nExcel Function:\n       DVAR(database,field,criteria)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 622,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 622,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 622,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DVARP": {
+            "name": "DVARP",
+            "line": 664,
+            "short_desc": "DVARP",
+            "long_desc": "Calculates the variance of a population based on the entire population by using the numbers\nin a column of a list or database that match conditions that you specify.\n\nExcel Function:\n       DVARP(database,field,criteria)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Database",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "database": {
+                    "name": "database",
+                    "line": 664,
+                    "short_desc": "The range of cells that makes up the list or database.\nA database is a list of related data in which rows of related\ninformation are records, and columns of data are fields. The\nfirst row of the list contains labels for each column.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "field": {
+                    "name": "field",
+                    "line": 664,
+                    "short_desc": "Indicates which column is used in the function. Enter the\ncolumn label enclosed between double quotation marks, such as\n\"Age\" or \"Yield,\" or a number (without quotation marks) that\nrepresents the position of the column within the list: 1 for\nthe first column, 2 for the second column, and so on.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "criteria": {
+                    "name": "criteria",
+                    "line": 664,
+                    "short_desc": "The range of cells that contains the conditions you specify.\nYou can use any range for the criteria argument, as long as it\nincludes at least one column label and at least one cell below\nthe column label in which you specify a condition for the\ncolumn.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

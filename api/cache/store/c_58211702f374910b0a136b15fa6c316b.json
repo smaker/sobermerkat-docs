@@ -1,0 +1,516 @@
+{
+    "name": "PHPExcel_Writer_Excel2007",
+    "line": 28,
+    "short_desc": "PHPExcel_Writer_Excel2007",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Writer_Excel2007"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Writer\/Excel2007.php",
+    "relative_file": null,
+    "hash": "cad07270259031cee546e9f006b79cceb5a6ff1d",
+    "parent": "PHPExcel_Writer_Abstract",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": {
+        "PHPExcel_Writer_IWriter": "PHPExcel_Writer_IWriter"
+    },
+    "traits": [],
+    "properties": {
+        "preCalculateFormulas": {
+            "name": "preCalculateFormulas",
+            "line": 39,
+            "short_desc": "Pre-calculate formulas\nForces PHPExcel to recalculate all formulae in a workbook when saving, so that the pre-calculated values are\n   immediately available to MS Excel or other office spreadsheet viewer when opening the file",
+            "long_desc": "Overrides the default TRUE for this specific writer for performance reasons",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 39,
+                    "endLine": 39
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 39,
+                        "endLine": 39
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 123,
+            "short_desc": "Create a new PHPExcel_Writer_Excel2007",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pPHPExcel": {
+                    "name": "pPHPExcel",
+                    "line": 123,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getWriterPart": {
+            "name": "getWriterPart",
+            "line": 166,
+            "short_desc": "Get writer part",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Writer_Excel2007_WriterPart",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pPartName": {
+                    "name": "pPartName",
+                    "line": 166,
+                    "short_desc": "Writer part name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "save": {
+            "name": "save",
+            "line": 181,
+            "short_desc": "Save PHPExcel to file",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Writer_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 181,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPHPExcel": {
+            "name": "getPHPExcel",
+            "line": 410,
+            "short_desc": "Get PHPExcel object",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Writer_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "setPHPExcel": {
+            "name": "setPHPExcel",
+            "line": 426,
+            "short_desc": "Set PHPExcel object",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Writer_Excel2007",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Writer_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pPHPExcel": {
+                    "name": "pPHPExcel",
+                    "line": 426,
+                    "short_desc": "PHPExcel object",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getStringTable": {
+            "name": "getStringTable",
+            "line": 437,
+            "short_desc": "Get string table",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStyleHashTable": {
+            "name": "getStyleHashTable",
+            "line": 447,
+            "short_desc": "Get PHPExcel_Style HashTable",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_HashTable",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getStylesConditionalHashTable": {
+            "name": "getStylesConditionalHashTable",
+            "line": 457,
+            "short_desc": "Get PHPExcel_Style_Conditional HashTable",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_HashTable",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getFillHashTable": {
+            "name": "getFillHashTable",
+            "line": 467,
+            "short_desc": "Get PHPExcel_Style_Fill HashTable",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_HashTable",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getFontHashTable": {
+            "name": "getFontHashTable",
+            "line": 477,
+            "short_desc": "Get PHPExcel_Style_Font HashTable",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_HashTable",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getBordersHashTable": {
+            "name": "getBordersHashTable",
+            "line": 487,
+            "short_desc": "Get PHPExcel_Style_Borders HashTable",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_HashTable",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getNumFmtHashTable": {
+            "name": "getNumFmtHashTable",
+            "line": 497,
+            "short_desc": "Get PHPExcel_Style_NumberFormat HashTable",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_HashTable",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getDrawingHashTable": {
+            "name": "getDrawingHashTable",
+            "line": 507,
+            "short_desc": "Get PHPExcel_Worksheet_BaseDrawing HashTable",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_HashTable",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getOffice2003Compatibility": {
+            "name": "getOffice2003Compatibility",
+            "line": 517,
+            "short_desc": "Get Office2003 compatibility",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOffice2003Compatibility": {
+            "name": "setOffice2003Compatibility",
+            "line": 528,
+            "short_desc": "Set Office2003 compatibility",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Writer_Excel2007",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 528,
+                    "short_desc": "Office2003 compatibility?",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

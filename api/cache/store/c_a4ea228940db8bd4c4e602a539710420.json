@@ -1,0 +1,1715 @@
+{
+    "name": "PHPExcel_Reader_Excel5_Color_BIFF8",
+    "line": 3,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Reader\/Excel5\/Color\/BIFF8.php",
+    "relative_file": null,
+    "hash": "ec3510cebdb5525fb8b11153588e9f7be774aa90",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "map": {
+            "name": "map",
+            "line": 5,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 10,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 62,
+                    "kind": 1
+                },
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6,
+                                "rawValue": "0x08",
+                                "kind": 16
+                            },
+                            "value": 8
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6,
+                                "kind": 1,
+                                "rawValue": "'000000'"
+                            },
+                            "value": "000000"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 7,
+                                "endLine": 7,
+                                "rawValue": "0x09",
+                                "kind": 16
+                            },
+                            "value": 9
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 7,
+                                "endLine": 7,
+                                "kind": 1,
+                                "rawValue": "'FFFFFF'"
+                            },
+                            "value": "FFFFFF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 8,
+                            "endLine": 8
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 8,
+                                "endLine": 8,
+                                "rawValue": "0x0A",
+                                "kind": 16
+                            },
+                            "value": 10
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 8,
+                                "endLine": 8,
+                                "kind": 1,
+                                "rawValue": "'FF0000'"
+                            },
+                            "value": "FF0000"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 9,
+                            "endLine": 9
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 9,
+                                "endLine": 9,
+                                "rawValue": "0x0B",
+                                "kind": 16
+                            },
+                            "value": 11
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 9,
+                                "endLine": 9,
+                                "kind": 1,
+                                "rawValue": "'00FF00'"
+                            },
+                            "value": "00FF00"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 10,
+                                "endLine": 10,
+                                "rawValue": "0x0C",
+                                "kind": 16
+                            },
+                            "value": 12
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 10,
+                                "endLine": 10,
+                                "kind": 1,
+                                "rawValue": "'0000FF'"
+                            },
+                            "value": "0000FF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 11,
+                            "endLine": 11
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 11,
+                                "endLine": 11,
+                                "rawValue": "0x0D",
+                                "kind": 16
+                            },
+                            "value": 13
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 11,
+                                "endLine": 11,
+                                "kind": 1,
+                                "rawValue": "'FFFF00'"
+                            },
+                            "value": "FFFF00"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 12,
+                            "endLine": 12
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 12,
+                                "endLine": 12,
+                                "rawValue": "0x0E",
+                                "kind": 16
+                            },
+                            "value": 14
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 12,
+                                "endLine": 12,
+                                "kind": 1,
+                                "rawValue": "'FF00FF'"
+                            },
+                            "value": "FF00FF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 13,
+                            "endLine": 13
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 13,
+                                "endLine": 13,
+                                "rawValue": "0x0F",
+                                "kind": 16
+                            },
+                            "value": 15
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 13,
+                                "endLine": 13,
+                                "kind": 1,
+                                "rawValue": "'00FFFF'"
+                            },
+                            "value": "00FFFF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 14,
+                            "endLine": 14
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 14,
+                                "endLine": 14,
+                                "rawValue": "0x10",
+                                "kind": 16
+                            },
+                            "value": 16
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 14,
+                                "endLine": 14,
+                                "kind": 1,
+                                "rawValue": "'800000'"
+                            },
+                            "value": "800000"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 15,
+                            "endLine": 15
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 15,
+                                "endLine": 15,
+                                "rawValue": "0x11",
+                                "kind": 16
+                            },
+                            "value": 17
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 15,
+                                "endLine": 15,
+                                "kind": 1,
+                                "rawValue": "'008000'"
+                            },
+                            "value": "008000"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 16,
+                            "endLine": 16
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 16,
+                                "endLine": 16,
+                                "rawValue": "0x12",
+                                "kind": 16
+                            },
+                            "value": 18
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 16,
+                                "endLine": 16,
+                                "kind": 1,
+                                "rawValue": "'000080'"
+                            },
+                            "value": "000080"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 17,
+                            "endLine": 17
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 17,
+                                "endLine": 17,
+                                "rawValue": "0x13",
+                                "kind": 16
+                            },
+                            "value": 19
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 17,
+                                "endLine": 17,
+                                "kind": 1,
+                                "rawValue": "'808000'"
+                            },
+                            "value": "808000"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 18,
+                            "endLine": 18
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 18,
+                                "endLine": 18,
+                                "rawValue": "0x14",
+                                "kind": 16
+                            },
+                            "value": 20
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 18,
+                                "endLine": 18,
+                                "kind": 1,
+                                "rawValue": "'800080'"
+                            },
+                            "value": "800080"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 19,
+                            "endLine": 19
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 19,
+                                "endLine": 19,
+                                "rawValue": "0x15",
+                                "kind": 16
+                            },
+                            "value": 21
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 19,
+                                "endLine": 19,
+                                "kind": 1,
+                                "rawValue": "'008080'"
+                            },
+                            "value": "008080"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 20,
+                            "endLine": 20
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 20,
+                                "endLine": 20,
+                                "rawValue": "0x16",
+                                "kind": 16
+                            },
+                            "value": 22
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 20,
+                                "endLine": 20,
+                                "kind": 1,
+                                "rawValue": "'C0C0C0'"
+                            },
+                            "value": "C0C0C0"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 21,
+                            "endLine": 21
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 21,
+                                "endLine": 21,
+                                "rawValue": "0x17",
+                                "kind": 16
+                            },
+                            "value": 23
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 21,
+                                "endLine": 21,
+                                "kind": 1,
+                                "rawValue": "'808080'"
+                            },
+                            "value": "808080"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 22,
+                            "endLine": 22
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 22,
+                                "endLine": 22,
+                                "rawValue": "0x18",
+                                "kind": 16
+                            },
+                            "value": 24
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 22,
+                                "endLine": 22,
+                                "kind": 1,
+                                "rawValue": "'9999FF'"
+                            },
+                            "value": "9999FF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 23,
+                            "endLine": 23
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 23,
+                                "endLine": 23,
+                                "rawValue": "0x19",
+                                "kind": 16
+                            },
+                            "value": 25
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 23,
+                                "endLine": 23,
+                                "kind": 1,
+                                "rawValue": "'993366'"
+                            },
+                            "value": "993366"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 24,
+                            "endLine": 24
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 24,
+                                "endLine": 24,
+                                "rawValue": "0x1A",
+                                "kind": 16
+                            },
+                            "value": 26
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 24,
+                                "endLine": 24,
+                                "kind": 1,
+                                "rawValue": "'FFFFCC'"
+                            },
+                            "value": "FFFFCC"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 25,
+                            "endLine": 25
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 25,
+                                "endLine": 25,
+                                "rawValue": "0x1B",
+                                "kind": 16
+                            },
+                            "value": 27
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 25,
+                                "endLine": 25,
+                                "kind": 1,
+                                "rawValue": "'CCFFFF'"
+                            },
+                            "value": "CCFFFF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 26,
+                            "endLine": 26
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 26,
+                                "endLine": 26,
+                                "rawValue": "0x1C",
+                                "kind": 16
+                            },
+                            "value": 28
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 26,
+                                "endLine": 26,
+                                "kind": 1,
+                                "rawValue": "'660066'"
+                            },
+                            "value": "660066"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 27,
+                            "endLine": 27
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 27,
+                                "endLine": 27,
+                                "rawValue": "0x1D",
+                                "kind": 16
+                            },
+                            "value": 29
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 27,
+                                "endLine": 27,
+                                "kind": 1,
+                                "rawValue": "'FF8080'"
+                            },
+                            "value": "FF8080"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 28,
+                            "endLine": 28
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 28,
+                                "endLine": 28,
+                                "rawValue": "0x1E",
+                                "kind": 16
+                            },
+                            "value": 30
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 28,
+                                "endLine": 28,
+                                "kind": 1,
+                                "rawValue": "'0066CC'"
+                            },
+                            "value": "0066CC"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 29,
+                            "endLine": 29
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 29,
+                                "endLine": 29,
+                                "rawValue": "0x1F",
+                                "kind": 16
+                            },
+                            "value": 31
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 29,
+                                "endLine": 29,
+                                "kind": 1,
+                                "rawValue": "'CCCCFF'"
+                            },
+                            "value": "CCCCFF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 30,
+                            "endLine": 30
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 30,
+                                "endLine": 30,
+                                "rawValue": "0x20",
+                                "kind": 16
+                            },
+                            "value": 32
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 30,
+                                "endLine": 30,
+                                "kind": 1,
+                                "rawValue": "'000080'"
+                            },
+                            "value": "000080"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 31,
+                            "endLine": 31
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 31,
+                                "endLine": 31,
+                                "rawValue": "0x21",
+                                "kind": 16
+                            },
+                            "value": 33
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 31,
+                                "endLine": 31,
+                                "kind": 1,
+                                "rawValue": "'FF00FF'"
+                            },
+                            "value": "FF00FF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 32,
+                            "endLine": 32
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 32,
+                                "endLine": 32,
+                                "rawValue": "0x22",
+                                "kind": 16
+                            },
+                            "value": 34
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 32,
+                                "endLine": 32,
+                                "kind": 1,
+                                "rawValue": "'FFFF00'"
+                            },
+                            "value": "FFFF00"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 33,
+                            "endLine": 33
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 33,
+                                "endLine": 33,
+                                "rawValue": "0x23",
+                                "kind": 16
+                            },
+                            "value": 35
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 33,
+                                "endLine": 33,
+                                "kind": 1,
+                                "rawValue": "'00FFFF'"
+                            },
+                            "value": "00FFFF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 34,
+                            "endLine": 34
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 34,
+                                "endLine": 34,
+                                "rawValue": "0x24",
+                                "kind": 16
+                            },
+                            "value": 36
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 34,
+                                "endLine": 34,
+                                "kind": 1,
+                                "rawValue": "'800080'"
+                            },
+                            "value": "800080"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 35,
+                            "endLine": 35
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 35,
+                                "endLine": 35,
+                                "rawValue": "0x25",
+                                "kind": 16
+                            },
+                            "value": 37
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 35,
+                                "endLine": 35,
+                                "kind": 1,
+                                "rawValue": "'800000'"
+                            },
+                            "value": "800000"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 36,
+                            "endLine": 36
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 36,
+                                "endLine": 36,
+                                "rawValue": "0x26",
+                                "kind": 16
+                            },
+                            "value": 38
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 36,
+                                "endLine": 36,
+                                "kind": 1,
+                                "rawValue": "'008080'"
+                            },
+                            "value": "008080"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 37,
+                            "endLine": 37
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 37,
+                                "endLine": 37,
+                                "rawValue": "0x27",
+                                "kind": 16
+                            },
+                            "value": 39
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 37,
+                                "endLine": 37,
+                                "kind": 1,
+                                "rawValue": "'0000FF'"
+                            },
+                            "value": "0000FF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 38,
+                            "endLine": 38
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 38,
+                                "endLine": 38,
+                                "rawValue": "0x28",
+                                "kind": 16
+                            },
+                            "value": 40
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 38,
+                                "endLine": 38,
+                                "kind": 1,
+                                "rawValue": "'00CCFF'"
+                            },
+                            "value": "00CCFF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 39,
+                            "endLine": 39
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 39,
+                                "endLine": 39,
+                                "rawValue": "0x29",
+                                "kind": 16
+                            },
+                            "value": 41
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 39,
+                                "endLine": 39,
+                                "kind": 1,
+                                "rawValue": "'CCFFFF'"
+                            },
+                            "value": "CCFFFF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 40,
+                            "endLine": 40
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 40,
+                                "endLine": 40,
+                                "rawValue": "0x2A",
+                                "kind": 16
+                            },
+                            "value": 42
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 40,
+                                "endLine": 40,
+                                "kind": 1,
+                                "rawValue": "'CCFFCC'"
+                            },
+                            "value": "CCFFCC"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 41,
+                            "endLine": 41
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 41,
+                                "endLine": 41,
+                                "rawValue": "0x2B",
+                                "kind": 16
+                            },
+                            "value": 43
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 41,
+                                "endLine": 41,
+                                "kind": 1,
+                                "rawValue": "'FFFF99'"
+                            },
+                            "value": "FFFF99"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 42,
+                            "endLine": 42
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 42,
+                                "endLine": 42,
+                                "rawValue": "0x2C",
+                                "kind": 16
+                            },
+                            "value": 44
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 42,
+                                "endLine": 42,
+                                "kind": 1,
+                                "rawValue": "'99CCFF'"
+                            },
+                            "value": "99CCFF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 43,
+                            "endLine": 43
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 43,
+                                "endLine": 43,
+                                "rawValue": "0x2D",
+                                "kind": 16
+                            },
+                            "value": 45
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 43,
+                                "endLine": 43,
+                                "kind": 1,
+                                "rawValue": "'FF99CC'"
+                            },
+                            "value": "FF99CC"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 44,
+                            "endLine": 44
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 44,
+                                "endLine": 44,
+                                "rawValue": "0x2E",
+                                "kind": 16
+                            },
+                            "value": 46
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 44,
+                                "endLine": 44,
+                                "kind": 1,
+                                "rawValue": "'CC99FF'"
+                            },
+                            "value": "CC99FF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 45,
+                            "endLine": 45
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 45,
+                                "endLine": 45,
+                                "rawValue": "0x2F",
+                                "kind": 16
+                            },
+                            "value": 47
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 45,
+                                "endLine": 45,
+                                "kind": 1,
+                                "rawValue": "'FFCC99'"
+                            },
+                            "value": "FFCC99"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 46,
+                            "endLine": 46
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 46,
+                                "endLine": 46,
+                                "rawValue": "0x30",
+                                "kind": 16
+                            },
+                            "value": 48
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 46,
+                                "endLine": 46,
+                                "kind": 1,
+                                "rawValue": "'3366FF'"
+                            },
+                            "value": "3366FF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 47,
+                            "endLine": 47
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 47,
+                                "endLine": 47,
+                                "rawValue": "0x31",
+                                "kind": 16
+                            },
+                            "value": 49
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 47,
+                                "endLine": 47,
+                                "kind": 1,
+                                "rawValue": "'33CCCC'"
+                            },
+                            "value": "33CCCC"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 48,
+                            "endLine": 48
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 48,
+                                "endLine": 48,
+                                "rawValue": "0x32",
+                                "kind": 16
+                            },
+                            "value": 50
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 48,
+                                "endLine": 48,
+                                "kind": 1,
+                                "rawValue": "'99CC00'"
+                            },
+                            "value": "99CC00"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 49,
+                            "endLine": 49
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 49,
+                                "endLine": 49,
+                                "rawValue": "0x33",
+                                "kind": 16
+                            },
+                            "value": 51
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 49,
+                                "endLine": 49,
+                                "kind": 1,
+                                "rawValue": "'FFCC00'"
+                            },
+                            "value": "FFCC00"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 50,
+                            "endLine": 50
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 50,
+                                "endLine": 50,
+                                "rawValue": "0x34",
+                                "kind": 16
+                            },
+                            "value": 52
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 50,
+                                "endLine": 50,
+                                "kind": 1,
+                                "rawValue": "'FF9900'"
+                            },
+                            "value": "FF9900"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 51,
+                            "endLine": 51
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 51,
+                                "endLine": 51,
+                                "rawValue": "0x35",
+                                "kind": 16
+                            },
+                            "value": 53
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 51,
+                                "endLine": 51,
+                                "kind": 1,
+                                "rawValue": "'FF6600'"
+                            },
+                            "value": "FF6600"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 52,
+                            "endLine": 52
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 52,
+                                "endLine": 52,
+                                "rawValue": "0x36",
+                                "kind": 16
+                            },
+                            "value": 54
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 52,
+                                "endLine": 52,
+                                "kind": 1,
+                                "rawValue": "'666699'"
+                            },
+                            "value": "666699"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 53,
+                            "endLine": 53
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 53,
+                                "endLine": 53,
+                                "rawValue": "0x37",
+                                "kind": 16
+                            },
+                            "value": 55
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 53,
+                                "endLine": 53,
+                                "kind": 1,
+                                "rawValue": "'969696'"
+                            },
+                            "value": "969696"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 54,
+                            "endLine": 54
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 54,
+                                "endLine": 54,
+                                "rawValue": "0x38",
+                                "kind": 16
+                            },
+                            "value": 56
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 54,
+                                "endLine": 54,
+                                "kind": 1,
+                                "rawValue": "'003366'"
+                            },
+                            "value": "003366"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 55,
+                            "endLine": 55
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 55,
+                                "endLine": 55,
+                                "rawValue": "0x39",
+                                "kind": 16
+                            },
+                            "value": 57
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 55,
+                                "endLine": 55,
+                                "kind": 1,
+                                "rawValue": "'339966'"
+                            },
+                            "value": "339966"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 56,
+                            "endLine": 56
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 56,
+                                "endLine": 56,
+                                "rawValue": "0x3A",
+                                "kind": 16
+                            },
+                            "value": 58
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 56,
+                                "endLine": 56,
+                                "kind": 1,
+                                "rawValue": "'003300'"
+                            },
+                            "value": "003300"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 57,
+                            "endLine": 57
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 57,
+                                "endLine": 57,
+                                "rawValue": "0x3B",
+                                "kind": 16
+                            },
+                            "value": 59
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 57,
+                                "endLine": 57,
+                                "kind": 1,
+                                "rawValue": "'333300'"
+                            },
+                            "value": "333300"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 58,
+                            "endLine": 58
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 58,
+                                "endLine": 58,
+                                "rawValue": "0x3C",
+                                "kind": 16
+                            },
+                            "value": 60
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 58,
+                                "endLine": 58,
+                                "kind": 1,
+                                "rawValue": "'993300'"
+                            },
+                            "value": "993300"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 59,
+                            "endLine": 59
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 59,
+                                "endLine": 59,
+                                "rawValue": "0x3D",
+                                "kind": 16
+                            },
+                            "value": 61
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 59,
+                                "endLine": 59,
+                                "kind": 1,
+                                "rawValue": "'993366'"
+                            },
+                            "value": "993366"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 60,
+                            "endLine": 60
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 60,
+                                "endLine": 60,
+                                "rawValue": "0x3E",
+                                "kind": 16
+                            },
+                            "value": 62
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 60,
+                                "endLine": 60,
+                                "kind": 1,
+                                "rawValue": "'333399'"
+                            },
+                            "value": "333399"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 61,
+                            "endLine": 61
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 61,
+                                "endLine": 61,
+                                "rawValue": "0x3F",
+                                "kind": 16
+                            },
+                            "value": 63
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 61,
+                                "endLine": 61,
+                                "kind": 1,
+                                "rawValue": "'333333'"
+                            },
+                            "value": "333333"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "lookup": {
+            "name": "lookup",
+            "line": 70,
+            "short_desc": "Map color array from BIFF8 built-in color index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "color": {
+                    "name": "color",
+                    "line": 70,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

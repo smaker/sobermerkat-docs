@@ -1,0 +1,2045 @@
+{
+    "name": "PHPExcel_Reader_HTML",
+    "line": 37,
+    "short_desc": "PHPExcel root directory",
+    "long_desc": "",
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Reader\/HTML.php",
+    "relative_file": null,
+    "hash": "0ae5284c7d214ff494c8e7015dd2a3e2f51a2c9f",
+    "parent": "PHPExcel_Reader_Abstract",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": {
+        "PHPExcel_Reader_IReader": "PHPExcel_Reader_IReader"
+    },
+    "traits": [],
+    "properties": {
+        "inputEncoding": {
+            "name": "inputEncoding",
+            "line": 45,
+            "short_desc": "Input encoding",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 45,
+                    "endLine": 45,
+                    "kind": 1,
+                    "rawValue": "'ANSI'"
+                },
+                "value": "ANSI"
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "sheetIndex": {
+            "name": "sheetIndex",
+            "line": 52,
+            "short_desc": "Sheet index to read",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 52,
+                    "endLine": 52,
+                    "rawValue": "0",
+                    "kind": 10
+                },
+                "value": 0
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "formats": {
+            "name": "formats",
+            "line": 59,
+            "short_desc": "Formats",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 59,
+                    "endLine": 114,
+                    "kind": 1
+                },
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 60,
+                            "endLine": 65
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 60,
+                                "endLine": 60,
+                                "kind": 1,
+                                "rawValue": "'h1'"
+                            },
+                            "value": "h1"
+                        },
+                        "value": {
+                            "nodeType": "Expr_Array",
+                            "attributes": {
+                                "startLine": 60,
+                                "endLine": 65,
+                                "kind": 1
+                            },
+                            "items": [
+                                {
+                                    "nodeType": "Expr_ArrayItem",
+                                    "attributes": {
+                                        "startLine": 61,
+                                        "endLine": 64
+                                    },
+                                    "key": {
+                                        "nodeType": "Scalar_String",
+                                        "attributes": {
+                                            "startLine": 61,
+                                            "endLine": 61,
+                                            "kind": 1,
+                                            "rawValue": "'font'"
+                                        },
+                                        "value": "font"
+                                    },
+                                    "value": {
+                                        "nodeType": "Expr_Array",
+                                        "attributes": {
+                                            "startLine": 61,
+                                            "endLine": 64,
+                                            "kind": 1
+                                        },
+                                        "items": [
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 62,
+                                                    "endLine": 62
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 62,
+                                                        "endLine": 62,
+                                                        "kind": 1,
+                                                        "rawValue": "'bold'"
+                                                    },
+                                                    "value": "bold"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Expr_ConstFetch",
+                                                    "attributes": {
+                                                        "startLine": 62,
+                                                        "endLine": 62
+                                                    },
+                                                    "name": {
+                                                        "nodeType": "Name_FullyQualified",
+                                                        "attributes": {
+                                                            "startLine": 62,
+                                                            "endLine": 62
+                                                        },
+                                                        "parts": [
+                                                            "true"
+                                                        ]
+                                                    }
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            },
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 63,
+                                                    "endLine": 63
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 63,
+                                                        "endLine": 63,
+                                                        "kind": 1,
+                                                        "rawValue": "'size'"
+                                                    },
+                                                    "value": "size"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Scalar_LNumber",
+                                                    "attributes": {
+                                                        "startLine": 63,
+                                                        "endLine": 63,
+                                                        "rawValue": "24",
+                                                        "kind": 10
+                                                    },
+                                                    "value": 24
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            }
+                                        ]
+                                    },
+                                    "byRef": false,
+                                    "unpack": false
+                                }
+                            ]
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 66,
+                            "comments": [
+                                {
+                                    "nodeType": "Comment",
+                                    "text": "\/\/    Bold, 24pt",
+                                    "line": 65,
+                                    "filePos": 1823,
+                                    "tokenPos": 129,
+                                    "endLine": 65,
+                                    "endFilePos": 1838,
+                                    "endTokenPos": 129
+                                }
+                            ],
+                            "endLine": 71
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 66,
+                                "comments": [
+                                    {
+                                        "nodeType": "Comment",
+                                        "text": "\/\/    Bold, 24pt",
+                                        "line": 65,
+                                        "filePos": 1823,
+                                        "tokenPos": 129,
+                                        "endLine": 65,
+                                        "endFilePos": 1838,
+                                        "endTokenPos": 129
+                                    }
+                                ],
+                                "endLine": 66,
+                                "kind": 1,
+                                "rawValue": "'h2'"
+                            },
+                            "value": "h2"
+                        },
+                        "value": {
+                            "nodeType": "Expr_Array",
+                            "attributes": {
+                                "startLine": 66,
+                                "endLine": 71,
+                                "kind": 1
+                            },
+                            "items": [
+                                {
+                                    "nodeType": "Expr_ArrayItem",
+                                    "attributes": {
+                                        "startLine": 67,
+                                        "endLine": 70
+                                    },
+                                    "key": {
+                                        "nodeType": "Scalar_String",
+                                        "attributes": {
+                                            "startLine": 67,
+                                            "endLine": 67,
+                                            "kind": 1,
+                                            "rawValue": "'font'"
+                                        },
+                                        "value": "font"
+                                    },
+                                    "value": {
+                                        "nodeType": "Expr_Array",
+                                        "attributes": {
+                                            "startLine": 67,
+                                            "endLine": 70,
+                                            "kind": 1
+                                        },
+                                        "items": [
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 68,
+                                                    "endLine": 68
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 68,
+                                                        "endLine": 68,
+                                                        "kind": 1,
+                                                        "rawValue": "'bold'"
+                                                    },
+                                                    "value": "bold"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Expr_ConstFetch",
+                                                    "attributes": {
+                                                        "startLine": 68,
+                                                        "endLine": 68
+                                                    },
+                                                    "name": {
+                                                        "nodeType": "Name_FullyQualified",
+                                                        "attributes": {
+                                                            "startLine": 68,
+                                                            "endLine": 68
+                                                        },
+                                                        "parts": [
+                                                            "true"
+                                                        ]
+                                                    }
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            },
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 69,
+                                                    "endLine": 69
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 69,
+                                                        "endLine": 69,
+                                                        "kind": 1,
+                                                        "rawValue": "'size'"
+                                                    },
+                                                    "value": "size"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Scalar_LNumber",
+                                                    "attributes": {
+                                                        "startLine": 69,
+                                                        "endLine": 69,
+                                                        "rawValue": "18",
+                                                        "kind": 10
+                                                    },
+                                                    "value": 18
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            }
+                                        ]
+                                    },
+                                    "byRef": false,
+                                    "unpack": false
+                                }
+                            ]
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 72,
+                            "comments": [
+                                {
+                                    "nodeType": "Comment",
+                                    "text": "\/\/    Bold, 18pt",
+                                    "line": 71,
+                                    "filePos": 1980,
+                                    "tokenPos": 165,
+                                    "endLine": 71,
+                                    "endFilePos": 1995,
+                                    "endTokenPos": 165
+                                }
+                            ],
+                            "endLine": 77
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 72,
+                                "comments": [
+                                    {
+                                        "nodeType": "Comment",
+                                        "text": "\/\/    Bold, 18pt",
+                                        "line": 71,
+                                        "filePos": 1980,
+                                        "tokenPos": 165,
+                                        "endLine": 71,
+                                        "endFilePos": 1995,
+                                        "endTokenPos": 165
+                                    }
+                                ],
+                                "endLine": 72,
+                                "kind": 1,
+                                "rawValue": "'h3'"
+                            },
+                            "value": "h3"
+                        },
+                        "value": {
+                            "nodeType": "Expr_Array",
+                            "attributes": {
+                                "startLine": 72,
+                                "endLine": 77,
+                                "kind": 1
+                            },
+                            "items": [
+                                {
+                                    "nodeType": "Expr_ArrayItem",
+                                    "attributes": {
+                                        "startLine": 73,
+                                        "endLine": 76
+                                    },
+                                    "key": {
+                                        "nodeType": "Scalar_String",
+                                        "attributes": {
+                                            "startLine": 73,
+                                            "endLine": 73,
+                                            "kind": 1,
+                                            "rawValue": "'font'"
+                                        },
+                                        "value": "font"
+                                    },
+                                    "value": {
+                                        "nodeType": "Expr_Array",
+                                        "attributes": {
+                                            "startLine": 73,
+                                            "endLine": 76,
+                                            "kind": 1
+                                        },
+                                        "items": [
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 74,
+                                                    "endLine": 74
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 74,
+                                                        "endLine": 74,
+                                                        "kind": 1,
+                                                        "rawValue": "'bold'"
+                                                    },
+                                                    "value": "bold"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Expr_ConstFetch",
+                                                    "attributes": {
+                                                        "startLine": 74,
+                                                        "endLine": 74
+                                                    },
+                                                    "name": {
+                                                        "nodeType": "Name_FullyQualified",
+                                                        "attributes": {
+                                                            "startLine": 74,
+                                                            "endLine": 74
+                                                        },
+                                                        "parts": [
+                                                            "true"
+                                                        ]
+                                                    }
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            },
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 75,
+                                                    "endLine": 75
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 75,
+                                                        "endLine": 75,
+                                                        "kind": 1,
+                                                        "rawValue": "'size'"
+                                                    },
+                                                    "value": "size"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Scalar_DNumber",
+                                                    "attributes": {
+                                                        "startLine": 75,
+                                                        "endLine": 75,
+                                                        "rawValue": "13.5"
+                                                    },
+                                                    "value": 13.5
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            }
+                                        ]
+                                    },
+                                    "byRef": false,
+                                    "unpack": false
+                                }
+                            ]
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 78,
+                            "comments": [
+                                {
+                                    "nodeType": "Comment",
+                                    "text": "\/\/    Bold, 13.5pt",
+                                    "line": 77,
+                                    "filePos": 2139,
+                                    "tokenPos": 201,
+                                    "endLine": 77,
+                                    "endFilePos": 2156,
+                                    "endTokenPos": 201
+                                }
+                            ],
+                            "endLine": 83
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 78,
+                                "comments": [
+                                    {
+                                        "nodeType": "Comment",
+                                        "text": "\/\/    Bold, 13.5pt",
+                                        "line": 77,
+                                        "filePos": 2139,
+                                        "tokenPos": 201,
+                                        "endLine": 77,
+                                        "endFilePos": 2156,
+                                        "endTokenPos": 201
+                                    }
+                                ],
+                                "endLine": 78,
+                                "kind": 1,
+                                "rawValue": "'h4'"
+                            },
+                            "value": "h4"
+                        },
+                        "value": {
+                            "nodeType": "Expr_Array",
+                            "attributes": {
+                                "startLine": 78,
+                                "endLine": 83,
+                                "kind": 1
+                            },
+                            "items": [
+                                {
+                                    "nodeType": "Expr_ArrayItem",
+                                    "attributes": {
+                                        "startLine": 79,
+                                        "endLine": 82
+                                    },
+                                    "key": {
+                                        "nodeType": "Scalar_String",
+                                        "attributes": {
+                                            "startLine": 79,
+                                            "endLine": 79,
+                                            "kind": 1,
+                                            "rawValue": "'font'"
+                                        },
+                                        "value": "font"
+                                    },
+                                    "value": {
+                                        "nodeType": "Expr_Array",
+                                        "attributes": {
+                                            "startLine": 79,
+                                            "endLine": 82,
+                                            "kind": 1
+                                        },
+                                        "items": [
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 80,
+                                                    "endLine": 80
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 80,
+                                                        "endLine": 80,
+                                                        "kind": 1,
+                                                        "rawValue": "'bold'"
+                                                    },
+                                                    "value": "bold"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Expr_ConstFetch",
+                                                    "attributes": {
+                                                        "startLine": 80,
+                                                        "endLine": 80
+                                                    },
+                                                    "name": {
+                                                        "nodeType": "Name_FullyQualified",
+                                                        "attributes": {
+                                                            "startLine": 80,
+                                                            "endLine": 80
+                                                        },
+                                                        "parts": [
+                                                            "true"
+                                                        ]
+                                                    }
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            },
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 81,
+                                                    "endLine": 81
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 81,
+                                                        "endLine": 81,
+                                                        "kind": 1,
+                                                        "rawValue": "'size'"
+                                                    },
+                                                    "value": "size"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Scalar_LNumber",
+                                                    "attributes": {
+                                                        "startLine": 81,
+                                                        "endLine": 81,
+                                                        "rawValue": "12",
+                                                        "kind": 10
+                                                    },
+                                                    "value": 12
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            }
+                                        ]
+                                    },
+                                    "byRef": false,
+                                    "unpack": false
+                                }
+                            ]
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 84,
+                            "comments": [
+                                {
+                                    "nodeType": "Comment",
+                                    "text": "\/\/    Bold, 12pt",
+                                    "line": 83,
+                                    "filePos": 2298,
+                                    "tokenPos": 237,
+                                    "endLine": 83,
+                                    "endFilePos": 2313,
+                                    "endTokenPos": 237
+                                }
+                            ],
+                            "endLine": 89
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 84,
+                                "comments": [
+                                    {
+                                        "nodeType": "Comment",
+                                        "text": "\/\/    Bold, 12pt",
+                                        "line": 83,
+                                        "filePos": 2298,
+                                        "tokenPos": 237,
+                                        "endLine": 83,
+                                        "endFilePos": 2313,
+                                        "endTokenPos": 237
+                                    }
+                                ],
+                                "endLine": 84,
+                                "kind": 1,
+                                "rawValue": "'h5'"
+                            },
+                            "value": "h5"
+                        },
+                        "value": {
+                            "nodeType": "Expr_Array",
+                            "attributes": {
+                                "startLine": 84,
+                                "endLine": 89,
+                                "kind": 1
+                            },
+                            "items": [
+                                {
+                                    "nodeType": "Expr_ArrayItem",
+                                    "attributes": {
+                                        "startLine": 85,
+                                        "endLine": 88
+                                    },
+                                    "key": {
+                                        "nodeType": "Scalar_String",
+                                        "attributes": {
+                                            "startLine": 85,
+                                            "endLine": 85,
+                                            "kind": 1,
+                                            "rawValue": "'font'"
+                                        },
+                                        "value": "font"
+                                    },
+                                    "value": {
+                                        "nodeType": "Expr_Array",
+                                        "attributes": {
+                                            "startLine": 85,
+                                            "endLine": 88,
+                                            "kind": 1
+                                        },
+                                        "items": [
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 86,
+                                                    "endLine": 86
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 86,
+                                                        "endLine": 86,
+                                                        "kind": 1,
+                                                        "rawValue": "'bold'"
+                                                    },
+                                                    "value": "bold"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Expr_ConstFetch",
+                                                    "attributes": {
+                                                        "startLine": 86,
+                                                        "endLine": 86
+                                                    },
+                                                    "name": {
+                                                        "nodeType": "Name_FullyQualified",
+                                                        "attributes": {
+                                                            "startLine": 86,
+                                                            "endLine": 86
+                                                        },
+                                                        "parts": [
+                                                            "true"
+                                                        ]
+                                                    }
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            },
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 87,
+                                                    "endLine": 87
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 87,
+                                                        "endLine": 87,
+                                                        "kind": 1,
+                                                        "rawValue": "'size'"
+                                                    },
+                                                    "value": "size"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Scalar_LNumber",
+                                                    "attributes": {
+                                                        "startLine": 87,
+                                                        "endLine": 87,
+                                                        "rawValue": "10",
+                                                        "kind": 10
+                                                    },
+                                                    "value": 10
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            }
+                                        ]
+                                    },
+                                    "byRef": false,
+                                    "unpack": false
+                                }
+                            ]
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 90,
+                            "comments": [
+                                {
+                                    "nodeType": "Comment",
+                                    "text": "\/\/    Bold, 10pt",
+                                    "line": 89,
+                                    "filePos": 2455,
+                                    "tokenPos": 273,
+                                    "endLine": 89,
+                                    "endFilePos": 2470,
+                                    "endTokenPos": 273
+                                }
+                            ],
+                            "endLine": 95
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 90,
+                                "comments": [
+                                    {
+                                        "nodeType": "Comment",
+                                        "text": "\/\/    Bold, 10pt",
+                                        "line": 89,
+                                        "filePos": 2455,
+                                        "tokenPos": 273,
+                                        "endLine": 89,
+                                        "endFilePos": 2470,
+                                        "endTokenPos": 273
+                                    }
+                                ],
+                                "endLine": 90,
+                                "kind": 1,
+                                "rawValue": "'h6'"
+                            },
+                            "value": "h6"
+                        },
+                        "value": {
+                            "nodeType": "Expr_Array",
+                            "attributes": {
+                                "startLine": 90,
+                                "endLine": 95,
+                                "kind": 1
+                            },
+                            "items": [
+                                {
+                                    "nodeType": "Expr_ArrayItem",
+                                    "attributes": {
+                                        "startLine": 91,
+                                        "endLine": 94
+                                    },
+                                    "key": {
+                                        "nodeType": "Scalar_String",
+                                        "attributes": {
+                                            "startLine": 91,
+                                            "endLine": 91,
+                                            "kind": 1,
+                                            "rawValue": "'font'"
+                                        },
+                                        "value": "font"
+                                    },
+                                    "value": {
+                                        "nodeType": "Expr_Array",
+                                        "attributes": {
+                                            "startLine": 91,
+                                            "endLine": 94,
+                                            "kind": 1
+                                        },
+                                        "items": [
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 92,
+                                                    "endLine": 92
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 92,
+                                                        "endLine": 92,
+                                                        "kind": 1,
+                                                        "rawValue": "'bold'"
+                                                    },
+                                                    "value": "bold"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Expr_ConstFetch",
+                                                    "attributes": {
+                                                        "startLine": 92,
+                                                        "endLine": 92
+                                                    },
+                                                    "name": {
+                                                        "nodeType": "Name_FullyQualified",
+                                                        "attributes": {
+                                                            "startLine": 92,
+                                                            "endLine": 92
+                                                        },
+                                                        "parts": [
+                                                            "true"
+                                                        ]
+                                                    }
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            },
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 93,
+                                                    "endLine": 93
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 93,
+                                                        "endLine": 93,
+                                                        "kind": 1,
+                                                        "rawValue": "'size'"
+                                                    },
+                                                    "value": "size"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Scalar_DNumber",
+                                                    "attributes": {
+                                                        "startLine": 93,
+                                                        "endLine": 93,
+                                                        "rawValue": "7.5"
+                                                    },
+                                                    "value": 7.5
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            }
+                                        ]
+                                    },
+                                    "byRef": false,
+                                    "unpack": false
+                                }
+                            ]
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 96,
+                            "comments": [
+                                {
+                                    "nodeType": "Comment",
+                                    "text": "\/\/    Bold, 7.5pt",
+                                    "line": 95,
+                                    "filePos": 2613,
+                                    "tokenPos": 309,
+                                    "endLine": 95,
+                                    "endFilePos": 2629,
+                                    "endTokenPos": 309
+                                }
+                            ],
+                            "endLine": 103
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 96,
+                                "comments": [
+                                    {
+                                        "nodeType": "Comment",
+                                        "text": "\/\/    Bold, 7.5pt",
+                                        "line": 95,
+                                        "filePos": 2613,
+                                        "tokenPos": 309,
+                                        "endLine": 95,
+                                        "endFilePos": 2629,
+                                        "endTokenPos": 309
+                                    }
+                                ],
+                                "endLine": 96,
+                                "kind": 1,
+                                "rawValue": "'a'"
+                            },
+                            "value": "a"
+                        },
+                        "value": {
+                            "nodeType": "Expr_Array",
+                            "attributes": {
+                                "startLine": 96,
+                                "endLine": 103,
+                                "kind": 1
+                            },
+                            "items": [
+                                {
+                                    "nodeType": "Expr_ArrayItem",
+                                    "attributes": {
+                                        "startLine": 97,
+                                        "endLine": 102
+                                    },
+                                    "key": {
+                                        "nodeType": "Scalar_String",
+                                        "attributes": {
+                                            "startLine": 97,
+                                            "endLine": 97,
+                                            "kind": 1,
+                                            "rawValue": "'font'"
+                                        },
+                                        "value": "font"
+                                    },
+                                    "value": {
+                                        "nodeType": "Expr_Array",
+                                        "attributes": {
+                                            "startLine": 97,
+                                            "endLine": 102,
+                                            "kind": 1
+                                        },
+                                        "items": [
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 98,
+                                                    "endLine": 98
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 98,
+                                                        "endLine": 98,
+                                                        "kind": 1,
+                                                        "rawValue": "'underline'"
+                                                    },
+                                                    "value": "underline"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Expr_ConstFetch",
+                                                    "attributes": {
+                                                        "startLine": 98,
+                                                        "endLine": 98
+                                                    },
+                                                    "name": {
+                                                        "nodeType": "Name_FullyQualified",
+                                                        "attributes": {
+                                                            "startLine": 98,
+                                                            "endLine": 98
+                                                        },
+                                                        "parts": [
+                                                            "true"
+                                                        ]
+                                                    }
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            },
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 99,
+                                                    "endLine": 101
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 99,
+                                                        "endLine": 99,
+                                                        "kind": 1,
+                                                        "rawValue": "'color'"
+                                                    },
+                                                    "value": "color"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Expr_Array",
+                                                    "attributes": {
+                                                        "startLine": 99,
+                                                        "endLine": 101,
+                                                        "kind": 1
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "nodeType": "Expr_ArrayItem",
+                                                            "attributes": {
+                                                                "startLine": 100,
+                                                                "endLine": 100
+                                                            },
+                                                            "key": {
+                                                                "nodeType": "Scalar_String",
+                                                                "attributes": {
+                                                                    "startLine": 100,
+                                                                    "endLine": 100,
+                                                                    "kind": 1,
+                                                                    "rawValue": "'argb'"
+                                                                },
+                                                                "value": "argb"
+                                                            },
+                                                            "value": {
+                                                                "nodeType": "Expr_ClassConstFetch",
+                                                                "attributes": {
+                                                                    "startLine": 100,
+                                                                    "endLine": 100
+                                                                },
+                                                                "class": {
+                                                                    "nodeType": "Name_FullyQualified",
+                                                                    "attributes": {
+                                                                        "startLine": 100,
+                                                                        "endLine": 100
+                                                                    },
+                                                                    "parts": [
+                                                                        "PHPExcel_Style_Color"
+                                                                    ]
+                                                                },
+                                                                "name": {
+                                                                    "nodeType": "Identifier",
+                                                                    "attributes": {
+                                                                        "startLine": 100,
+                                                                        "endLine": 100
+                                                                    },
+                                                                    "name": "COLOR_BLUE"
+                                                                }
+                                                            },
+                                                            "byRef": false,
+                                                            "unpack": false
+                                                        }
+                                                    ]
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            }
+                                        ]
+                                    },
+                                    "byRef": false,
+                                    "unpack": false
+                                }
+                            ]
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 104,
+                            "comments": [
+                                {
+                                    "nodeType": "Comment",
+                                    "text": "\/\/    Blue underlined",
+                                    "line": 103,
+                                    "filePos": 2862,
+                                    "tokenPos": 357,
+                                    "endLine": 103,
+                                    "endFilePos": 2882,
+                                    "endTokenPos": 357
+                                }
+                            ],
+                            "endLine": 113
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 104,
+                                "comments": [
+                                    {
+                                        "nodeType": "Comment",
+                                        "text": "\/\/    Blue underlined",
+                                        "line": 103,
+                                        "filePos": 2862,
+                                        "tokenPos": 357,
+                                        "endLine": 103,
+                                        "endFilePos": 2882,
+                                        "endTokenPos": 357
+                                    }
+                                ],
+                                "endLine": 104,
+                                "kind": 1,
+                                "rawValue": "'hr'"
+                            },
+                            "value": "hr"
+                        },
+                        "value": {
+                            "nodeType": "Expr_Array",
+                            "attributes": {
+                                "startLine": 104,
+                                "endLine": 113,
+                                "kind": 1
+                            },
+                            "items": [
+                                {
+                                    "nodeType": "Expr_ArrayItem",
+                                    "attributes": {
+                                        "startLine": 105,
+                                        "endLine": 112
+                                    },
+                                    "key": {
+                                        "nodeType": "Scalar_String",
+                                        "attributes": {
+                                            "startLine": 105,
+                                            "endLine": 105,
+                                            "kind": 1,
+                                            "rawValue": "'borders'"
+                                        },
+                                        "value": "borders"
+                                    },
+                                    "value": {
+                                        "nodeType": "Expr_Array",
+                                        "attributes": {
+                                            "startLine": 105,
+                                            "endLine": 112,
+                                            "kind": 1
+                                        },
+                                        "items": [
+                                            {
+                                                "nodeType": "Expr_ArrayItem",
+                                                "attributes": {
+                                                    "startLine": 106,
+                                                    "endLine": 111
+                                                },
+                                                "key": {
+                                                    "nodeType": "Scalar_String",
+                                                    "attributes": {
+                                                        "startLine": 106,
+                                                        "endLine": 106,
+                                                        "kind": 1,
+                                                        "rawValue": "'bottom'"
+                                                    },
+                                                    "value": "bottom"
+                                                },
+                                                "value": {
+                                                    "nodeType": "Expr_Array",
+                                                    "attributes": {
+                                                        "startLine": 106,
+                                                        "endLine": 111,
+                                                        "kind": 1
+                                                    },
+                                                    "items": [
+                                                        {
+                                                            "nodeType": "Expr_ArrayItem",
+                                                            "attributes": {
+                                                                "startLine": 107,
+                                                                "endLine": 107
+                                                            },
+                                                            "key": {
+                                                                "nodeType": "Scalar_String",
+                                                                "attributes": {
+                                                                    "startLine": 107,
+                                                                    "endLine": 107,
+                                                                    "kind": 1,
+                                                                    "rawValue": "'style'"
+                                                                },
+                                                                "value": "style"
+                                                            },
+                                                            "value": {
+                                                                "nodeType": "Expr_ClassConstFetch",
+                                                                "attributes": {
+                                                                    "startLine": 107,
+                                                                    "endLine": 107
+                                                                },
+                                                                "class": {
+                                                                    "nodeType": "Name_FullyQualified",
+                                                                    "attributes": {
+                                                                        "startLine": 107,
+                                                                        "endLine": 107
+                                                                    },
+                                                                    "parts": [
+                                                                        "PHPExcel_Style_Border"
+                                                                    ]
+                                                                },
+                                                                "name": {
+                                                                    "nodeType": "Identifier",
+                                                                    "attributes": {
+                                                                        "startLine": 107,
+                                                                        "endLine": 107
+                                                                    },
+                                                                    "name": "BORDER_THIN"
+                                                                }
+                                                            },
+                                                            "byRef": false,
+                                                            "unpack": false
+                                                        },
+                                                        {
+                                                            "nodeType": "Expr_ArrayItem",
+                                                            "attributes": {
+                                                                "startLine": 108,
+                                                                "endLine": 110
+                                                            },
+                                                            "key": {
+                                                                "nodeType": "Scalar_String",
+                                                                "attributes": {
+                                                                    "startLine": 108,
+                                                                    "endLine": 108,
+                                                                    "kind": 1,
+                                                                    "rawValue": "'color'"
+                                                                },
+                                                                "value": "color"
+                                                            },
+                                                            "value": {
+                                                                "nodeType": "Expr_Array",
+                                                                "attributes": {
+                                                                    "startLine": 108,
+                                                                    "endLine": 110,
+                                                                    "kind": 1
+                                                                },
+                                                                "items": [
+                                                                    {
+                                                                        "nodeType": "Expr_ArrayItem",
+                                                                        "attributes": {
+                                                                            "startLine": 109,
+                                                                            "endLine": 109
+                                                                        },
+                                                                        "key": null,
+                                                                        "value": {
+                                                                            "nodeType": "Expr_ClassConstFetch",
+                                                                            "attributes": {
+                                                                                "startLine": 109,
+                                                                                "endLine": 109
+                                                                            },
+                                                                            "class": {
+                                                                                "nodeType": "Name_FullyQualified",
+                                                                                "attributes": {
+                                                                                    "startLine": 109,
+                                                                                    "endLine": 109
+                                                                                },
+                                                                                "parts": [
+                                                                                    "PHPExcel_Style_Color"
+                                                                                ]
+                                                                            },
+                                                                            "name": {
+                                                                                "nodeType": "Identifier",
+                                                                                "attributes": {
+                                                                                    "startLine": 109,
+                                                                                    "endLine": 109
+                                                                                },
+                                                                                "name": "COLOR_BLACK"
+                                                                            }
+                                                                        },
+                                                                        "byRef": false,
+                                                                        "unpack": false
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "byRef": false,
+                                                            "unpack": false
+                                                        }
+                                                    ]
+                                                },
+                                                "byRef": false,
+                                                "unpack": false
+                                            }
+                                        ]
+                                    },
+                                    "byRef": false,
+                                    "unpack": false
+                                }
+                            ]
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "rowspan": {
+            "name": "rowspan",
+            "line": 116,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 116,
+                    "endLine": 116,
+                    "kind": 1
+                },
+                "items": []
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "dataArray": {
+            "name": "dataArray",
+            "line": 182,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 182,
+                    "endLine": 182,
+                    "kind": 1
+                },
+                "items": []
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "tableLevel": {
+            "name": "tableLevel",
+            "line": 183,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_LNumber",
+                "attributes": {
+                    "startLine": 183,
+                    "endLine": 183,
+                    "rawValue": "0",
+                    "kind": 10
+                },
+                "value": 0
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "nestedColumn": {
+            "name": "nestedColumn",
+            "line": 184,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 184,
+                    "endLine": 184,
+                    "kind": 1
+                },
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 184,
+                            "endLine": 184
+                        },
+                        "key": null,
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 184,
+                                "endLine": 184,
+                                "kind": 1,
+                                "rawValue": "'A'"
+                            },
+                            "value": "A"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 121,
+            "short_desc": "Create a new PHPExcel_Reader_HTML",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "isValidFormat": {
+            "name": "isValidFormat",
+            "line": 131,
+            "short_desc": "Validate that the current file is an HTML file",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "load": {
+            "name": "load",
+            "line": 150,
+            "short_desc": "Loads PHPExcel from file",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 150,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setInputEncoding": {
+            "name": "setInputEncoding",
+            "line": 164,
+            "short_desc": "Set input encoding",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 164,
+                    "short_desc": "Input encoding",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'ANSI'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getInputEncoding": {
+            "name": "getInputEncoding",
+            "line": 176,
+            "short_desc": "Get input encoding",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setTableStartColumn": {
+            "name": "setTableStartColumn",
+            "line": 186,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "column": {
+                    "name": "column",
+                    "line": 186,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTableStartColumn": {
+            "name": "getTableStartColumn",
+            "line": 197,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "releaseTableStartColumn": {
+            "name": "releaseTableStartColumn",
+            "line": 202,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "flushCell": {
+            "name": "flushCell",
+            "line": 209,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "sheet": {
+                    "name": "sheet",
+                    "line": 209,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "column": {
+                    "name": "column",
+                    "line": 209,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "row": {
+                    "name": "row",
+                    "line": 209,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "cellContent": {
+                    "name": "cellContent",
+                    "line": 209,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": true,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "processDomElement": {
+            "name": "processDomElement",
+            "line": 229,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 2,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "element": {
+                    "name": "element",
+                    "line": 229,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\DOMNode",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "sheet": {
+                    "name": "sheet",
+                    "line": 229,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "row": {
+                    "name": "row",
+                    "line": 229,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": true,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "column": {
+                    "name": "column",
+                    "line": 229,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": true,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "cellContent": {
+                    "name": "cellContent",
+                    "line": 229,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": true,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "format": {
+                    "name": "format",
+                    "line": 229,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "loadIntoExisting": {
+            "name": "loadIntoExisting",
+            "line": 475,
+            "short_desc": "Loads PHPExcel from file into PHPExcel instance",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilename": {
+                    "name": "pFilename",
+                    "line": 475,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "objPHPExcel": {
+                    "name": "objPHPExcel",
+                    "line": 475,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getSheetIndex": {
+            "name": "getSheetIndex",
+            "line": 517,
+            "short_desc": "Get sheet index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSheetIndex": {
+            "name": "setSheetIndex",
+            "line": 528,
+            "short_desc": "Set sheet index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Reader_HTML",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 528,
+                    "short_desc": "Sheet index",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "securityScan": {
+            "name": "securityScan",
+            "line": 541,
+            "short_desc": "Scan theXML for use of <!ENTITY to prevent XXE\/XEE attacks",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "xml": {
+                    "name": "xml",
+                    "line": 541,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

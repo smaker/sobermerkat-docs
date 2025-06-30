@@ -1,0 +1,1012 @@
+{
+    "name": "PHPExcel_Worksheet_AutoFilter_Column_Rule",
+    "line": 28,
+    "short_desc": "PHPExcel_Worksheet_AutoFilter_Column_Rule",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Worksheet"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Worksheet\/AutoFilter\/Column\/Rule.php",
+    "relative_file": null,
+    "hash": "affbd0d42ca871e904a1d63494522fa3dfc478c3",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 267,
+            "short_desc": "Create a new PHPExcel_Worksheet_AutoFilter_Column_Rule",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pParent": {
+                    "name": "pParent",
+                    "line": 267,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet_AutoFilter_Column",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getRuleType": {
+            "name": "getRuleType",
+            "line": 277,
+            "short_desc": "Get AutoFilter Rule Type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setRuleType": {
+            "name": "setRuleType",
+            "line": 289,
+            "short_desc": "Set AutoFilter Rule Type",
+            "long_desc": " @param    string        $pRuleType",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    "@return PHPExcel_Worksheet_AutoFilter_Column"
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pRuleType": {
+                    "name": "pRuleType",
+                    "line": 289,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "self::AUTOFILTER_RULETYPE_FILTER",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getValue": {
+            "name": "getValue",
+            "line": 305,
+            "short_desc": "Get AutoFilter Rule Value",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setValue": {
+            "name": "setValue",
+            "line": 317,
+            "short_desc": "Set AutoFilter Rule Value",
+            "long_desc": " @param    string|string[]        $pValue",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    "@return PHPExcel_Worksheet_AutoFilter_Column_Rule"
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 317,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getOperator": {
+            "name": "getOperator",
+            "line": 347,
+            "short_desc": "Get AutoFilter Rule Operator",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOperator": {
+            "name": "setOperator",
+            "line": 359,
+            "short_desc": "Set AutoFilter Rule Operator",
+            "long_desc": " @param    string        $pOperator",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    "@return PHPExcel_Worksheet_AutoFilter_Column_Rule"
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pOperator": {
+                    "name": "pOperator",
+                    "line": 359,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "self::AUTOFILTER_COLUMN_RULE_EQUAL",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getGrouping": {
+            "name": "getGrouping",
+            "line": 378,
+            "short_desc": "Get AutoFilter Rule Grouping",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setGrouping": {
+            "name": "setGrouping",
+            "line": 390,
+            "short_desc": "Set AutoFilter Rule Grouping",
+            "long_desc": " @param    string        $pGrouping",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    "@return PHPExcel_Worksheet_AutoFilter_Column_Rule"
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pGrouping": {
+                    "name": "pGrouping",
+                    "line": 390,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setRule": {
+            "name": "setRule",
+            "line": 412,
+            "short_desc": "Set AutoFilter Rule",
+            "long_desc": " @param    string                $pOperator",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"pOperator\" parameter of the method \"setRule\" is missing a @param tag",
+                "The \"pGrouping\" parameter of the method \"setRule\" is missing a @param tag"
+            ],
+            "parameters": {
+                "pOperator": {
+                    "name": "pOperator",
+                    "line": 412,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "self::AUTOFILTER_COLUMN_RULE_EQUAL",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pValue": {
+                    "name": "pValue",
+                    "line": 412,
+                    "short_desc": "@param    string                $pGrouping\n@throws    PHPExcel_Exception\n@return PHPExcel_Worksheet_AutoFilter_Column_Rule",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ],
+                        [
+                            "string",
+                            true
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pGrouping": {
+                    "name": "pGrouping",
+                    "line": 412,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getParent": {
+            "name": "getParent",
+            "line": 431,
+            "short_desc": "Get this Rule's AutoFilter Column Parent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_AutoFilter_Column",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setParent": {
+            "name": "setParent",
+            "line": 442,
+            "short_desc": "Set this Rule's AutoFilter Column Parent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_AutoFilter_Column_Rule",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pParent": {
+                    "name": "pParent",
+                    "line": 442,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet_AutoFilter_Column",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "__clone": {
+            "name": "__clone",
+            "line": 452,
+            "short_desc": "Implement PHP __clone to create a deep clone, not just a shallow copy.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "AUTOFILTER_RULETYPE_FILTER": {
+            "name": "AUTOFILTER_RULETYPE_FILTER",
+            "line": 30,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DATEGROUP": {
+            "name": "AUTOFILTER_RULETYPE_DATEGROUP",
+            "line": 31,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_CUSTOMFILTER": {
+            "name": "AUTOFILTER_RULETYPE_CUSTOMFILTER",
+            "line": 32,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMICFILTER": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMICFILTER",
+            "line": 33,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_TOPTENFILTER": {
+            "name": "AUTOFILTER_RULETYPE_TOPTENFILTER",
+            "line": 34,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DATEGROUP_YEAR": {
+            "name": "AUTOFILTER_RULETYPE_DATEGROUP_YEAR",
+            "line": 48,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DATEGROUP_MONTH": {
+            "name": "AUTOFILTER_RULETYPE_DATEGROUP_MONTH",
+            "line": 49,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DATEGROUP_DAY": {
+            "name": "AUTOFILTER_RULETYPE_DATEGROUP_DAY",
+            "line": 50,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DATEGROUP_HOUR": {
+            "name": "AUTOFILTER_RULETYPE_DATEGROUP_HOUR",
+            "line": 51,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DATEGROUP_MINUTE": {
+            "name": "AUTOFILTER_RULETYPE_DATEGROUP_MINUTE",
+            "line": 52,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DATEGROUP_SECOND": {
+            "name": "AUTOFILTER_RULETYPE_DATEGROUP_SECOND",
+            "line": 53,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_YESTERDAY": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_YESTERDAY",
+            "line": 64,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_TODAY": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_TODAY",
+            "line": 65,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_TOMORROW": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_TOMORROW",
+            "line": 66,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_YEARTODATE": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_YEARTODATE",
+            "line": 67,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_THISYEAR": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_THISYEAR",
+            "line": 68,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_THISQUARTER": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_THISQUARTER",
+            "line": 69,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_THISMONTH": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_THISMONTH",
+            "line": 70,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_THISWEEK": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_THISWEEK",
+            "line": 71,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_LASTYEAR": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_LASTYEAR",
+            "line": 72,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_LASTQUARTER": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_LASTQUARTER",
+            "line": 73,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_LASTMONTH": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_LASTMONTH",
+            "line": 74,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_LASTWEEK": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_LASTWEEK",
+            "line": 75,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_NEXTYEAR": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_NEXTYEAR",
+            "line": 76,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_NEXTQUARTER": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_NEXTQUARTER",
+            "line": 77,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_NEXTMONTH": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_NEXTMONTH",
+            "line": 78,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_NEXTWEEK": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_NEXTWEEK",
+            "line": 79,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_1": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_1",
+            "line": 80,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_JANUARY": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_JANUARY",
+            "line": 81,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_2": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_2",
+            "line": 82,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_FEBRUARY": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_FEBRUARY",
+            "line": 83,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_3": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_3",
+            "line": 84,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MARCH": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MARCH",
+            "line": 85,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_4": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_4",
+            "line": 86,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_APRIL": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_APRIL",
+            "line": 87,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_5": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_5",
+            "line": 88,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MAY": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MAY",
+            "line": 89,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_6": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_6",
+            "line": 90,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_JUNE": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_JUNE",
+            "line": 91,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_7": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_7",
+            "line": 92,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_JULY": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_JULY",
+            "line": 93,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_8": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_8",
+            "line": 94,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_AUGUST": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_AUGUST",
+            "line": 95,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_9": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_9",
+            "line": 96,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_SEPTEMBER": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_SEPTEMBER",
+            "line": 97,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_10": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_10",
+            "line": 98,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_OCTOBER": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_OCTOBER",
+            "line": 99,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_11": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_11",
+            "line": 100,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_NOVEMBER": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_NOVEMBER",
+            "line": 101,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_12": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_MONTH_12",
+            "line": 102,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_DECEMBER": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_DECEMBER",
+            "line": 103,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_QUARTER_1": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_QUARTER_1",
+            "line": 104,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_QUARTER_2": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_QUARTER_2",
+            "line": 105,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_QUARTER_3": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_QUARTER_3",
+            "line": 106,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_QUARTER_4": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_QUARTER_4",
+            "line": 107,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_ABOVEAVERAGE": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_ABOVEAVERAGE",
+            "line": 108,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_RULETYPE_DYNAMIC_BELOWAVERAGE": {
+            "name": "AUTOFILTER_RULETYPE_DYNAMIC_BELOWAVERAGE",
+            "line": 109,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_RULE_EQUAL": {
+            "name": "AUTOFILTER_COLUMN_RULE_EQUAL",
+            "line": 157,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_RULE_NOTEQUAL": {
+            "name": "AUTOFILTER_COLUMN_RULE_NOTEQUAL",
+            "line": 158,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_RULE_GREATERTHAN": {
+            "name": "AUTOFILTER_COLUMN_RULE_GREATERTHAN",
+            "line": 159,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_RULE_GREATERTHANOREQUAL": {
+            "name": "AUTOFILTER_COLUMN_RULE_GREATERTHANOREQUAL",
+            "line": 160,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_RULE_LESSTHAN": {
+            "name": "AUTOFILTER_COLUMN_RULE_LESSTHAN",
+            "line": 161,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_RULE_LESSTHANOREQUAL": {
+            "name": "AUTOFILTER_COLUMN_RULE_LESSTHANOREQUAL",
+            "line": 162,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_RULE_TOPTEN_BY_VALUE": {
+            "name": "AUTOFILTER_COLUMN_RULE_TOPTEN_BY_VALUE",
+            "line": 173,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_RULE_TOPTEN_PERCENT": {
+            "name": "AUTOFILTER_COLUMN_RULE_TOPTEN_PERCENT",
+            "line": 174,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_RULE_TOPTEN_TOP": {
+            "name": "AUTOFILTER_COLUMN_RULE_TOPTEN_TOP",
+            "line": 181,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_RULE_TOPTEN_BOTTOM": {
+            "name": "AUTOFILTER_COLUMN_RULE_TOPTEN_BOTTOM",
+            "line": 182,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

@@ -1,0 +1,1419 @@
+{
+    "name": "PHPExcel_Worksheet_HeaderFooter",
+    "line": 88,
+    "short_desc": "PHPExcel_Worksheet_HeaderFooter",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not,241 write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Worksheet"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##\n\n<code>\nHeader\/Footer",
+                "Formatting",
+                "Syntax",
+                "taken",
+                "from",
+                "Office",
+                "Open",
+                "XML",
+                "Part",
+                "4",
+                "-",
+                "Markup",
+                "Language",
+                "Reference,",
+                "page",
+                "1970:\n\nThere",
+                "are",
+                "a",
+                "number",
+                "of",
+                "formatting",
+                "codes",
+                "that",
+                "can",
+                "be",
+                "written",
+                "inline",
+                "with",
+                "the",
+                "actual",
+                "header",
+                "\/",
+                "footer",
+                "text,",
+                "which\naffect",
+                "the",
+                "formatting",
+                "in",
+                "the",
+                "header",
+                "or",
+                "footer.\n\nExample:",
+                "This",
+                "example",
+                "shows",
+                "the",
+                "text",
+                "\"Center",
+                "Bold",
+                "Header\"",
+                "on",
+                "the",
+                "first",
+                "line",
+                "(center",
+                "section),",
+                "and",
+                "the",
+                "date",
+                "on\nthe",
+                "second",
+                "line",
+                "(center",
+                "section).\n",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "",
+                "&CCenter",
+                "&\"-,Bold\"Bold&\"-,Regular\"Header_x000A_&D\n\nGeneral",
+                "Rules:\nThere",
+                "is",
+                "no",
+                "required",
+                "order",
+                "in",
+                "which",
+                "these",
+                "codes",
+                "must",
+                "appear.\n\nThe",
+                "first",
+                "occurrence",
+                "of",
+                "the",
+                "following",
+                "codes",
+                "turns",
+                "the",
+                "formatting",
+                "ON,",
+                "the",
+                "second",
+                "occurrence",
+                "turns",
+                "it",
+                "OFF",
+                "again:\n-",
+                "strikethrough\n-",
+                "superscript\n-",
+                "subscript\nSuperscript",
+                "and",
+                "subscript",
+                "cannot",
+                "both",
+                "be",
+                "ON",
+                "at",
+                "same",
+                "time.",
+                "Whichever",
+                "comes",
+                "first",
+                "wins",
+                "and",
+                "the",
+                "other",
+                "is",
+                "ignored,\nwhile",
+                "the",
+                "first",
+                "is",
+                "ON.\n&L",
+                "-",
+                "code",
+                "for",
+                "\"left",
+                "section\"",
+                "(there",
+                "are",
+                "three",
+                "header",
+                "\/",
+                "footer",
+                "locations,",
+                "\"left\",",
+                "\"center\",",
+                "and",
+                "\"right\").",
+                "When\ntwo",
+                "or",
+                "more",
+                "occurrences",
+                "of",
+                "this",
+                "section",
+                "marker",
+                "exist,",
+                "the",
+                "contents",
+                "from",
+                "all",
+                "markers",
+                "are",
+                "concatenated,",
+                "in",
+                "the\norder",
+                "of",
+                "appearance,",
+                "and",
+                "placed",
+                "into",
+                "the",
+                "left",
+                "section.\n&P",
+                "-",
+                "code",
+                "for",
+                "\"current",
+                "page",
+                "#\"\n&N",
+                "-",
+                "code",
+                "for",
+                "\"total",
+                "pages\"\n&font",
+                "size",
+                "-",
+                "code",
+                "for",
+                "\"text",
+                "font",
+                "size\",",
+                "where",
+                "font",
+                "size",
+                "is",
+                "a",
+                "font",
+                "size",
+                "in",
+                "points.\n&K",
+                "-",
+                "code",
+                "for",
+                "\"text",
+                "font",
+                "color\"\nRGB",
+                "Color",
+                "is",
+                "specified",
+                "as",
+                "RRGGBB\nTheme",
+                "Color",
+                "is",
+                "specifed",
+                "as",
+                "TTSNN",
+                "where",
+                "TT",
+                "is",
+                "the",
+                "theme",
+                "color",
+                "Id,",
+                "S",
+                "is",
+                "either",
+                "\"+\"",
+                "or",
+                "\"-\"",
+                "of",
+                "the",
+                "tint\/shade\nvalue,",
+                "NN",
+                "is",
+                "the",
+                "tint\/shade",
+                "value.\n&S",
+                "-",
+                "code",
+                "for",
+                "\"text",
+                "strikethrough\"",
+                "on",
+                "\/",
+                "off\n&X",
+                "-",
+                "code",
+                "for",
+                "\"text",
+                "super",
+                "script\"",
+                "on",
+                "\/",
+                "off\n&Y",
+                "-",
+                "code",
+                "for",
+                "\"text",
+                "subscript\"",
+                "on",
+                "\/",
+                "off\n&C",
+                "-",
+                "code",
+                "for",
+                "\"center",
+                "section\".",
+                "When",
+                "two",
+                "or",
+                "more",
+                "occurrences",
+                "of",
+                "this",
+                "section",
+                "marker",
+                "exist,",
+                "the",
+                "contents\nfrom",
+                "all",
+                "markers",
+                "are",
+                "concatenated,",
+                "in",
+                "the",
+                "order",
+                "of",
+                "appearance,",
+                "and",
+                "placed",
+                "into",
+                "the",
+                "center",
+                "section.\n\n&D",
+                "-",
+                "code",
+                "for",
+                "\"date\"\n&T",
+                "-",
+                "code",
+                "for",
+                "\"time\"\n&G",
+                "-",
+                "code",
+                "for",
+                "\"picture",
+                "as",
+                "background\"\n&U",
+                "-",
+                "code",
+                "for",
+                "\"text",
+                "single",
+                "underline\"\n&E",
+                "-",
+                "code",
+                "for",
+                "\"double",
+                "underline\"\n&R",
+                "-",
+                "code",
+                "for",
+                "\"right",
+                "section\".",
+                "When",
+                "two",
+                "or",
+                "more",
+                "occurrences",
+                "of",
+                "this",
+                "section",
+                "marker",
+                "exist,",
+                "the",
+                "contents\nfrom",
+                "all",
+                "markers",
+                "are",
+                "concatenated,",
+                "in",
+                "the",
+                "order",
+                "of",
+                "appearance,",
+                "and",
+                "placed",
+                "into",
+                "the",
+                "right",
+                "section.\n&Z",
+                "-",
+                "code",
+                "for",
+                "\"this",
+                "workbook's",
+                "file",
+                "path\"\n&F",
+                "-",
+                "code",
+                "for",
+                "\"this",
+                "workbook's",
+                "file",
+                "name\"\n&A",
+                "-",
+                "code",
+                "for",
+                "\"sheet",
+                "tab",
+                "name\"\n&+",
+                "-",
+                "code",
+                "for",
+                "add",
+                "to",
+                "page",
+                "#.\n&-",
+                "-",
+                "code",
+                "for",
+                "subtract",
+                "from",
+                "page",
+                "#.\n&\"font",
+                "name,font",
+                "type\"",
+                "-",
+                "code",
+                "for",
+                "\"text",
+                "font",
+                "name\"",
+                "and",
+                "\"text",
+                "font",
+                "type\",",
+                "where",
+                "font",
+                "name",
+                "and",
+                "font",
+                "type\nare",
+                "strings",
+                "specifying",
+                "the",
+                "name",
+                "and",
+                "type",
+                "of",
+                "the",
+                "font,",
+                "separated",
+                "by",
+                "a",
+                "comma.",
+                "When",
+                "a",
+                "hyphen",
+                "appears",
+                "in",
+                "font\nname,",
+                "it",
+                "means",
+                "\"none",
+                "specified\".",
+                "Both",
+                "of",
+                "font",
+                "name",
+                "and",
+                "font",
+                "type",
+                "can",
+                "be",
+                "localized",
+                "values.\n&\"-,Bold\"",
+                "-",
+                "code",
+                "for",
+                "\"bold",
+                "font",
+                "style\"\n&B",
+                "-",
+                "also",
+                "means",
+                "\"bold",
+                "font",
+                "style\".\n&\"-,Regular\"",
+                "-",
+                "code",
+                "for",
+                "\"regular",
+                "font",
+                "style\"\n&\"-,Italic\"",
+                "-",
+                "code",
+                "for",
+                "\"italic",
+                "font",
+                "style\"\n&I",
+                "-",
+                "also",
+                "means",
+                "\"italic",
+                "font",
+                "style\"\n&\"-,Bold",
+                "Italic\"",
+                "code",
+                "for",
+                "\"bold",
+                "italic",
+                "font",
+                "style\"\n&O",
+                "-",
+                "code",
+                "for",
+                "\"outline",
+                "style\"\n&H",
+                "-",
+                "code",
+                "for",
+                "\"shadow",
+                "style\"\n<\/code>"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Worksheet\/HeaderFooter.php",
+    "relative_file": null,
+    "hash": "0b505c392297a9ef06b242bfd7c5c994571b92f0",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 178,
+            "short_desc": "Create a new PHPExcel_Worksheet_HeaderFooter",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getOddHeader": {
+            "name": "getOddHeader",
+            "line": 187,
+            "short_desc": "Get OddHeader",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOddHeader": {
+            "name": "setOddHeader",
+            "line": 198,
+            "short_desc": "Set OddHeader",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 198,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getOddFooter": {
+            "name": "getOddFooter",
+            "line": 209,
+            "short_desc": "Get OddFooter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setOddFooter": {
+            "name": "setOddFooter",
+            "line": 220,
+            "short_desc": "Set OddFooter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 220,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getEvenHeader": {
+            "name": "getEvenHeader",
+            "line": 231,
+            "short_desc": "Get EvenHeader",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEvenHeader": {
+            "name": "setEvenHeader",
+            "line": 242,
+            "short_desc": "Set EvenHeader",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 242,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getEvenFooter": {
+            "name": "getEvenFooter",
+            "line": 253,
+            "short_desc": "Get EvenFooter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setEvenFooter": {
+            "name": "setEvenFooter",
+            "line": 264,
+            "short_desc": "Set EvenFooter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 264,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFirstHeader": {
+            "name": "getFirstHeader",
+            "line": 275,
+            "short_desc": "Get FirstHeader",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFirstHeader": {
+            "name": "setFirstHeader",
+            "line": 286,
+            "short_desc": "Set FirstHeader",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 286,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFirstFooter": {
+            "name": "getFirstFooter",
+            "line": 297,
+            "short_desc": "Get FirstFooter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFirstFooter": {
+            "name": "setFirstFooter",
+            "line": 308,
+            "short_desc": "Set FirstFooter",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 308,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getDifferentOddEven": {
+            "name": "getDifferentOddEven",
+            "line": 319,
+            "short_desc": "Get DifferentOddEven",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDifferentOddEven": {
+            "name": "setDifferentOddEven",
+            "line": 330,
+            "short_desc": "Set DifferentOddEven",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 330,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getDifferentFirst": {
+            "name": "getDifferentFirst",
+            "line": 341,
+            "short_desc": "Get DifferentFirst",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setDifferentFirst": {
+            "name": "setDifferentFirst",
+            "line": 352,
+            "short_desc": "Set DifferentFirst",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 352,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getScaleWithDocument": {
+            "name": "getScaleWithDocument",
+            "line": 363,
+            "short_desc": "Get ScaleWithDocument",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setScaleWithDocument": {
+            "name": "setScaleWithDocument",
+            "line": 374,
+            "short_desc": "Set ScaleWithDocument",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 374,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getAlignWithMargins": {
+            "name": "getAlignWithMargins",
+            "line": 385,
+            "short_desc": "Get AlignWithMargins",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setAlignWithMargins": {
+            "name": "setAlignWithMargins",
+            "line": 396,
+            "short_desc": "Set AlignWithMargins",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 396,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "addImage": {
+            "name": "addImage",
+            "line": 410,
+            "short_desc": "Add header\/footer image",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "image": {
+                    "name": "image",
+                    "line": 410,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet_HeaderFooterDrawing",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "location": {
+                    "name": "location",
+                    "line": 410,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "self::IMAGE_HEADER_LEFT",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "removeImage": {
+            "name": "removeImage",
+            "line": 423,
+            "short_desc": "Remove header\/footer image",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "location": {
+                    "name": "location",
+                    "line": 423,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "self::IMAGE_HEADER_LEFT",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setImages": {
+            "name": "setImages",
+            "line": 438,
+            "short_desc": "Set header\/footer images",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "images": {
+                    "name": "images",
+                    "line": 438,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet_HeaderFooterDrawing",
+                            true
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getImages": {
+            "name": "getImages",
+            "line": 453,
+            "short_desc": "Get header\/footer images",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_HeaderFooterDrawing",
+                    true
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "__clone": {
+            "name": "__clone",
+            "line": 483,
+            "short_desc": "Implement PHP __clone to create a deep clone, not just a shallow copy.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "IMAGE_HEADER_LEFT": {
+            "name": "IMAGE_HEADER_LEFT",
+            "line": 91,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "IMAGE_HEADER_CENTER": {
+            "name": "IMAGE_HEADER_CENTER",
+            "line": 92,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "IMAGE_HEADER_RIGHT": {
+            "name": "IMAGE_HEADER_RIGHT",
+            "line": 93,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "IMAGE_FOOTER_LEFT": {
+            "name": "IMAGE_FOOTER_LEFT",
+            "line": 94,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "IMAGE_FOOTER_CENTER": {
+            "name": "IMAGE_FOOTER_CENTER",
+            "line": 95,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "IMAGE_FOOTER_RIGHT": {
+            "name": "IMAGE_FOOTER_RIGHT",
+            "line": 96,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

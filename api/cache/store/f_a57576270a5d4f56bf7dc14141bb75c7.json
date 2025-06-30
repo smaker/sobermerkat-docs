@@ -1,0 +1,55 @@
+{
+    "namespace": "",
+    "name": "FillSpace",
+    "line": 245,
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/icode.lms.lib.php",
+    "relative_file": null,
+    "short_desc": "\uc6d0\ud558\ub294 \ubb38\uc790\uc5f4\uc758 \uae38\uc774\ub97c \uc6d0\ud558\ub294 \uae38\uc774\ub9cc\ud07c \uacf5\ubc31\uc744 \ub123\uc5b4 \ub9de\ucd94\ub3c4\ub85d \ud569\ub2c8\ub2e4.",
+    "long_desc": "",
+    "hint": [
+        [
+            "\\\ubcc0\uacbd\ub41c",
+            false
+        ]
+    ],
+    "hint_desc": "\ubb38\uc790\uc5f4\uc744 \ub118\uae41\ub2c8\ub2e4.",
+    "tags": [],
+    "modifiers": 0,
+    "is_by_ref": "",
+    "is_intersection_type": false,
+    "exceptions": [],
+    "errors": [
+        "The \"text\" parameter of the method \"FillSpace\" is missing a @param tag",
+        "The \"size\" parameter of the method \"FillSpace\" is missing a @param tag"
+    ],
+    "parameters": {
+        "text": {
+            "name": "text",
+            "line": 245,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        },
+        "size": {
+            "name": "size",
+            "line": 245,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        }
+    }
+}

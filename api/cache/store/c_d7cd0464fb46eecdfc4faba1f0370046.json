@@ -1,0 +1,1226 @@
+{
+    "name": "PHPExcel_Shared_Date",
+    "line": 28,
+    "short_desc": "PHPExcel_Shared_Date",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Shared"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Shared\/Date.php",
+    "relative_file": null,
+    "hash": "52736c3c04828e89a01dcf8bf09658319b9220d8",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "monthNames": {
+            "name": "monthNames",
+            "line": 41,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 41,
+                    "endLine": 54,
+                    "kind": 1
+                },
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 42,
+                            "endLine": 42
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 42,
+                                "endLine": 42,
+                                "kind": 1,
+                                "rawValue": "'Jan'"
+                            },
+                            "value": "Jan"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 42,
+                                "endLine": 42,
+                                "kind": 1,
+                                "rawValue": "'January'"
+                            },
+                            "value": "January"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 43,
+                            "endLine": 43
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 43,
+                                "endLine": 43,
+                                "kind": 1,
+                                "rawValue": "'Feb'"
+                            },
+                            "value": "Feb"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 43,
+                                "endLine": 43,
+                                "kind": 1,
+                                "rawValue": "'February'"
+                            },
+                            "value": "February"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 44,
+                            "endLine": 44
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 44,
+                                "endLine": 44,
+                                "kind": 1,
+                                "rawValue": "'Mar'"
+                            },
+                            "value": "Mar"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 44,
+                                "endLine": 44,
+                                "kind": 1,
+                                "rawValue": "'March'"
+                            },
+                            "value": "March"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 45,
+                            "endLine": 45
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 45,
+                                "endLine": 45,
+                                "kind": 1,
+                                "rawValue": "'Apr'"
+                            },
+                            "value": "Apr"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 45,
+                                "endLine": 45,
+                                "kind": 1,
+                                "rawValue": "'April'"
+                            },
+                            "value": "April"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 46,
+                            "endLine": 46
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 46,
+                                "endLine": 46,
+                                "kind": 1,
+                                "rawValue": "'May'"
+                            },
+                            "value": "May"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 46,
+                                "endLine": 46,
+                                "kind": 1,
+                                "rawValue": "'May'"
+                            },
+                            "value": "May"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 47,
+                            "endLine": 47
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 47,
+                                "endLine": 47,
+                                "kind": 1,
+                                "rawValue": "'Jun'"
+                            },
+                            "value": "Jun"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 47,
+                                "endLine": 47,
+                                "kind": 1,
+                                "rawValue": "'June'"
+                            },
+                            "value": "June"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 48,
+                            "endLine": 48
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 48,
+                                "endLine": 48,
+                                "kind": 1,
+                                "rawValue": "'Jul'"
+                            },
+                            "value": "Jul"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 48,
+                                "endLine": 48,
+                                "kind": 1,
+                                "rawValue": "'July'"
+                            },
+                            "value": "July"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 49,
+                            "endLine": 49
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 49,
+                                "endLine": 49,
+                                "kind": 1,
+                                "rawValue": "'Aug'"
+                            },
+                            "value": "Aug"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 49,
+                                "endLine": 49,
+                                "kind": 1,
+                                "rawValue": "'August'"
+                            },
+                            "value": "August"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 50,
+                            "endLine": 50
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 50,
+                                "endLine": 50,
+                                "kind": 1,
+                                "rawValue": "'Sep'"
+                            },
+                            "value": "Sep"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 50,
+                                "endLine": 50,
+                                "kind": 1,
+                                "rawValue": "'September'"
+                            },
+                            "value": "September"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 51,
+                            "endLine": 51
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 51,
+                                "endLine": 51,
+                                "kind": 1,
+                                "rawValue": "'Oct'"
+                            },
+                            "value": "Oct"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 51,
+                                "endLine": 51,
+                                "kind": 1,
+                                "rawValue": "'October'"
+                            },
+                            "value": "October"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 52,
+                            "endLine": 52
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 52,
+                                "endLine": 52,
+                                "kind": 1,
+                                "rawValue": "'Nov'"
+                            },
+                            "value": "Nov"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 52,
+                                "endLine": 52,
+                                "kind": 1,
+                                "rawValue": "'November'"
+                            },
+                            "value": "November"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 53,
+                            "endLine": 53
+                        },
+                        "key": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 53,
+                                "endLine": 53,
+                                "kind": 1,
+                                "rawValue": "'Dec'"
+                            },
+                            "value": "Dec"
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 53,
+                                "endLine": 53,
+                                "kind": 1,
+                                "rawValue": "'December'"
+                            },
+                            "value": "December"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "numberSuffixes": {
+            "name": "numberSuffixes",
+            "line": 63,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 9,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 63,
+                    "endLine": 68,
+                    "kind": 1
+                },
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 64,
+                            "endLine": 64
+                        },
+                        "key": null,
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 64,
+                                "endLine": 64,
+                                "kind": 1,
+                                "rawValue": "'st'"
+                            },
+                            "value": "st"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 65,
+                            "endLine": 65
+                        },
+                        "key": null,
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 65,
+                                "endLine": 65,
+                                "kind": 1,
+                                "rawValue": "'nd'"
+                            },
+                            "value": "nd"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 66,
+                            "endLine": 66
+                        },
+                        "key": null,
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 66,
+                                "endLine": 66,
+                                "kind": 1,
+                                "rawValue": "'rd'"
+                            },
+                            "value": "rd"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 67,
+                            "endLine": 67
+                        },
+                        "key": null,
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 67,
+                                "endLine": 67,
+                                "kind": 1,
+                                "rawValue": "'th'"
+                            },
+                            "value": "th"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "excelBaseDate": {
+            "name": "excelBaseDate",
+            "line": 76,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 10,
+            "default": {
+                "nodeType": "Expr_ClassConstFetch",
+                "attributes": {
+                    "startLine": 76,
+                    "endLine": 76
+                },
+                "class": {
+                    "nodeType": "Name",
+                    "attributes": {
+                        "startLine": 76,
+                        "endLine": 76
+                    },
+                    "parts": [
+                        "self"
+                    ]
+                },
+                "name": {
+                    "nodeType": "Identifier",
+                    "attributes": {
+                        "startLine": 76,
+                        "endLine": 76
+                    },
+                    "name": "CALENDAR_WINDOWS_1900"
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "setExcelCalendar": {
+            "name": "setExcelCalendar",
+            "line": 84,
+            "short_desc": "Set the Excel calendar (Windows 1900 or Mac 1904)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "baseDate": {
+                    "name": "baseDate",
+                    "line": 84,
+                    "short_desc": "Excel base date (1900 or 1904)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getExcelCalendar": {
+            "name": "getExcelCalendar",
+            "line": 100,
+            "short_desc": "Return the Excel calendar (Windows 1900 or Mac 1904)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel base date (1900 or 1904)",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "ExcelToPHP": {
+            "name": "ExcelToPHP",
+            "line": 115,
+            "short_desc": "Convert a date from Excel to PHP",
+            "long_desc": " @param        integer        $dateValue            Excel date\/time value",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"dateValue\" parameter of the method \"ExcelToPHP\" is missing a @param tag",
+                "The \"timezone\" parameter of the method \"ExcelToPHP\" is missing a @param tag"
+            ],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 115,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "adjustToTimezone": {
+                    "name": "adjustToTimezone",
+                    "line": 115,
+                    "short_desc": "Flag indicating whether $dateValue should be treated as\n                                                a UST timestamp, or adjusted to UST\n@param        string         $timezone            The timezone for finding the adjustment from UST\n@return       integer        PHP serialized date\/time",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "timezone": {
+                    "name": "timezone",
+                    "line": 115,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ExcelToPHPObject": {
+            "name": "ExcelToPHPObject",
+            "line": 155,
+            "short_desc": "Convert a date from Excel to a PHP Date\/Time object",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\DateTime",
+                    false
+                ]
+            ],
+            "hint_desc": "PHP date\/time object",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 155,
+                    "short_desc": "Excel date\/time value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "PHPToExcel": {
+            "name": "PHPToExcel",
+            "line": 181,
+            "short_desc": "Convert a date from PHP to Excel",
+            "long_desc": " @param    mixed        $dateValue            PHP serialized date\/time or date object",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"dateValue\" parameter of the method \"PHPToExcel\" is missing a @param tag",
+                "The \"timezone\" parameter of the method \"PHPToExcel\" is missing a @param tag"
+            ],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 181,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "adjustToTimezone": {
+                    "name": "adjustToTimezone",
+                    "line": 181,
+                    "short_desc": "Flag indicating whether $dateValue should be treated as\n                                                a UST timestamp, or adjusted to UST\n@param    string         $timezone            The timezone for finding the adjustment from UST\n@return    mixed        Excel date\/time value\n                        or boolean FALSE on failure",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "timezone": {
+                    "name": "timezone",
+                    "line": 181,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "FormattedPHPToExcel": {
+            "name": "FormattedPHPToExcel",
+            "line": 217,
+            "short_desc": "FormattedPHPToExcel",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time value",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "year": {
+                    "name": "year",
+                    "line": 217,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "month": {
+                    "name": "month",
+                    "line": 217,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "day": {
+                    "name": "day",
+                    "line": 217,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "hours": {
+                    "name": "hours",
+                    "line": 217,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "minutes": {
+                    "name": "minutes",
+                    "line": 217,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "seconds": {
+                    "name": "seconds",
+                    "line": 217,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "isDateTime": {
+            "name": "isDateTime",
+            "line": 259,
+            "short_desc": "Is a given cell a date\/time?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pCell": {
+                    "name": "pCell",
+                    "line": 259,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Cell",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "isDateTimeFormat": {
+            "name": "isDateTimeFormat",
+            "line": 275,
+            "short_desc": "Is a given number format a date\/time?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pFormat": {
+                    "name": "pFormat",
+                    "line": 275,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Style_NumberFormat",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "isDateTimeFormatCode": {
+            "name": "isDateTimeFormatCode",
+            "line": 289,
+            "short_desc": "Is a given number format code a date\/time?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pFormatCode": {
+                    "name": "pFormatCode",
+                    "line": 289,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "stringToExcel": {
+            "name": "stringToExcel",
+            "line": 361,
+            "short_desc": "Convert a date\/time string to Excel time",
+            "long_desc": "",
+            "hint": [
+                [
+                    "float",
+                    false
+                ],
+                [
+                    "false",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 361,
+                    "short_desc": "Examples: '2009-12-31', '2009-12-31 15:59', '2009-12-31 15:59:10'",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "monthStringToNumber": {
+            "name": "monthStringToNumber",
+            "line": 392,
+            "short_desc": "Converts a month name (either a long or a short name) to a month number",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Month number (1 - 12), or the original string argument if it isn't a valid month name",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "month": {
+                    "name": "month",
+                    "line": 392,
+                    "short_desc": "Month name or abbreviation",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "dayStringToNumber": {
+            "name": "dayStringToNumber",
+            "line": 410,
+            "short_desc": "Strips an ordinal froma numeric value",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ],
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The integer value with any ordinal stripped, or the original string argument if it isn't a valid numeric",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "day": {
+                    "name": "day",
+                    "line": 410,
+                    "short_desc": "Day number with an ordinal",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "CALENDAR_WINDOWS_1900": {
+            "name": "CALENDAR_WINDOWS_1900",
+            "line": 31,
+            "short_desc": "constants",
+            "long_desc": "",
+            "modifiers": 0,
+            "tags": []
+        },
+        "CALENDAR_MAC_1904": {
+            "name": "CALENDAR_MAC_1904",
+            "line": 32,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

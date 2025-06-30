@@ -1,0 +1,990 @@
+{
+    "name": "PHPExcel_Chart_DataSeries",
+    "line": 36,
+    "short_desc": "PHPExcel_Chart_DataSeries",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Chart"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Chart\/DataSeries.php",
+    "relative_file": null,
+    "hash": "74e0c8457fc96eee0fb99ea3c0d4305387638e1f",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 139,
+            "short_desc": "Create a new PHPExcel_Chart_DataSeries",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "plotType": {
+                    "name": "plotType",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "plotGrouping": {
+                    "name": "plotGrouping",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "plotOrder": {
+                    "name": "plotOrder",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "plotLabel": {
+                    "name": "plotLabel",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "plotCategory": {
+                    "name": "plotCategory",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "plotValues": {
+                    "name": "plotValues",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "plotDirection": {
+                    "name": "plotDirection",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "smoothLine": {
+                    "name": "smoothLine",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "plotStyle": {
+                    "name": "plotStyle",
+                    "line": 139,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPlotType": {
+            "name": "getPlotType",
+            "line": 169,
+            "short_desc": "Get Plot Type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPlotType": {
+            "name": "setPlotType",
+            "line": 180,
+            "short_desc": "Set Plot Type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_DataSeries",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "plotType": {
+                    "name": "plotType",
+                    "line": 180,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPlotGrouping": {
+            "name": "getPlotGrouping",
+            "line": 191,
+            "short_desc": "Get Plot Grouping Type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPlotGrouping": {
+            "name": "setPlotGrouping",
+            "line": 202,
+            "short_desc": "Set Plot Grouping Type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_DataSeries",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "groupingType": {
+                    "name": "groupingType",
+                    "line": 202,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPlotDirection": {
+            "name": "getPlotDirection",
+            "line": 213,
+            "short_desc": "Get Plot Direction",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPlotDirection": {
+            "name": "setPlotDirection",
+            "line": 224,
+            "short_desc": "Set Plot Direction",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_DataSeries",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "plotDirection": {
+                    "name": "plotDirection",
+                    "line": 224,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPlotOrder": {
+            "name": "getPlotOrder",
+            "line": 235,
+            "short_desc": "Get Plot Order",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getPlotLabels": {
+            "name": "getPlotLabels",
+            "line": 245,
+            "short_desc": "Get Plot Labels",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "of PHPExcel_Chart_DataSeriesValues",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getPlotLabelByIndex": {
+            "name": "getPlotLabelByIndex",
+            "line": 255,
+            "short_desc": "Get Plot Label by Index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_DataSeriesValues",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "index": {
+                    "name": "index",
+                    "line": 255,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPlotCategories": {
+            "name": "getPlotCategories",
+            "line": 271,
+            "short_desc": "Get Plot Categories",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "of PHPExcel_Chart_DataSeriesValues",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getPlotCategoryByIndex": {
+            "name": "getPlotCategoryByIndex",
+            "line": 281,
+            "short_desc": "Get Plot Category by Index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_DataSeriesValues",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "index": {
+                    "name": "index",
+                    "line": 281,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPlotStyle": {
+            "name": "getPlotStyle",
+            "line": 297,
+            "short_desc": "Get Plot Style",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPlotStyle": {
+            "name": "setPlotStyle",
+            "line": 308,
+            "short_desc": "Set Plot Style",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_DataSeries",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "plotStyle": {
+                    "name": "plotStyle",
+                    "line": 308,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPlotValues": {
+            "name": "getPlotValues",
+            "line": 319,
+            "short_desc": "Get Plot Values",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "of PHPExcel_Chart_DataSeriesValues",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getPlotValuesByIndex": {
+            "name": "getPlotValuesByIndex",
+            "line": 329,
+            "short_desc": "Get Plot Values by Index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_DataSeriesValues",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "index": {
+                    "name": "index",
+                    "line": 329,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPlotSeriesCount": {
+            "name": "getPlotSeriesCount",
+            "line": 345,
+            "short_desc": "Get Number of Plot Series",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getSmoothLine": {
+            "name": "getSmoothLine",
+            "line": 355,
+            "short_desc": "Get Smooth Line",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setSmoothLine": {
+            "name": "setSmoothLine",
+            "line": 366,
+            "short_desc": "Set Smooth Line",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Chart_DataSeries",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "smoothLine": {
+                    "name": "smoothLine",
+                    "line": 366,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "refresh": {
+            "name": "refresh",
+            "line": 372,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "worksheet": {
+                    "name": "worksheet",
+                    "line": 372,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "TYPE_BARCHART": {
+            "name": "TYPE_BARCHART",
+            "line": 38,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_BARCHART_3D": {
+            "name": "TYPE_BARCHART_3D",
+            "line": 39,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_LINECHART": {
+            "name": "TYPE_LINECHART",
+            "line": 40,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_LINECHART_3D": {
+            "name": "TYPE_LINECHART_3D",
+            "line": 41,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_AREACHART": {
+            "name": "TYPE_AREACHART",
+            "line": 42,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_AREACHART_3D": {
+            "name": "TYPE_AREACHART_3D",
+            "line": 43,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_PIECHART": {
+            "name": "TYPE_PIECHART",
+            "line": 44,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_PIECHART_3D": {
+            "name": "TYPE_PIECHART_3D",
+            "line": 45,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_DOUGHTNUTCHART": {
+            "name": "TYPE_DOUGHTNUTCHART",
+            "line": 46,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_DONUTCHART": {
+            "name": "TYPE_DONUTCHART",
+            "line": 47,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_SCATTERCHART": {
+            "name": "TYPE_SCATTERCHART",
+            "line": 48,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_SURFACECHART": {
+            "name": "TYPE_SURFACECHART",
+            "line": 49,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_SURFACECHART_3D": {
+            "name": "TYPE_SURFACECHART_3D",
+            "line": 50,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_RADARCHART": {
+            "name": "TYPE_RADARCHART",
+            "line": 51,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_BUBBLECHART": {
+            "name": "TYPE_BUBBLECHART",
+            "line": 52,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_STOCKCHART": {
+            "name": "TYPE_STOCKCHART",
+            "line": 53,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_CANDLECHART": {
+            "name": "TYPE_CANDLECHART",
+            "line": 54,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "GROUPING_CLUSTERED": {
+            "name": "GROUPING_CLUSTERED",
+            "line": 56,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "GROUPING_STACKED": {
+            "name": "GROUPING_STACKED",
+            "line": 57,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "GROUPING_PERCENT_STACKED": {
+            "name": "GROUPING_PERCENT_STACKED",
+            "line": 58,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "GROUPING_STANDARD": {
+            "name": "GROUPING_STANDARD",
+            "line": 59,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "DIRECTION_BAR": {
+            "name": "DIRECTION_BAR",
+            "line": 61,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "DIRECTION_HORIZONTAL": {
+            "name": "DIRECTION_HORIZONTAL",
+            "line": 62,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "DIRECTION_COL": {
+            "name": "DIRECTION_COL",
+            "line": 63,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "DIRECTION_COLUMN": {
+            "name": "DIRECTION_COLUMN",
+            "line": 64,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "DIRECTION_VERTICAL": {
+            "name": "DIRECTION_VERTICAL",
+            "line": 65,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "STYLE_LINEMARKER": {
+            "name": "STYLE_LINEMARKER",
+            "line": 67,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "STYLE_SMOOTHMARKER": {
+            "name": "STYLE_SMOOTHMARKER",
+            "line": 68,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "STYLE_MARKER": {
+            "name": "STYLE_MARKER",
+            "line": 69,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "STYLE_FILLED": {
+            "name": "STYLE_FILLED",
+            "line": 70,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

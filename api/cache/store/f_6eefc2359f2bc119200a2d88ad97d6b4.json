@@ -1,0 +1,61 @@
+{
+    "namespace": "",
+    "name": "g54_user_memo_insert",
+    "line": 40,
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/extend\/g5_54version_update.extend.php",
+    "relative_file": null,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "hint_desc": null,
+    "tags": [],
+    "modifiers": 0,
+    "is_by_ref": "",
+    "is_intersection_type": false,
+    "exceptions": [],
+    "errors": [],
+    "parameters": {
+        "kind": {
+            "name": "kind",
+            "line": 40,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        },
+        "unkind": {
+            "name": "unkind",
+            "line": 40,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        },
+        "page": {
+            "name": "page",
+            "line": 40,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": "1",
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        }
+    }
+}

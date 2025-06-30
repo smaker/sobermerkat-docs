@@ -1,0 +1,1393 @@
+{
+    "name": "PHPExcel_Calculation_DateTime",
+    "line": 37,
+    "short_desc": "PHPExcel_Calculation_DateTime",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Calculation"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/adm\/Excel\/Classes\/PHPExcel\/Calculation\/DateTime.php",
+    "relative_file": null,
+    "hash": "7fd3b021ebaa372063a3553e0214e2cc9355b4d1",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "isLeapYear": {
+            "name": "isLeapYear",
+            "line": 45,
+            "short_desc": "Identify if a year is a leap year or not",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "TRUE if the year is a leap year, otherwise FALSE",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "year": {
+                    "name": "year",
+                    "line": 45,
+                    "short_desc": "The year to test",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getDateValue": {
+            "name": "getDateValue",
+            "line": 94,
+            "short_desc": "getDateValue",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, or string if error",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 94,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DATETIMENOW": {
+            "name": "DATETIMENOW",
+            "line": 176,
+            "short_desc": "DATETIMENOW",
+            "long_desc": "Returns the current date and time.\nThe NOW function is useful when you need to display the current date and time on a worksheet or\ncalculate a value based on the current date and time, and have that value updated each time you\nopen the worksheet.\n\nNOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the date\nand time format of your regional settings. PHPExcel does not change cell formatting in this way.\n\nExcel Function:\n       NOW()",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, PHP date\/time serial value or PHP date\/time object,\ndepending on the value of the ReturnDateType flag",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Date\/Time",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "DATENOW": {
+            "name": "DATENOW",
+            "line": 217,
+            "short_desc": "DATENOW",
+            "long_desc": "Returns the current date.\nThe NOW function is useful when you need to display the current date and time on a worksheet or\ncalculate a value based on the current date and time, and have that value updated each time you\nopen the worksheet.\n\nNOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the date\nand time format of your regional settings. PHPExcel does not change cell formatting in this way.\n\nExcel Function:\n       TODAY()",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, PHP date\/time serial value or PHP date\/time object,\ndepending on the value of the ReturnDateType flag",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Date\/Time",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "DATE": {
+            "name": "DATE",
+            "line": 290,
+            "short_desc": "DATE",
+            "long_desc": "The DATE function returns a value that represents a particular date.\n\nNOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the date\nformat of your regional settings. PHPExcel does not change cell formatting in this way.\n\nExcel Function:\n       DATE(year,month,day)\n\nPHPExcel is a lot more forgiving than MS Excel when passing non numeric values to this function.\nA Month name or abbreviation (English only at this point) such as 'January' or 'Jan' will still be accepted,\n    as will a day value with a suffix (e.g. '21st' rather than simply 21); again only English language.",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, PHP date\/time serial value or PHP date\/time object,\ndepending on the value of the ReturnDateType flag",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Date\/Time",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "year": {
+                    "name": "year",
+                    "line": 290,
+                    "short_desc": "The value of the year argument can include one to four digits.\nExcel interprets the year argument according to the configured\ndate system: 1900 or 1904.\nIf year is between 0 (zero) and 1899 (inclusive), Excel adds that\nvalue to 1900 to calculate the year. For example, DATE(108,1,2)\nreturns January 2, 2008 (1900+108).\nIf year is between 1900 and 9999 (inclusive), Excel uses that\nvalue as the year. For example, DATE(2008,1,2) returns January 2,\n2008.\nIf year is less than 0 or is 10000 or greater, Excel returns the\n#NUM! error value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "month": {
+                    "name": "month",
+                    "line": 290,
+                    "short_desc": "A positive or negative integer representing the month of the year\nfrom 1 to 12 (January to December).\nIf month is greater than 12, month adds that number of months to\nthe first month in the year specified. For example, DATE(2008,14,2)\nreturns the serial number representing February 2, 2009.\nIf month is less than 1, month subtracts the magnitude of that\nnumber of months, plus 1, from the first month in the year\nspecified. For example, DATE(2008,-3,2) returns the serial number\nrepresenting September 2, 2007.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "day": {
+                    "name": "day",
+                    "line": 290,
+                    "short_desc": "A positive or negative integer representing the day of the month\nfrom 1 to 31.\nIf day is greater than the number of days in the month specified,\nday adds that number of days to the first day in the month. For\nexample, DATE(2008,1,35) returns the serial number representing\nFebruary 4, 2008.\nIf day is less than 1, day subtracts the magnitude that number of\ndays, plus one, from the first day of the month specified. For\nexample, DATE(2008,1,-15) returns the serial number representing\nDecember 16, 2007.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "TIME": {
+            "name": "TIME",
+            "line": 385,
+            "short_desc": "TIME",
+            "long_desc": "The TIME function returns a value that represents a particular time.\n\nNOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the time\nformat of your regional settings. PHPExcel does not change cell formatting in this way.\n\nExcel Function:\n       TIME(hour,minute,second)",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, PHP date\/time serial value or PHP date\/time object,\ndepending on the value of the ReturnDateType flag",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Date\/Time",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "hour": {
+                    "name": "hour",
+                    "line": 385,
+                    "short_desc": "A number from 0 (zero) to 32767 representing the hour.\nAny value greater than 23 will be divided by 24 and the remainder\nwill be treated as the hour value. For example, TIME(27,0,0) =\nTIME(3,0,0) = .125 or 3:00 AM.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "minute": {
+                    "name": "minute",
+                    "line": 385,
+                    "short_desc": "A number from 0 to 32767 representing the minute.\nAny value greater than 59 will be converted to hours and minutes.\nFor example, TIME(0,750,0) = TIME(12,30,0) = .520833 or 12:30 PM.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "second": {
+                    "name": "second",
+                    "line": 385,
+                    "short_desc": "A number from 0 to 32767 representing the second.\nAny value greater than 59 will be converted to hours, minutes,\nand seconds. For example, TIME(0,0,2000) = TIME(0,33,22) = .023148\nor 12:33:20 AM",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DATEVALUE": {
+            "name": "DATEVALUE",
+            "line": 493,
+            "short_desc": "DATEVALUE",
+            "long_desc": "Returns a value that represents a particular date.\nUse DATEVALUE to convert a date represented by a text string to an Excel or PHP date\/time stamp\nvalue.\n\nNOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the date\nformat of your regional settings. PHPExcel does not change cell formatting in this way.\n\nExcel Function:\n       DATEVALUE(dateValue)",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, PHP date\/time serial value or PHP date\/time object,\ndepending on the value of the ReturnDateType flag",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Date\/Time",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 493,
+                    "short_desc": "Text that represents a date in a Microsoft Excel date format.\nFor example, \"1\/30\/2008\" or \"30-Jan-2008\" are text strings within\nquotation marks that represent dates. Using the default date\nsystem in Excel for Windows, date_text must represent a date from\nJanuary 1, 1900, to December 31, 9999. Using the default date\nsystem in Excel for the Macintosh, date_text must represent a date\nfrom January 1, 1904, to December 31, 9999. DATEVALUE returns the\n#VALUE! error value if date_text is out of this range.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "TIMEVALUE": {
+            "name": "TIMEVALUE",
+            "line": 614,
+            "short_desc": "TIMEVALUE",
+            "long_desc": "Returns a value that represents a particular time.\nUse TIMEVALUE to convert a time represented by a text string to an Excel or PHP date\/time stamp\nvalue.\n\nNOTE: When used in a Cell Formula, MS Excel changes the cell format so that it matches the time\nformat of your regional settings. PHPExcel does not change cell formatting in this way.\n\nExcel Function:\n       TIMEVALUE(timeValue)",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, PHP date\/time serial value or PHP date\/time object,\ndepending on the value of the ReturnDateType flag",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Date\/Time",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "timeValue": {
+                    "name": "timeValue",
+                    "line": 614,
+                    "short_desc": "A text string that represents a time in any one of the Microsoft\nExcel time formats; for example, \"6:45 PM\" and \"18:45\" text strings\nwithin quotation marks that represent time.\nDate information in time_text is ignored.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DATEDIF": {
+            "name": "DATEDIF",
+            "line": 657,
+            "short_desc": "DATEDIF",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Interval between the dates",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "startDate": {
+                    "name": "startDate",
+                    "line": 657,
+                    "short_desc": "Excel date serial value, PHP date\/time stamp, PHP DateTime object\nor a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "endDate": {
+                    "name": "endDate",
+                    "line": 657,
+                    "short_desc": "Excel date serial value, PHP date\/time stamp, PHP DateTime object\nor a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "unit": {
+                    "name": "unit",
+                    "line": 657,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "'D'",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DAYS360": {
+            "name": "DAYS360",
+            "line": 780,
+            "short_desc": "DAYS360",
+            "long_desc": "Returns the number of days between two dates based on a 360-day year (twelve 30-day months),\nwhich is used in some accounting calculations. Use this function to help compute payments if\nyour accounting system is based on twelve 30-day months.\n\nExcel Function:\n       DAYS360(startDate,endDate[,method])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Number of days between start date and end date",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Date\/Time",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "startDate": {
+                    "name": "startDate",
+                    "line": 780,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "endDate": {
+                    "name": "endDate",
+                    "line": 780,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "method": {
+                    "name": "method",
+                    "line": 780,
+                    "short_desc": "US or European Method\nFALSE or omitted: U.S. (NASD) method. If the starting date is\nthe last day of a month, it becomes equal to the 30th of the\nsame month. If the ending date is the last day of a month and\nthe starting date is earlier than the 30th of a month, the\nending date becomes equal to the 1st of the next month;\notherwise the ending date becomes equal to the 30th of the\nsame month.\nTRUE: European method. Starting dates and ending dates that\noccur on the 31st of a month become equal to the 30th of the\nsame month.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "YEARFRAC": {
+            "name": "YEARFRAC",
+            "line": 836,
+            "short_desc": "YEARFRAC",
+            "long_desc": "Calculates the fraction of the year represented by the number of whole days between two dates\n(the start_date and the end_date).\nUse the YEARFRAC worksheet function to identify the proportion of a whole year's benefits or\nobligations to assign to a specific term.\n\nExcel Function:\n       YEARFRAC(startDate,endDate[,method])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "fraction of the year",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Date\/Time",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "startDate": {
+                    "name": "startDate",
+                    "line": 836,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "endDate": {
+                    "name": "endDate",
+                    "line": 836,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "method": {
+                    "name": "method",
+                    "line": 836,
+                    "short_desc": "Method used for the calculation\n0 or omitted    US (NASD) 30\/360\n1                Actual\/actual\n2                Actual\/360\n3                Actual\/365\n4                European 30\/360",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "NETWORKDAYS": {
+            "name": "NETWORKDAYS",
+            "line": 932,
+            "short_desc": "NETWORKDAYS",
+            "long_desc": "Returns the number of whole working days between start_date and end_date. Working days\nexclude weekends and any dates identified in holidays.\nUse NETWORKDAYS to calculate employee benefits that accrue based on the number of days\nworked during a specific term.\n\nExcel Function:\n       NETWORKDAYS(startDate,endDate[,holidays[,holiday[,...]]])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Interval between the dates",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Date\/Time",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"NETWORKDAYS\" has \"3\" @param tags but only \"2\" where expected."
+            ],
+            "parameters": {
+                "startDate": {
+                    "name": "startDate",
+                    "line": 932,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "endDate": {
+                    "name": "endDate",
+                    "line": 932,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "WORKDAY": {
+            "name": "WORKDAY",
+            "line": 1019,
+            "short_desc": "WORKDAY",
+            "long_desc": "Returns the date that is the indicated number of working days before or after a date (the\nstarting date). Working days exclude weekends and any dates identified as holidays.\nUse WORKDAY to exclude weekends or holidays when you calculate invoice due dates, expected\ndelivery times, or the number of days of work performed.\n\nExcel Function:\n       WORKDAY(startDate,endDays[,holidays[,holiday[,...]]])",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, PHP date\/time serial value or PHP date\/time object,\ndepending on the value of the ReturnDateType flag",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Date\/Time",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"WORKDAY\" has \"3\" @param tags but only \"2\" where expected."
+            ],
+            "parameters": {
+                "startDate": {
+                    "name": "startDate",
+                    "line": 1019,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "endDays": {
+                    "name": "endDays",
+                    "line": 1019,
+                    "short_desc": "The number of nonweekend and nonholiday days before or after\nstartDate. A positive value for days yields a future date; a\nnegative value yields a past date.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DAYOFMONTH": {
+            "name": "DAYOFMONTH",
+            "line": 1124,
+            "short_desc": "DAYOFMONTH",
+            "long_desc": "Returns the day of the month, for a specified date. The day is given as an integer\nranging from 1 to 31.\n\nExcel Function:\n       DAY(dateValue)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Day of the month",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 1124,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DAYOFWEEK": {
+            "name": "DAYOFWEEK",
+            "line": 1162,
+            "short_desc": "DAYOFWEEK",
+            "long_desc": "Returns the day of the week for a specified date. The day is given as an integer\nranging from 0 to 7 (dependent on the requested style).\n\nExcel Function:\n       WEEKDAY(dateValue[,style])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Day of the week value",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 1162,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "style": {
+                    "name": "style",
+                    "line": 1162,
+                    "short_desc": "A number that determines the type of return value\n1 or omitted    Numbers 1 (Sunday) through 7 (Saturday).\n2                Numbers 1 (Monday) through 7 (Sunday).\n3                Numbers 0 (Monday) through 6 (Sunday).",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "WEEKOFYEAR": {
+            "name": "WEEKOFYEAR",
+            "line": 1238,
+            "short_desc": "WEEKOFYEAR",
+            "long_desc": "Returns the week of the year for a specified date.\nThe WEEKNUM function considers the week containing January 1 to be the first week of the year.\nHowever, there is a European standard that defines the first week as the one with the majority\nof days (four or more) falling in the new year. This means that for years in which there are\nthree days or less in the first week of January, the WEEKNUM function returns week numbers\nthat are incorrect according to the European standard.\n\nExcel Function:\n       WEEKNUM(dateValue[,style])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Week Number",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 1238,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "method": {
+                    "name": "method",
+                    "line": 1238,
+                    "short_desc": "Week begins on Sunday or Monday\n1 or omitted    Week begins on Sunday.\n2                Week begins on Monday.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "MONTHOFYEAR": {
+            "name": "MONTHOFYEAR",
+            "line": 1285,
+            "short_desc": "MONTHOFYEAR",
+            "long_desc": "Returns the month of a date represented by a serial number.\nThe month is given as an integer, ranging from 1 (January) to 12 (December).\n\nExcel Function:\n       MONTH(dateValue)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Month of the year",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 1285,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "YEAR": {
+            "name": "YEAR",
+            "line": 1317,
+            "short_desc": "YEAR",
+            "long_desc": "Returns the year corresponding to a date.\nThe year is returned as an integer in the range 1900-9999.\n\nExcel Function:\n       YEAR(dateValue)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Year",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 1317,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "HOUROFDAY": {
+            "name": "HOUROFDAY",
+            "line": 1349,
+            "short_desc": "HOUROFDAY",
+            "long_desc": "Returns the hour of a time value.\nThe hour is given as an integer, ranging from 0 (12:00 A.M.) to 23 (11:00 P.M.).\n\nExcel Function:\n       HOUR(timeValue)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Hour",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "timeValue": {
+                    "name": "timeValue",
+                    "line": 1349,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard time string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "MINUTEOFHOUR": {
+            "name": "MINUTEOFHOUR",
+            "line": 1390,
+            "short_desc": "MINUTEOFHOUR",
+            "long_desc": "Returns the minutes of a time value.\nThe minute is given as an integer, ranging from 0 to 59.\n\nExcel Function:\n       MINUTE(timeValue)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Minute",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "timeValue": {
+                    "name": "timeValue",
+                    "line": 1390,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard time string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SECONDOFMINUTE": {
+            "name": "SECONDOFMINUTE",
+            "line": 1431,
+            "short_desc": "SECONDOFMINUTE",
+            "long_desc": "Returns the seconds of a time value.\nThe second is given as an integer in the range 0 (zero) to 59.\n\nExcel Function:\n       SECOND(timeValue)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Second",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "timeValue": {
+                    "name": "timeValue",
+                    "line": 1431,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard time string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "EDATE": {
+            "name": "EDATE",
+            "line": 1478,
+            "short_desc": "EDATE",
+            "long_desc": "Returns the serial number that represents the date that is the indicated number of months\nbefore or after a specified date (the start_date).\nUse EDATE to calculate maturity dates or due dates that fall on the same day of the month\nas the date of issue.\n\nExcel Function:\n       EDATE(dateValue,adjustmentMonths)",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, PHP date\/time serial value or PHP date\/time object,\ndepending on the value of the ReturnDateType flag",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 1478,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "adjustmentMonths": {
+                    "name": "adjustmentMonths",
+                    "line": 1478,
+                    "short_desc": "The number of months before or after start_date.\nA positive value for months yields a future date;\na negative value yields a past date.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "EOMONTH": {
+            "name": "EOMONTH",
+            "line": 1524,
+            "short_desc": "EOMONTH",
+            "long_desc": "Returns the date value for the last day of the month that is the indicated number of months\nbefore or after start_date.\nUse EOMONTH to calculate maturity dates or due dates that fall on the last day of the month.\n\nExcel Function:\n       EOMONTH(dateValue,adjustmentMonths)",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, PHP date\/time serial value or PHP date\/time object,\ndepending on the value of the ReturnDateType flag",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "dateValue": {
+                    "name": "dateValue",
+                    "line": 1524,
+                    "short_desc": "Excel date serial value (float), PHP date timestamp (integer),\nPHP DateTime object, or a standard date string",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "adjustmentMonths": {
+                    "name": "adjustmentMonths",
+                    "line": 1524,
+                    "short_desc": "The number of months before or after start_date.\nA positive value for months yields a future date;\na negative value yields a past date.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

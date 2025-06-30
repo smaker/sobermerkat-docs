@@ -1,0 +1,344 @@
+{
+    "name": "PHPExcel_Writer_Excel5_Parser",
+    "line": 52,
+    "short_desc": "PHPExcel_Writer_Excel5_Parser",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Writer_Excel5"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/adm\/Excel\/Classes\/PHPExcel\/Writer\/Excel5\/Parser.php",
+    "relative_file": null,
+    "hash": "90a1a8595200b245d2661ef5016bcf0703affb52",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "currentCharacter": {
+            "name": "currentCharacter",
+            "line": 72,
+            "short_desc": "The index of the character we are currently looking at",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "currentToken": {
+            "name": "currentToken",
+            "line": 78,
+            "short_desc": "The token we are working on.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "lookAhead": {
+            "name": "lookAhead",
+            "line": 90,
+            "short_desc": "The character ahead of the current char",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "references": {
+            "name": "references",
+            "line": 108,
+            "short_desc": "Array of sheet references in the form of REF structures",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 114,
+            "short_desc": "The class constructor",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setExtSheet": {
+            "name": "setExtSheet",
+            "line": 927,
+            "short_desc": "This method is used to update the array of sheet names. It is\ncalled by the addWorksheet() method of the\nPHPExcel_Writer_Excel5_Workbook class.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "see": [
+                    [
+                        "\\PHPExcel_Writer_Excel5_Workbook::addWorksheet()"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "\\PHPExcel_Writer_Excel5_Workbook::addWorksheet()",
+                    "",
+                    "\\PHPExcel_Writer_Excel5_Workbook",
+                    "addWorksheet",
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 927,
+                    "short_desc": "The name of the worksheet being added",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "index": {
+                    "name": "index",
+                    "line": 927,
+                    "short_desc": "The index of the worksheet being added",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "parse": {
+            "name": "parse",
+            "line": 1171,
+            "short_desc": "The parsing method. It parses a formula.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "true on success",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "formula": {
+                    "name": "formula",
+                    "line": 1171,
+                    "short_desc": "The formula to parse, without the initial equal\nsign (=).",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "toReversePolish": {
+            "name": "toReversePolish",
+            "line": 1490,
+            "short_desc": "Builds a string containing the tree in reverse polish notation (What you\nwould use in a HP calculator stack).",
+            "long_desc": "The following tree:\n\n   +\n  \/ \\\n 2   3\n\nproduces: \"23+\"\n\nThe following tree:\n\n   +\n  \/ \\\n 3   *\n    \/ \\\n   6   A1\n\nproduces: \"36A1*+\"\n\nIn fact all operands, functions, references, etc... are written as ptg's",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The tree in reverse polish notation",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "tree": {
+                    "name": "tree",
+                    "line": 1490,
+                    "short_desc": "The optional tree to convert.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "REGEX_SHEET_TITLE_UNQUOTED": {
+            "name": "REGEX_SHEET_TITLE_UNQUOTED",
+            "line": 60,
+            "short_desc": "Constants",
+            "long_desc": "",
+            "modifiers": 0,
+            "tags": []
+        },
+        "REGEX_SHEET_TITLE_QUOTED": {
+            "name": "REGEX_SHEET_TITLE_QUOTED",
+            "line": 66,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

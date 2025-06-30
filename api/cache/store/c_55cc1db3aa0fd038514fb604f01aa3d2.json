@@ -1,0 +1,884 @@
+{
+    "name": "PHPExcel_Shared_OLE",
+    "line": 38,
+    "short_desc": "OLE package base class.",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "author": [
+            [
+                "Xavier",
+                "Noguer",
+                "<xnoguer@php.net>"
+            ],
+            [
+                "Christian",
+                "Schmidt",
+                "<schmidt@php.net>"
+            ]
+        ],
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Shared_OLE"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/adm\/Excel\/Classes\/PHPExcel\/Shared\/OLE.php",
+    "relative_file": null,
+    "hash": "e0a1bbcd25b628cab0f0c45fea680027a8ba00ce",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "_file_handle": {
+            "name": "_file_handle",
+            "line": 51,
+            "short_desc": "The file handle for reading an OLE container",
+            "long_desc": "",
+            "hint": [
+                [
+                    "resource",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "_list": {
+            "name": "_list",
+            "line": 57,
+            "short_desc": "Array of PPS's found on the OLE container",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 57,
+                    "endLine": 57,
+                    "kind": 1
+                },
+                "items": []
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "root": {
+            "name": "root",
+            "line": 63,
+            "short_desc": "Root directory of OLE container",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\OLE_PPS_Root",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "bbat": {
+            "name": "bbat",
+            "line": 69,
+            "short_desc": "Big Block Allocation Table",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "(blockId => nextBlockId)",
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "sbat": {
+            "name": "sbat",
+            "line": 75,
+            "short_desc": "Short Block Allocation Table",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "(blockId => nextBlockId)",
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "bigBlockSize": {
+            "name": "bigBlockSize",
+            "line": 81,
+            "short_desc": "Size of big blocks. This is usually 512.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "number of octets per block.",
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "smallBlockSize": {
+            "name": "smallBlockSize",
+            "line": 87,
+            "short_desc": "Size of small blocks. This is usually 64.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "number of octets per block",
+            "tags": [],
+            "modifiers": 1,
+            "default": null,
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "read": {
+            "name": "read",
+            "line": 96,
+            "short_desc": "Reads an OLE container from the contents of the file given.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "true on success, PEAR_Error on failure",
+            "tags": {
+                "acces": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "file": {
+                    "name": "file",
+                    "line": 96,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "_getBlockOffset": {
+            "name": "_getBlockOffset",
+            "line": 186,
+            "short_desc": "",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"blockId\" parameter of the method \"_getBlockOffset\" is missing a @param tag",
+                "The method \"_getBlockOffset\" has \"2\" @param tags but only \"1\" where expected."
+            ],
+            "parameters": {
+                "blockId": {
+                    "name": "blockId",
+                    "line": 186,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getStream": {
+            "name": "getStream",
+            "line": 197,
+            "short_desc": "Returns a stream for use with fread() etc. External callers should\nuse PHPExcel_Shared_OLE_PPS_File::getStream().",
+            "long_desc": "",
+            "hint": [
+                [
+                    "resource",
+                    false
+                ]
+            ],
+            "hint_desc": "read-only stream",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"blockIdOrPps\" parameter of the method \"getStream\" is missing a @param tag"
+            ],
+            "parameters": {
+                "blockIdOrPps": {
+                    "name": "blockIdOrPps",
+                    "line": 197,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "_readPpsWks": {
+            "name": "_readPpsWks",
+            "line": 265,
+            "short_desc": "Gets information about all PPS's on the OLE container from the PPS WK's\ncreates an OLE_PPS object for each one.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "true on success, PEAR_Error on failure",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"blockId\" parameter of the method \"_readPpsWks\" is missing a @param tag"
+            ],
+            "parameters": {
+                "blockId": {
+                    "name": "blockId",
+                    "line": 265,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "_ppsTreeComplete": {
+            "name": "_ppsTreeComplete",
+            "line": 339,
+            "short_desc": "It checks whether the PPS tree is complete (all PPS's read)\nstarting with the given PPS (not necessarily root)",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Whether the PPS tree for the given PPS is complete",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "index": {
+                    "name": "index",
+                    "line": 339,
+                    "short_desc": "The index of the PPS from which we are checking",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "isFile": {
+            "name": "isFile",
+            "line": 359,
+            "short_desc": "Checks whether a PPS is a File PPS or not.",
+            "long_desc": "If there is no PPS for the index given, it will return false.",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "true if it's a File PPS, false otherwise",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "index": {
+                    "name": "index",
+                    "line": 359,
+                    "short_desc": "The index for the PPS",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "isRoot": {
+            "name": "isRoot",
+            "line": 375,
+            "short_desc": "Checks whether a PPS is a Root PPS or not.",
+            "long_desc": "If there is no PPS for the index given, it will return false.",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "true if it's a Root PPS, false otherwise",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "index": {
+                    "name": "index",
+                    "line": 375,
+                    "short_desc": "The index for the PPS.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ppsTotal": {
+            "name": "ppsTotal",
+            "line": 389,
+            "short_desc": "Gives the total number of PPS's found in the OLE container.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "The total number of PPS's found in the OLE container",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getData": {
+            "name": "getData",
+            "line": 406,
+            "short_desc": "Gets data from a PPS\nIf there is no PPS for the index given, it will return an empty string.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The binary string containing the data requested",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "see": [
+                    [
+                        "\\OLE_PPS_File::getStream()"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "\\OLE_PPS_File::getStream()",
+                    "",
+                    "\\OLE_PPS_File",
+                    "getStream",
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "index": {
+                    "name": "index",
+                    "line": 406,
+                    "short_desc": "The index for the PPS",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "position": {
+                    "name": "position",
+                    "line": 406,
+                    "short_desc": "The position from which to start reading\n(relative to the PPS)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "length": {
+                    "name": "length",
+                    "line": 406,
+                    "short_desc": "The amount of bytes to read (at most)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getDataLength": {
+            "name": "getDataLength",
+            "line": 426,
+            "short_desc": "Gets the data length from a PPS\nIf there is no PPS for the index given, it will return 0.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "The amount of bytes in data the PPS has",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "index": {
+                    "name": "index",
+                    "line": 426,
+                    "short_desc": "The index for the PPS",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "Asc2Ucs": {
+            "name": "Asc2Ucs",
+            "line": 442,
+            "short_desc": "Utility function to transform ASCII text to Unicode",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The string in Unicode",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "ascii": {
+                    "name": "ascii",
+                    "line": 442,
+                    "short_desc": "The ASCII string to transform",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "LocalDate2OLE": {
+            "name": "LocalDate2OLE",
+            "line": 460,
+            "short_desc": "Utility function\nReturns a string for the OLE container with the date given",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The string for the OLE container",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "date": {
+                    "name": "date",
+                    "line": 460,
+                    "short_desc": "A timestamp",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "OLE2LocalDate": {
+            "name": "OLE2LocalDate",
+            "line": 504,
+            "short_desc": "Returns a timestamp from an OLE container's date",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The timestamp corresponding to the string",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "static": [
+                    [
+                        ""
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "string": {
+                    "name": "string",
+                    "line": 504,
+                    "short_desc": "A binary string with the encoded date",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "OLE_PPS_TYPE_ROOT": {
+            "name": "OLE_PPS_TYPE_ROOT",
+            "line": 40,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OLE_PPS_TYPE_DIR": {
+            "name": "OLE_PPS_TYPE_DIR",
+            "line": 41,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OLE_PPS_TYPE_FILE": {
+            "name": "OLE_PPS_TYPE_FILE",
+            "line": 42,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OLE_DATA_SIZE_SMALL": {
+            "name": "OLE_DATA_SIZE_SMALL",
+            "line": 43,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OLE_LONG_INT_SIZE": {
+            "name": "OLE_LONG_INT_SIZE",
+            "line": 44,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "OLE_PPS_SIZE": {
+            "name": "OLE_PPS_SIZE",
+            "line": 45,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

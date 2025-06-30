@@ -1,0 +1,2208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>쏘버마켓 API 문서</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">쏘버마켓 API 문서</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -packages">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Services.html" class="">Services</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Services-JSON.html" class="">JSON</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Spreadsheet.html" class="">Spreadsheet</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Spreadsheet-Excel.html" class="">Excel</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/PHPExcel.html" class="">PHPExcel</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/PHPExcel-CachedObjectStorage.html" class="">CachedObjectStorage</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Calculation.html" class="">Calculation</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Cell.html" class="">Cell</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Chart.html" class="">Chart</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Reader.html" class="">Reader</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-RichText.html" class="">RichText</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Settings.html" class="">Settings</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Shared.html" class="">Shared</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Style.html" class="">Style</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Worksheet.html" class="">Worksheet</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Writer.html" class="">Writer</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL.html" class="">JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL-IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod.html" class="">IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix.html" class="">JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix-IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali.html" class="">IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAForanm.html" class="">JAMAForanm</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAForanm-by.html" class="">by</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMA.html" class="">JAMA</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAErrorhandlingauthorMichaelBommaritoversion01292005.html" class="">JAMAErrorhandlingauthorMichaelBommaritoversion01292005</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow.html" class="">JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category -reports">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category -indices">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel.html">PHPExcel</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel-Settings.html">Settings</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    PHPExcel_Settings
+
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel.html">PHPExcel</a></li>
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel-Settings.html">Settings</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">37</span>
+
+    </aside>
+
+            <p class="phpdocumentor-summary">PHPExcel_Settings</p>
+
+
+    <section class="phpdocumentor-description"><p>Copyright (c) 2006 - 2015 PHPExcel</p>
+<p>This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.</p>
+<p>This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+Lesser General Public License for more details.</p>
+<p>You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA</p>
+</section>
+
+
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Settings.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>PHPExcel</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">copyright</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2006 - 2015 PHPExcel (http://www.codeplex.com/PHPExcel)</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">license</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">version</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>##VERSION##, ##DATE##</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/PHPExcel-Settings.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="classes/PHPExcel-Settings.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Settings.html#constant_CHART_RENDERER_JPGRAPH">CHART_RENDERER_JPGRAPH</a>
+    <span>
+        &nbsp;= &#039;jpgraph&#039;                            </span>
+</dt>
+<dd>Optional Chart Rendering libraries</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Settings.html#constant_PCLZIP">PCLZIP</a>
+    <span>
+        &nbsp;= &#039;PHPExcel_Shared_ZipArchive&#039;                            </span>
+</dt>
+<dd>Available Zip library classes</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Settings.html#constant_PDF_RENDERER_DOMPDF">PDF_RENDERER_DOMPDF</a>
+    <span>
+        &nbsp;= &#039;DomPDF&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Settings.html#constant_PDF_RENDERER_MPDF">PDF_RENDERER_MPDF</a>
+    <span>
+        &nbsp;= &#039;mPDF&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Settings.html#constant_PDF_RENDERER_TCPDF">PDF_RENDERER_TCPDF</a>
+    <span>
+        &nbsp;= &#039;tcPDF&#039;                            </span>
+</dt>
+<dd>Optional PDF Rendering libraries</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a class="" href="classes/PHPExcel-Settings.html#constant_ZIPARCHIVE">ZIPARCHIVE</a>
+    <span>
+        &nbsp;= &#039;ZipArchive&#039;                            </span>
+</dt>
+
+    </dl>
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/PHPExcel-Settings.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPExcel-Settings.html#property_chartRendererName">$chartRendererName</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>Name of the external Library used for rendering charts
+   e.g.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPExcel-Settings.html#property_chartRendererPath">$chartRendererPath</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>Directory Path to the external Library used for rendering charts</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPExcel-Settings.html#property_chartRenderers">$chartRenderers</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPExcel-Settings.html#property_libXmlLoaderOptions">$libXmlLoaderOptions</a>
+    <span>
+                        &nbsp;: int            </span>
+</dt>
+<dd>Default options for libxml loader</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPExcel-Settings.html#property_pdfRendererName">$pdfRendererName</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>Name of the external Library used for rendering PDF files
+   e.g.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPExcel-Settings.html#property_pdfRendererPath">$pdfRendererPath</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>Directory Path to the external Library used for rendering PDF files</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPExcel-Settings.html#property_pdfRenderers">$pdfRenderers</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a class="" href="classes/PHPExcel-Settings.html#property_zipClass">$zipClass</a>
+    <span>
+                        &nbsp;: string            </span>
+</dt>
+<dd>Name of the class used for Zip file management
+   e.g.</dd>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/PHPExcel-Settings.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_getCacheStorageClass">getCacheStorageClass()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Return the name of the class that is currently being used for cell cacheing</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_getCacheStorageMethod">getCacheStorageMethod()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Return the name of the method that is currently configured for cell cacheing</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_getChartRendererName">getChartRendererName()</a>
+    <span>
+                                &nbsp;: string|null    </span>
+</dt>
+<dd>Return the Chart Rendering Library that PHPExcel is currently configured to use (e.g. jpgraph)</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_getChartRendererPath">getChartRendererPath()</a>
+    <span>
+                                &nbsp;: string|null    </span>
+</dt>
+<dd>Return the directory path to the Chart Rendering Library that PHPExcel is currently configured to use</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_getLibXmlLoaderOptions">getLibXmlLoaderOptions()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>Get defined options for libxml loader.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_getPdfRendererName">getPdfRendererName()</a>
+    <span>
+                                &nbsp;: string|null    </span>
+</dt>
+<dd>Return the PDF Rendering Library that PHPExcel is currently configured to use (e.g. dompdf)</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_getPdfRendererPath">getPdfRendererPath()</a>
+    <span>
+                                &nbsp;: string|null    </span>
+</dt>
+<dd>Return the directory path to the PDF Rendering Library that PHPExcel is currently configured to use</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_getZipClass">getZipClass()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Return the name of the Zip handler Class that PHPExcel is configured to use (PCLZip or ZipArchive)
+   or Zip file management</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_setCacheStorageMethod">setCacheStorageMethod()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Set the method that should be used for cell cacheing</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_setChartRenderer">setChartRenderer()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Set details of the external library that PHPExcel should use for rendering charts</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_setChartRendererName">setChartRendererName()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Identify to PHPExcel the external library to use for rendering charts</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_setChartRendererPath">setChartRendererPath()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Tell PHPExcel where to find the external library to use for rendering charts</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_setLibXmlLoaderOptions">setLibXmlLoaderOptions()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Set options for libxml loader</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_setLocale">setLocale()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Set the locale code to use for formula translations and any special formatting</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_setPdfRenderer">setPdfRenderer()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Set details of the external library that PHPExcel should use for rendering PDF files</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_setPdfRendererName">setPdfRendererName()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Identify to PHPExcel the external library to use for rendering PDF files</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_setPdfRendererPath">setPdfRendererPath()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Tell PHPExcel where to find the external library to use for rendering PDF files</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Settings.html#method_setZipClass">setZipClass()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Set the Zip handler Class that PHPExcel should use for Zip file management (PCLZip or ZipArchive)</dd>
+
+    </dl>
+
+
+
+        
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/PHPExcel-Settings.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_CHART_RENDERER_JPGRAPH">
+        CHART_RENDERER_JPGRAPH
+        <a href="classes/PHPExcel-Settings.html#constant_CHART_RENDERER_JPGRAPH" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">45</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Optional Chart Rendering libraries</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">CHART_RENDERER_JPGRAPH</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;jpgraph&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_PCLZIP">
+        PCLZIP
+        <a href="classes/PHPExcel-Settings.html#constant_PCLZIP" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">41</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Available Zip library classes</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">PCLZIP</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;PHPExcel_Shared_ZipArchive&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_PDF_RENDERER_DOMPDF">
+        PDF_RENDERER_DOMPDF
+        <a href="classes/PHPExcel-Settings.html#constant_PDF_RENDERER_DOMPDF" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">49</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">PDF_RENDERER_DOMPDF</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;DomPDF&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_PDF_RENDERER_MPDF">
+        PDF_RENDERER_MPDF
+        <a href="classes/PHPExcel-Settings.html#constant_PDF_RENDERER_MPDF" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">50</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">PDF_RENDERER_MPDF</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;mPDF&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_PDF_RENDERER_TCPDF">
+        PDF_RENDERER_TCPDF
+        <a href="classes/PHPExcel-Settings.html#constant_PDF_RENDERER_TCPDF" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">48</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Optional PDF Rendering libraries</p>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">PDF_RENDERER_TCPDF</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;tcPDF&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_ZIPARCHIVE">
+        ZIPARCHIVE
+        <a href="classes/PHPExcel-Settings.html#constant_ZIPARCHIVE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">42</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">ZIPARCHIVE</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;ZipArchive&#039;</span>
+</code>
+
+
+    
+    
+    
+
+    
+
+</article>
+            </section>
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/PHPExcel-Settings.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_chartRendererName">
+        $chartRendererName
+        <a href="classes/PHPExcel-Settings.html#property_chartRendererName" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">81</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Name of the external Library used for rendering charts
+   e.g.</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$chartRendererName</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>jpgraph</p>
+</section>
+
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_chartRendererPath">
+        $chartRendererPath
+        <a href="classes/PHPExcel-Settings.html#property_chartRendererPath" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">88</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Directory Path to the external Library used for rendering charts</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$chartRendererPath</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_chartRenderers">
+        $chartRenderers
+        <a href="classes/PHPExcel-Settings.html#property_chartRenderers" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">53</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$chartRenderers</span>
+     = <span class="phpdocumentor-signature__default-value">array(self::CHART_RENDERER_JPGRAPH)</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_libXmlLoaderOptions">
+        $libXmlLoaderOptions
+        <a href="classes/PHPExcel-Settings.html#property_libXmlLoaderOptions" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">112</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Default options for libxml loader</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$libXmlLoaderOptions</span>
+     = <span class="phpdocumentor-signature__default-value">\null</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_pdfRendererName">
+        $pdfRendererName
+        <a href="classes/PHPExcel-Settings.html#property_pdfRendererName" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">98</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Name of the external Library used for rendering PDF files
+   e.g.</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$pdfRendererName</span>
+    </code>
+
+        <section class="phpdocumentor-description"><p>mPDF</p>
+</section>
+
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_pdfRendererPath">
+        $pdfRendererPath
+        <a href="classes/PHPExcel-Settings.html#property_pdfRendererPath" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">105</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Directory Path to the external Library used for rendering PDF files</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$pdfRendererPath</span>
+    </code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_pdfRenderers">
+        $pdfRenderers
+        <a href="classes/PHPExcel-Settings.html#property_pdfRenderers" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">57</span>
+
+    </aside>
+
+    
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$pdfRenderers</span>
+     = <span class="phpdocumentor-signature__default-value">array(self::PDF_RENDERER_TCPDF, self::PDF_RENDERER_DOMPDF, self::PDF_RENDERER_MPDF)</span></code>
+
+    
+    
+    
+
+    
+
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_zipClass">
+        $zipClass
+        <a href="classes/PHPExcel-Settings.html#property_zipClass" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                            </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">71</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Name of the class used for Zip file management
+   e.g.</p>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+        <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$zipClass</span>
+     = <span class="phpdocumentor-signature__default-value">self::ZIPARCHIVE</span></code>
+
+        <section class="phpdocumentor-description"><p>ZipArchive</p>
+</section>
+
+    
+    
+
+    
+
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/PHPExcel-Settings.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getCacheStorageClass">
+        getCacheStorageClass()
+        <a href="classes/PHPExcel-Settings.html#method_getCacheStorageClass" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">162</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Return the name of the class that is currently being used for cell cacheing</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getCacheStorageClass</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Name of the class currently being used for cacheing</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getCacheStorageMethod">
+        getCacheStorageMethod()
+        <a href="classes/PHPExcel-Settings.html#method_getCacheStorageMethod" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">151</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Return the name of the method that is currently configured for cell cacheing</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getCacheStorageMethod</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Name of the cacheing method</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getChartRendererName">
+        getChartRendererName()
+        <a href="classes/PHPExcel-Settings.html#method_getChartRendererName" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">254</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Return the Chart Rendering Library that PHPExcel is currently configured to use (e.g. jpgraph)</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getChartRendererName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Internal reference name of the Chart Rendering Library that PHPExcel is
+currently configured to use
+e.g. PHPExcel_Settings::CHART_RENDERER_JPGRAPH</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getChartRendererPath">
+        getChartRendererPath()
+        <a href="classes/PHPExcel-Settings.html#method_getChartRendererPath" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">266</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Return the directory path to the Chart Rendering Library that PHPExcel is currently configured to use</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getChartRendererPath</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Directory Path to the Chart Rendering Library that PHPExcel is
+currently configured to use</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getLibXmlLoaderOptions">
+        getLibXmlLoaderOptions()
+        <a href="classes/PHPExcel-Settings.html#method_getLibXmlLoaderOptions" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">377</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Get defined options for libxml loader.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getLibXmlLoaderOptions</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Defaults to LIBXML_DTDLOAD | LIBXML_DTDATTR when not set explicitly.</p>
+</section>
+
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Default options for libxml loader</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getPdfRendererName">
+        getPdfRendererName()
+        <a href="classes/PHPExcel-Settings.html#method_getPdfRendererName" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">339</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Return the PDF Rendering Library that PHPExcel is currently configured to use (e.g. dompdf)</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getPdfRendererName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Internal reference name of the PDF Rendering Library that PHPExcel is
+currently configured to use
+e.g. PHPExcel_Settings::PDF_RENDERER_TCPDF,
+PHPExcel_Settings::PDF_RENDERER_DOMPDF
+or PHPExcel_Settings::PDF_RENDERER_MPDF</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getPdfRendererPath">
+        getPdfRendererPath()
+        <a href="classes/PHPExcel-Settings.html#method_getPdfRendererPath" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">350</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Return the directory path to the PDF Rendering Library that PHPExcel is currently configured to use</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getPdfRendererPath</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|null</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|null</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Directory Path to the PDF Rendering Library that PHPExcel is
+currently configured to use</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getZipClass">
+        getZipClass()
+        <a href="classes/PHPExcel-Settings.html#method_getZipClass" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">140</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Return the name of the Zip handler Class that PHPExcel is configured to use (PCLZip or ZipArchive)
+   or Zip file management</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">getZipClass</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Name of the Zip handler Class that PHPExcel is configured to use
+for Zip file management
+e.g. PHPExcel_Settings::PCLZip or PHPExcel_Settings::ZipArchive</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setCacheStorageMethod">
+        setCacheStorageMethod()
+        <a href="classes/PHPExcel-Settings.html#method_setCacheStorageMethod" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">175</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set the method that should be used for cell cacheing</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setCacheStorageMethod</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$method</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">PHPExcel_CachedObjectStorageFactory::cache_in_memory</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$arguments</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$method</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">PHPExcel_CachedObjectStorageFactory::cache_in_memory</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Name of the cacheing method</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$arguments</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Optional configuration arguments for the cacheing method</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Success or failure</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setChartRenderer">
+        setChartRenderer()
+        <a href="classes/PHPExcel-Settings.html#method_setChartRenderer" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">202</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set details of the external library that PHPExcel should use for rendering charts</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setChartRenderer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$libraryName</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$libraryBaseDir</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$libraryName</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Internal reference name of the library
+e.g. PHPExcel_Settings::CHART_RENDERER_JPGRAPH</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$libraryBaseDir</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Directory path to the library's base folder</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Success or failure</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setChartRendererName">
+        setChartRendererName()
+        <a href="classes/PHPExcel-Settings.html#method_setChartRendererName" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">219</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Identify to PHPExcel the external library to use for rendering charts</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setChartRendererName</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$libraryName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$libraryName</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Internal reference name of the library
+e.g. PHPExcel_Settings::CHART_RENDERER_JPGRAPH</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Success or failure</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setChartRendererPath">
+        setChartRendererPath()
+        <a href="classes/PHPExcel-Settings.html#method_setChartRendererPath" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">236</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Tell PHPExcel where to find the external library to use for rendering charts</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setChartRendererPath</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$libraryBaseDir</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$libraryBaseDir</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Directory path to the library's base folder</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Success or failure</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setLibXmlLoaderOptions">
+        setLibXmlLoaderOptions()
+        <a href="classes/PHPExcel-Settings.html#method_setLibXmlLoaderOptions" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">360</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set options for libxml loader</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setLibXmlLoaderOptions</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$options</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Options for libxml loader</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setLocale">
+        setLocale()
+        <a href="classes/PHPExcel-Settings.html#method_setLocale" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">187</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set the locale code to use for formula translations and any special formatting</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setLocale</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$locale</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;en_us&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$locale</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;en_us&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The locale code to use (e.g. &quot;fr&quot; or &quot;pt_br&quot; or &quot;en_uk&quot;)</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Success or failure</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setPdfRenderer">
+        setPdfRenderer()
+        <a href="classes/PHPExcel-Settings.html#method_setPdfRenderer" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">283</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set details of the external library that PHPExcel should use for rendering PDF files</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setPdfRenderer</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$libraryName</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$libraryBaseDir</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$libraryName</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Internal reference name of the library
+e.g. PHPExcel_Settings::PDF_RENDERER_TCPDF,
+PHPExcel_Settings::PDF_RENDERER_DOMPDF
+or PHPExcel_Settings::PDF_RENDERER_MPDF</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$libraryBaseDir</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Directory path to the library's base folder</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Success or failure</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setPdfRendererName">
+        setPdfRendererName()
+        <a href="classes/PHPExcel-Settings.html#method_setPdfRendererName" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">302</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Identify to PHPExcel the external library to use for rendering PDF files</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setPdfRendererName</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$libraryName</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$libraryName</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Internal reference name of the library
+e.g. PHPExcel_Settings::PDF_RENDERER_TCPDF,
+PHPExcel_Settings::PDF_RENDERER_DOMPDF
+or PHPExcel_Settings::PDF_RENDERER_MPDF</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Success or failure</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setPdfRendererPath">
+        setPdfRendererPath()
+        <a href="classes/PHPExcel-Settings.html#method_setPdfRendererPath" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">319</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Tell PHPExcel where to find the external library to use for rendering PDF files</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setPdfRendererPath</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$libraryBaseDir</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$libraryBaseDir</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Directory path to the library's base folder</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Success or failure</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setZipClass">
+        setZipClass()
+        <a href="classes/PHPExcel-Settings.html#method_setZipClass" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Settings.php"><a href="files/lib-phpexcel-settings.html"><abbr title="lib/PHPExcel/Settings.php">Settings.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">121</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set the Zip handler Class that PHPExcel should use for Zip file management (PCLZip or ZipArchive)</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">setZipClass</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$zipClass</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$zipClass</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The Zip handler class that PHPExcel should use for Zip file management
+e.g. PHPExcel_Settings::PCLZip or PHPExcel_Settings::ZipArchive</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Success or failure</p>
+</section>
+
+            </section>
+
+</article>
+            </section>
+
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/lib/PHPExcel/Settings.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
+
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
+
+                    var xhr = new XMLHttpRequest();
+
+                    xhr.open('GET', src, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+                            Prism.highlightElement(code);
+                            return;
+                        }
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
+                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
+                    }
+                    modal.classList.add("phpdocumentor-modal__open");
+
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
+                    });
+                });
+            });
+        })();
+    </script>
+
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                        <li><a href="classes/PHPExcel-Settings.html#toc-constants">Constants</a></li>
+                                                            <li><a href="classes/PHPExcel-Settings.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/PHPExcel-Settings.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+                            <li class="phpdocumentor-on-this-page-section__title">Constants</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#constant_CHART_RENDERER_JPGRAPH">CHART_RENDERER_JPGRAPH</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#constant_PCLZIP">PCLZIP</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#constant_PDF_RENDERER_DOMPDF">PDF_RENDERER_DOMPDF</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#constant_PDF_RENDERER_MPDF">PDF_RENDERER_MPDF</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#constant_PDF_RENDERER_TCPDF">PDF_RENDERER_TCPDF</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#constant_ZIPARCHIVE">ZIPARCHIVE</a></li>
+                                            </ul>
+                </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#property_chartRendererName">$chartRendererName</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#property_chartRendererPath">$chartRendererPath</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#property_chartRenderers">$chartRenderers</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#property_libXmlLoaderOptions">$libXmlLoaderOptions</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#property_pdfRendererName">$pdfRendererName</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#property_pdfRendererPath">$pdfRendererPath</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#property_pdfRenderers">$pdfRenderers</a></li>
+                                                    <li class=""><a href="classes/PHPExcel-Settings.html#property_zipClass">$zipClass</a></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_getCacheStorageClass">getCacheStorageClass()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_getCacheStorageMethod">getCacheStorageMethod()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_getChartRendererName">getChartRendererName()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_getChartRendererPath">getChartRendererPath()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_getLibXmlLoaderOptions">getLibXmlLoaderOptions()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_getPdfRendererName">getPdfRendererName()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_getPdfRendererPath">getPdfRendererPath()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_getZipClass">getZipClass()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_setCacheStorageMethod">setCacheStorageMethod()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_setChartRenderer">setChartRenderer()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_setChartRendererName">setChartRendererName()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_setChartRendererPath">setChartRendererPath()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_setLibXmlLoaderOptions">setLibXmlLoaderOptions()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_setLocale">setLocale()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_setPdfRenderer">setPdfRenderer()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_setPdfRendererName">setPdfRendererName()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_setPdfRendererPath">setPdfRendererPath()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Settings.html#method_setZipClass">setZipClass()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="classes/PHPExcel-Settings.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>

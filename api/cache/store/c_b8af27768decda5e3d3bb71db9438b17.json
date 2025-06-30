@@ -1,0 +1,312 @@
+{
+    "name": "PHPExcel_Shared_OLERead",
+    "line": 31,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Shared\/OLERead.php",
+    "relative_file": null,
+    "hash": "c7f6418982debbd56fe5b14bcc160e16166eb25d",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "wrkbook": {
+            "name": "wrkbook",
+            "line": 66,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 66,
+                    "endLine": 66
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 66,
+                        "endLine": 66
+                    },
+                    "parts": [
+                        "null"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "summaryInformation": {
+            "name": "summaryInformation",
+            "line": 67,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 67,
+                    "endLine": 67
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 67,
+                        "endLine": 67
+                    },
+                    "parts": [
+                        "null"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "documentSummaryInformation": {
+            "name": "documentSummaryInformation",
+            "line": 68,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 68,
+                    "endLine": 68
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 68,
+                        "endLine": 68
+                    },
+                    "parts": [
+                        "null"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "read": {
+            "name": "read",
+            "line": 77,
+            "short_desc": "Read the file",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Reader_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "sFileName": {
+                    "name": "sFileName",
+                    "line": 77,
+                    "short_desc": "string Filename",
+                    "long_desc": null,
+                    "hint": [],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getStream": {
+            "name": "getStream",
+            "line": 174,
+            "short_desc": "Extract binary stream data",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "stream": {
+                    "name": "stream",
+                    "line": 174,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": {
+        "IDENTIFIER_OLE": {
+            "name": "IDENTIFIER_OLE",
+            "line": 36,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BIG_BLOCK_SIZE": {
+            "name": "BIG_BLOCK_SIZE",
+            "line": 39,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SMALL_BLOCK_SIZE": {
+            "name": "SMALL_BLOCK_SIZE",
+            "line": 42,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "PROPERTY_STORAGE_BLOCK_SIZE": {
+            "name": "PROPERTY_STORAGE_BLOCK_SIZE",
+            "line": 45,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SMALL_BLOCK_THRESHOLD": {
+            "name": "SMALL_BLOCK_THRESHOLD",
+            "line": 48,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "NUM_BIG_BLOCK_DEPOT_BLOCKS_POS": {
+            "name": "NUM_BIG_BLOCK_DEPOT_BLOCKS_POS",
+            "line": 51,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "ROOT_START_BLOCK_POS": {
+            "name": "ROOT_START_BLOCK_POS",
+            "line": 52,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SMALL_BLOCK_DEPOT_BLOCK_POS": {
+            "name": "SMALL_BLOCK_DEPOT_BLOCK_POS",
+            "line": 53,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "EXTENSION_BLOCK_POS": {
+            "name": "EXTENSION_BLOCK_POS",
+            "line": 54,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "NUM_EXTENSION_BLOCK_POS": {
+            "name": "NUM_EXTENSION_BLOCK_POS",
+            "line": 55,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "BIG_BLOCK_DEPOT_BLOCKS_POS": {
+            "name": "BIG_BLOCK_DEPOT_BLOCKS_POS",
+            "line": 56,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SIZE_OF_NAME_POS": {
+            "name": "SIZE_OF_NAME_POS",
+            "line": 59,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "TYPE_POS": {
+            "name": "TYPE_POS",
+            "line": 60,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "START_BLOCK_POS": {
+            "name": "START_BLOCK_POS",
+            "line": 61,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "SIZE_POS": {
+            "name": "SIZE_POS",
+            "line": 62,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

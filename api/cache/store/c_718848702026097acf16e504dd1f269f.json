@@ -1,0 +1,771 @@
+{
+    "name": "PHPExcel_Worksheet_AutoFilter_Column",
+    "line": 28,
+    "short_desc": "PHPExcel_Worksheet_AutoFilter_Column",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Worksheet"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Worksheet\/AutoFilter\/Column.php",
+    "relative_file": null,
+    "hash": "e63218b7b5049c9248a5531ac7d2ca0e3d213fbe",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 123,
+            "short_desc": "Create a new PHPExcel_Worksheet_AutoFilter_Column",
+            "long_desc": " @param    string                           $pColumn        Column (e.g. A)",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"pColumn\" parameter of the method \"__construct\" is missing a @param tag"
+            ],
+            "parameters": {
+                "pColumn": {
+                    "name": "pColumn",
+                    "line": 123,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pParent": {
+                    "name": "pParent",
+                    "line": 123,
+                    "short_desc": "Autofilter for this column",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet_AutoFilter",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getColumnIndex": {
+            "name": "getColumnIndex",
+            "line": 134,
+            "short_desc": "Get AutoFilter Column Index",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setColumnIndex": {
+            "name": "setColumnIndex",
+            "line": 146,
+            "short_desc": "Set AutoFilter Column Index",
+            "long_desc": " @param    string        $pColumn        Column (e.g. A)",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    "@return PHPExcel_Worksheet_AutoFilter_Column"
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pColumn": {
+                    "name": "pColumn",
+                    "line": 146,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getParent": {
+            "name": "getParent",
+            "line": 164,
+            "short_desc": "Get this Column's AutoFilter Parent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_AutoFilter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setParent": {
+            "name": "setParent",
+            "line": 175,
+            "short_desc": "Set this Column's AutoFilter Parent",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_AutoFilter_Column",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pParent": {
+                    "name": "pParent",
+                    "line": 175,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet_AutoFilter",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getFilterType": {
+            "name": "getFilterType",
+            "line": 187,
+            "short_desc": "Get AutoFilter Type",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setFilterType": {
+            "name": "setFilterType",
+            "line": 199,
+            "short_desc": "Set AutoFilter Type",
+            "long_desc": " @param    string        $pFilterType",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    "@return PHPExcel_Worksheet_AutoFilter_Column"
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pFilterType": {
+                    "name": "pFilterType",
+                    "line": 199,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "self::AUTOFILTER_FILTERTYPE_FILTER",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getJoin": {
+            "name": "getJoin",
+            "line": 215,
+            "short_desc": "Get AutoFilter Multiple Rules And\/Or Join",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setJoin": {
+            "name": "setJoin",
+            "line": 227,
+            "short_desc": "Set AutoFilter Multiple Rules And\/Or",
+            "long_desc": " @param    string        $pJoin        And\/Or",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    "@return PHPExcel_Worksheet_AutoFilter_Column"
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pJoin": {
+                    "name": "pJoin",
+                    "line": 227,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "self::AUTOFILTER_COLUMN_JOIN_OR",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setAttributes": {
+            "name": "setAttributes",
+            "line": 247,
+            "short_desc": "Set AutoFilter Attributes",
+            "long_desc": " @param    string[]        $pAttributes",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    "@return PHPExcel_Worksheet_AutoFilter_Column"
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pAttributes": {
+                    "name": "pAttributes",
+                    "line": 247,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setAttribute": {
+            "name": "setAttribute",
+            "line": 262,
+            "short_desc": "Set An AutoFilter Attribute",
+            "long_desc": " @param    string        $pName        Attribute Name",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"pName\" parameter of the method \"setAttribute\" is missing a @param tag"
+            ],
+            "parameters": {
+                "pName": {
+                    "name": "pName",
+                    "line": 262,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pValue": {
+                    "name": "pValue",
+                    "line": 262,
+                    "short_desc": "Attribute Value\n@throws    PHPExcel_Exception\n@return PHPExcel_Worksheet_AutoFilter_Column",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getAttributes": {
+            "name": "getAttributes",
+            "line": 274,
+            "short_desc": "Get AutoFilter Column Attributes",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getAttribute": {
+            "name": "getAttribute",
+            "line": 285,
+            "short_desc": "Get specific AutoFilter Column Attribute",
+            "long_desc": " @param    string        $pName        Attribute Name",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pName": {
+                    "name": "pName",
+                    "line": 285,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getRules": {
+            "name": "getRules",
+            "line": 299,
+            "short_desc": "Get all AutoFilter Column Rules",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "of PHPExcel_Worksheet_AutoFilter_Column_Rule",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Exception",
+                    ""
+                ]
+            ],
+            "errors": [],
+            "parameters": []
+        },
+        "getRule": {
+            "name": "getRule",
+            "line": 310,
+            "short_desc": "Get a specified AutoFilter Column Rule",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_AutoFilter_Column_Rule",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pIndex": {
+                    "name": "pIndex",
+                    "line": 310,
+                    "short_desc": "Rule index in the ruleset array",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "createRule": {
+            "name": "createRule",
+            "line": 323,
+            "short_desc": "Create a new AutoFilter Column Rule in the ruleset",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_AutoFilter_Column_Rule",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "addRule": {
+            "name": "addRule",
+            "line": 337,
+            "short_desc": "Add a new AutoFilter Column Rule to the ruleset",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_AutoFilter_Column",
+                    false
+                ],
+                [
+                    "\\PHPExcel_Worksheet_AutoFilter_Column_Rule",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pRule": {
+                    "name": "pRule",
+                    "line": 337,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Worksheet_AutoFilter_Column_Rule",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "returnRule": {
+                    "name": "returnRule",
+                    "line": 337,
+                    "short_desc": "Flag indicating whether the rule object or the column object should be returned",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "deleteRule": {
+            "name": "deleteRule",
+            "line": 352,
+            "short_desc": "Delete a specified AutoFilter Column Rule\n   If the number of rules is reduced to 1, then we reset And\/Or logic to Or",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_AutoFilter_Column",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pIndex": {
+                    "name": "pIndex",
+                    "line": 352,
+                    "short_desc": "Rule index in the ruleset array",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "clearRules": {
+            "name": "clearRules",
+            "line": 370,
+            "short_desc": "Delete all AutoFilter Column Rules",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Worksheet_AutoFilter_Column",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "__clone": {
+            "name": "__clone",
+            "line": 381,
+            "short_desc": "Implement PHP __clone to create a deep clone, not just a shallow copy.",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "AUTOFILTER_FILTERTYPE_FILTER": {
+            "name": "AUTOFILTER_FILTERTYPE_FILTER",
+            "line": 30,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_FILTERTYPE_CUSTOMFILTER": {
+            "name": "AUTOFILTER_FILTERTYPE_CUSTOMFILTER",
+            "line": 31,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_FILTERTYPE_DYNAMICFILTER": {
+            "name": "AUTOFILTER_FILTERTYPE_DYNAMICFILTER",
+            "line": 34,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_FILTERTYPE_TOPTENFILTER": {
+            "name": "AUTOFILTER_FILTERTYPE_TOPTENFILTER",
+            "line": 37,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_JOIN_AND": {
+            "name": "AUTOFILTER_COLUMN_JOIN_AND",
+            "line": 56,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "AUTOFILTER_COLUMN_JOIN_OR": {
+            "name": "AUTOFILTER_COLUMN_JOIN_OR",
+            "line": 57,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

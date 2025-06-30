@@ -1,0 +1,3538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>쏘버마켓 API 문서</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">쏘버마켓 API 문서</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category -packages">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Services.html" class="">Services</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Services-JSON.html" class="">JSON</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Spreadsheet.html" class="">Spreadsheet</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/Spreadsheet-Excel.html" class="">Excel</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/PHPExcel.html" class="">PHPExcel</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/PHPExcel-CachedObjectStorage.html" class="">CachedObjectStorage</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Calculation.html" class="">Calculation</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Cell.html" class="">Cell</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Chart.html" class="">Chart</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Reader.html" class="">Reader</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-RichText.html" class="">RichText</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Settings.html" class="">Settings</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Shared.html" class="">Shared</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Style.html" class="">Style</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Worksheet.html" class="">Worksheet</a>
+                
+            </li>
+                    <li>
+                <a href="packages/PHPExcel-Writer.html" class="">Writer</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL.html" class="">JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMACholeskydecompositionclassForasymmetricpositivedefinitematrixAtheCholeskydecompositionisanlowertriangularmatrixLsothatALL-IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod.html" class="">IfthematrixisnotsymmetricorpositivedefinitetheconstructorreturnsapartialdecompositionandsetsaninternalflagthatmaybequeriedbytheisSPDmethod</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix.html" class="">JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAClasstoobtaineigenvaluesandeigenvectorsofarealmatrix-IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali.html" class="">IfAissymmetricthenAVDVwheretheeigenvaluematrixDisdiagonalandtheeigenvectormatrixVisorthogonali</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAForanm.html" class="">JAMAForanm</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="packages/JAMAForanm-by.html" class="">by</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMA.html" class="">JAMA</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAErrorhandlingauthorMichaelBommaritoversion01292005.html" class="">JAMAErrorhandlingauthorMichaelBommaritoversion01292005</a>
+</h4>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow.html" class="">JAMAPythagoreanTheorema3b4rsqrtsquareasquarebr5rsqrta2b2withoutunderoverflow</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category -reports">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category -indices">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel.html">PHPExcel</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel-Calculation.html">Calculation</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    PHPExcel_Calculation_MathTrig
+
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel.html">PHPExcel</a></li>
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/PHPExcel-Calculation.html">Calculation</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">37</span>
+
+    </aside>
+
+            <p class="phpdocumentor-summary">PHPExcel_Calculation_MathTrig</p>
+
+
+    <section class="phpdocumentor-description"><p>Copyright (c) 2006 - 2015 PHPExcel</p>
+<p>This library is free software; you can redistribute it and/or
+modify it under the terms of the GNU Lesser General Public
+License as published by the Free Software Foundation; either
+version 2.1 of the License, or (at your option) any later version.</p>
+<p>This library is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+Lesser General Public License for more details.</p>
+<p>You should have received a copy of the GNU Lesser General Public
+License along with this library; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA</p>
+</section>
+
+
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>PHPExcel</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">copyright</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Copyright (c) 2006 - 2015 PHPExcel (http://www.codeplex.com/PHPExcel)</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">license</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>http://www.gnu.org/licenses/old-licenses/lgpl-2.1.txt    LGPL</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">version</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>##VERSION##, ##DATE##</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/PHPExcel-Calculation-MathTrig.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+
+
+
+
+
+
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/PHPExcel-Calculation-MathTrig.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_ATAN2">ATAN2()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>ATAN2</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_CEILING">CEILING()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>CEILING</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_COMBIN">COMBIN()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>COMBIN</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_EVEN">EVEN()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>EVEN</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_FACT">FACT()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>FACT</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_FACTDOUBLE">FACTDOUBLE()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>FACTDOUBLE</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_FLOOR">FLOOR()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>FLOOR</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_GCD">GCD()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>GCD</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_INT">INT()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>INT</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_LCM">LCM()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>LCM</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_LOG_BASE">LOG_BASE()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>LOG_BASE</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_MDETERM">MDETERM()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>MDETERM</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_MINVERSE">MINVERSE()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>MINVERSE</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_MMULT">MMULT()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;    </span>
+</dt>
+<dd>MMULT</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_MOD">MOD()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>MOD</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_MROUND">MROUND()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>MROUND</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_MULTINOMIAL">MULTINOMIAL()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>MULTINOMIAL</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_ODD">ODD()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>ODD</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_POWER">POWER()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>POWER</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_PRODUCT">PRODUCT()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>PRODUCT</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_QUOTIENT">QUOTIENT()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>QUOTIENT</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_RAND">RAND()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>RAND</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_ROMAN">ROMAN()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_ROUNDDOWN">ROUNDDOWN()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>ROUNDDOWN</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_ROUNDUP">ROUNDUP()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>ROUNDUP</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SERIESSUM">SERIESSUM()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>SERIESSUM</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SIGN">SIGN()</a>
+    <span>
+                                &nbsp;: int    </span>
+</dt>
+<dd>SIGN</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SQRTPI">SQRTPI()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>SQRTPI</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SUBTOTAL">SUBTOTAL()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>SUBTOTAL</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SUM">SUM()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>SUM</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMIF">SUMIF()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>SUMIF</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMIFS">SUMIFS()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>SUMIFS</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMPRODUCT">SUMPRODUCT()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>SUMPRODUCT</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMSQ">SUMSQ()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>SUMSQ</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMX2MY2">SUMX2MY2()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>SUMX2MY2</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMX2PY2">SUMX2PY2()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>SUMX2PY2</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMXMY2">SUMXMY2()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>SUMXMY2</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_TRUNC">TRUNC()</a>
+    <span>
+                                &nbsp;: float    </span>
+</dt>
+<dd>TRUNC</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_factors">factors()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a class="" href="classes/PHPExcel-Calculation-MathTrig.html#method_romanCut">romanCut()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+    </dl>
+
+
+
+        
+
+        
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/PHPExcel-Calculation-MathTrig.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_ATAN2">
+        ATAN2()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_ATAN2" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">93</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">ATAN2</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">ATAN2</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$xCoordinate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$yCoordinate</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>This function calculates the arc tangent of the two variables x and y. It is similar to
+calculating the arc tangent of y ÷ x, except that the signs of both arguments are used
+to determine the quadrant of the result.
+The arctangent is the angle from the x-axis to a line containing the origin (0, 0) and a
+point with coordinates (xCoordinate, yCoordinate). The angle is given in radians between
+-pi and pi, excluding -pi.</p>
+<p>Note that the Excel ATAN2() function accepts its arguments in the reverse order to the standard
+PHP atan2() function, so we need to reverse them here before calling the PHP atan() function.</p>
+<p>Excel Function:
+ATAN2(xCoordinate,yCoordinate)</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$xCoordinate</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The x-coordinate of the point.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$yCoordinate</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The y-coordinate of the point.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_ATAN2#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The inverse tangent of the specified x- and y-coordinates.</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_CEILING">
+        CEILING()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_CEILING" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">133</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">CEILING</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">CEILING</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$number</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$significance</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns number rounded up, away from zero, to the nearest multiple of significance.
+For example, if you want to avoid using pennies in your prices and your product is
+priced at $4.42, use the formula =CEILING(4.42,0.05) to round prices up to the
+nearest nickel.</p>
+<p>Excel Function:
+CEILING(number[,significance])</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$number</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The number you want to round.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$significance</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The multiple to which you want to round.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_CEILING#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Rounded Number</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_COMBIN">
+        COMBIN()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_COMBIN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">171</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">COMBIN</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">COMBIN</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$numObjs</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$numInSet</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns the number of combinations for a given number of items. Use COMBIN to
+determine the total possible number of groups for a given number of items.</p>
+<p>Excel Function:
+COMBIN(numObjs,numInSet)</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$numObjs</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number of different objects</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$numInSet</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number of objects in each combination</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_COMBIN#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Number of combinations</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_EVEN">
+        EVEN()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_EVEN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">205</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">EVEN</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">EVEN</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$number</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns number rounded up to the nearest even integer.
+You can use this function for processing items that come in twos. For example,
+a packing crate accepts rows of one or two items. The crate is full when
+the number of items, rounded up to the nearest two, matches the crate's
+capacity.</p>
+<p>Excel Function:
+EVEN(number)</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$number</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number to round</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_EVEN#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Rounded Number</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_FACT">
+        FACT()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_FACT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">237</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">FACT</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">FACT</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$factVal</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns the factorial of a number.
+The factorial of a number is equal to 1<em>2</em>3*...* number.</p>
+<p>Excel Function:
+FACT(factVal)</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$factVal</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Factorial Value</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_FACT#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Factorial</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_FACTDOUBLE">
+        FACTDOUBLE()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_FACTDOUBLE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">275</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">FACTDOUBLE</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">FACTDOUBLE</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$factVal</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns the double factorial of a number.</p>
+<p>Excel Function:
+FACTDOUBLE(factVal)</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$factVal</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Factorial Value</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_FACTDOUBLE#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Double Factorial</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_FLOOR">
+        FLOOR()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_FLOOR" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">309</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">FLOOR</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">FLOOR</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$number</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$significance</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Rounds number down, toward zero, to the nearest multiple of significance.</p>
+<p>Excel Function:
+FLOOR(number[,significance])</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$number</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number to round</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$significance</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Significance</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_FLOOR#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Rounded Number</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_GCD">
+        GCD()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_GCD" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">350</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">GCD</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">GCD</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns the greatest common divisor of a series of numbers.
+The greatest common divisor is the largest integer that divides both
+number1 and number2 without a remainder.</p>
+<p>Excel Function:
+GCD(number1[,number2[, ...]])</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_GCD#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Greatest Common Divisor</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_INT">
+        INT()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_INT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">425</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">INT</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">INT</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$number</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Casts a floating point value to an integer</p>
+<p>Excel Function:
+INT(number)</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$number</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number to cast to an integer</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_INT#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Integer value</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_LCM">
+        LCM()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_LCM" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">457</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">LCM</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">LCM</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns the lowest common multiplier of a series of numbers
+The least common multiple is the smallest positive integer that is a multiple
+of all integer arguments number1, number2, and so on. Use LCM to add fractions
+with different denominators.</p>
+<p>Excel Function:
+LCM(number1[,number2[, ...]])</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_LCM#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Lowest Common Multiplier</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_LOG_BASE">
+        LOG_BASE()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_LOG_BASE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">508</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">LOG_BASE</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">LOG_BASE</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$number</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$base</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">10</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns the logarithm of a number to a specified base. The default base is 10.</p>
+<p>Excel Function:
+LOG(number[,base])</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$number</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The positive real number for which you want the logarithm</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$base</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">10</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The base of the logarithm. If base is omitted, it is assumed to be 10.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_LOG_BASE#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_MDETERM">
+        MDETERM()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_MDETERM" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">536</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">MDETERM</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">MDETERM</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$matrixValues</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns the matrix determinant of an array.</p>
+<p>Excel Function:
+MDETERM(array)</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$matrixValues</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>A matrix of values</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_MDETERM#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_MINVERSE">
+        MINVERSE()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_MINVERSE" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">587</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">MINVERSE</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">MINVERSE</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$matrixValues</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns the inverse matrix for the matrix stored in an array.</p>
+<p>Excel Function:
+MINVERSE(array)</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$matrixValues</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>A matrix of values</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_MINVERSE#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_MMULT">
+        MMULT()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_MMULT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">632</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">MMULT</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">MMULT</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$matrixData1</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$matrixData2</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$matrixData1</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>A matrix of values</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$matrixData2</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>A matrix of values</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_MOD">
+        MOD()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_MOD" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">695</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">MOD</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">MOD</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$a</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">1</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$b</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">1</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$a</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">1</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Dividend</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$b</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">1</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Divisor</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Remainder</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_MROUND">
+        MROUND()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_MROUND" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">721</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">MROUND</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">MROUND</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$number</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$multiple</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Rounds a number to the nearest multiple of a specified value</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$number</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number to round</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$multiple</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Multiple to which you want to round $number</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Rounded Number</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_MULTINOMIAL">
+        MULTINOMIAL()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_MULTINOMIAL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">748</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">MULTINOMIAL</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">MULTINOMIAL</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns the ratio of the factorial of a sum of values to the product of factorials.</p>
+</section>
+
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_ODD">
+        ODD()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_ODD" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">783</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">ODD</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">ODD</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$number</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns number rounded up to the nearest odd integer.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$number</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number to round</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Rounded Number</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_POWER">
+        POWER()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_POWER" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">817</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">POWER</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">POWER</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$x</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$y</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">2</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Computes x raised to the power y.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$x</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$y</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">2</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_PRODUCT">
+        PRODUCT()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_PRODUCT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">848</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">PRODUCT</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">PRODUCT</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>PRODUCT returns the product of all the values and cells referenced in the argument list.</p>
+<p>Excel Function:
+PRODUCT(value1[,value2[, ...]])</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_PRODUCT#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_QUOTIENT">
+        QUOTIENT()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_QUOTIENT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">887</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">QUOTIENT</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">QUOTIENT</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>QUOTIENT function returns the integer portion of a division. Numerator is the divided number
+and denominator is the divisor.</p>
+<p>Excel Function:
+QUOTIENT(value1[,value2[, ...]])</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_QUOTIENT#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_RAND">
+        RAND()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_RAND" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">920</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">RAND</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">RAND</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$min</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$max</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$min</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Minimal value</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$max</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Maximal value</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Random number</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_ROMAN">
+        ROMAN()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_ROMAN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">933</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">ROMAN</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$aValue</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$style</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$aValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$style</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_ROUNDDOWN">
+        ROUNDDOWN()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_ROUNDDOWN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1001</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">ROUNDDOWN</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">ROUNDDOWN</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$number</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$digits</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Rounds a number down to a specified number of decimal places</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$number</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number to round</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$digits</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number of digits to which you want to round $number</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Rounded Number</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_ROUNDUP">
+        ROUNDUP()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_ROUNDUP" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">975</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">ROUNDUP</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">ROUNDUP</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$number</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$digits</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Rounds a number up to a specified number of decimal places</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$number</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number to round</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$digits</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number of digits to which you want to round $number</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Rounded Number</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SERIESSUM">
+        SERIESSUM()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SERIESSUM" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1029</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SERIESSUM</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SERIESSUM</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns the sum of a power series</p>
+</section>
+
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SIGN">
+        SIGN()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SIGN" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1066</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SIGN</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SIGN</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$number</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Determines the sign of a number. Returns 1 if the number is positive, zero (0)
+if the number is 0, and -1 if the number is negative.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$number</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number to round</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>sign value</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SQRTPI">
+        SQRTPI()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SQRTPI" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1091</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SQRTPI</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SQRTPI</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$number</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns the square root of (number * pi).</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$number</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Number</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Square Root of Number * Pi</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SUBTOTAL">
+        SUBTOTAL()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUBTOTAL" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1115</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SUBTOTAL</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SUBTOTAL</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Returns a subtotal in a list or database.</p>
+</section>
+
+    
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SUM">
+        SUM()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUM" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1165</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SUM</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SUM</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>SUM computes the sum of all the values and cells referenced in the argument list.</p>
+<p>Excel Function:
+SUM(value1[,value2[, ...]])</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUM#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SUMIF">
+        SUMIF()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMIF" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1195</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SUMIF</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SUMIF</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$aArgs</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$condition</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$sumArgs</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">array()</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Counts the number of cells that contain numbers within the list of arguments</p>
+<p>Excel Function:
+SUMIF(value1[,value2[, ...]],condition)</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$aArgs</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$condition</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The criteria that defines which cells will be summed.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$sumArgs</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">array()</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMIF#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SUMIFS">
+        SUMIFS()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMIFS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1237</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SUMIFS</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SUMIFS</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Counts the number of cells that contain numbers within the list of arguments</p>
+<p>Excel Function:
+SUMIFS(value1[,value2[, ...]],condition)</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMIFS#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SUMPRODUCT">
+        SUMPRODUCT()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMPRODUCT" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1294</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SUMPRODUCT</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SUMPRODUCT</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Excel Function:
+SUMPRODUCT(value1[,value2[, ...]])</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMPRODUCT#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SUMSQ">
+        SUMSQ()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMSQ" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1339</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SUMSQ</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SUMSQ</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>SUMSQ returns the sum of the squares of the arguments</p>
+<p>Excel Function:
+SUMSQ(value1[,value2[, ...]])</p>
+</section>
+
+    
+    
+    <h5 class="phpdocumentor-tag-list__heading" id="tags">
+        Tags
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMSQ#tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h5>
+    <dl class="phpdocumentor-tag-list">
+                                    <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">access</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>public</p>
+</section>
+
+                                    </dd>
+                                                <dt class="phpdocumentor-tag-list__entry">
+                    <span class="phpdocumentor-tag__name">category</span>
+                </dt>
+                <dd class="phpdocumentor-tag-list__definition">
+                                                                                
+                                                 <section class="phpdocumentor-description"><p>Mathematical and Trigonometric Functions</p>
+</section>
+
+                                    </dd>
+                                            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SUMX2MY2">
+        SUMX2MY2()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMX2MY2" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1362</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SUMX2MY2</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SUMX2MY2</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$matrixData1</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$matrixData2</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$matrixData1</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Matrix #1</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$matrixData2</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Matrix #2</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SUMX2PY2">
+        SUMX2PY2()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMX2PY2" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1387</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SUMX2PY2</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SUMX2PY2</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$matrixData1</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$matrixData2</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$matrixData1</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Matrix #1</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$matrixData2</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Matrix #2</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_SUMXMY2">
+        SUMXMY2()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMXMY2" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1412</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">SUMXMY2</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">SUMXMY2</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$matrixData1</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$matrixData2</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$matrixData1</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Matrix #1</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$matrixData2</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Matrix #2</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_TRUNC">
+        TRUNC()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_TRUNC" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1439</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">TRUNC</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">TRUNC</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">float&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$digits</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">float</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <section class="phpdocumentor-description"><p>Truncates value to the number of fractional digits by number_digits.</p>
+</section>
+
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">float</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$digits</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">float</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Truncated value</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_factors">
+        factors()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_factors" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">42</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">factors</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_romanCut">
+        romanCut()
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#method_romanCut" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="lib/PHPExcel/Calculation/MathTrig.php"><a href="files/lib-phpexcel-calculation-mathtrig.html"><abbr title="lib/PHPExcel/Calculation/MathTrig.php">MathTrig.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">65</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">romanCut</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$num</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$n</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$num</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$n</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+
+    
+</article>
+            </section>
+
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/lib/PHPExcel/Calculation/MathTrig.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
+
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
+
+                    var xhr = new XMLHttpRequest();
+
+                    xhr.open('GET', src, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+                            Prism.highlightElement(code);
+                            return;
+                        }
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
+                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
+                    }
+                    modal.classList.add("phpdocumentor-modal__open");
+
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
+                    });
+                });
+            });
+        })();
+    </script>
+
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                                                <li><a href="classes/PHPExcel-Calculation-MathTrig.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+            
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_ATAN2">ATAN2()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_CEILING">CEILING()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_COMBIN">COMBIN()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_EVEN">EVEN()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_FACT">FACT()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_FACTDOUBLE">FACTDOUBLE()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_FLOOR">FLOOR()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_GCD">GCD()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_INT">INT()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_LCM">LCM()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_LOG_BASE">LOG_BASE()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_MDETERM">MDETERM()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_MINVERSE">MINVERSE()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_MMULT">MMULT()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_MOD">MOD()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_MROUND">MROUND()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_MULTINOMIAL">MULTINOMIAL()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_ODD">ODD()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_POWER">POWER()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_PRODUCT">PRODUCT()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_QUOTIENT">QUOTIENT()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_RAND">RAND()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_ROMAN">ROMAN()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_ROUNDDOWN">ROUNDDOWN()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_ROUNDUP">ROUNDUP()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SERIESSUM">SERIESSUM()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SIGN">SIGN()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SQRTPI">SQRTPI()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUBTOTAL">SUBTOTAL()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUM">SUM()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMIF">SUMIF()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMIFS">SUMIFS()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMPRODUCT">SUMPRODUCT()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMSQ">SUMSQ()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMX2MY2">SUMX2MY2()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMX2PY2">SUMX2PY2()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_SUMXMY2">SUMXMY2()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_TRUNC">TRUNC()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_factors">factors()</a></li>
+                                            <li class=""><a href="classes/PHPExcel-Calculation-MathTrig.html#method_romanCut">romanCut()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="classes/PHPExcel-Calculation-MathTrig.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>

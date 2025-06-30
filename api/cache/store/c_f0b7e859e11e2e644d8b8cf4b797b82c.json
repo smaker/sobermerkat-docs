@@ -1,0 +1,433 @@
+{
+    "name": "PHPExcel_Writer_Abstract",
+    "line": 28,
+    "short_desc": "PHPExcel_Writer_Abstract",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Writer"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Writer\/Abstract.php",
+    "relative_file": null,
+    "hash": "00cf7303223399bf136db1e07021df5275c67b20",
+    "parent": null,
+    "modifiers": 16,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": {
+        "PHPExcel_Writer_IWriter": "PHPExcel_Writer_IWriter"
+    },
+    "traits": [],
+    "properties": {
+        "includeCharts": {
+            "name": "includeCharts",
+            "line": 36,
+            "short_desc": "Write charts that are defined in the workbook?\nIdentifies whether the Writer should write definitions for any charts that exist in the PHPExcel object;",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 36,
+                    "endLine": 36
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 36,
+                        "endLine": 36
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "preCalculateFormulas": {
+            "name": "preCalculateFormulas",
+            "line": 45,
+            "short_desc": "Pre-calculate formulas\nForces PHPExcel to recalculate all formulae in a workbook when saving, so that the pre-calculated values are\n   immediately available to MS Excel or other office spreadsheet viewer when opening the file",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 45,
+                    "endLine": 45
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 45,
+                        "endLine": 45
+                    },
+                    "parts": [
+                        "true"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "_useDiskCaching": {
+            "name": "_useDiskCaching",
+            "line": 52,
+            "short_desc": "Use disk caching where possible?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Expr_ConstFetch",
+                "attributes": {
+                    "startLine": 52,
+                    "endLine": 52
+                },
+                "name": {
+                    "nodeType": "Name_FullyQualified",
+                    "attributes": {
+                        "startLine": 52,
+                        "endLine": 52
+                    },
+                    "parts": [
+                        "false"
+                    ]
+                }
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        },
+        "_diskCachingDirectory": {
+            "name": "_diskCachingDirectory",
+            "line": 59,
+            "short_desc": "Disk caching directory",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "modifiers": 2,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 59,
+                    "endLine": 59,
+                    "kind": 1,
+                    "rawValue": "'.\/'"
+                },
+                "value": ".\/"
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "getIncludeCharts": {
+            "name": "getIncludeCharts",
+            "line": 68,
+            "short_desc": "Write charts in workbook?\n       If this is true, then the Writer will write definitions for any charts that exist in the PHPExcel object.",
+            "long_desc": "If false (the default) it will ignore any charts defined in the PHPExcel object.",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setIncludeCharts": {
+            "name": "setIncludeCharts",
+            "line": 81,
+            "short_desc": "Set write charts in workbook\n       Set to true, to advise the Writer to include any charts that exist in the PHPExcel object.",
+            "long_desc": "Set to false (the default) to ignore charts.",
+            "hint": [
+                [
+                    "\\PHPExcel_Writer_IWriter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 81,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getPreCalculateFormulas": {
+            "name": "getPreCalculateFormulas",
+            "line": 97,
+            "short_desc": "Get Pre-Calculate Formulas flag\n    If this is true (the default), then the writer will recalculate all formulae in a workbook when saving,\n       so that the pre-calculated values are immediately available to MS Excel or other office spreadsheet\n       viewer when opening the file\n    If false, then formulae are not calculated on save. This is faster for saving in PHPExcel, but slower\n       when opening the resulting file in MS Excel, because Excel has to recalculate the formulae itself",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setPreCalculateFormulas": {
+            "name": "setPreCalculateFormulas",
+            "line": 110,
+            "short_desc": "Set Pre-Calculate Formulas\n       Set to true (the default) to advise the Writer to calculate all formulae on save\n       Set to false to prevent precalculation of formulae on save.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Writer_IWriter",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 110,
+                    "short_desc": "Pre-Calculate Formulas?",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getUseDiskCaching": {
+            "name": "getUseDiskCaching",
+            "line": 121,
+            "short_desc": "Get use disk caching where possible?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "setUseDiskCaching": {
+            "name": "setUseDiskCaching",
+            "line": 134,
+            "short_desc": "Set use disk caching where possible?",
+            "long_desc": "",
+            "hint": [
+                [
+                    "\\PHPExcel_Writer_Excel2007",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [
+                [
+                    "\\PHPExcel_Writer_Exception",
+                    "when directory does not exist"
+                ]
+            ],
+            "errors": [],
+            "parameters": {
+                "pValue": {
+                    "name": "pValue",
+                    "line": 134,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pDirectory": {
+                    "name": "pDirectory",
+                    "line": 134,
+                    "short_desc": "Disk caching directory",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getDiskCachingDirectory": {
+            "name": "getDiskCachingDirectory",
+            "line": 153,
+            "short_desc": "Get disk caching directory",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

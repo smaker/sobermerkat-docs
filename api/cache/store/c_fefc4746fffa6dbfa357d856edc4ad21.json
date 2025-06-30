@@ -1,0 +1,922 @@
+{
+    "name": "PHPExcel_Shared_JAMA_Matrix",
+    "line": 27,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Shared\/JAMA\/Matrix.php",
+    "relative_file": null,
+    "hash": "fab93dff5f476444ab37d92186fa81a802175f89",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "A": {
+            "name": "A",
+            "line": 41,
+            "short_desc": "Matrix storage",
+            "long_desc": " @var array",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 41,
+                    "endLine": 41,
+                    "kind": 1
+                },
+                "items": []
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 64,
+            "short_desc": "Polymorphic constructor",
+            "long_desc": "As PHP has no support for polymorphic constructors, we hack our own sort of polymorphism using func_num_args, func_get_arg, and gettype. In essence, we're just implementing a simple RTTI filter and calling the appropriate constructor.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getArray": {
+            "name": "getArray",
+            "line": 121,
+            "short_desc": "getArray",
+            "long_desc": " @return array Matrix array",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getRowDimension": {
+            "name": "getRowDimension",
+            "line": 131,
+            "short_desc": "getRowDimension",
+            "long_desc": " @return int Row dimension",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getColumnDimension": {
+            "name": "getColumnDimension",
+            "line": 141,
+            "short_desc": "getColumnDimension",
+            "long_desc": " @return int Column dimension",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "get": {
+            "name": "get",
+            "line": 154,
+            "short_desc": "get",
+            "long_desc": "Get the i,j-th element of the matrix.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"j\" parameter of the method \"get\" is missing a @param tag"
+            ],
+            "parameters": {
+                "i": {
+                    "name": "i",
+                    "line": 154,
+                    "short_desc": "Row position\n@param int $j Column position\n@return mixed Element (int\/float\/double)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "j": {
+                    "name": "j",
+                    "line": 154,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getMatrix": {
+            "name": "getMatrix",
+            "line": 169,
+            "short_desc": "getMatrix",
+            "long_desc": "Get a submatrix",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"getMatrix\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "checkMatrixDimensions": {
+            "name": "checkMatrixDimensions",
+            "line": 318,
+            "short_desc": "checkMatrixDimensions",
+            "long_desc": "Is matrix B the same size?",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "B": {
+                    "name": "B",
+                    "line": 318,
+                    "short_desc": "Matrix B\n@return boolean",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\Matrix",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set": {
+            "name": "set",
+            "line": 340,
+            "short_desc": "set",
+            "long_desc": "Set the i,j-th element of the matrix.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"j\" parameter of the method \"set\" is missing a @param tag",
+                "The \"c\" parameter of the method \"set\" is missing a @param tag"
+            ],
+            "parameters": {
+                "i": {
+                    "name": "i",
+                    "line": 340,
+                    "short_desc": "Row position\n@param int $j Column position\n@param mixed $c Int\/float\/double value\n@return mixed Element (int\/float\/double)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "j": {
+                    "name": "j",
+                    "line": 340,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "c": {
+                    "name": "c",
+                    "line": 340,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "identity": {
+            "name": "identity",
+            "line": 354,
+            "short_desc": "identity",
+            "long_desc": "Generate an identity matrix.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"n\" parameter of the method \"identity\" is missing a @param tag"
+            ],
+            "parameters": {
+                "m": {
+                    "name": "m",
+                    "line": 354,
+                    "short_desc": "Row dimension\n@param int $n Column dimension\n@return Matrix Identity matrix",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "n": {
+                    "name": "n",
+                    "line": 354,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "diagonal": {
+            "name": "diagonal",
+            "line": 368,
+            "short_desc": "diagonal",
+            "long_desc": "Generate a diagonal matrix",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"n\" parameter of the method \"diagonal\" is missing a @param tag",
+                "The \"c\" parameter of the method \"diagonal\" is missing a @param tag"
+            ],
+            "parameters": {
+                "m": {
+                    "name": "m",
+                    "line": 368,
+                    "short_desc": "Row dimension\n@param int $n Column dimension\n@param mixed $c Diagonal value\n@return Matrix Diagonal matrix",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "n": {
+                    "name": "n",
+                    "line": 368,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "c": {
+                    "name": "c",
+                    "line": 368,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getMatrixByRow": {
+            "name": "getMatrixByRow",
+            "line": 385,
+            "short_desc": "getMatrixByRow",
+            "long_desc": "Get a submatrix by row index\/range",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"iF\" parameter of the method \"getMatrixByRow\" is missing a @param tag"
+            ],
+            "parameters": {
+                "i0": {
+                    "name": "i0",
+                    "line": 385,
+                    "short_desc": "Initial row index\n@param int $iF Final row index\n@return Matrix Submatrix",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "iF": {
+                    "name": "iF",
+                    "line": 385,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getMatrixByCol": {
+            "name": "getMatrixByCol",
+            "line": 406,
+            "short_desc": "getMatrixByCol",
+            "long_desc": "Get a submatrix by column index\/range",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"j0\" parameter of the method \"getMatrixByCol\" is missing a @param tag",
+                "The \"jF\" parameter of the method \"getMatrixByCol\" is missing a @param tag"
+            ],
+            "parameters": {
+                "j0": {
+                    "name": "j0",
+                    "line": 406,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "jF": {
+                    "name": "jF",
+                    "line": 406,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "transpose": {
+            "name": "transpose",
+            "line": 425,
+            "short_desc": "transpose",
+            "long_desc": "Tranpose matrix",
+            "hint": [
+                [
+                    "\\Matrix",
+                    false
+                ]
+            ],
+            "hint_desc": "Transposed matrix",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "trace": {
+            "name": "trace",
+            "line": 442,
+            "short_desc": "trace",
+            "long_desc": "Sum of diagonal elements",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "Sum of diagonal elements",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "uminus": {
+            "name": "uminus",
+            "line": 458,
+            "short_desc": "uminus",
+            "long_desc": "Unary minus matrix -A",
+            "hint": [
+                [
+                    "\\Matrix",
+                    false
+                ]
+            ],
+            "hint_desc": "Unary minus matrix",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "plus": {
+            "name": "plus",
+            "line": 469,
+            "short_desc": "plus",
+            "long_desc": "A + B",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"plus\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "plusEquals": {
+            "name": "plusEquals",
+            "line": 509,
+            "short_desc": "plusEquals",
+            "long_desc": "A = A + B",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"plusEquals\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "minus": {
+            "name": "minus",
+            "line": 563,
+            "short_desc": "minus",
+            "long_desc": "A - B",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"minus\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "minusEquals": {
+            "name": "minusEquals",
+            "line": 603,
+            "short_desc": "minusEquals",
+            "long_desc": "A = A - B",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"minusEquals\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "arrayTimes": {
+            "name": "arrayTimes",
+            "line": 658,
+            "short_desc": "arrayTimes",
+            "long_desc": "Element-by-element multiplication\nCij = Aij * Bij",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"arrayTimes\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "arrayTimesEquals": {
+            "name": "arrayTimesEquals",
+            "line": 699,
+            "short_desc": "arrayTimesEquals",
+            "long_desc": "Element-by-element multiplication\nAij = Aij * Bij",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"arrayTimesEquals\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "arrayRightDivide": {
+            "name": "arrayRightDivide",
+            "line": 754,
+            "short_desc": "arrayRightDivide",
+            "long_desc": "Element-by-element right division\nA \/ B",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"arrayRightDivide\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "arrayRightDivideEquals": {
+            "name": "arrayRightDivideEquals",
+            "line": 815,
+            "short_desc": "arrayRightDivideEquals",
+            "long_desc": "Element-by-element right division\nAij = Aij \/ Bij",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"arrayRightDivideEquals\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "arrayLeftDivide": {
+            "name": "arrayLeftDivide",
+            "line": 857,
+            "short_desc": "arrayLeftDivide",
+            "long_desc": "Element-by-element Left division\nA \/ B",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"arrayLeftDivide\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "arrayLeftDivideEquals": {
+            "name": "arrayLeftDivideEquals",
+            "line": 899,
+            "short_desc": "arrayLeftDivideEquals",
+            "long_desc": "Element-by-element Left division\nAij = Aij \/ Bij",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"arrayLeftDivideEquals\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "times": {
+            "name": "times",
+            "line": 940,
+            "short_desc": "times",
+            "long_desc": "Matrix multiplication",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"times\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "power": {
+            "name": "power",
+            "line": 1035,
+            "short_desc": "power",
+            "long_desc": "A = A ^ B",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"power\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "concat": {
+            "name": "concat",
+            "line": 1089,
+            "short_desc": "concat",
+            "long_desc": "A = A & B",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"concat\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "solve": {
+            "name": "solve",
+            "line": 1127,
+            "short_desc": "Solve A*X = B.",
+            "long_desc": " @param Matrix $B Right hand side",
+            "hint": [
+                [
+                    "\\Matrix",
+                    false
+                ]
+            ],
+            "hint_desc": "... Solution if A is square, least squares solution otherwise",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "B": {
+                    "name": "B",
+                    "line": 1127,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "inverse": {
+            "name": "inverse",
+            "line": 1143,
+            "short_desc": "Matrix inverse or pseudoinverse.",
+            "long_desc": " @return Matrix ... Inverse(A) if A is square, pseudoinverse otherwise.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "det": {
+            "name": "det",
+            "line": 1154,
+            "short_desc": "det",
+            "long_desc": "Calculate determinant",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "Determinant",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": {
+        "POLYMORPHIC_ARGUMENT_EXCEPTION": {
+            "name": "POLYMORPHIC_ARGUMENT_EXCEPTION",
+            "line": 29,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "ARGUMENT_TYPE_EXCEPTION": {
+            "name": "ARGUMENT_TYPE_EXCEPTION",
+            "line": 30,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "ARGUMENT_BOUNDS_EXCEPTION": {
+            "name": "ARGUMENT_BOUNDS_EXCEPTION",
+            "line": 31,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "MATRIX_DIMENSION_EXCEPTION": {
+            "name": "MATRIX_DIMENSION_EXCEPTION",
+            "line": 32,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        },
+        "ARRAY_LENGTH_EXCEPTION": {
+            "name": "ARRAY_LENGTH_EXCEPTION",
+            "line": 33,
+            "short_desc": null,
+            "long_desc": null,
+            "modifiers": 0,
+            "tags": []
+        }
+    }
+}

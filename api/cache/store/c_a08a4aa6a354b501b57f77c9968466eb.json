@@ -1,0 +1,4442 @@
+{
+    "name": "PHPExcel_Calculation_Financial",
+    "line": 43,
+    "short_desc": "PHPExcel_Calculation_Financial",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Calculation"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Calculation\/Financial.php",
+    "relative_file": null,
+    "hash": "73c7db4419df99c6fdffdae971f1bdbec0c8e886",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "ACCRINT": {
+            "name": "ACCRINT",
+            "line": 191,
+            "short_desc": "ACCRINT",
+            "long_desc": "Returns the accrued interest for a security that pays periodic interest.\n\nExcel Function:\n       ACCRINT(issue,firstinterest,settlement,rate,par,frequency[,basis])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "issue": {
+                    "name": "issue",
+                    "line": 191,
+                    "short_desc": "The security's issue date.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "firstinterest": {
+                    "name": "firstinterest",
+                    "line": 191,
+                    "short_desc": "The security's first interest date.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "settlement": {
+                    "name": "settlement",
+                    "line": 191,
+                    "short_desc": "The security's settlement date.\nThe security settlement date is the date after the issue date\nwhen the security is traded to the buyer.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rate": {
+                    "name": "rate",
+                    "line": 191,
+                    "short_desc": "The security's annual coupon rate.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "par": {
+                    "name": "par",
+                    "line": 191,
+                    "short_desc": "The security's par value.\nIf you omit par, ACCRINT uses $1,000.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1000",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "frequency": {
+                    "name": "frequency",
+                    "line": 191,
+                    "short_desc": "the number of coupon payments per year.\nValid frequency values are:\n    1    Annual\n    2    Semi-Annual\n    4    Quarterly\nIf working in Gnumeric Mode, the following frequency options are\nalso available\n    6    Bimonthly\n    12    Monthly",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 191,
+                    "short_desc": "The type of day count to use.\n0 or omitted    US (NASD) 30\/360\n1                Actual\/actual\n2                Actual\/360\n3                Actual\/365\n4                European 30\/360",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ACCRINTM": {
+            "name": "ACCRINTM",
+            "line": 243,
+            "short_desc": "ACCRINTM",
+            "long_desc": "Returns the accrued interest for a security that pays interest at maturity.\n\nExcel Function:\n       ACCRINTM(issue,settlement,rate[,par[,basis]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"issue\" parameter of the method \"ACCRINTM\" is missing a @param tag",
+                "The \"settlement\" parameter of the method \"ACCRINTM\" is missing a @param tag",
+                "The \"rate\" parameter of the method \"ACCRINTM\" is missing a @param tag",
+                "The \"par\" parameter of the method \"ACCRINTM\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"ACCRINTM\" is missing a @param tag"
+            ],
+            "parameters": {
+                "issue": {
+                    "name": "issue",
+                    "line": 243,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "settlement": {
+                    "name": "settlement",
+                    "line": 243,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rate": {
+                    "name": "rate",
+                    "line": 243,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "par": {
+                    "name": "par",
+                    "line": 243,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1000",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 243,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "AMORDEGRC": {
+            "name": "AMORDEGRC",
+            "line": 300,
+            "short_desc": "AMORDEGRC",
+            "long_desc": "Returns the depreciation for each accounting period.\nThis function is provided for the French accounting system. If an asset is purchased in\nthe middle of the accounting period, the prorated depreciation is taken into account.\nThe function is similar to AMORLINC, except that a depreciation coefficient is applied in\nthe calculation depending on the life of the assets.\nThis function will return the depreciation until the last period of the life of the assets\nor until the cumulated value of depreciation is greater than the cost of the assets minus\nthe salvage value.\n\nExcel Function:\n       AMORDEGRC(cost,purchased,firstPeriod,salvage,period,rate[,basis])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"cost\" parameter of the method \"AMORDEGRC\" is missing a @param tag",
+                "The \"purchased\" parameter of the method \"AMORDEGRC\" is missing a @param tag",
+                "The \"firstPeriod\" parameter of the method \"AMORDEGRC\" is missing a @param tag",
+                "The \"salvage\" parameter of the method \"AMORDEGRC\" is missing a @param tag",
+                "The \"period\" parameter of the method \"AMORDEGRC\" is missing a @param tag",
+                "The \"rate\" parameter of the method \"AMORDEGRC\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"AMORDEGRC\" is missing a @param tag"
+            ],
+            "parameters": {
+                "cost": {
+                    "name": "cost",
+                    "line": 300,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "purchased": {
+                    "name": "purchased",
+                    "line": 300,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "firstPeriod": {
+                    "name": "firstPeriod",
+                    "line": 300,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "salvage": {
+                    "name": "salvage",
+                    "line": 300,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "period": {
+                    "name": "period",
+                    "line": 300,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rate": {
+                    "name": "rate",
+                    "line": 300,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 300,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "AMORLINC": {
+            "name": "AMORLINC",
+            "line": 377,
+            "short_desc": "AMORLINC",
+            "long_desc": "Returns the depreciation for each accounting period.\nThis function is provided for the French accounting system. If an asset is purchased in\nthe middle of the accounting period, the prorated depreciation is taken into account.\n\nExcel Function:\n       AMORLINC(cost,purchased,firstPeriod,salvage,period,rate[,basis])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"cost\" parameter of the method \"AMORLINC\" is missing a @param tag",
+                "The \"purchased\" parameter of the method \"AMORLINC\" is missing a @param tag",
+                "The \"firstPeriod\" parameter of the method \"AMORLINC\" is missing a @param tag",
+                "The \"salvage\" parameter of the method \"AMORLINC\" is missing a @param tag",
+                "The \"period\" parameter of the method \"AMORLINC\" is missing a @param tag",
+                "The \"rate\" parameter of the method \"AMORLINC\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"AMORLINC\" is missing a @param tag"
+            ],
+            "parameters": {
+                "cost": {
+                    "name": "cost",
+                    "line": 377,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "purchased": {
+                    "name": "purchased",
+                    "line": 377,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "firstPeriod": {
+                    "name": "firstPeriod",
+                    "line": 377,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "salvage": {
+                    "name": "salvage",
+                    "line": 377,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "period": {
+                    "name": "period",
+                    "line": 377,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rate": {
+                    "name": "rate",
+                    "line": 377,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 377,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COUPDAYBS": {
+            "name": "COUPDAYBS",
+            "line": 444,
+            "short_desc": "COUPDAYBS",
+            "long_desc": "Returns the number of days from the beginning of the coupon period to the settlement date.\n\nExcel Function:\n       COUPDAYBS(settlement,maturity,frequency[,basis])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"COUPDAYBS\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"COUPDAYBS\" is missing a @param tag",
+                "The \"frequency\" parameter of the method \"COUPDAYBS\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"COUPDAYBS\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 444,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 444,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "frequency": {
+                    "name": "frequency",
+                    "line": 444,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 444,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COUPDAYS": {
+            "name": "COUPDAYS",
+            "line": 503,
+            "short_desc": "COUPDAYS",
+            "long_desc": "Returns the number of days in the coupon period that contains the settlement date.\n\nExcel Function:\n       COUPDAYS(settlement,maturity,frequency[,basis])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"COUPDAYS\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"COUPDAYS\" is missing a @param tag",
+                "The \"frequency\" parameter of the method \"COUPDAYS\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"COUPDAYS\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 503,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 503,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "frequency": {
+                    "name": "frequency",
+                    "line": 503,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 503,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COUPDAYSNC": {
+            "name": "COUPDAYSNC",
+            "line": 576,
+            "short_desc": "COUPDAYSNC",
+            "long_desc": "Returns the number of days from the settlement date to the next coupon date.\n\nExcel Function:\n       COUPDAYSNC(settlement,maturity,frequency[,basis])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"COUPDAYSNC\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"COUPDAYSNC\" is missing a @param tag",
+                "The \"frequency\" parameter of the method \"COUPDAYSNC\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"COUPDAYSNC\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 576,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 576,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "frequency": {
+                    "name": "frequency",
+                    "line": 576,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 576,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COUPNCD": {
+            "name": "COUPNCD",
+            "line": 636,
+            "short_desc": "COUPNCD",
+            "long_desc": "Returns the next coupon date after the settlement date.\n\nExcel Function:\n       COUPNCD(settlement,maturity,frequency[,basis])",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, PHP date\/time serial value or PHP date\/time object,\ndepending on the value of the ReturnDateType flag",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"COUPNCD\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"COUPNCD\" is missing a @param tag",
+                "The \"frequency\" parameter of the method \"COUPNCD\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"COUPNCD\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 636,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 636,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "frequency": {
+                    "name": "frequency",
+                    "line": 636,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 636,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COUPNUM": {
+            "name": "COUPNUM",
+            "line": 693,
+            "short_desc": "COUPNUM",
+            "long_desc": "Returns the number of coupons payable between the settlement date and maturity date,\nrounded up to the nearest whole coupon.\n\nExcel Function:\n       COUPNUM(settlement,maturity,frequency[,basis])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"COUPNUM\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"COUPNUM\" is missing a @param tag",
+                "The \"frequency\" parameter of the method \"COUPNUM\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"COUPNUM\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 693,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 693,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "frequency": {
+                    "name": "frequency",
+                    "line": 693,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 693,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COUPPCD": {
+            "name": "COUPPCD",
+            "line": 765,
+            "short_desc": "COUPPCD",
+            "long_desc": "Returns the previous coupon date before the settlement date.\n\nExcel Function:\n       COUPPCD(settlement,maturity,frequency[,basis])",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "Excel date\/time serial value, PHP date\/time serial value or PHP date\/time object,\ndepending on the value of the ReturnDateType flag",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"COUPPCD\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"COUPPCD\" is missing a @param tag",
+                "The \"frequency\" parameter of the method \"COUPPCD\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"COUPPCD\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 765,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 765,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "frequency": {
+                    "name": "frequency",
+                    "line": 765,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 765,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "CUMIPMT": {
+            "name": "CUMIPMT",
+            "line": 810,
+            "short_desc": "CUMIPMT",
+            "long_desc": "Returns the cumulative interest paid on a loan between the start and end periods.\n\nExcel Function:\n       CUMIPMT(rate,nper,pv,start,end[,type])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rate": {
+                    "name": "rate",
+                    "line": 810,
+                    "short_desc": "The Interest rate",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "nper": {
+                    "name": "nper",
+                    "line": 810,
+                    "short_desc": "The total number of payment periods",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pv": {
+                    "name": "pv",
+                    "line": 810,
+                    "short_desc": "Present Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "start": {
+                    "name": "start",
+                    "line": 810,
+                    "short_desc": "The first period in the calculation.\nPayment periods are numbered beginning with 1.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "end": {
+                    "name": "end",
+                    "line": 810,
+                    "short_desc": "The last period in the calculation.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 810,
+                    "short_desc": "A number 0 or 1 and indicates when payments are due:\n0 or omitted    At the end of the period.\n1                At the beginning of the period.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "CUMPRINC": {
+            "name": "CUMPRINC",
+            "line": 858,
+            "short_desc": "CUMPRINC",
+            "long_desc": "Returns the cumulative principal paid on a loan between the start and end periods.\n\nExcel Function:\n       CUMPRINC(rate,nper,pv,start,end[,type])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rate": {
+                    "name": "rate",
+                    "line": 858,
+                    "short_desc": "The Interest rate",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "nper": {
+                    "name": "nper",
+                    "line": 858,
+                    "short_desc": "The total number of payment periods",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pv": {
+                    "name": "pv",
+                    "line": 858,
+                    "short_desc": "Present Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "start": {
+                    "name": "start",
+                    "line": 858,
+                    "short_desc": "The first period in the calculation.\nPayment periods are numbered beginning with 1.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "end": {
+                    "name": "end",
+                    "line": 858,
+                    "short_desc": "The last period in the calculation.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 858,
+                    "short_desc": "A number 0 or 1 and indicates when payments are due:\n0 or omitted    At the end of the period.\n1                At the beginning of the period.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DB": {
+            "name": "DB",
+            "line": 911,
+            "short_desc": "DB",
+            "long_desc": "Returns the depreciation of an asset for a specified period using the\nfixed-declining balance method.\nThis form of depreciation is used if you want to get a higher depreciation value\nat the beginning of the depreciation (as opposed to linear depreciation). The\ndepreciation value is reduced with every depreciation period by the depreciation\nalready deducted from the initial cost.\n\nExcel Function:\n       DB(cost,salvage,life,period[,month])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"cost\" parameter of the method \"DB\" is missing a @param tag",
+                "The \"salvage\" parameter of the method \"DB\" is missing a @param tag",
+                "The \"life\" parameter of the method \"DB\" is missing a @param tag",
+                "The \"period\" parameter of the method \"DB\" is missing a @param tag",
+                "The \"month\" parameter of the method \"DB\" is missing a @param tag"
+            ],
+            "parameters": {
+                "cost": {
+                    "name": "cost",
+                    "line": 911,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "salvage": {
+                    "name": "salvage",
+                    "line": 911,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "life": {
+                    "name": "life",
+                    "line": 911,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "period": {
+                    "name": "period",
+                    "line": 911,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "month": {
+                    "name": "month",
+                    "line": 911,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "12",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DDB": {
+            "name": "DDB",
+            "line": 979,
+            "short_desc": "DDB",
+            "long_desc": "Returns the depreciation of an asset for a specified period using the\ndouble-declining balance method or some other method you specify.\n\nExcel Function:\n       DDB(cost,salvage,life,period[,factor])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"cost\" parameter of the method \"DDB\" is missing a @param tag",
+                "The \"salvage\" parameter of the method \"DDB\" is missing a @param tag",
+                "The \"life\" parameter of the method \"DDB\" is missing a @param tag",
+                "The \"period\" parameter of the method \"DDB\" is missing a @param tag",
+                "The \"factor\" parameter of the method \"DDB\" is missing a @param tag"
+            ],
+            "parameters": {
+                "cost": {
+                    "name": "cost",
+                    "line": 979,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "salvage": {
+                    "name": "salvage",
+                    "line": 979,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "life": {
+                    "name": "life",
+                    "line": 979,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "period": {
+                    "name": "period",
+                    "line": 979,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "factor": {
+                    "name": "factor",
+                    "line": 979,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "2.0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DISC": {
+            "name": "DISC",
+            "line": 1041,
+            "short_desc": "DISC",
+            "long_desc": "Returns the discount rate for a security.\n\nExcel Function:\n       DISC(settlement,maturity,price,redemption[,basis])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"DISC\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"DISC\" is missing a @param tag",
+                "The \"price\" parameter of the method \"DISC\" is missing a @param tag",
+                "The \"redemption\" parameter of the method \"DISC\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"DISC\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 1041,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 1041,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "price": {
+                    "name": "price",
+                    "line": 1041,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "redemption": {
+                    "name": "redemption",
+                    "line": 1041,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 1041,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DOLLARDE": {
+            "name": "DOLLARDE",
+            "line": 1085,
+            "short_desc": "DOLLARDE",
+            "long_desc": "Converts a dollar price expressed as an integer part and a fraction\n       part into a dollar price expressed as a decimal number.\nFractional dollar numbers are sometimes used for security prices.\n\nExcel Function:\n       DOLLARDE(fractional_dollar,fraction)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "fractional_dollar": {
+                    "name": "fractional_dollar",
+                    "line": 1085,
+                    "short_desc": "Fractional Dollar",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "fraction": {
+                    "name": "fraction",
+                    "line": 1085,
+                    "short_desc": "Fraction",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DOLLARFR": {
+            "name": "DOLLARFR",
+            "line": 1122,
+            "short_desc": "DOLLARFR",
+            "long_desc": "Converts a dollar price expressed as a decimal number into a dollar price\n       expressed as a fraction.\nFractional dollar numbers are sometimes used for security prices.\n\nExcel Function:\n       DOLLARFR(decimal_dollar,fraction)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "decimal_dollar": {
+                    "name": "decimal_dollar",
+                    "line": 1122,
+                    "short_desc": "Decimal Dollar",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "fraction": {
+                    "name": "fraction",
+                    "line": 1122,
+                    "short_desc": "Fraction",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "EFFECT": {
+            "name": "EFFECT",
+            "line": 1158,
+            "short_desc": "EFFECT",
+            "long_desc": "Returns the effective interest rate given the nominal rate and the number of\n       compounding payments per year.\n\nExcel Function:\n       EFFECT(nominal_rate,npery)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "nominal_rate": {
+                    "name": "nominal_rate",
+                    "line": 1158,
+                    "short_desc": "Nominal interest rate",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "npery": {
+                    "name": "npery",
+                    "line": 1158,
+                    "short_desc": "Number of compounding payments per year",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "FV": {
+            "name": "FV",
+            "line": 1194,
+            "short_desc": "FV",
+            "long_desc": "Returns the Future Value of a cash flow with constant payments and interest rate (annuities).\n\nExcel Function:\n       FV(rate,nper,pmt[,pv[,type]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rate": {
+                    "name": "rate",
+                    "line": 1194,
+                    "short_desc": "The interest rate per period",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "nper": {
+                    "name": "nper",
+                    "line": 1194,
+                    "short_desc": "Total number of payment periods in an annuity",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pmt": {
+                    "name": "pmt",
+                    "line": 1194,
+                    "short_desc": "The payment made each period: it cannot change over the\nlife of the annuity. Typically, pmt contains principal\nand interest but no other fees or taxes.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pv": {
+                    "name": "pv",
+                    "line": 1194,
+                    "short_desc": "Present Value, or the lump-sum amount that a series of\nfuture payments is worth right now.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 1194,
+                    "short_desc": "A number 0 or 1 and indicates when payments are due:\n0 or omitted    At the end of the period.\n1                At the beginning of the period.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "FVSCHEDULE": {
+            "name": "FVSCHEDULE",
+            "line": 1228,
+            "short_desc": "FVSCHEDULE",
+            "long_desc": "Returns the future value of an initial principal after applying a series of compound interest rates.\nUse FVSCHEDULE to calculate the future value of an investment with a variable or adjustable rate.\n\nExcel Function:\n       FVSCHEDULE(principal,schedule)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "principal": {
+                    "name": "principal",
+                    "line": 1228,
+                    "short_desc": "The present value.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "schedule": {
+                    "name": "schedule",
+                    "line": 1228,
+                    "short_desc": "An array of interest rates to apply.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            true
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "INTRATE": {
+            "name": "INTRATE",
+            "line": 1263,
+            "short_desc": "INTRATE",
+            "long_desc": "Returns the interest rate for a fully invested security.\n\nExcel Function:\n       INTRATE(settlement,maturity,investment,redemption[,basis])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 1263,
+                    "short_desc": "The security's settlement date.\nThe security settlement date is the date after the issue date when the security is traded to the buyer.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 1263,
+                    "short_desc": "The security's maturity date.\nThe maturity date is the date when the security expires.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "mixed",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "investment": {
+                    "name": "investment",
+                    "line": 1263,
+                    "short_desc": "The amount invested in the security.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "redemption": {
+                    "name": "redemption",
+                    "line": 1263,
+                    "short_desc": "The amount to be received at maturity.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 1263,
+                    "short_desc": "The type of day count to use.\n0 or omitted    US (NASD) 30\/360\n1                Actual\/actual\n2                Actual\/360\n3                Actual\/365\n4                European 30\/360",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IPMT": {
+            "name": "IPMT",
+            "line": 1307,
+            "short_desc": "IPMT",
+            "long_desc": "Returns the interest payment for a given period for an investment based on periodic, constant payments and a constant interest rate.\n\nExcel Function:\n       IPMT(rate,per,nper,pv[,fv][,type])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rate": {
+                    "name": "rate",
+                    "line": 1307,
+                    "short_desc": "Interest rate per period",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "per": {
+                    "name": "per",
+                    "line": 1307,
+                    "short_desc": "Period for which we want to find the interest",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "nper": {
+                    "name": "nper",
+                    "line": 1307,
+                    "short_desc": "Number of periods",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pv": {
+                    "name": "pv",
+                    "line": 1307,
+                    "short_desc": "Present Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "fv": {
+                    "name": "fv",
+                    "line": 1307,
+                    "short_desc": "Future Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 1307,
+                    "short_desc": "Payment type: 0 = at the end of each period, 1 = at the beginning of each period",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "IRR": {
+            "name": "IRR",
+            "line": 1348,
+            "short_desc": "IRR",
+            "long_desc": "Returns the internal rate of return for a series of cash flows represented by the numbers in values.\nThese cash flows do not have to be even, as they would be for an annuity. However, the cash flows must occur\nat regular intervals, such as monthly or annually. The internal rate of return is the interest rate received\nfor an investment consisting of payments (negative values) and income (positive values) that occur at regular\nperiods.\n\nExcel Function:\n       IRR(values[,guess])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "values": {
+                    "name": "values",
+                    "line": 1348,
+                    "short_desc": "An array or a reference to cells that contain numbers for which you want\n    to calculate the internal rate of return.\nValues must contain at least one positive value and one negative value to\n    calculate the internal rate of return.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            true
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "guess": {
+                    "name": "guess",
+                    "line": 1348,
+                    "short_desc": "A number that you guess is close to the result of IRR",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0.1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ISPMT": {
+            "name": "ISPMT",
+            "line": 1415,
+            "short_desc": "ISPMT",
+            "long_desc": "Returns the interest payment for an investment based on an interest rate and a constant payment schedule.\n\nExcel Function:\n    =ISPMT(interest_rate, period, number_payments, PV)\n\ninterest_rate is the interest rate for the investment\n\nperiod is the period to calculate the interest rate.  It must be betweeen 1 and number_payments.\n\nnumber_payments is the number of payments for the annuity\n\nPV is the loan amount or present value of the payments",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "MIRR": {
+            "name": "MIRR",
+            "line": 1457,
+            "short_desc": "MIRR",
+            "long_desc": "Returns the modified internal rate of return for a series of periodic cash flows. MIRR considers both\n       the cost of the investment and the interest received on reinvestment of cash.\n\nExcel Function:\n       MIRR(values,finance_rate, reinvestment_rate)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "values": {
+                    "name": "values",
+                    "line": 1457,
+                    "short_desc": "An array or a reference to cells that contain a series of payments and\n    income occurring at regular intervals.\nPayments are negative value, income is positive values.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            true
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "finance_rate": {
+                    "name": "finance_rate",
+                    "line": 1457,
+                    "short_desc": "The interest rate you pay on the money used in the cash flows",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "reinvestment_rate": {
+                    "name": "reinvestment_rate",
+                    "line": 1457,
+                    "short_desc": "The interest rate you receive on the cash flows as you reinvest them",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "NOMINAL": {
+            "name": "NOMINAL",
+            "line": 1499,
+            "short_desc": "NOMINAL",
+            "long_desc": "Returns the nominal interest rate given the effective rate and the number of compounding payments per year.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "effect_rate": {
+                    "name": "effect_rate",
+                    "line": 1499,
+                    "short_desc": "Effective interest rate",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "npery": {
+                    "name": "npery",
+                    "line": 1499,
+                    "short_desc": "Number of compounding payments per year",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "NPER": {
+            "name": "NPER",
+            "line": 1526,
+            "short_desc": "NPER",
+            "long_desc": "Returns the number of periods for a cash flow with constant periodic payments (annuities), and interest rate.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rate": {
+                    "name": "rate",
+                    "line": 1526,
+                    "short_desc": "Interest rate per period",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pmt": {
+                    "name": "pmt",
+                    "line": 1526,
+                    "short_desc": "Periodic payment (annuity)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pv": {
+                    "name": "pv",
+                    "line": 1526,
+                    "short_desc": "Present Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "fv": {
+                    "name": "fv",
+                    "line": 1526,
+                    "short_desc": "Future Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 1526,
+                    "short_desc": "Payment type: 0 = at the end of each period, 1 = at the beginning of each period",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "NPV": {
+            "name": "NPV",
+            "line": 1559,
+            "short_desc": "NPV",
+            "long_desc": "Returns the Net Present Value of a cash flow series given a discount rate.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "PMT": {
+            "name": "PMT",
+            "line": 1592,
+            "short_desc": "PMT",
+            "long_desc": "Returns the constant payment (annuity) for a cash flow with a constant interest rate.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rate": {
+                    "name": "rate",
+                    "line": 1592,
+                    "short_desc": "Interest rate per period",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "nper": {
+                    "name": "nper",
+                    "line": 1592,
+                    "short_desc": "Number of periods",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pv": {
+                    "name": "pv",
+                    "line": 1592,
+                    "short_desc": "Present Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "fv": {
+                    "name": "fv",
+                    "line": 1592,
+                    "short_desc": "Future Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 1592,
+                    "short_desc": "Payment type: 0 = at the end of each period, 1 = at the beginning of each period",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "PPMT": {
+            "name": "PPMT",
+            "line": 1626,
+            "short_desc": "PPMT",
+            "long_desc": "Returns the interest payment for a given period for an investment based on periodic, constant payments and a constant interest rate.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rate": {
+                    "name": "rate",
+                    "line": 1626,
+                    "short_desc": "Interest rate per period",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "per": {
+                    "name": "per",
+                    "line": 1626,
+                    "short_desc": "Period for which we want to find the interest",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "nper": {
+                    "name": "nper",
+                    "line": 1626,
+                    "short_desc": "Number of periods",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pv": {
+                    "name": "pv",
+                    "line": 1626,
+                    "short_desc": "Present Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "fv": {
+                    "name": "fv",
+                    "line": 1626,
+                    "short_desc": "Future Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 1626,
+                    "short_desc": "Payment type: 0 = at the end of each period, 1 = at the beginning of each period",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "PRICE": {
+            "name": "PRICE",
+            "line": 1649,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 1649,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 1649,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rate": {
+                    "name": "rate",
+                    "line": 1649,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "yield": {
+                    "name": "yield",
+                    "line": 1649,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "redemption": {
+                    "name": "redemption",
+                    "line": 1649,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "frequency": {
+                    "name": "frequency",
+                    "line": 1649,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 1649,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "PRICEDISC": {
+            "name": "PRICEDISC",
+            "line": 1710,
+            "short_desc": "PRICEDISC",
+            "long_desc": "Returns the price per $100 face value of a discounted security.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"PRICEDISC\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"PRICEDISC\" is missing a @param tag",
+                "The \"discount\" parameter of the method \"PRICEDISC\" is missing a @param tag",
+                "The \"redemption\" parameter of the method \"PRICEDISC\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"PRICEDISC\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 1710,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 1710,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "discount": {
+                    "name": "discount",
+                    "line": 1710,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "redemption": {
+                    "name": "redemption",
+                    "line": 1710,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 1710,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "PRICEMAT": {
+            "name": "PRICEMAT",
+            "line": 1755,
+            "short_desc": "PRICEMAT",
+            "long_desc": "Returns the price per $100 face value of a security that pays interest at maturity.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"PRICEMAT\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"PRICEMAT\" is missing a @param tag",
+                "The \"issue\" parameter of the method \"PRICEMAT\" is missing a @param tag",
+                "The \"rate\" parameter of the method \"PRICEMAT\" is missing a @param tag",
+                "The \"yield\" parameter of the method \"PRICEMAT\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"PRICEMAT\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 1755,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 1755,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "issue": {
+                    "name": "issue",
+                    "line": 1755,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rate": {
+                    "name": "rate",
+                    "line": 1755,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "yield": {
+                    "name": "yield",
+                    "line": 1755,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 1755,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "PV": {
+            "name": "PV",
+            "line": 1812,
+            "short_desc": "PV",
+            "long_desc": "Returns the Present Value of a cash flow with constant payments and interest rate (annuities).",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "rate": {
+                    "name": "rate",
+                    "line": 1812,
+                    "short_desc": "Interest rate per period",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "nper": {
+                    "name": "nper",
+                    "line": 1812,
+                    "short_desc": "Number of periods",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pmt": {
+                    "name": "pmt",
+                    "line": 1812,
+                    "short_desc": "Periodic payment (annuity)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "fv": {
+                    "name": "fv",
+                    "line": 1812,
+                    "short_desc": "Future Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 1812,
+                    "short_desc": "Payment type: 0 = at the end of each period, 1 = at the beginning of each period",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "RATE": {
+            "name": "RATE",
+            "line": 1863,
+            "short_desc": "RATE",
+            "long_desc": "Returns the interest rate per period of an annuity.\nRATE is calculated by iteration and can have zero or more solutions.\nIf the successive results of RATE do not converge to within 0.0000001 after 20 iterations,\nRATE returns the #NUM! error value.\n\nExcel Function:\n       RATE(nper,pmt,pv[,fv[,type[,guess]]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Financial",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"nper\" parameter of the method \"RATE\" is missing a @param tag",
+                "The \"pmt\" parameter of the method \"RATE\" is missing a @param tag",
+                "The \"pv\" parameter of the method \"RATE\" is missing a @param tag",
+                "The \"fv\" parameter of the method \"RATE\" is missing a @param tag",
+                "The \"type\" parameter of the method \"RATE\" is missing a @param tag",
+                "The \"guess\" parameter of the method \"RATE\" is missing a @param tag"
+            ],
+            "parameters": {
+                "nper": {
+                    "name": "nper",
+                    "line": 1863,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pmt": {
+                    "name": "pmt",
+                    "line": 1863,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pv": {
+                    "name": "pv",
+                    "line": 1863,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "fv": {
+                    "name": "fv",
+                    "line": 1863,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0.0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "type": {
+                    "name": "type",
+                    "line": 1863,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "guess": {
+                    "name": "guess",
+                    "line": 1863,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0.1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "RECEIVED": {
+            "name": "RECEIVED",
+            "line": 1926,
+            "short_desc": "RECEIVED",
+            "long_desc": "Returns the price per $100 face value of a discounted security.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"RECEIVED\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"RECEIVED\" is missing a @param tag",
+                "The \"investment\" parameter of the method \"RECEIVED\" is missing a @param tag",
+                "The \"discount\" parameter of the method \"RECEIVED\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"RECEIVED\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 1926,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 1926,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "investment": {
+                    "name": "investment",
+                    "line": 1926,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "discount": {
+                    "name": "discount",
+                    "line": 1926,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 1926,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SLN": {
+            "name": "SLN",
+            "line": 1961,
+            "short_desc": "SLN",
+            "long_desc": "Returns the straight-line depreciation of an asset for one period",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"cost\" parameter of the method \"SLN\" is missing a @param tag",
+                "The \"salvage\" parameter of the method \"SLN\" is missing a @param tag",
+                "The \"life\" parameter of the method \"SLN\" is missing a @param tag"
+            ],
+            "parameters": {
+                "cost": {
+                    "name": "cost",
+                    "line": 1961,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "salvage": {
+                    "name": "salvage",
+                    "line": 1961,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "life": {
+                    "name": "life",
+                    "line": 1961,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SYD": {
+            "name": "SYD",
+            "line": 1989,
+            "short_desc": "SYD",
+            "long_desc": "Returns the sum-of-years' digits depreciation of an asset for a specified period.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"cost\" parameter of the method \"SYD\" is missing a @param tag",
+                "The \"salvage\" parameter of the method \"SYD\" is missing a @param tag",
+                "The \"life\" parameter of the method \"SYD\" is missing a @param tag",
+                "The \"period\" parameter of the method \"SYD\" is missing a @param tag"
+            ],
+            "parameters": {
+                "cost": {
+                    "name": "cost",
+                    "line": 1989,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "salvage": {
+                    "name": "salvage",
+                    "line": 1989,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "life": {
+                    "name": "life",
+                    "line": 1989,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "period": {
+                    "name": "period",
+                    "line": 1989,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "TBILLEQ": {
+            "name": "TBILLEQ",
+            "line": 2019,
+            "short_desc": "TBILLEQ",
+            "long_desc": "Returns the bond-equivalent yield for a Treasury bill.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"TBILLEQ\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"TBILLEQ\" is missing a @param tag",
+                "The \"discount\" parameter of the method \"TBILLEQ\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 2019,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 2019,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "discount": {
+                    "name": "discount",
+                    "line": 2019,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "TBILLPRICE": {
+            "name": "TBILLPRICE",
+            "line": 2058,
+            "short_desc": "TBILLPRICE",
+            "long_desc": "Returns the yield for a Treasury bill.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"TBILLPRICE\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"TBILLPRICE\" is missing a @param tag",
+                "The \"discount\" parameter of the method \"TBILLPRICE\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 2058,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 2058,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "discount": {
+                    "name": "discount",
+                    "line": 2058,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "TBILLYIELD": {
+            "name": "TBILLYIELD",
+            "line": 2111,
+            "short_desc": "TBILLYIELD",
+            "long_desc": "Returns the yield for a Treasury bill.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"TBILLYIELD\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"TBILLYIELD\" is missing a @param tag",
+                "The \"price\" parameter of the method \"TBILLYIELD\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 2111,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 2111,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "price": {
+                    "name": "price",
+                    "line": 2111,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "XIRR": {
+            "name": "XIRR",
+            "line": 2144,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "values": {
+                    "name": "values",
+                    "line": 2144,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "dates": {
+                    "name": "dates",
+                    "line": 2144,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "guess": {
+                    "name": "guess",
+                    "line": 2144,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0.1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "XNPV": {
+            "name": "XNPV",
+            "line": 2217,
+            "short_desc": "XNPV",
+            "long_desc": "Returns the net present value for a schedule of cash flows that is not necessarily periodic.\nTo calculate the net present value for a series of cash flows that is periodic, use the NPV function.\n\nExcel Function:\n       =XNPV(rate,values,dates)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"values\" parameter of the method \"XNPV\" is missing a @param tag",
+                "The \"dates\" parameter of the method \"XNPV\" is missing a @param tag"
+            ],
+            "parameters": {
+                "rate": {
+                    "name": "rate",
+                    "line": 2217,
+                    "short_desc": "The discount rate to apply to the cash flows.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "values": {
+                    "name": "values",
+                    "line": 2217,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "dates": {
+                    "name": "dates",
+                    "line": 2217,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "YIELDDISC": {
+            "name": "YIELDDISC",
+            "line": 2266,
+            "short_desc": "YIELDDISC",
+            "long_desc": "Returns the annual yield of a security that pays interest at maturity.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"YIELDDISC\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"YIELDDISC\" is missing a @param tag",
+                "The \"price\" parameter of the method \"YIELDDISC\" is missing a @param tag",
+                "The \"redemption\" parameter of the method \"YIELDDISC\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"YIELDDISC\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 2266,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 2266,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "price": {
+                    "name": "price",
+                    "line": 2266,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "redemption": {
+                    "name": "redemption",
+                    "line": 2266,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 2266,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "YIELDMAT": {
+            "name": "YIELDMAT",
+            "line": 2316,
+            "short_desc": "YIELDMAT",
+            "long_desc": "Returns the annual yield of a security that pays interest at maturity.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"settlement\" parameter of the method \"YIELDMAT\" is missing a @param tag",
+                "The \"maturity\" parameter of the method \"YIELDMAT\" is missing a @param tag",
+                "The \"issue\" parameter of the method \"YIELDMAT\" is missing a @param tag",
+                "The \"rate\" parameter of the method \"YIELDMAT\" is missing a @param tag",
+                "The \"price\" parameter of the method \"YIELDMAT\" is missing a @param tag",
+                "The \"basis\" parameter of the method \"YIELDMAT\" is missing a @param tag"
+            ],
+            "parameters": {
+                "settlement": {
+                    "name": "settlement",
+                    "line": 2316,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "maturity": {
+                    "name": "maturity",
+                    "line": 2316,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "issue": {
+                    "name": "issue",
+                    "line": 2316,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rate": {
+                    "name": "rate",
+                    "line": 2316,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "price": {
+                    "name": "price",
+                    "line": 2316,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "basis": {
+                    "name": "basis",
+                    "line": 2316,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

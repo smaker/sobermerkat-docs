@@ -1,0 +1,188 @@
+{
+    "name": "PHPExcel_Shared_OLE_PPS_File",
+    "line": 30,
+    "short_desc": "Class for creating File PPS's for OLE containers",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "author": [
+            [
+                "Xavier",
+                "Noguer",
+                "<xnoguer@php.net>"
+            ]
+        ],
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Shared_OLE"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Shared\/OLE\/PPS\/File.php",
+    "relative_file": null,
+    "hash": "617bce059f022d70ed2d56c57fe1b928654567c8",
+    "parent": "PHPExcel_Shared_OLE_PPS",
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 39,
+            "short_desc": "The constructor",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "see": [
+                    [
+                        "\\OLE::Asc2Ucs()"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "\\OLE::Asc2Ucs()",
+                    "",
+                    "\\OLE",
+                    "Asc2Ucs",
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "name": {
+                    "name": "name",
+                    "line": 39,
+                    "short_desc": "The PPS name",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "init": {
+            "name": "init",
+            "line": 50,
+            "short_desc": "Initialization method. Has to be called right after OLE_PPS_File().",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "true on success",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "append": {
+            "name": "append",
+            "line": 61,
+            "short_desc": "Append data to PPS",
+            "long_desc": "",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "data": {
+                    "name": "data",
+                    "line": 61,
+                    "short_desc": "The data to append",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getStream": {
+            "name": "getStream",
+            "line": 70,
+            "short_desc": "Returns a stream for reading this file using fread() etc.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "resource",
+                    false
+                ]
+            ],
+            "hint_desc": "a read-only stream",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        }
+    },
+    "constants": []
+}

@@ -1,0 +1,188 @@
+{
+    "name": "CholeskyDecomposition",
+    "line": 18,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "package": [
+            [
+                "JAMA\n\nCholesky",
+                "decomposition",
+                "class\n\nFor",
+                "a",
+                "symmetric,",
+                "positive",
+                "definite",
+                "matrix",
+                "A,",
+                "the",
+                "Cholesky",
+                "decomposition\nis",
+                "an",
+                "lower",
+                "triangular",
+                "matrix",
+                "L",
+                "so",
+                "that",
+                "A",
+                "=",
+                "L*L'.\n\nIf",
+                "the",
+                "matrix",
+                "is",
+                "not",
+                "symmetric",
+                "or",
+                "positive",
+                "definite,",
+                "the",
+                "constructor\nreturns",
+                "a",
+                "partial",
+                "decomposition",
+                "and",
+                "sets",
+                "an",
+                "internal",
+                "flag",
+                "that",
+                "may\nbe",
+                "queried",
+                "by",
+                "the",
+                "isSPD()",
+                "method.\n\n@author",
+                "Paul",
+                "Meagher\n@author",
+                "Michael",
+                "Bommarito\n@version",
+                "1.2"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Shared\/JAMA\/CholeskyDecomposition.php",
+    "relative_file": null,
+    "hash": "1dbb94f2e1e532875e60fc773bf6204e8793df5e",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 47,
+            "short_desc": "CholeskyDecomposition",
+            "long_desc": "Class constructor - decomposes symmetric positive definite matrix",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"A\" parameter of the method \"__construct\" is missing a @param tag"
+            ],
+            "parameters": {
+                "A": {
+                    "name": "A",
+                    "line": 47,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "isSPD": {
+            "name": "isSPD",
+            "line": 85,
+            "short_desc": "Is the matrix symmetric and positive definite?",
+            "long_desc": " @return boolean",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getL": {
+            "name": "getL",
+            "line": 96,
+            "short_desc": "getL",
+            "long_desc": "Return triangular factor.",
+            "hint": [
+                [
+                    "\\Matrix",
+                    false
+                ]
+            ],
+            "hint_desc": "Lower triangular matrix",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "solve": {
+            "name": "solve",
+            "line": 107,
+            "short_desc": "Solve A*X = B",
+            "long_desc": " @param $B Row-equal matrix",
+            "hint": [
+                [
+                    "\\Matrix",
+                    false
+                ]
+            ],
+            "hint_desc": "L * L' * X = B",
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "B": {
+                    "name": "B",
+                    "line": 107,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

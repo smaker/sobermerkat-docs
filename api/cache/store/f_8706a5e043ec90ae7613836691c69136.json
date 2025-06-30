@@ -1,0 +1,61 @@
+{
+    "namespace": "",
+    "name": "get_thumbnail_find_cache",
+    "line": 281,
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/get_data.lib.php",
+    "relative_file": null,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "hint_desc": null,
+    "tags": [],
+    "modifiers": 0,
+    "is_by_ref": "",
+    "is_intersection_type": false,
+    "exceptions": [],
+    "errors": [],
+    "parameters": {
+        "bo_table": {
+            "name": "bo_table",
+            "line": 281,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        },
+        "wr_id": {
+            "name": "wr_id",
+            "line": 281,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        },
+        "wr_key": {
+            "name": "wr_key",
+            "line": 281,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        }
+    }
+}

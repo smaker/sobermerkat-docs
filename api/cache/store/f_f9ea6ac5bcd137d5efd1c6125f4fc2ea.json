@@ -1,0 +1,70 @@
+{
+    "namespace": "",
+    "name": "hypo",
+    "line": 14,
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/adm\/Excel\/Classes\/PHPExcel\/Shared\/JAMA\/utils\/Maths.php",
+    "relative_file": null,
+    "short_desc": "",
+    "long_desc": "",
+    "hint": null,
+    "hint_desc": null,
+    "tags": {
+        "package": [
+            [
+                "JAMA\n\nPythagorean",
+                "Theorem:\n\na",
+                "=",
+                "3\nb",
+                "=",
+                "4\nr",
+                "=",
+                "sqrt(square(a)",
+                "+",
+                "square(b))\nr",
+                "=",
+                "5\n\nr",
+                "=",
+                "sqrt(a^2",
+                "+",
+                "b^2)",
+                "without",
+                "under\/overflow."
+            ]
+        ]
+    },
+    "modifiers": 0,
+    "is_by_ref": "",
+    "is_intersection_type": false,
+    "exceptions": [],
+    "errors": [],
+    "parameters": {
+        "a": {
+            "name": "a",
+            "line": 14,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        },
+        "b": {
+            "name": "b",
+            "line": 14,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": null,
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        }
+    }
+}

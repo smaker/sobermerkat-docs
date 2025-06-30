@@ -1,0 +1,405 @@
+{
+    "name": "PHPExcel_Reader_Excel5_Color_BuiltIn",
+    "line": 3,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Reader\/Excel5\/Color\/BuiltIn.php",
+    "relative_file": null,
+    "hash": "5e4460eaf41135faa5288aa85ba697341d6262c3",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "map": {
+            "name": "map",
+            "line": 5,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 10,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 5,
+                    "endLine": 16,
+                    "kind": 1
+                },
+                "items": [
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 6,
+                            "endLine": 6
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6,
+                                "rawValue": "0x00",
+                                "kind": 16
+                            },
+                            "value": 0
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 6,
+                                "endLine": 6,
+                                "kind": 1,
+                                "rawValue": "'000000'"
+                            },
+                            "value": "000000"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 7,
+                            "endLine": 7
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 7,
+                                "endLine": 7,
+                                "rawValue": "0x01",
+                                "kind": 16
+                            },
+                            "value": 1
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 7,
+                                "endLine": 7,
+                                "kind": 1,
+                                "rawValue": "'FFFFFF'"
+                            },
+                            "value": "FFFFFF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 8,
+                            "endLine": 8
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 8,
+                                "endLine": 8,
+                                "rawValue": "0x02",
+                                "kind": 16
+                            },
+                            "value": 2
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 8,
+                                "endLine": 8,
+                                "kind": 1,
+                                "rawValue": "'FF0000'"
+                            },
+                            "value": "FF0000"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 9,
+                            "endLine": 9
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 9,
+                                "endLine": 9,
+                                "rawValue": "0x03",
+                                "kind": 16
+                            },
+                            "value": 3
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 9,
+                                "endLine": 9,
+                                "kind": 1,
+                                "rawValue": "'00FF00'"
+                            },
+                            "value": "00FF00"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 10,
+                            "endLine": 10
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 10,
+                                "endLine": 10,
+                                "rawValue": "0x04",
+                                "kind": 16
+                            },
+                            "value": 4
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 10,
+                                "endLine": 10,
+                                "kind": 1,
+                                "rawValue": "'0000FF'"
+                            },
+                            "value": "0000FF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 11,
+                            "endLine": 11
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 11,
+                                "endLine": 11,
+                                "rawValue": "0x05",
+                                "kind": 16
+                            },
+                            "value": 5
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 11,
+                                "endLine": 11,
+                                "kind": 1,
+                                "rawValue": "'FFFF00'"
+                            },
+                            "value": "FFFF00"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 12,
+                            "endLine": 12
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 12,
+                                "endLine": 12,
+                                "rawValue": "0x06",
+                                "kind": 16
+                            },
+                            "value": 6
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 12,
+                                "endLine": 12,
+                                "kind": 1,
+                                "rawValue": "'FF00FF'"
+                            },
+                            "value": "FF00FF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 13,
+                            "endLine": 13
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 13,
+                                "endLine": 13,
+                                "rawValue": "0x07",
+                                "kind": 16
+                            },
+                            "value": 7
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 13,
+                                "endLine": 13,
+                                "kind": 1,
+                                "rawValue": "'00FFFF'"
+                            },
+                            "value": "00FFFF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 14,
+                            "endLine": 14
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 14,
+                                "endLine": 14,
+                                "rawValue": "0x40",
+                                "kind": 16
+                            },
+                            "value": 64
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 14,
+                                "endLine": 14,
+                                "kind": 1,
+                                "rawValue": "'000000'"
+                            },
+                            "value": "000000"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    },
+                    {
+                        "nodeType": "Expr_ArrayItem",
+                        "attributes": {
+                            "startLine": 15,
+                            "comments": [
+                                {
+                                    "nodeType": "Comment",
+                                    "text": "\/\/ system window text color",
+                                    "line": 14,
+                                    "filePos": 321,
+                                    "tokenPos": 82,
+                                    "endLine": 14,
+                                    "endFilePos": 347,
+                                    "endTokenPos": 82
+                                }
+                            ],
+                            "endLine": 15
+                        },
+                        "key": {
+                            "nodeType": "Scalar_LNumber",
+                            "attributes": {
+                                "startLine": 15,
+                                "comments": [
+                                    {
+                                        "nodeType": "Comment",
+                                        "text": "\/\/ system window text color",
+                                        "line": 14,
+                                        "filePos": 321,
+                                        "tokenPos": 82,
+                                        "endLine": 14,
+                                        "endFilePos": 347,
+                                        "endTokenPos": 82
+                                    }
+                                ],
+                                "endLine": 15,
+                                "rawValue": "0x41",
+                                "kind": 16
+                            },
+                            "value": 65
+                        },
+                        "value": {
+                            "nodeType": "Scalar_String",
+                            "attributes": {
+                                "startLine": 15,
+                                "endLine": 15,
+                                "kind": 1,
+                                "rawValue": "'FFFFFF'"
+                            },
+                            "value": "FFFFFF"
+                        },
+                        "byRef": false,
+                        "unpack": false
+                    }
+                ]
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "lookup": {
+            "name": "lookup",
+            "line": 24,
+            "short_desc": "Map built-in color to RGB value",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "color": {
+                    "name": "color",
+                    "line": 24,
+                    "short_desc": "Indexed color",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

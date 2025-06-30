@@ -1,0 +1,1012 @@
+{
+    "name": "PHPExcel_Calculation_LookupRef",
+    "line": 37,
+    "short_desc": "PHPExcel_Calculation_LookupRef",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Calculation"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Calculation\/LookupRef.php",
+    "relative_file": null,
+    "hash": "b80de16034eb866d85bd643d75f1c5f02a05a317",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "CELL_ADDRESS": {
+            "name": "CELL_ADDRESS",
+            "line": 60,
+            "short_desc": "CELL_ADDRESS",
+            "long_desc": "Creates a cell address as text, given specified row and column numbers.\n\nExcel Function:\n       =ADDRESS(row, column, [relativity], [referenceStyle], [sheetText])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"row\" parameter of the method \"CELL_ADDRESS\" is missing a @param tag",
+                "The \"column\" parameter of the method \"CELL_ADDRESS\" is missing a @param tag",
+                "The \"relativity\" parameter of the method \"CELL_ADDRESS\" is missing a @param tag",
+                "The \"referenceStyle\" parameter of the method \"CELL_ADDRESS\" is missing a @param tag",
+                "The \"sheetText\" parameter of the method \"CELL_ADDRESS\" is missing a @param tag"
+            ],
+            "parameters": {
+                "row": {
+                    "name": "row",
+                    "line": 60,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "column": {
+                    "name": "column",
+                    "line": 60,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "relativity": {
+                    "name": "relativity",
+                    "line": 60,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "referenceStyle": {
+                    "name": "referenceStyle",
+                    "line": 60,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "sheetText": {
+                    "name": "sheetText",
+                    "line": 60,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COLUMN": {
+            "name": "COLUMN",
+            "line": 113,
+            "short_desc": "COLUMN",
+            "long_desc": "Returns the column number of the given cell reference\nIf the cell reference is a range of cells, COLUMN returns the column numbers of each column in the reference as a horizontal array.\nIf cell reference is omitted, and the function is being called through the calculation engine, then it is assumed to be the\n       reference of the cell in which the COLUMN function appears; otherwise this function returns 0.\n\nExcel Function:\n       =COLUMN([cellAddress])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "or array of integer",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"cellAddress\" parameter of the method \"COLUMN\" is missing a @param tag"
+            ],
+            "parameters": {
+                "cellAddress": {
+                    "name": "cellAddress",
+                    "line": 113,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COLUMNS": {
+            "name": "COLUMNS",
+            "line": 156,
+            "short_desc": "COLUMNS",
+            "long_desc": "Returns the number of columns in an array or reference.\n\nExcel Function:\n       =COLUMNS(cellAddress)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "The number of columns in cellAddress",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"cellAddress\" parameter of the method \"COLUMNS\" is missing a @param tag"
+            ],
+            "parameters": {
+                "cellAddress": {
+                    "name": "cellAddress",
+                    "line": 156,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ROW": {
+            "name": "ROW",
+            "line": 190,
+            "short_desc": "ROW",
+            "long_desc": "Returns the row number of the given cell reference\nIf the cell reference is a range of cells, ROW returns the row numbers of each row in the reference as a vertical array.\nIf cell reference is omitted, and the function is being called through the calculation engine, then it is assumed to be the\n       reference of the cell in which the ROW function appears; otherwise this function returns 0.\n\nExcel Function:\n       =ROW([cellAddress])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "or array of integer",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"cellAddress\" parameter of the method \"ROW\" is missing a @param tag"
+            ],
+            "parameters": {
+                "cellAddress": {
+                    "name": "cellAddress",
+                    "line": 190,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ROWS": {
+            "name": "ROWS",
+            "line": 234,
+            "short_desc": "ROWS",
+            "long_desc": "Returns the number of rows in an array or reference.\n\nExcel Function:\n       =ROWS(cellAddress)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "The number of rows in cellAddress",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"cellAddress\" parameter of the method \"ROWS\" is missing a @param tag"
+            ],
+            "parameters": {
+                "cellAddress": {
+                    "name": "cellAddress",
+                    "line": 234,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "HYPERLINK": {
+            "name": "HYPERLINK",
+            "line": 267,
+            "short_desc": "HYPERLINK",
+            "long_desc": "Excel Function:\n=HYPERLINK(linkURL,displayName)",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "The value of $displayName (or $linkURL if $displayName was blank)",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Logical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "linkURL": {
+                    "name": "linkURL",
+                    "line": 267,
+                    "short_desc": "Value to check, is also the value returned when no error",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "''",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "displayName": {
+                    "name": "displayName",
+                    "line": 267,
+                    "short_desc": "Value to return when testValue is an error condition",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pCell": {
+                    "name": "pCell",
+                    "line": 267,
+                    "short_desc": "The cell to set the hyperlink in",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Cell",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "INDIRECT": {
+            "name": "INDIRECT",
+            "line": 308,
+            "short_desc": "INDIRECT",
+            "long_desc": "Returns the reference specified by a text string.\nReferences are immediately evaluated to display their contents.\n\nExcel Function:\n       =INDIRECT(cellAddress)\n\nNOTE - INDIRECT() does not yet support the optional a1 parameter introduced in Excel 2010",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "The cells referenced by cellAddress",
+            "tags": {
+                "todo": [
+                    [
+                        "Support",
+                        "for",
+                        "the",
+                        "optional",
+                        "a1",
+                        "parameter",
+                        "introduced",
+                        "in",
+                        "Excel",
+                        "2010"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "cellAddress": {
+                    "name": "cellAddress",
+                    "line": 308,
+                    "short_desc": "The cell address of the current cell (containing this formula)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\cellAddress",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "pCell": {
+                    "name": "pCell",
+                    "line": 308,
+                    "short_desc": "The current cell (containing this formula)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "\\PHPExcel_Cell",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "OFFSET": {
+            "name": "OFFSET",
+            "line": 375,
+            "short_desc": "OFFSET",
+            "long_desc": "Returns a reference to a range that is a specified number of rows and columns from a cell or range of cells.\nThe reference that is returned can be a single cell or a range of cells. You can specify the number of rows and\nthe number of columns to be returned.\n\nExcel Function:\n       =OFFSET(cellAddress, rows, cols, [height], [width])",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "A reference to a cell or range of cells",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"cellAddress\" parameter of the method \"OFFSET\" is missing a @param tag",
+                "The \"rows\" parameter of the method \"OFFSET\" is missing a @param tag",
+                "The \"columns\" parameter of the method \"OFFSET\" is missing a @param tag",
+                "The \"height\" parameter of the method \"OFFSET\" is missing a @param tag",
+                "The \"width\" parameter of the method \"OFFSET\" is missing a @param tag"
+            ],
+            "parameters": {
+                "cellAddress": {
+                    "name": "cellAddress",
+                    "line": 375,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rows": {
+                    "name": "rows",
+                    "line": 375,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "columns": {
+                    "name": "columns",
+                    "line": 375,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "height": {
+                    "name": "height",
+                    "line": 375,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "width": {
+                    "name": "width",
+                    "line": 375,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "CHOOSE": {
+            "name": "CHOOSE",
+            "line": 463,
+            "short_desc": "CHOOSE",
+            "long_desc": "Uses lookup_value to return a value from the list of value arguments.\nUse CHOOSE to select one of up to 254 values based on the lookup_value.\n\nExcel Function:\n       =CHOOSE(index_num, value1, [value2], ...)",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "The selected value",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"CHOOSE\" has \"2\" @param tags but only \"0\" where expected.",
+                "The method \"CHOOSE\" has \"1\" invalid @param tags.",
+                "Invalid @param tag on \"CHOOSE\": \"value1...        Value1 is required, subsequent values are optional.\n                           Between 1 to 254 value arguments from which CHOOSE selects a value or an action to perform based on\n                               index_num. The arguments can be numbers, cell references, defined names, formulas, functions, or\n                               text.\""
+            ],
+            "parameters": []
+        },
+        "MATCH": {
+            "name": "MATCH",
+            "line": 503,
+            "short_desc": "MATCH",
+            "long_desc": "The MATCH function searches for a specified item in a range of cells\n\nExcel Function:\n       =MATCH(lookup_value, lookup_array, [match_type])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "The relative position of the found item",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"lookup_value\" parameter of the method \"MATCH\" is missing a @param tag",
+                "The \"lookup_array\" parameter of the method \"MATCH\" is missing a @param tag",
+                "The \"match_type\" parameter of the method \"MATCH\" is missing a @param tag"
+            ],
+            "parameters": {
+                "lookup_value": {
+                    "name": "lookup_value",
+                    "line": 503,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "lookup_array": {
+                    "name": "lookup_array",
+                    "line": 503,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "match_type": {
+                    "name": "match_type",
+                    "line": 503,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "INDEX": {
+            "name": "INDEX",
+            "line": 600,
+            "short_desc": "INDEX",
+            "long_desc": "Uses an index to choose a value from a reference or array\n\nExcel Function:\n       =INDEX(range_array, row_num, [column_num])",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "the value of a specified cell or array of cells",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"arrayValues\" parameter of the method \"INDEX\" is missing a @param tag",
+                "The \"rowNum\" parameter of the method \"INDEX\" is missing a @param tag",
+                "The \"columnNum\" parameter of the method \"INDEX\" is missing a @param tag"
+            ],
+            "parameters": {
+                "arrayValues": {
+                    "name": "arrayValues",
+                    "line": 600,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rowNum": {
+                    "name": "rowNum",
+                    "line": 600,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "columnNum": {
+                    "name": "columnNum",
+                    "line": 600,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "TRANSPOSE": {
+            "name": "TRANSPOSE",
+            "line": 654,
+            "short_desc": "TRANSPOSE",
+            "long_desc": "",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "Unlike the Excel TRANSPOSE function, which will only work on a single row or column, this function will transpose a full matrix.",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "matrixData": {
+                    "name": "matrixData",
+                    "line": 654,
+                    "short_desc": "A matrix of values",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "VLOOKUP": {
+            "name": "VLOOKUP",
+            "line": 694,
+            "short_desc": "VLOOKUP\nThe VLOOKUP function searches for value in the left-most column of lookup_array and returns the value in the same row based on the index_number.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "The value of the found cell",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"lookup_value\" parameter of the method \"VLOOKUP\" is missing a @param tag",
+                "The \"lookup_array\" parameter of the method \"VLOOKUP\" is missing a @param tag",
+                "The \"index_number\" parameter of the method \"VLOOKUP\" is missing a @param tag",
+                "The \"not_exact_match\" parameter of the method \"VLOOKUP\" is missing a @param tag"
+            ],
+            "parameters": {
+                "lookup_value": {
+                    "name": "lookup_value",
+                    "line": 694,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "lookup_array": {
+                    "name": "lookup_array",
+                    "line": 694,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "index_number": {
+                    "name": "index_number",
+                    "line": 694,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "not_exact_match": {
+                    "name": "not_exact_match",
+                    "line": 694,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "HLOOKUP": {
+            "name": "HLOOKUP",
+            "line": 757,
+            "short_desc": "HLOOKUP\nThe HLOOKUP function searches for value in the top-most row of lookup_array and returns the value in the same column based on the index_number.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "The value of the found cell",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"lookup_value\" parameter of the method \"HLOOKUP\" is missing a @param tag",
+                "The \"lookup_array\" parameter of the method \"HLOOKUP\" is missing a @param tag",
+                "The \"index_number\" parameter of the method \"HLOOKUP\" is missing a @param tag",
+                "The \"not_exact_match\" parameter of the method \"HLOOKUP\" is missing a @param tag"
+            ],
+            "parameters": {
+                "lookup_value": {
+                    "name": "lookup_value",
+                    "line": 757,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "lookup_array": {
+                    "name": "lookup_array",
+                    "line": 757,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "index_number": {
+                    "name": "index_number",
+                    "line": 757,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "not_exact_match": {
+                    "name": "not_exact_match",
+                    "line": 757,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "LOOKUP": {
+            "name": "LOOKUP",
+            "line": 820,
+            "short_desc": "LOOKUP\nThe LOOKUP function searches for value either from a one-row or one-column range or from an array.",
+            "long_desc": "",
+            "hint": [
+                [
+                    "mixed",
+                    false
+                ]
+            ],
+            "hint_desc": "The value of the found cell",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"lookup_value\" parameter of the method \"LOOKUP\" is missing a @param tag",
+                "The \"lookup_vector\" parameter of the method \"LOOKUP\" is missing a @param tag",
+                "The \"result_vector\" parameter of the method \"LOOKUP\" is missing a @param tag"
+            ],
+            "parameters": {
+                "lookup_value": {
+                    "name": "lookup_value",
+                    "line": 820,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "lookup_vector": {
+                    "name": "lookup_vector",
+                    "line": 820,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "result_vector": {
+                    "name": "result_vector",
+                    "line": 820,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

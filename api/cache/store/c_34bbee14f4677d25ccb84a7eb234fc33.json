@@ -1,0 +1,227 @@
+{
+    "name": "PHPExcel_Shared_TimeZone",
+    "line": 37,
+    "short_desc": "PHPExcel_Shared_TimeZone",
+    "long_desc": "",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Shared"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/PHPExcel\/Shared\/TimeZone.php",
+    "relative_file": null,
+    "hash": "cfbb84e822f676f769b2f74b1e95ee331ef83cf6",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "timezone": {
+            "name": "timezone",
+            "line": 45,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 10,
+            "default": {
+                "nodeType": "Scalar_String",
+                "attributes": {
+                    "startLine": 45,
+                    "endLine": 45,
+                    "kind": 1,
+                    "rawValue": "'UTC'"
+                },
+                "value": "UTC"
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "_validateTimeZone": {
+            "name": "_validateTimeZone",
+            "line": 53,
+            "short_desc": "Validate a Timezone name",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "timezone": {
+                    "name": "timezone",
+                    "line": 53,
+                    "short_desc": "Time zone (e.g. 'Europe\/London')",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "setTimeZone": {
+            "name": "setTimeZone",
+            "line": 67,
+            "short_desc": "Set the Default Timezone used for date\/time conversions",
+            "long_desc": "",
+            "hint": [
+                [
+                    "bool",
+                    false
+                ]
+            ],
+            "hint_desc": "Success or failure",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "timezone": {
+                    "name": "timezone",
+                    "line": 67,
+                    "short_desc": "Time zone (e.g. 'Europe\/London')",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "getTimeZone": {
+            "name": "getTimeZone",
+            "line": 82,
+            "short_desc": "Return the Default Timezone used for date\/time conversions",
+            "long_desc": "",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "Timezone (e.g. 'Europe\/London')",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": []
+        },
+        "getTimeZoneAdjustment": {
+            "name": "getTimeZoneAdjustment",
+            "line": 121,
+            "short_desc": "Return the Timezone offset used for date\/time conversions to\/from UST\n   This requires both the timezone and the calculated date\/time to allow for local DST",
+            "long_desc": " @param        string                 $timezone        The timezone for finding the adjustment to UST",
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"timezone\" parameter of the method \"getTimeZoneAdjustment\" is missing a @param tag"
+            ],
+            "parameters": {
+                "timezone": {
+                    "name": "timezone",
+                    "line": 121,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "timestamp": {
+                    "name": "timestamp",
+                    "line": 121,
+                    "short_desc": "PHP date\/time value\n@return         integer                Number of seconds for timezone adjustment\n@throws        PHPExcel_Exception",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

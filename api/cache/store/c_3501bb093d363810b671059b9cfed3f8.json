@@ -1,0 +1,1380 @@
+{
+    "name": "XML",
+    "line": 54,
+    "short_desc": "\ud574\ub2f9 \ub77c\uc774\ube0c\ub7ec\ub9ac\ub294 \uc808\ub300 \uc218\uc815\ub418\uc5b4\uc11c\ub294 \uc548\ub429\ub2c8\ub2e4.",
+    "long_desc": "\uc784\uc758\ub85c \uc218\uc815\ub41c \ucf54\ub4dc\uc5d0 \ub300\ud55c \ucc45\uc784\uc740 \uc804\uc801\uc73c\ub85c \uc218\uc815\uc790\uc5d0\uac8c \uc788\uc74c\uc744 \uc54c\ub824\ub4dc\ub9bd\ub2c8\ub2e4.",
+    "hint": null,
+    "tags": [],
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/shop\/inicis\/libs\/INIXml.php",
+    "relative_file": null,
+    "hash": "a2b4be0b9ba9a5f1e876baabaabdc24268be3948",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": {
+        "xml_node": {
+            "name": "xml_node",
+            "line": 174,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "modifiers": 1,
+            "default": {
+                "nodeType": "Expr_Array",
+                "attributes": {
+                    "startLine": 174,
+                    "endLine": 174,
+                    "kind": 1
+                },
+                "items": []
+            },
+            "errors": [],
+            "is_read_only": false,
+            "is_write_only": false,
+            "is_intersection_type": false
+        }
+    },
+    "methods": {
+        "__construct": {
+            "name": "__construct",
+            "line": 189,
+            "short_desc": "Constructor of the class.",
+            "long_desc": "This constructor initializes the class and, when a filename is given,\ntries to read and parse the given file.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "\\load_xml()"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "\\load_xml()",
+                    "",
+                    "\\load_xml()",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "file": {
+                    "name": "file",
+                    "line": 189,
+                    "short_desc": "Path and name of the file to read and parsed.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "\"\"",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "remove_ctrl": {
+            "name": "remove_ctrl",
+            "line": 210,
+            "short_desc": "Reads a file and parses the XML data.",
+            "long_desc": "This method reads the content of a XML file, tries to parse its\ncontent and upon success stores the information retrieved from\nthe file into an array.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "h"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "handle_start_element()",
+                    "",
+                    "\\handle_start_element()",
+                    false,
+                    false
+                ],
+                [
+                    "handle_end_element()",
+                    "",
+                    "\\handle_end_element()",
+                    false,
+                    false
+                ],
+                [
+                    "handle_character_data()",
+                    "",
+                    "\\handle_character_data()",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"string\" parameter of the method \"remove_ctrl\" is missing a @param tag"
+            ],
+            "parameters": {
+                "string": {
+                    "name": "string",
+                    "line": 210,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "load_xml": {
+            "name": "load_xml",
+            "line": 223,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "file": {
+                    "name": "file",
+                    "line": 223,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "str": {
+                    "name": "str",
+                    "line": 223,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "make_xml": {
+            "name": "make_xml",
+            "line": 268,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "highlight": {
+                    "name": "highlight",
+                    "line": 268,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "root": {
+                    "name": "root",
+                    "line": 268,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "\"\"",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "level": {
+                    "name": "level",
+                    "line": 268,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "charset": {
+                    "name": "charset",
+                    "line": 268,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "\"UTF-8\"",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "get_xml": {
+            "name": "get_xml",
+            "line": 298,
+            "short_desc": "Generates a XML file with the content of the current document.",
+            "long_desc": "This method creates a string containing the XML data being read\nand modified by this class before. This string can be used to save\na modified document back to a file or doing other nice things with\nit.",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The returned string contains well-formed XML data\nrepresenting the content of this document.",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "l"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "load_xml()",
+                    "",
+                    "\\load_xml()",
+                    false,
+                    false
+                ],
+                [
+                    "evaluate()",
+                    "",
+                    "\\evaluate()",
+                    false,
+                    false
+                ],
+                [
+                    "get_content()",
+                    "",
+                    "\\get_content()",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "highlight": {
+                    "name": "highlight",
+                    "line": 298,
+                    "short_desc": "Array containing a list of full document\npaths of nodes to be highlighted by <font>...<\/font> tags\nin the generated XML string.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "root": {
+                    "name": "root",
+                    "line": 298,
+                    "short_desc": "While doing a recursion with this method, this\nparameter is used for internal purpose.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "\"\"",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "level": {
+                    "name": "level",
+                    "line": 298,
+                    "short_desc": "While doing a recursion with this method, this\nparameter is used for internal purpose.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "add_node": {
+            "name": "add_node",
+            "line": 443,
+            "short_desc": "Adds a new node to the XML document.",
+            "long_desc": "This method adds a new node to the tree of nodes of the XML document\nbeing handled by this class. The new node is created according to the\nparameters passed to this method.",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The string returned by this method will contain the\nfull document path of the created node.",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "r"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "remove_node()",
+                    "",
+                    "\\remove_node()",
+                    false,
+                    false
+                ],
+                [
+                    "evaluate()",
+                    "",
+                    "\\evaluate()",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"context\" parameter of the method \"add_node\" is missing a @param tag",
+                "The \"value\" parameter of the method \"add_node\" is missing a @param tag",
+                "The \"attr_arr\" parameter of the method \"add_node\" is missing a @param tag"
+            ],
+            "parameters": {
+                "context": {
+                    "name": "context",
+                    "line": 443,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "name": {
+                    "name": "name",
+                    "line": 443,
+                    "short_desc": "Name of the new node.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 443,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "\"\"",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "attr_arr": {
+                    "name": "attr_arr",
+                    "line": 443,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "NULL",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "remove_node": {
+            "name": "remove_node",
+            "line": 512,
+            "short_desc": "Removes a node from the XML document.",
+            "long_desc": "This method removes a node from the tree of nodes of the XML document.\nIf the node is a document node, all children of the node and its\ncharacter data will be removed. If the node is an attribute node,\nonly this attribute will be removed, the node to which the attribute\nbelongs as well as its children will remain unmodified.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "a"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "add_node()",
+                    "",
+                    "\\add_node()",
+                    false,
+                    false
+                ],
+                [
+                    "evaluate()",
+                    "",
+                    "\\evaluate()",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "node": {
+                    "name": "node",
+                    "line": 512,
+                    "short_desc": "Full path of the node to be removed.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "add_content": {
+            "name": "add_content",
+            "line": 617,
+            "short_desc": "Add content to a node.",
+            "long_desc": "This method adds content to a node. If it's an attribute node, then\nthe value of the attribute will be set, otherwise the character data of\nthe node will be set. The content is appended to existing content,\nso nothing will be overwritten.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "g"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "get_content()",
+                    "",
+                    "\\get_content()",
+                    false,
+                    false
+                ],
+                [
+                    "evaluate()",
+                    "",
+                    "\\evaluate()",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 617,
+                    "short_desc": "Full document path of the node.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 617,
+                    "short_desc": "String containing the content to be added.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_content": {
+            "name": "set_content",
+            "line": 650,
+            "short_desc": "Set the content of a node.",
+            "long_desc": "This method sets the content of a node. If it's an attribute node, then\nthe value of the attribute will be set, otherwise the character data of\nthe node will be set. Existing content will be overwritten.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "g"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "get_content()",
+                    "",
+                    "\\get_content()",
+                    false,
+                    false
+                ],
+                [
+                    "evaluate()",
+                    "",
+                    "\\evaluate()",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 650,
+                    "short_desc": "Full document path of the node.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 650,
+                    "short_desc": "String containing the content to be set.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "get_content": {
+            "name": "get_content",
+            "line": 685,
+            "short_desc": "Retrieves the content of a node.",
+            "long_desc": "This method retrieves the content of a node. If it's an attribute\nnode, then the value of the attribute will be retrieved, otherwise\nit'll be the character data of the node.",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The returned string contains either the value or the\ncharacter data of the node.",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "s"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "set_content()",
+                    "",
+                    "\\set_content()",
+                    false,
+                    false
+                ],
+                [
+                    "evaluate()",
+                    "",
+                    "\\evaluate()",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 685,
+                    "short_desc": "Full document path of the node, from which the\ncontent should be retrieved.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "add_attributes": {
+            "name": "add_attributes",
+            "line": 722,
+            "short_desc": "Add attributes to a node.",
+            "long_desc": "This method adds attributes to a node. Existing attributes will not be\noverwritten.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "s"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "set_content()",
+                    "",
+                    "\\set_content()",
+                    false,
+                    false
+                ],
+                [
+                    "get_content()",
+                    "",
+                    "\\get_content()",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 722,
+                    "short_desc": "Full document path of the node, the attributes\nshould be added to.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "attributes": {
+                    "name": "attributes",
+                    "line": 722,
+                    "short_desc": "Associative array containing the new\nattributes for the node.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "set_attributes": {
+            "name": "set_attributes",
+            "line": 741,
+            "short_desc": "Sets the attributes of a node.",
+            "long_desc": "This method sets the attributes of a node and overwrites all existing\nattributes by doing this.",
+            "hint": null,
+            "hint_desc": null,
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "s"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "set_content()",
+                    "",
+                    "\\set_content()",
+                    false,
+                    false
+                ],
+                [
+                    "get_content()",
+                    "",
+                    "\\get_content()",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 741,
+                    "short_desc": "Full document path of the node, the attributes\nof which should be set.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "attributes": {
+                    "name": "attributes",
+                    "line": 741,
+                    "short_desc": "Associative array containing the new\nattributes for the node.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "get_attributes": {
+            "name": "get_attributes",
+            "line": 760,
+            "short_desc": "Retrieves a list of all attributes of a node.",
+            "long_desc": "This method retrieves a list of all attributes of the node specified in\nthe argument.",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "The returned associative array contains the all\nattributes of the specified node.",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "g"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "get_content()",
+                    "",
+                    "\\get_content()",
+                    false,
+                    false
+                ],
+                [
+                    "$nodes",
+                    "",
+                    "\\$nodes",
+                    false,
+                    false
+                ],
+                [
+                    "$ids",
+                    "",
+                    "\\$ids",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 760,
+                    "short_desc": "Full document path of the node, from which the\nlist of attributes should be retrieved.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "get_name": {
+            "name": "get_name",
+            "line": 779,
+            "short_desc": "Retrieves the name of a document node.",
+            "long_desc": "This method retrieves the name of document node specified in the\nargument.",
+            "hint": [
+                [
+                    "string",
+                    false
+                ]
+            ],
+            "hint_desc": "The returned array contains the name of the specified\nnode.",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "g"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "get_content()",
+                    "",
+                    "\\get_content()",
+                    false,
+                    false
+                ],
+                [
+                    "$nodes",
+                    "",
+                    "\\$nodes",
+                    false,
+                    false
+                ],
+                [
+                    "$ids",
+                    "",
+                    "\\$ids",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 779,
+                    "short_desc": "Full document path of the node, from which the\nname should be retrieved.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "evaluate": {
+            "name": "evaluate",
+            "line": 800,
+            "short_desc": "Evaluates an XPath expression.",
+            "long_desc": "This method tries to evaluate an XPath expression by parsing it. A\nXML document has to be read before this method is able to work.",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "The returned array contains a list of the full\ndocument paths of all nodes that match the evaluated\nXPath expression.",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "author": [
+                    [
+                        "Michael",
+                        "P.",
+                        "Mehl",
+                        "<mpm@phpxml.org>"
+                    ]
+                ],
+                "see": [
+                    [
+                        "$"
+                    ]
+                ]
+            },
+            "see": [
+                [
+                    "$nodes",
+                    "",
+                    "\\$nodes",
+                    false,
+                    false
+                ],
+                [
+                    "$ids",
+                    "",
+                    "\\$ids",
+                    false,
+                    false
+                ]
+            ],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 800,
+                    "short_desc": "XPath expression to be evaluated.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "context": {
+                    "name": "context",
+                    "line": 800,
+                    "short_desc": "Full path of a document node, starting\nfrom which the XPath expression should be evaluated.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "\"\"",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "get_content_fetch": {
+            "name": "get_content_fetch",
+            "line": 3125,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 3125,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "get_attributes_patch": {
+            "name": "get_attributes_patch",
+            "line": 3134,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "hint_desc": null,
+            "tags": [],
+            "see": [],
+            "modifiers": 1,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "path": {
+                    "name": "path",
+                    "line": 3134,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "attr": {
+                    "name": "attr",
+                    "line": 3134,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

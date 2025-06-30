@@ -1,0 +1,4474 @@
+{
+    "name": "PHPExcel_Calculation_Statistical",
+    "line": 53,
+    "short_desc": "PHPExcel_Calculation_Statistical",
+    "long_desc": "Copyright (c) 2006 - 2015 PHPExcel\n\nThis library is free software; you can redistribute it and\/or\nmodify it under the terms of the GNU Lesser General Public\nLicense as published by the Free Software Foundation; either\nversion 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU\nLesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public\nLicense along with this library; if not, write to the Free Software\nFoundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA",
+    "hint": null,
+    "tags": {
+        "category": [
+            [
+                "PHPExcel"
+            ]
+        ],
+        "package": [
+            [
+                "PHPExcel_Calculation"
+            ]
+        ],
+        "copyright": [
+            [
+                "Copyright",
+                "(c)",
+                "2006",
+                "-",
+                "2015",
+                "PHPExcel",
+                "(http:\/\/www.codeplex.com\/PHPExcel)"
+            ]
+        ],
+        "license": [
+            [
+                "http:\/\/www.gnu.org\/licenses\/old-licenses\/lgpl-2.1.txt",
+                "",
+                "",
+                "",
+                "LGPL"
+            ]
+        ],
+        "version": [
+            [
+                "##VERSION##,",
+                "##DATE##"
+            ]
+        ]
+    },
+    "namespace": "",
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/adm\/Excel\/Classes\/PHPExcel\/Calculation\/Statistical.php",
+    "relative_file": null,
+    "hash": "a26006547fdd451c27efb12684b98696544404fb",
+    "parent": null,
+    "modifiers": 0,
+    "is_trait": false,
+    "is_interface": false,
+    "is_read_only": false,
+    "aliases": null,
+    "errors": [],
+    "interfaces": [],
+    "traits": [],
+    "properties": [],
+    "methods": {
+        "AVEDEV": {
+            "name": "AVEDEV",
+            "line": 725,
+            "short_desc": "AVEDEV",
+            "long_desc": "Returns the average of the absolute deviations of data points from their mean.\nAVEDEV is a measure of the variability in a data set.\n\nExcel Function:\n       AVEDEV(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"AVEDEV\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "AVERAGE": {
+            "name": "AVERAGE",
+            "line": 774,
+            "short_desc": "AVERAGE",
+            "long_desc": "Returns the average (arithmetic mean) of the arguments\n\nExcel Function:\n       AVERAGE(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"AVERAGE\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "AVERAGEA": {
+            "name": "AVERAGEA",
+            "line": 817,
+            "short_desc": "AVERAGEA",
+            "long_desc": "Returns the average of its arguments, including numbers, text, and logical values\n\nExcel Function:\n       AVERAGEA(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"AVERAGEA\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "AVERAGEIF": {
+            "name": "AVERAGEIF",
+            "line": 866,
+            "short_desc": "AVERAGEIF",
+            "long_desc": "Returns the average value from a range of cells that contain numbers within the list of arguments\n\nExcel Function:\n       AVERAGEIF(value1[,value2[, ...]],condition)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"aArgs\" parameter of the method \"AVERAGEIF\" is missing a @param tag"
+            ],
+            "parameters": {
+                "aArgs": {
+                    "name": "aArgs",
+                    "line": 866,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "condition": {
+                    "name": "condition",
+                    "line": 866,
+                    "short_desc": "The criteria that defines which cells will be checked.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "averageArgs": {
+                    "name": "averageArgs",
+                    "line": 866,
+                    "short_desc": "Data values",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "array",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "BETADIST": {
+            "name": "BETADIST",
+            "line": 910,
+            "short_desc": "BETADIST",
+            "long_desc": "Returns the beta distribution.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"rMin\" parameter of the method \"BETADIST\" is missing a @param tag",
+                "The \"rMax\" parameter of the method \"BETADIST\" is missing a @param tag"
+            ],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 910,
+                    "short_desc": "Value at which you want to evaluate the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "alpha": {
+                    "name": "alpha",
+                    "line": 910,
+                    "short_desc": "Parameter to the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "beta": {
+                    "name": "beta",
+                    "line": 910,
+                    "short_desc": "Parameter to the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rMin": {
+                    "name": "rMin",
+                    "line": 910,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rMax": {
+                    "name": "rMax",
+                    "line": 910,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "BETAINV": {
+            "name": "BETAINV",
+            "line": 949,
+            "short_desc": "BETAINV",
+            "long_desc": "Returns the inverse of the beta distribution.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"BETAINV\" has \"6\" @param tags but only \"5\" where expected."
+            ],
+            "parameters": {
+                "probability": {
+                    "name": "probability",
+                    "line": 949,
+                    "short_desc": "Probability at which you want to evaluate the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "alpha": {
+                    "name": "alpha",
+                    "line": 949,
+                    "short_desc": "Parameter to the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "beta": {
+                    "name": "beta",
+                    "line": 949,
+                    "short_desc": "Parameter to the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rMin": {
+                    "name": "rMin",
+                    "line": 949,
+                    "short_desc": "Minimum value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "rMax": {
+                    "name": "rMax",
+                    "line": 949,
+                    "short_desc": "Maximum value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "1",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "BINOMDIST": {
+            "name": "BINOMDIST",
+            "line": 1008,
+            "short_desc": "BINOMDIST",
+            "long_desc": "Returns the individual term binomial distribution probability. Use BINOMDIST in problems with\na fixed number of tests or trials, when the outcomes of any trial are only success or failure,\nwhen trials are independent, and when the probability of success is constant throughout the\nexperiment. For example, BINOMDIST can calculate the probability that two of the next three\nbabies born are male.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "todo": [
+                    [
+                        "Cumulative",
+                        "distribution",
+                        "function"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 1008,
+                    "short_desc": "Number of successes in trials",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "trials": {
+                    "name": "trials",
+                    "line": 1008,
+                    "short_desc": "Number of trials",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "probability": {
+                    "name": "probability",
+                    "line": 1008,
+                    "short_desc": "Probability of success on each trial",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "cumulative": {
+                    "name": "cumulative",
+                    "line": 1008,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "CHIDIST": {
+            "name": "CHIDIST",
+            "line": 1046,
+            "short_desc": "CHIDIST",
+            "long_desc": "Returns the one-tailed probability of the chi-squared distribution.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 1046,
+                    "short_desc": "Value for the function",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "degrees": {
+                    "name": "degrees",
+                    "line": 1046,
+                    "short_desc": "degrees of freedom",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "CHIINV": {
+            "name": "CHIINV",
+            "line": 1076,
+            "short_desc": "CHIINV",
+            "long_desc": "Returns the one-tailed probability of the chi-squared distribution.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "probability": {
+                    "name": "probability",
+                    "line": 1076,
+                    "short_desc": "Probability for the function",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "degrees": {
+                    "name": "degrees",
+                    "line": 1076,
+                    "short_desc": "degrees of freedom",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "CONFIDENCE": {
+            "name": "CONFIDENCE",
+            "line": 1134,
+            "short_desc": "CONFIDENCE",
+            "long_desc": "Returns the confidence interval for a population mean",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "alpha": {
+                    "name": "alpha",
+                    "line": 1134,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "stdDev": {
+                    "name": "stdDev",
+                    "line": 1134,
+                    "short_desc": "Standard Deviation",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "size": {
+                    "name": "size",
+                    "line": 1134,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "CORREL": {
+            "name": "CORREL",
+            "line": 1162,
+            "short_desc": "CORREL",
+            "long_desc": "Returns covariance, the average of the products of deviations for each data point pair.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"yValues\" parameter of the method \"CORREL\" is missing a @param tag",
+                "The \"xValues\" parameter of the method \"CORREL\" is missing a @param tag"
+            ],
+            "parameters": {
+                "yValues": {
+                    "name": "yValues",
+                    "line": 1162,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xValues": {
+                    "name": "xValues",
+                    "line": 1162,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COUNT": {
+            "name": "COUNT",
+            "line": 1197,
+            "short_desc": "COUNT",
+            "long_desc": "Counts the number of cells that contain numbers within the list of arguments\n\nExcel Function:\n       COUNT(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"COUNT\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "COUNTA": {
+            "name": "COUNTA",
+            "line": 1231,
+            "short_desc": "COUNTA",
+            "long_desc": "Counts the number of cells that are not empty within the list of arguments\n\nExcel Function:\n       COUNTA(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"COUNTA\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "COUNTBLANK": {
+            "name": "COUNTBLANK",
+            "line": 1261,
+            "short_desc": "COUNTBLANK",
+            "long_desc": "Counts the number of empty cells within the list of arguments\n\nExcel Function:\n       COUNTBLANK(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"COUNTBLANK\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "COUNTIF": {
+            "name": "COUNTIF",
+            "line": 1292,
+            "short_desc": "COUNTIF",
+            "long_desc": "Counts the number of cells that contain numbers within the list of arguments\n\nExcel Function:\n       COUNTIF(value1[,value2[, ...]],condition)",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"aArgs\" parameter of the method \"COUNTIF\" is missing a @param tag"
+            ],
+            "parameters": {
+                "aArgs": {
+                    "name": "aArgs",
+                    "line": 1292,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "condition": {
+                    "name": "condition",
+                    "line": 1292,
+                    "short_desc": "The criteria that defines which cells will be counted.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "COVAR": {
+            "name": "COVAR",
+            "line": 1323,
+            "short_desc": "COVAR",
+            "long_desc": "Returns covariance, the average of the products of deviations for each data point pair.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"yValues\" parameter of the method \"COVAR\" is missing a @param tag",
+                "The \"xValues\" parameter of the method \"COVAR\" is missing a @param tag"
+            ],
+            "parameters": {
+                "yValues": {
+                    "name": "yValues",
+                    "line": 1323,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xValues": {
+                    "name": "xValues",
+                    "line": 1323,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "CRITBINOM": {
+            "name": "CRITBINOM",
+            "line": 1361,
+            "short_desc": "CRITBINOM",
+            "long_desc": "Returns the smallest value for which the cumulative binomial distribution is greater\n       than or equal to a criterion value\n\nSee http:\/\/support.microsoft.com\/kb\/828117\/ for details of the algorithm used",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "todo": [
+                    [
+                        "Warning.",
+                        "This",
+                        "implementation",
+                        "differs",
+                        "from",
+                        "the",
+                        "algorithm",
+                        "detailed",
+                        "on",
+                        "the",
+                        "MS\nweb",
+                        "site",
+                        "in",
+                        "that",
+                        "$CumPGuessMinus1",
+                        "=",
+                        "$CumPGuess",
+                        "-",
+                        "1",
+                        "rather",
+                        "than",
+                        "$CumPGuess",
+                        "-",
+                        "$PGuess\nThis",
+                        "eliminates",
+                        "a",
+                        "potential",
+                        "endless",
+                        "loop",
+                        "error,",
+                        "but",
+                        "may",
+                        "have",
+                        "an",
+                        "adverse",
+                        "affect",
+                        "on",
+                        "the\naccuracy",
+                        "of",
+                        "the",
+                        "function",
+                        "(although",
+                        "all",
+                        "my",
+                        "tests",
+                        "have",
+                        "so",
+                        "far",
+                        "returned",
+                        "correct",
+                        "results)."
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "trials": {
+                    "name": "trials",
+                    "line": 1361,
+                    "short_desc": "number of Bernoulli trials",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "probability": {
+                    "name": "probability",
+                    "line": 1361,
+                    "short_desc": "probability of a success on each trial",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "alpha": {
+                    "name": "alpha",
+                    "line": 1361,
+                    "short_desc": "criterion value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "DEVSQ": {
+            "name": "DEVSQ",
+            "line": 1479,
+            "short_desc": "DEVSQ",
+            "long_desc": "Returns the sum of squares of deviations of data points from their sample mean.\n\nExcel Function:\n       DEVSQ(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"DEVSQ\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "EXPONDIST": {
+            "name": "EXPONDIST",
+            "line": 1529,
+            "short_desc": "EXPONDIST",
+            "long_desc": "Returns the exponential distribution. Use EXPONDIST to model the time between events,\nsuch as how long an automated bank teller takes to deliver cash. For example, you can\nuse EXPONDIST to determine the probability that the process takes at most 1 minute.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 1529,
+                    "short_desc": "Value of the function",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "lambda": {
+                    "name": "lambda",
+                    "line": 1529,
+                    "short_desc": "The parameter value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "cumulative": {
+                    "name": "cumulative",
+                    "line": 1529,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "FISHER": {
+            "name": "FISHER",
+            "line": 1561,
+            "short_desc": "FISHER",
+            "long_desc": "Returns the Fisher transformation at x. This transformation produces a function that\nis normally distributed rather than skewed. Use this function to perform hypothesis\ntesting on the correlation coefficient.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 1561,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "FISHERINV": {
+            "name": "FISHERINV",
+            "line": 1585,
+            "short_desc": "FISHERINV",
+            "long_desc": "Returns the inverse of the Fisher transformation. Use this transformation when\nanalyzing correlations between ranges or arrays of data. If y = FISHER(x), then\nFISHERINV(y) = x.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 1585,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "FORECAST": {
+            "name": "FORECAST",
+            "line": 1606,
+            "short_desc": "FORECAST",
+            "long_desc": "Calculates, or predicts, a future value by using existing values. The predicted value is a y-value for a given x-value.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"xValue\" parameter of the method \"FORECAST\" is missing a @param tag",
+                "The \"yValues\" parameter of the method \"FORECAST\" is missing a @param tag",
+                "The \"xValues\" parameter of the method \"FORECAST\" is missing a @param tag"
+            ],
+            "parameters": {
+                "xValue": {
+                    "name": "xValue",
+                    "line": 1606,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "yValues": {
+                    "name": "yValues",
+                    "line": 1606,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xValues": {
+                    "name": "xValues",
+                    "line": 1606,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "GAMMADIST": {
+            "name": "GAMMADIST",
+            "line": 1640,
+            "short_desc": "GAMMADIST",
+            "long_desc": "Returns the gamma distribution.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 1640,
+                    "short_desc": "Value at which you want to evaluate the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "a": {
+                    "name": "a",
+                    "line": 1640,
+                    "short_desc": "Parameter to the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "b": {
+                    "name": "b",
+                    "line": 1640,
+                    "short_desc": "Parameter to the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "cumulative": {
+                    "name": "cumulative",
+                    "line": 1640,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "GAMMAINV": {
+            "name": "GAMMAINV",
+            "line": 1673,
+            "short_desc": "GAMMAINV",
+            "long_desc": "Returns the inverse of the beta distribution.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "probability": {
+                    "name": "probability",
+                    "line": 1673,
+                    "short_desc": "Probability at which you want to evaluate the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "alpha": {
+                    "name": "alpha",
+                    "line": 1673,
+                    "short_desc": "Parameter to the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "beta": {
+                    "name": "beta",
+                    "line": 1673,
+                    "short_desc": "Parameter to the distribution",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "GAMMALN": {
+            "name": "GAMMALN",
+            "line": 1732,
+            "short_desc": "GAMMALN",
+            "long_desc": "Returns the natural logarithm of the gamma function.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 1732,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "GEOMEAN": {
+            "name": "GEOMEAN",
+            "line": 1761,
+            "short_desc": "GEOMEAN",
+            "long_desc": "Returns the geometric mean of an array or range of positive data. For example, you\n       can use GEOMEAN to calculate average growth rate given compound interest with\n       variable rates.\n\nExcel Function:\n       GEOMEAN(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"GEOMEAN\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "GROWTH": {
+            "name": "GROWTH",
+            "line": 1787,
+            "short_desc": "GROWTH",
+            "long_desc": "Returns values along a predicted emponential trend",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "of float",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"yValues\" parameter of the method \"GROWTH\" is missing a @param tag",
+                "The \"xValues\" parameter of the method \"GROWTH\" is missing a @param tag",
+                "The \"newValues\" parameter of the method \"GROWTH\" is missing a @param tag",
+                "The \"const\" parameter of the method \"GROWTH\" is missing a @param tag"
+            ],
+            "parameters": {
+                "yValues": {
+                    "name": "yValues",
+                    "line": 1787,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xValues": {
+                    "name": "xValues",
+                    "line": 1787,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "newValues": {
+                    "name": "newValues",
+                    "line": 1787,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "const": {
+                    "name": "const",
+                    "line": 1787,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "HARMEAN": {
+            "name": "HARMEAN",
+            "line": 1822,
+            "short_desc": "HARMEAN",
+            "long_desc": "Returns the harmonic mean of a data set. The harmonic mean is the reciprocal of the\n       arithmetic mean of reciprocals.\n\nExcel Function:\n       HARMEAN(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"HARMEAN\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "HYPGEOMDIST": {
+            "name": "HYPGEOMDIST",
+            "line": 1870,
+            "short_desc": "HYPGEOMDIST",
+            "long_desc": "Returns the hypergeometric distribution. HYPGEOMDIST returns the probability of a given number of\nsample successes, given the sample size, population successes, and population size.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "sampleSuccesses": {
+                    "name": "sampleSuccesses",
+                    "line": 1870,
+                    "short_desc": "Number of successes in the sample",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "sampleNumber": {
+                    "name": "sampleNumber",
+                    "line": 1870,
+                    "short_desc": "Size of the sample",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "populationSuccesses": {
+                    "name": "populationSuccesses",
+                    "line": 1870,
+                    "short_desc": "Number of successes in the population",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "populationNumber": {
+                    "name": "populationNumber",
+                    "line": 1870,
+                    "short_desc": "Population size",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "INTERCEPT": {
+            "name": "INTERCEPT",
+            "line": 1904,
+            "short_desc": "INTERCEPT",
+            "long_desc": "Calculates the point at which a line will intersect the y-axis by using existing x-values and y-values.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"yValues\" parameter of the method \"INTERCEPT\" is missing a @param tag",
+                "The \"xValues\" parameter of the method \"INTERCEPT\" is missing a @param tag"
+            ],
+            "parameters": {
+                "yValues": {
+                    "name": "yValues",
+                    "line": 1904,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xValues": {
+                    "name": "xValues",
+                    "line": 1904,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "KURT": {
+            "name": "KURT",
+            "line": 1934,
+            "short_desc": "KURT",
+            "long_desc": "Returns the kurtosis of a data set. Kurtosis characterizes the relative peakedness\nor flatness of a distribution compared with the normal distribution. Positive\nkurtosis indicates a relatively peaked distribution. Negative kurtosis indicates a\nrelatively flat distribution.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"KURT\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "LARGE": {
+            "name": "LARGE",
+            "line": 1980,
+            "short_desc": "LARGE",
+            "long_desc": "Returns the nth largest value in a data set. You can use this function to\n       select a value based on its relative standing.\n\nExcel Function:\n       LARGE(value1[,value2[, ...]],entry)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"LARGE\" has \"2\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "LINEST": {
+            "name": "LINEST",
+            "line": 2019,
+            "short_desc": "LINEST",
+            "long_desc": "Calculates the statistics for a line by using the \"least squares\" method to calculate a straight line that best fits your data,\nand then returns an array that describes the line.",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"yValues\" parameter of the method \"LINEST\" is missing a @param tag",
+                "The \"xValues\" parameter of the method \"LINEST\" is missing a @param tag",
+                "The \"const\" parameter of the method \"LINEST\" is missing a @param tag",
+                "The \"stats\" parameter of the method \"LINEST\" is missing a @param tag"
+            ],
+            "parameters": {
+                "yValues": {
+                    "name": "yValues",
+                    "line": 2019,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xValues": {
+                    "name": "xValues",
+                    "line": 2019,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "const": {
+                    "name": "const",
+                    "line": 2019,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "stats": {
+                    "name": "stats",
+                    "line": 2019,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "LOGEST": {
+            "name": "LOGEST",
+            "line": 2079,
+            "short_desc": "LOGEST",
+            "long_desc": "Calculates an exponential curve that best fits the X and Y data series,\nand then returns an array that describes the line.",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"yValues\" parameter of the method \"LOGEST\" is missing a @param tag",
+                "The \"xValues\" parameter of the method \"LOGEST\" is missing a @param tag",
+                "The \"const\" parameter of the method \"LOGEST\" is missing a @param tag",
+                "The \"stats\" parameter of the method \"LOGEST\" is missing a @param tag"
+            ],
+            "parameters": {
+                "yValues": {
+                    "name": "yValues",
+                    "line": 2079,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xValues": {
+                    "name": "xValues",
+                    "line": 2079,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "const": {
+                    "name": "const",
+                    "line": 2079,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "stats": {
+                    "name": "stats",
+                    "line": 2079,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "false",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "LOGINV": {
+            "name": "LOGINV",
+            "line": 2147,
+            "short_desc": "LOGINV",
+            "long_desc": "Returns the inverse of the normal cumulative distribution",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "todo": [
+                    [
+                        "Try",
+                        "implementing",
+                        "P",
+                        "J",
+                        "Acklam's",
+                        "refinement",
+                        "algorithm",
+                        "for",
+                        "greater\naccuracy",
+                        "if",
+                        "I",
+                        "can",
+                        "get",
+                        "my",
+                        "head",
+                        "round",
+                        "the",
+                        "mathematics\n(as",
+                        "described",
+                        "at)",
+                        "http:\/\/home.online.no\/~pjacklam\/notes\/invnorm\/"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "probability": {
+                    "name": "probability",
+                    "line": 2147,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "mean": {
+                    "name": "mean",
+                    "line": 2147,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "stdDev": {
+                    "name": "stdDev",
+                    "line": 2147,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "LOGNORMDIST": {
+            "name": "LOGNORMDIST",
+            "line": 2174,
+            "short_desc": "LOGNORMDIST",
+            "long_desc": "Returns the cumulative lognormal distribution of x, where ln(x) is normally distributed\nwith parameters mean and standard_dev.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 2174,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "mean": {
+                    "name": "mean",
+                    "line": 2174,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "stdDev": {
+                    "name": "stdDev",
+                    "line": 2174,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "MAX": {
+            "name": "MAX",
+            "line": 2204,
+            "short_desc": "MAX",
+            "long_desc": "MAX returns the value of the element of the values passed that has the highest value,\n       with negative numbers considered smaller than positive numbers.\n\nExcel Function:\n       MAX(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"MAX\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "MAXA": {
+            "name": "MAXA",
+            "line": 2239,
+            "short_desc": "MAXA",
+            "long_desc": "Returns the greatest value in a list of arguments, including numbers, text, and logical values\n\nExcel Function:\n       MAXA(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"MAXA\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "MAXIF": {
+            "name": "MAXIF",
+            "line": 2280,
+            "short_desc": "MAXIF",
+            "long_desc": "Counts the maximum value within a range of cells that contain numbers within the list of arguments\n\nExcel Function:\n       MAXIF(value1[,value2[, ...]],condition)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"aArgs\" parameter of the method \"MAXIF\" is missing a @param tag",
+                "The \"sumArgs\" parameter of the method \"MAXIF\" is missing a @param tag"
+            ],
+            "parameters": {
+                "aArgs": {
+                    "name": "aArgs",
+                    "line": 2280,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "condition": {
+                    "name": "condition",
+                    "line": 2280,
+                    "short_desc": "The criteria that defines which cells will be checked.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "sumArgs": {
+                    "name": "sumArgs",
+                    "line": 2280,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "MEDIAN": {
+            "name": "MEDIAN",
+            "line": 2319,
+            "short_desc": "MEDIAN",
+            "long_desc": "Returns the median of the given numbers. The median is the number in the middle of a set of numbers.\n\nExcel Function:\n       MEDIAN(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"MEDIAN\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "MIN": {
+            "name": "MIN",
+            "line": 2363,
+            "short_desc": "MIN",
+            "long_desc": "MIN returns the value of the element of the values passed that has the smallest value,\n       with negative numbers considered smaller than positive numbers.\n\nExcel Function:\n       MIN(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"MIN\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "MINA": {
+            "name": "MINA",
+            "line": 2398,
+            "short_desc": "MINA",
+            "long_desc": "Returns the smallest value in a list of arguments, including numbers, text, and logical values\n\nExcel Function:\n       MINA(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"MINA\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "MINIF": {
+            "name": "MINIF",
+            "line": 2439,
+            "short_desc": "MINIF",
+            "long_desc": "Returns the minimum value within a range of cells that contain numbers within the list of arguments\n\nExcel Function:\n       MINIF(value1[,value2[, ...]],condition)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Mathematical",
+                        "and",
+                        "Trigonometric",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"aArgs\" parameter of the method \"MINIF\" is missing a @param tag",
+                "The \"sumArgs\" parameter of the method \"MINIF\" is missing a @param tag"
+            ],
+            "parameters": {
+                "aArgs": {
+                    "name": "aArgs",
+                    "line": 2439,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "condition": {
+                    "name": "condition",
+                    "line": 2439,
+                    "short_desc": "The criteria that defines which cells will be checked.",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "string",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "sumArgs": {
+                    "name": "sumArgs",
+                    "line": 2439,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "MODE": {
+            "name": "MODE",
+            "line": 2516,
+            "short_desc": "MODE",
+            "long_desc": "Returns the most frequently occurring, or repetitive, value in an array or range of data\n\nExcel Function:\n       MODE(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"MODE\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "NEGBINOMDIST": {
+            "name": "NEGBINOMDIST",
+            "line": 2554,
+            "short_desc": "NEGBINOMDIST",
+            "long_desc": "Returns the negative binomial distribution. NEGBINOMDIST returns the probability that\nthere will be number_f failures before the number_s-th success, when the constant\nprobability of a success is probability_s. This function is similar to the binomial\ndistribution, except that the number of successes is fixed, and the number of trials is\nvariable. Like the binomial, trials are assumed to be independent.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "failures": {
+                    "name": "failures",
+                    "line": 2554,
+                    "short_desc": "Number of Failures",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "successes": {
+                    "name": "successes",
+                    "line": 2554,
+                    "short_desc": "Threshold number of Successes",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "probability": {
+                    "name": "probability",
+                    "line": 2554,
+                    "short_desc": "Probability of success on each trial",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "NORMDIST": {
+            "name": "NORMDIST",
+            "line": 2591,
+            "short_desc": "NORMDIST",
+            "long_desc": "Returns the normal distribution for the specified mean and standard deviation. This\nfunction has a very wide range of applications in statistics, including hypothesis\ntesting.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 2591,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "mean": {
+                    "name": "mean",
+                    "line": 2591,
+                    "short_desc": "Mean Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "stdDev": {
+                    "name": "stdDev",
+                    "line": 2591,
+                    "short_desc": "Standard Deviation",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "cumulative": {
+                    "name": "cumulative",
+                    "line": 2591,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "NORMINV": {
+            "name": "NORMINV",
+            "line": 2624,
+            "short_desc": "NORMINV",
+            "long_desc": "Returns the inverse of the normal cumulative distribution for the specified mean and standard deviation.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"probability\" parameter of the method \"NORMINV\" is missing a @param tag"
+            ],
+            "parameters": {
+                "probability": {
+                    "name": "probability",
+                    "line": 2624,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "mean": {
+                    "name": "mean",
+                    "line": 2624,
+                    "short_desc": "Mean Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "stdDev": {
+                    "name": "stdDev",
+                    "line": 2624,
+                    "short_desc": "Standard Deviation",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "NORMSDIST": {
+            "name": "NORMSDIST",
+            "line": 2653,
+            "short_desc": "NORMSDIST",
+            "long_desc": "Returns the standard normal cumulative distribution function. The distribution has\na mean of 0 (zero) and a standard deviation of one. Use this function in place of a\ntable of standard normal curve areas.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 2653,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "NORMSINV": {
+            "name": "NORMSINV",
+            "line": 2669,
+            "short_desc": "NORMSINV",
+            "long_desc": "Returns the inverse of the standard normal cumulative distribution",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 2669,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "PERCENTILE": {
+            "name": "PERCENTILE",
+            "line": 2689,
+            "short_desc": "PERCENTILE",
+            "long_desc": "Returns the nth percentile of values in a range..\n\nExcel Function:\n       PERCENTILE(value1[,value2[, ...]],entry)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"PERCENTILE\" has \"2\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "PERCENTRANK": {
+            "name": "PERCENTRANK",
+            "line": 2736,
+            "short_desc": "PERCENTRANK",
+            "long_desc": "Returns the rank of a value in a data set as a percentage of the data set.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"valueSet\" parameter of the method \"PERCENTRANK\" is missing a @param tag",
+                "The \"value\" parameter of the method \"PERCENTRANK\" is missing a @param tag",
+                "The \"significance\" parameter of the method \"PERCENTRANK\" is missing a @param tag"
+            ],
+            "parameters": {
+                "valueSet": {
+                    "name": "valueSet",
+                    "line": 2736,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "value": {
+                    "name": "value",
+                    "line": 2736,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "significance": {
+                    "name": "significance",
+                    "line": 2736,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "3",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "PERMUT": {
+            "name": "PERMUT",
+            "line": 2786,
+            "short_desc": "PERMUT",
+            "long_desc": "Returns the number of permutations for a given number of objects that can be\nselected from number objects. A permutation is any set or subset of objects or\nevents where internal order is significant. Permutations are different from\ncombinations, for which the internal order is not significant. Use this function\nfor lottery-style probability calculations.",
+            "hint": [
+                [
+                    "int",
+                    false
+                ]
+            ],
+            "hint_desc": "Number of permutations",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "numObjs": {
+                    "name": "numObjs",
+                    "line": 2786,
+                    "short_desc": "Number of different objects",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "numInSet": {
+                    "name": "numInSet",
+                    "line": 2786,
+                    "short_desc": "Number of objects in each permutation",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "int",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "POISSON": {
+            "name": "POISSON",
+            "line": 2815,
+            "short_desc": "POISSON",
+            "long_desc": "Returns the Poisson distribution. A common application of the Poisson distribution\nis predicting the number of events over a specific time, such as the number of\ncars arriving at a toll plaza in 1 minute.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 2815,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "mean": {
+                    "name": "mean",
+                    "line": 2815,
+                    "short_desc": "Mean Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "cumulative": {
+                    "name": "cumulative",
+                    "line": 2815,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "QUARTILE": {
+            "name": "QUARTILE",
+            "line": 2854,
+            "short_desc": "QUARTILE",
+            "long_desc": "Returns the quartile of a data set.\n\nExcel Function:\n       QUARTILE(value1[,value2[, ...]],entry)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"QUARTILE\" has \"2\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "RANK": {
+            "name": "RANK",
+            "line": 2882,
+            "short_desc": "RANK",
+            "long_desc": "Returns the rank of a number in a list of numbers.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"value\" parameter of the method \"RANK\" is missing a @param tag",
+                "The \"valueSet\" parameter of the method \"RANK\" is missing a @param tag",
+                "The \"order\" parameter of the method \"RANK\" is missing a @param tag"
+            ],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 2882,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "valueSet": {
+                    "name": "valueSet",
+                    "line": 2882,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "order": {
+                    "name": "order",
+                    "line": 2882,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "0",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "RSQ": {
+            "name": "RSQ",
+            "line": 2917,
+            "short_desc": "RSQ",
+            "long_desc": "Returns the square of the Pearson product moment correlation coefficient through data points in known_y's and known_x's.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"yValues\" parameter of the method \"RSQ\" is missing a @param tag",
+                "The \"xValues\" parameter of the method \"RSQ\" is missing a @param tag"
+            ],
+            "parameters": {
+                "yValues": {
+                    "name": "yValues",
+                    "line": 2917,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xValues": {
+                    "name": "xValues",
+                    "line": 2917,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SKEW": {
+            "name": "SKEW",
+            "line": 2947,
+            "short_desc": "SKEW",
+            "long_desc": "Returns the skewness of a distribution. Skewness characterizes the degree of asymmetry\nof a distribution around its mean. Positive skewness indicates a distribution with an\nasymmetric tail extending toward more positive values. Negative skewness indicates a\ndistribution with an asymmetric tail extending toward more negative values.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"SKEW\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "SLOPE": {
+            "name": "SLOPE",
+            "line": 2983,
+            "short_desc": "SLOPE",
+            "long_desc": "Returns the slope of the linear regression line through data points in known_y's and known_x's.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"yValues\" parameter of the method \"SLOPE\" is missing a @param tag",
+                "The \"xValues\" parameter of the method \"SLOPE\" is missing a @param tag"
+            ],
+            "parameters": {
+                "yValues": {
+                    "name": "yValues",
+                    "line": 2983,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xValues": {
+                    "name": "xValues",
+                    "line": 2983,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "SMALL": {
+            "name": "SMALL",
+            "line": 3017,
+            "short_desc": "SMALL",
+            "long_desc": "Returns the nth smallest value in a data set. You can use this function to\n       select a value based on its relative standing.\n\nExcel Function:\n       SMALL(value1[,value2[, ...]],entry)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"SMALL\" has \"2\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "STANDARDIZE": {
+            "name": "STANDARDIZE",
+            "line": 3054,
+            "short_desc": "STANDARDIZE",
+            "long_desc": "Returns a normalized value from a distribution characterized by mean and standard_dev.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "Standardized value",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 3054,
+                    "short_desc": "Value to normalize",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "mean": {
+                    "name": "mean",
+                    "line": 3054,
+                    "short_desc": "Mean Value",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "stdDev": {
+                    "name": "stdDev",
+                    "line": 3054,
+                    "short_desc": "Standard Deviation",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "STDEV": {
+            "name": "STDEV",
+            "line": 3084,
+            "short_desc": "STDEV",
+            "long_desc": "Estimates standard deviation based on a sample. The standard deviation is a measure of how\n       widely values are dispersed from the average value (the mean).\n\nExcel Function:\n       STDEV(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"STDEV\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "STDEVA": {
+            "name": "STDEVA",
+            "line": 3132,
+            "short_desc": "STDEVA",
+            "long_desc": "Estimates standard deviation based on a sample, including numbers, text, and logical values\n\nExcel Function:\n       STDEVA(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"STDEVA\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "STDEVP": {
+            "name": "STDEVP",
+            "line": 3183,
+            "short_desc": "STDEVP",
+            "long_desc": "Calculates standard deviation based on the entire population\n\nExcel Function:\n       STDEVP(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"STDEVP\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "STDEVPA": {
+            "name": "STDEVPA",
+            "line": 3229,
+            "short_desc": "STDEVPA",
+            "long_desc": "Calculates standard deviation based on the entire population, including numbers, text, and logical values\n\nExcel Function:\n       STDEVPA(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"STDEVPA\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "STEYX": {
+            "name": "STEYX",
+            "line": 3276,
+            "short_desc": "STEYX",
+            "long_desc": "Returns the standard error of the predicted y-value for each x in the regression.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"yValues\" parameter of the method \"STEYX\" is missing a @param tag",
+                "The \"xValues\" parameter of the method \"STEYX\" is missing a @param tag"
+            ],
+            "parameters": {
+                "yValues": {
+                    "name": "yValues",
+                    "line": 3276,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xValues": {
+                    "name": "xValues",
+                    "line": 3276,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "TDIST": {
+            "name": "TDIST",
+            "line": 3305,
+            "short_desc": "TDIST",
+            "long_desc": "Returns the probability of Student's T distribution.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 3305,
+                    "short_desc": "Value for the function",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "degrees": {
+                    "name": "degrees",
+                    "line": 3305,
+                    "short_desc": "degrees of freedom",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "tails": {
+                    "name": "tails",
+                    "line": 3305,
+                    "short_desc": "number of tails (1 or 2)",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "TINV": {
+            "name": "TINV",
+            "line": 3368,
+            "short_desc": "TINV",
+            "long_desc": "Returns the one-tailed probability of the chi-squared distribution.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "probability": {
+                    "name": "probability",
+                    "line": 3368,
+                    "short_desc": "Probability for the function",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "degrees": {
+                    "name": "degrees",
+                    "line": 3368,
+                    "short_desc": "degrees of freedom",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "TREND": {
+            "name": "TREND",
+            "line": 3426,
+            "short_desc": "TREND",
+            "long_desc": "Returns values along a linear trend",
+            "hint": [
+                [
+                    "array",
+                    false
+                ]
+            ],
+            "hint_desc": "of float",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The \"yValues\" parameter of the method \"TREND\" is missing a @param tag",
+                "The \"xValues\" parameter of the method \"TREND\" is missing a @param tag",
+                "The \"newValues\" parameter of the method \"TREND\" is missing a @param tag",
+                "The \"const\" parameter of the method \"TREND\" is missing a @param tag"
+            ],
+            "parameters": {
+                "yValues": {
+                    "name": "yValues",
+                    "line": 3426,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "xValues": {
+                    "name": "xValues",
+                    "line": 3426,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "newValues": {
+                    "name": "newValues",
+                    "line": 3426,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "array()",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "const": {
+                    "name": "const",
+                    "line": 3426,
+                    "short_desc": null,
+                    "long_desc": null,
+                    "hint": null,
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "true",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "TRIMMEAN": {
+            "name": "TRIMMEAN",
+            "line": 3463,
+            "short_desc": "TRIMMEAN",
+            "long_desc": "Returns the mean of the interior of a data set. TRIMMEAN calculates the mean\n       taken by excluding a percentage of data points from the top and bottom tails\n       of a data set.\n\nExcel Function:\n       TRIMEAN(value1[,value2[, ...]], $discard)",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"TRIMMEAN\" has \"2\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "VARFunc": {
+            "name": "VARFunc",
+            "line": 3506,
+            "short_desc": "VARFunc",
+            "long_desc": "Estimates variance based on a sample.\n\nExcel Function:\n       VAR(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"VARFunc\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "VARA": {
+            "name": "VARA",
+            "line": 3549,
+            "short_desc": "VARA",
+            "long_desc": "Estimates variance based on a sample, including numbers, text, and logical values\n\nExcel Function:\n       VARA(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"VARA\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "VARP": {
+            "name": "VARP",
+            "line": 3601,
+            "short_desc": "VARP",
+            "long_desc": "Calculates variance based on the entire population\n\nExcel Function:\n       VARP(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"VARP\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "VARPA": {
+            "name": "VARPA",
+            "line": 3645,
+            "short_desc": "VARPA",
+            "long_desc": "Calculates variance based on the entire population, including numbers, text, and logical values\n\nExcel Function:\n       VARPA(value1[,value2[, ...]])",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": {
+                "access": [
+                    [
+                        "public"
+                    ]
+                ],
+                "category": [
+                    [
+                        "Statistical",
+                        "Functions"
+                    ]
+                ]
+            },
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"VARPA\" has \"1\" @param tags but only \"0\" where expected."
+            ],
+            "parameters": []
+        },
+        "WEIBULL": {
+            "name": "WEIBULL",
+            "line": 3697,
+            "short_desc": "WEIBULL",
+            "long_desc": "Returns the Weibull distribution. Use this distribution in reliability\nanalysis, such as calculating a device's mean time to failure.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [],
+            "parameters": {
+                "value": {
+                    "name": "value",
+                    "line": 3697,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "alpha": {
+                    "name": "alpha",
+                    "line": 3697,
+                    "short_desc": "Alpha Parameter",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "beta": {
+                    "name": "beta",
+                    "line": 3697,
+                    "short_desc": "Beta Parameter",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "cumulative": {
+                    "name": "cumulative",
+                    "line": 3697,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "bool",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        },
+        "ZTEST": {
+            "name": "ZTEST",
+            "line": 3732,
+            "short_desc": "ZTEST",
+            "long_desc": "Returns the Weibull distribution. Use this distribution in reliability\nanalysis, such as calculating a device's mean time to failure.",
+            "hint": [
+                [
+                    "float",
+                    false
+                ]
+            ],
+            "hint_desc": "",
+            "tags": [],
+            "see": [],
+            "modifiers": 9,
+            "is_by_ref": "",
+            "is_intersection_type": false,
+            "exceptions": [],
+            "errors": [
+                "The method \"ZTEST\" has \"4\" @param tags but only \"3\" where expected."
+            ],
+            "parameters": {
+                "dataSet": {
+                    "name": "dataSet",
+                    "line": 3732,
+                    "short_desc": "",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "m0": {
+                    "name": "m0",
+                    "line": 3732,
+                    "short_desc": "Alpha Parameter",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": null,
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                },
+                "sigma": {
+                    "name": "sigma",
+                    "line": 3732,
+                    "short_desc": "Beta Parameter",
+                    "long_desc": null,
+                    "hint": [
+                        [
+                            "float",
+                            false
+                        ]
+                    ],
+                    "tags": [],
+                    "modifiers": 0,
+                    "default": "null",
+                    "variadic": false,
+                    "is_by_ref": false,
+                    "is_read_only": false,
+                    "is_intersection_type": false
+                }
+            }
+        }
+    },
+    "constants": []
+}

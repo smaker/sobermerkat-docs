@@ -1,0 +1,47 @@
+{
+    "namespace": "",
+    "name": "get_hook_datas",
+    "line": 127,
+    "file": "\/Users\/dowon\/Documents\/[\uc758\ub8b0|\uc3d8\ubc84\ub9c8\ucf13]\/lib\/hook.lib.php",
+    "relative_file": null,
+    "short_desc": null,
+    "long_desc": null,
+    "hint": null,
+    "hint_desc": null,
+    "tags": [],
+    "modifiers": 0,
+    "is_by_ref": "",
+    "is_intersection_type": false,
+    "exceptions": [],
+    "errors": [],
+    "parameters": {
+        "type": {
+            "name": "type",
+            "line": 127,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": "''",
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        },
+        "is_callback": {
+            "name": "is_callback",
+            "line": 127,
+            "short_desc": null,
+            "long_desc": null,
+            "hint": null,
+            "tags": [],
+            "modifiers": 0,
+            "default": "''",
+            "variadic": false,
+            "is_by_ref": false,
+            "is_read_only": false,
+            "is_intersection_type": false
+        }
+    }
+}
